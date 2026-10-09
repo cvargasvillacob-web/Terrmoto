@@ -59,16 +59,41 @@ Informe consolidado a partir de fuentes sismológicas oficiales (USGS, Instituto
 
 ---
 
-## 3. Réplicas (USGS, salvo indicación)
+## 3. Réplicas
 
-| Hora UTC | Hora local | Magnitud | Localización | Profundidad |
-|---|---|---|---|---|
-| 18:22:15 | 1:22 p. m. | 5.5 | 3 km al SO de Bajo Corral (Los Santos) | n/d |
-| 18:37:46 | 1:37 p. m. | 5.8 | 1 km al S de El Cacao | 10 km (±1.9 km) |
-| — | — | 4.8 – 5.0 | Al menos 4 eventos en el sur del país en las 2 horas siguientes | n/d |
+### 3.1 Conteo (evoluciona hora a hora)
 
-- El IGC-UP reportó un segundo evento de **6.0**, a 1:22:17 p. m. hora local, 10 km de profundidad, 21 km al norte de Tonosí (corresponde a la réplica que el USGS lista como 5.5).
-- Protección Civil mencionó **más de 40 réplicas**; CNN citó una de magnitud preliminar 6.6 atribuida al USGS, pero **esa cifra no aparece en el catálogo USGS** consultado y debe considerarse no confirmada.
+| Momento (hora local) | Conteo | Fuente |
+|---|---|---|
+| ~2:00 p. m. (primeras 2 h) | 12 réplicas, 6 de ellas en Tonosí | IGC-UP vía Panamá América |
+| ~3:00 p. m. (< 3 h) | más de 22 | IGC-UP |
+| ~3:30 p. m. | más de 30 | Néstor Luque, director IGC-UP |
+| tarde (último dato) | **46 réplicas** | Néstor Luque a SERTV, vía CNN en Español |
+| tarde | "más de 40" (USGS, vía CNN) / "más de 45" (Universidad de Panamá, vía AP) | CNN / AP |
+
+**Cifra de referencia al cierre: 46 réplicas registradas por la red nacional del IGC-UP.** La mayoría fueron demasiado pequeñas para sentirse. Luque advirtió que seguirán ocurriendo en las próximas horas; la Universidad de Costa Rica señala que la secuencia puede durar semanas o meses.
+
+### 3.2 Réplica mayor: ¿6.4, 6.6 o 6.9?
+
+- **USGS:** reporta un **segundo sismo fuerte de magnitud preliminar 6.6** la tarde del viernes (AP, CNN). Un medio cita 6.9 cerca de Río Grande como cifra automática preliminar del USGS; probablemente es la primera estimación del mismo evento, luego revisada a 6.6.
+- **IGC-UP:** su réplica mayor es de **6.4 a la 1:37 p. m.** en Tonosí (algunos reportes la dan como 6.5). Corresponde al evento que el USGS ubica a las 18:37 UTC "1 km al S de El Cacao", listado inicialmente como 5.8.
+- **Sinaproc** citó en un momento 5.2 como la mayor; dato superado.
+- Conclusión: hubo **una réplica de ~6.4–6.6** (dependiendo de la agencia) a las 1:37 p. m. local, y la cifra de 6.9 no está confirmada en catálogo revisado.
+
+### 3.3 Réplicas principales en Tonosí (IGC-UP, hora local)
+
+| Hora local | Hora UTC | Magnitud IGC-UP | Equivalente USGS |
+|---|---|---|---|
+| 1:15 p. m. | 18:15 | 3.4 | — |
+| 1:22 p. m. | 18:22 | 6.1 (otros reportes: 6.0) | 5.5, 3 km SO de Bajo Corral, 18:22:15 UTC |
+| 1:33 p. m. | 18:33 | 5.2 | — |
+| **1:37 p. m.** | **18:37** | **6.4** | 5.8 (preliminar) → **6.6** revisado, 1 km S de El Cacao, 10 km prof. |
+| 1:50 p. m. | 18:50 | 5.5 | — |
+| 1:58 p. m. | 18:58 | 4.9 | — |
+
+Las otras 6 réplicas de las primeras 2 horas se ubicaron en Veraguas, Herrera y Panamá Oeste. El USGS detectó además al menos 4 eventos de 4.8–5.0 en el sur del país en las 2 horas siguientes al principal.
+
+> Nota: la Wikipedia en español lista 7 réplicas con máxima 6.2 Mw; es inconsistente con las fuentes oficiales del día y no debe usarse.
 
 ---
 
@@ -165,6 +190,13 @@ Las cifras de 33 km corresponden a la solución automática inicial (profundidad
 - Noticias RCN: https://www.noticiasrcn.com/internacional/fuerte-terremoto-en-panama-hoy-9-de-octubre-de-2026-1070154
 - Revista Mercado: https://revistamercado.do/money-invest/daily-news/terremoto-panama-hoy-9-octubre-2026-danos-replicas-tsunami/
 - Telemundo 51: https://www.telemundo51.com/noticias/mundo/terremoto-sacude-panama/2834666/
+- Panamá América (12 réplicas, listado horario): https://www.panamaamerica.com.pa/sociedad/panama-contabiliza-12-replicas-tras-terremoto-de-72-seis-se-concentran-en-tonosi-1267299
+- Panamá América (más de 30 réplicas): https://www.panamaamerica.com.pa/sociedad/contabilizan-mas-de-30-replicas-tras-terremoto-de-72-que-sacudio-panama-1267299
+- La Prensa (más de 30 réplicas): https://www.prensa.com/sociedad/fuerte-temblor-de-70-sacude-a-panama/
+- La Estrella de Panamá (explicación IGC-UP): https://www.laestrella.com.pa/panama/nacional/geociencias-explica-por-que-el-terremoto-de-72-en-tonosi-fue-tan-fuerte-HC26356320
+- Metro Ecuador (46 réplicas, Luque/SERTV; USGS 6.9 preliminar): https://www.metroecuador.com.ec/noticias/2026/10/09/panama-vuelve-a-temblar-reportan-fuerte-replica-de-magnitud-69-tras-terremoto-de-77/
+- AP vía KWCH (segundo sismo 6.6, USGS; >45 réplicas): https://www.kwch.com/2026/10/09/second-powerful-66-magnitude-earthquake-strikes-panama-following-series-aftershocks-usgs-says/
+- La Nación (Costa Rica, réplicas por semanas o meses): https://www.nacion.com/sucesos/temblor-se-siente-en-costa-rica/6NC2VSMUJRF5HCKRH4ZZOSUMEU/story/
 - VolcanoDiscovery (réplica 5.8 El Cacao): https://www.volcanodiscovery.com/earthquakes/quake-info/23424043/quake-felt-Oct-9-2026-Near-Panama-City-Panama-Panama.html
 - VolcanoDiscovery (informe mundial del día): https://www.volcanodiscovery.com/earthquakes/news/374507/World-earthquake-report-for-9-Oct-2026.html
 - Infobae Chile (sismo 5.1 Pica): https://www.infobae.com/noticias/2026/10/09/temblor-hoy-en-chile-se-registra-sismo-de-magnitud-51-en-pica-este-9-de-octubre/
