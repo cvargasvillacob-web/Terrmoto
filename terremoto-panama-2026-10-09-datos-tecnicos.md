@@ -117,6 +117,8 @@ Las otras 6 réplicas de las primeras 2 horas se ubicaron en Veraguas, Herrera y
 
 - **Fallecidos:** Ninguno confirmado al cierre de este informe.
 - **Heridos:** Varios heridos leves; una persona golpeada por escombros en Penonomé (Coclé) y otra lesionada cerca de un mercado, trasladadas a centros médicos. **No hay cifra oficial consolidada.**
+- **Gravedad:** Hasta el último reporte, sin heridos de gravedad. Las edificaciones turísticas dañadas en Pedasí estaban desocupadas al momento del sismo.
+- **Ayuda internacional:** Sinaproc descartó por ahora solicitarla; afirma contar con los recursos necesarios. Sinaproc y el Cuerpo de Bomberos siguen inspeccionando inmuebles en Coclé, Herrera, Veraguas y Los Santos, por lo que el balance no es definitivo.
 - **Provincias más afectadas (Sinaproc):** Veraguas, Herrera y Los Santos.
 - **Daños estructurales reportados:**
   - Colapso parcial de la Gobernación de Penonomé y daños en la catedral y el Hotel Dos Continentes (Penonomé).
@@ -197,6 +199,9 @@ Las cifras de 33 km corresponden a la solución automática inicial (profundidad
 - Metro Ecuador (46 réplicas, Luque/SERTV; USGS 6.9 preliminar): https://www.metroecuador.com.ec/noticias/2026/10/09/panama-vuelve-a-temblar-reportan-fuerte-replica-de-magnitud-69-tras-terremoto-de-77/
 - AP vía KWCH (segundo sismo 6.6, USGS; >45 réplicas): https://www.kwch.com/2026/10/09/second-powerful-66-magnitude-earthquake-strikes-panama-following-series-aftershocks-usgs-says/
 - La Nación (Costa Rica, réplicas por semanas o meses): https://www.nacion.com/sucesos/temblor-se-siente-en-costa-rica/6NC2VSMUJRF5HCKRH4ZZOSUMEU/story/
+- El Tiempo (Sinaproc descarta ayuda internacional): https://www.eltiempo.com/mundo/latinoamerica/panama-descarta-por-ahora-pedir-ayuda-internacional-tras-el-terremoto-sinaproc-evalua-los-danos-y-monitorea-las-replicas-3592633
+- Telemetro (derrumbes en Azuero, Pedasí): https://telemetro.com/nacionales/sismo-panama-reportan-derrumbe-azuero-y-autoridades-inspeccionan-danos-n6094636
+- ECO TV (Mulino pide calma): https://www.ecotvpanama.com/nacionales/presidente-mulino-pide-mantener-la-calma-el-terremoto-magnitud-77-n6094642
 - VolcanoDiscovery (réplica 5.8 El Cacao): https://www.volcanodiscovery.com/earthquakes/quake-info/23424043/quake-felt-Oct-9-2026-Near-Panama-City-Panama-Panama.html
 - VolcanoDiscovery (informe mundial del día): https://www.volcanodiscovery.com/earthquakes/news/374507/World-earthquake-report-for-9-Oct-2026.html
 - Infobae Chile (sismo 5.1 Pica): https://www.infobae.com/noticias/2026/10/09/temblor-hoy-en-chile-se-registra-sismo-de-magnitud-51-en-pica-este-9-de-octubre/
