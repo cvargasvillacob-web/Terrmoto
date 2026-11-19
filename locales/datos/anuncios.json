@@ -229,9 +229,9 @@
   "url_es_listado": true,
   "portal": "icasas",
   "evidencia": "icasas (Las Cumbres): local de 400 m2 en Plaza La Villa, sobre la calle principal, 1 baño, precio 3,200 $",
-  "notas": "Dato de página de listado (no hay URL del anuncio individual). Equivale a ~US$8/m2 (cálculo propio). Área en el límite superior del rango aceptable (400 m2). El listado no muestra fecha de publicación, planta, estacionamientos ni contacto: confirmar vigencia y ubicación exacta de la plaza. Cumple área y precio sobre el papel.",
+  "notas": "Dato de página de listado (no hay URL del anuncio individual). Equivale a ~US$8/m2 (cálculo propio). Área en el límite superior del rango aceptable (400 m2). El listado no muestra fecha de publicación, planta, estacionamientos ni contacto: confirmar vigencia y ubicación exacta de la plaza. Cumple área y precio sobre el papel. Corrida del 19 nov ~13:30: volvió a aparecer en el listado de icasas de Las Cumbres (400 m² en Plaza La Villa a $3,200 mensuales), sin datos nuevos.",
   "primera_vez": "2026-11-19T00:25-05:00",
-  "ultima_vez": "2026-11-19T00:25-05:00"
+  "ultima_vez": "2026-11-19T13:34-05:00"
  },
  {
   "zona": "Alcalde Díaz",
@@ -282,10 +282,10 @@
   "url": "https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/galera-en-alquiler-villa-zaita-excelente-altura/32164333",
   "url_es_listado": false,
   "portal": "encuentra24",
-  "evidencia": "Galera de 340 m2 con altura de 7 a 8 metros, a $2,289 mensuales con mantenimiento e ITBMS incluidos",
-  "notas": "NO cumple el tipo (galera/bodega); se incluye solo porque área y precio encajan (~US$6.7/m2, cálculo propio) y está en zona de prioridad alta. La asociación entre esta URL y los datos de 340 m2 / $2,289 se dedujo del título ('excelente altura') y por descarte frente a otra galera de 320 m2 del mismo resultado; verificar al abrir el anuncio. Sin fecha ni contacto en el resultado. No se indica frente a calle ni cercanía al Metro Villa Zaita.",
+  "evidencia": "Galera de 340 m2 con altura de 7 a 8 metros, a $2,289 mensuales con mantenimiento e ITBMS incluidos Corrida del 19 nov ~13:30: \"aparece en $2,289 al mes con mantenimiento e ITBMS incluidos. El desglose es alquiler de $2,140, mantenimiento de $224 e ITBMS de $149.80\" (resumen del buscador).",
+  "notas": "NO cumple el tipo (galera/bodega); se incluye solo porque área y precio encajan (~US$6.7/m2, cálculo propio) y está en zona de prioridad alta. La asociación entre esta URL y los datos de 340 m2 / $2,289 se dedujo del título ('excelente altura') y por descarte frente a otra galera de 320 m2 del mismo resultado; verificar al abrir el anuncio. Sin fecha ni contacto en el resultado. No se indica frente a calle ni cercanía al Metro Villa Zaita. Corrida del 19 nov ~13:30: volvió a aparecer. DESGLOSE EN CONFLICTO: el resultado dice que los $2,289 incluyen mantenimiento e ITBMS, pero alquiler $2,140 + ITBMS $149.80 ya suman ~$2,289.80 (cálculo propio), así que el mantenimiento de $224 parece ir aparte; el canon base sería $2,140 (~US$6.3/m², cálculo propio). Capital Bienes Raíces anuncia un ofidepósito/galera de 340 m² en Villa Zaita a US$2,400 al mes, con 2 oficinas, 1 baño, área de showroom y bodega, 'a solo 5 minutos de la estación del metro de Villa Zaita' (https://capital-bienesraices.com/bodega-alquiler-las-cumbres/8394651): por el área es probablemente esta misma galera ofrecida por un corredor; tampoco cumple el tipo.",
   "primera_vez": "2026-11-19T00:25-05:00",
-  "ultima_vez": "2026-11-19T00:25-05:00"
+  "ultima_vez": "2026-11-19T13:34-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -319,9 +319,9 @@
   "url_es_listado": true,
   "portal": "icasas",
   "evidencia": "icasas: local comercial en Los Andes I, zona peatonal exterior, área de construcción de 300 m2, 1 baño terminado; precio 7,500 $",
-  "notas": "CARO: ~US$25/m2 (cálculo propio), supera el tope de US$21/m2 y el máximo mensual de ~US$6,500; se incluye solo por ubicación (centro comercial Los Andes, junto a estación de Metro Los Andes). El texto del listado está fragmentado: no queda claro si los 7,500 son mensuales ni si incluyen mantenimiento. Está dentro de un centro comercial (verificar si califica como pie de calle; 'zona peatonal exterior' sugiere acceso directo desde afuera). Dato de página de listado, sin fecha ni contacto.",
+  "notas": "CARO: ~US$25/m2 (cálculo propio), supera el tope de US$21/m2 y el máximo mensual de ~US$6,500; se incluye solo por ubicación (centro comercial Los Andes, junto a estación de Metro Los Andes). El texto del listado está fragmentado: no queda claro si los 7,500 son mensuales ni si incluyen mantenimiento. Está dentro de un centro comercial (verificar si califica como pie de calle; 'zona peatonal exterior' sugiere acceso directo desde afuera). Dato de página de listado, sin fecha ni contacto. Corrida del 19 nov ~13:30: volvió a aparecer en icasas con los mismos datos (US$7,500, 300 m² de construcción, zona peatonal exterior); el resultado lo ubica en Avenida Los Andes, Omar Torrijos.",
   "primera_vez": "2026-11-19T00:25-05:00",
-  "ultima_vez": "2026-11-19T00:25-05:00"
+  "ultima_vez": "2026-11-19T13:34-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -615,19 +615,19 @@
   "zona": "Ernesto Córdoba Campos",
   "titulo": "Propiedad en alquiler para local u oficina, Villa Zaita (título tomado del slug de la URL)",
   "tipo": "otro",
-  "area_m2": null,
-  "precio_mensual_usd": null,
-  "ubicacion": "Villa Zaita",
+  "area_m2": 915,
+  "precio_mensual_usd": 9500,
+  "ubicacion": "Villa Zaita según el título de Colliers; el resumen del buscador lo ubica en el sector Milla 8, con frente a la Vía Transístmica",
   "planta": "n/d",
   "anunciante": "Colliers",
   "telefono": null,
   "url": "https://www.colliers.com/es-pa/propiedades/propiedad-en-alquiler-para-local-u-oficina-villa-zaita/pan-villa-zaita/pan7000462",
   "url_es_listado": false,
   "portal": "otro",
-  "evidencia": "Resultado titulado \"Comercial Para arrendamiento — Villa Zaita\" en colliers.com; la búsqueda no devolvió área ni precio.",
-  "notas": "Solo sirve como pista para llamar: ficha individual sin área, precio, planta ni teléfono en el resultado. El slug dice 'local u oficina', así que puede no ser un local a pie de calle. El anunciante se deduce del dominio (colliers.com). Vigencia no verificable.",
+  "evidencia": "Resultado titulado \"Comercial Para arrendamiento — Villa Zaita\" en colliers.com. Resumen del buscador (corrida del 19 nov ~13:30): Colliers ofrece un inmueble comercial con \"Área del Lote: 2,228 m²\", \"Área cerrada y Semi abierta: 915 m²\" y \"Renta Mensual: $9,500.00 (Negociables)\", en el sector Milla 8, con frente a la Vía Transístmica; el anuncio menciona el futuro desarrollo del Metro.",
+  "notas": "FUERA DE RANGO: 915 m² de área cerrada y semiabierta sobre un lote de 2,228 m², a US$9,500 al mes (negociables), ~US$10.4/m² (cálculo propio); muy por encima del área (máx. 500 m²) y del total mensual (~US$6,500) del proyecto. Solo serviría si el dueño aceptara alquilar una parte. La asociación entre estos datos y esta URL se dedujo de que es la única ficha de Colliers devuelta en la búsqueda: verificar al abrirla. 'Área cerrada y semi abierta' sugiere cobertizos o galera más que un local a pie de calle; el slug dice 'local u oficina'. El anunciante se deduce del dominio (colliers.com). Sin planta, teléfono ni fecha en el resultado. Hasta la corrida anterior esta ficha no tenía área ni precio.",
   "primera_vez": "2026-11-19T10:36-05:00",
-  "ultima_vez": "2026-11-19T10:36-05:00"
+  "ultima_vez": "2026-11-19T13:34-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -661,9 +661,9 @@
   "url_es_listado": true,
   "portal": "compreoalquile",
   "evidencia": "Compreoalquile: \"Local comercial · 253m² · 29 Estacionamientos · Alquiler Local en Brisas Mall Planta Baja - Brisas del Golf (20)\". El precio no aparece asociado a este anuncio en el resultado.",
-  "notas": "DATO DE LISTADO: no hay URL del anuncio individual; la búsqueda devolvió tres páginas de listado de Compreoalquile de San Miguelito y no precisa en cuál está la ficha (se anota la general). Área en rango aceptable (220-400) y planta baja, pero falta el precio. Referencia de precio en el mismo centro: otro resultado muestra un local de 115 m² en Brisas Mall a US$2,760/mes, ~US$24/m² (cálculo propio), sobre el tope de US$21/m²; si este local se cotiza igual, quedaría fuera de presupuesto. Está dentro de un centro comercial ('Brisas Mall'): verificar si califica como plaza de barrio y si ya tiene supermercado. Sin fecha ni contacto. Zona oportunista.",
+  "notas": "DATO DE LISTADO: no hay URL del anuncio individual; la búsqueda devolvió tres páginas de listado de Compreoalquile de San Miguelito y no precisa en cuál está la ficha (se anota la general). Área en rango aceptable (220-400) y planta baja, pero falta el precio. Referencia de precio en el mismo centro: otro resultado muestra un local de 115 m² en Brisas Mall a US$2,760/mes, ~US$24/m² (cálculo propio), sobre el tope de US$21/m²; si este local se cotiza igual, quedaría fuera de presupuesto. Está dentro de un centro comercial ('Brisas Mall'): verificar si califica como plaza de barrio y si ya tiene supermercado. Sin fecha ni contacto. Zona oportunista. Corrida del 19 nov ~13:30: volvió a aparecer en el listado de Compreoalquile de San Miguelito (253 m², 29 estacionamientos, planta baja); sigue sin precio en el resultado.",
   "primera_vez": "2026-11-19T10:36-05:00",
-  "ultima_vez": "2026-11-19T10:36-05:00"
+  "ultima_vez": "2026-11-19T13:34-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -898,5 +898,95 @@
   "notas": "Zona oportunista, prioridad baja. Anuncio individual con varias unidades, en venta y alquiler, sin precisar tamaños ni alquiler: por eso área y precio van en blanco. Referencia en la misma plaza: un local de 200 m² en planta baja sobre vía principal se anuncia EN VENTA a US$459,999 (anuncio 31152381, sección de ventas); no se sabe si esa unidad también se alquila. Preguntar si hay una unidad de 220-400 m² en planta baja y su alquiler. Queda frente al centro comercial Los Pueblos: verificar qué supermercados de cadena hay ahí (no cumple la preferencia de 700-1,000 m si los hay). POSIBLE ANUNCIO VIEJO: el ID (31.2 millones) es más bajo que el de los anuncios recientes; verificar vigencia. Sin anunciante, teléfono ni fecha en el resultado.",
   "primera_vez": "2026-11-19T12:34-05:00",
   "ultima_vez": "2026-11-19T12:34-05:00"
+ },
+ {
+  "zona": "Ernesto Córdoba Campos",
+  "titulo": "VILLA ZAITA / CASA COMERCIAL / 2 NIVELES / 830M / 20 PARKING",
+  "tipo": "otro",
+  "area_m2": 400,
+  "precio_mensual_usd": null,
+  "ubicacion": "Villa Zaita, a 50 metros de la estación del Metro según el anuncio; otros portales lo etiquetan como Omar Torrijos, San Miguelito",
+  "planta": "varios niveles",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://www.encuentra24.com/panama-es/bienes-raices-alquiler-casas/villa-zaita-casa-comercial-2-niveles-830m-20-parking/31792894",
+  "url_es_listado": false,
+  "portal": "encuentra24",
+  "evidencia": "Resumen del buscador: casa comercial de 2 niveles en Villa Zaita, sobre 830 m² de terreno, con cerca de 400 m² construidos y 20 estacionamientos, para uso comercial o de oficinas; \"Se ALQUILA céntrico CASA COMERCIAL ubicado en VILLA ZAITA a 50 metros de la estacion del tren\". El precio de este anuncio no aparece en el resultado.",
+  "notas": "NO ES UN LOCAL DE PLAZA: es una casa comercial de dos niveles (publicada en la sección de casas de Encuentra24), con área de oficina y depósitos. Los 400 m² son de construcción en DOS NIVELES sobre 830 m² de terreno: si cada nivel tiene ~200 m², no alcanza para 250 m² de sala en planta baja; confirmar cuánto mide la planta baja y si se puede adecuar como local de venta. A favor: queda a 50 m de la estación de Metro Villa Zaita (según el anuncio) y tiene 20 estacionamientos. PRECIO: este anuncio no lo muestra en el resultado; el mismo inmueble aparece a US$3,200/mes en otro anuncio de Encuentra24 (https://www.encuentra24.com/panama-en/real-estate-for-rent-houses/shopping-house-in-villa-zanita-main-street-near-the-metro-aa/33049750, registro aparte) y a US$3,500/mes en Mitula, Inmopanama y el sitio de Galceb Group, que el buscador da como la inmobiliaria anunciante en esos portales (uno fechado el 30 de julio de 2026). Probable mismo inmueble en los dos anuncios: llamar una sola vez y comparar precios. Los anuncios traen datos de plantilla incoherentes (2 o 6 recámaras). Sin anunciante, teléfono ni fecha ligados a este anuncio en el resultado.",
+  "primera_vez": "2026-11-19T13:34-05:00",
+  "ultima_vez": "2026-11-19T13:34-05:00"
+ },
+ {
+  "zona": "Ernesto Córdoba Campos",
+  "titulo": "Shopping house in Villa Zaita main street near the metro (AA) (título de la versión en inglés del anuncio)",
+  "tipo": "otro",
+  "area_m2": null,
+  "precio_mensual_usd": 3200,
+  "ubicacion": "Villa Zaita, sobre la calle principal y cerca del Metro, según el título",
+  "planta": "n/d",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://www.encuentra24.com/panama-en/real-estate-for-rent-houses/shopping-house-in-villa-zanita-main-street-near-the-metro-aa/33049750",
+  "url_es_listado": false,
+  "portal": "encuentra24",
+  "evidencia": "Resumen del buscador: Encuentra24 tiene una variante, \"Shopping house in Villa Zaita main street near the metro\", con el mismo terreno de 830 m² y 20 parqueos, a 3200.00 per month.",
+  "notas": "ÁREA EN BLANCO: el resultado solo da el terreno (830 m²) para este anuncio, no el área construida. Por terreno, estacionamientos y ubicación es probablemente la misma casa comercial de dos niveles y ~400 m² de construcción del anuncio 31792894 (registro aparte): llamar una sola vez por los dos. NO ES UN LOCAL DE PLAZA: casa comercial (sección de casas de Encuentra24); confirmar área de planta baja y si sirve como local de venta. Si los US$3,200 corresponden a 400 m², serían ~US$8/m² (cálculo propio). El mismo inmueble sale a US$3,500/mes en Mitula, Inmopanama y el sitio de Galceb Group (uno fechado el 30 de julio de 2026): preguntar cuál precio rige y si incluye mantenimiento e ITBMS. Otro anuncio dice que queda a 50 m de la estación de Metro Villa Zaita. Las siglas '(AA)' del título sugieren un corredor distinto al del otro anuncio; no se ve su nombre. Sin teléfono ni fecha en el resultado.",
+  "primera_vez": "2026-11-19T13:34-05:00",
+  "ultima_vez": "2026-11-19T13:34-05:00"
+ },
+ {
+  "zona": "San Miguelito",
+  "titulo": "Local comercial Cerro Viento, 360 m, división dos niveles, esquina (título tomado del slug de la URL)",
+  "tipo": "esquinero",
+  "area_m2": 360,
+  "precio_mensual_usd": 3800,
+  "ubicacion": "Cerro Viento, San Miguelito; el portal lo etiqueta como Vía Tocumen",
+  "planta": "varios niveles",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-comercial-cerro-viento-360m-division-dos-nivel-esquina/30777362",
+  "url_es_listado": false,
+  "portal": "encuentra24",
+  "evidencia": "Resumen del buscador: un local de 360 m² en la Vía Tocumen, en Cerro Viento, tiene un alquiler de $3,800, con un precio de $10.55 por m²; el anuncio es de febrero de 2025. Slug de la URL: \"local-comercial-cerro-viento-360m-division-dos-nivel-esquina\".",
+  "notas": "ANUNCIO VIEJO (febrero de 2025, unos 21 meses): verificar que siga disponible antes de contar con él. OJO: el slug dice 'división dos nivel', así que los 360 m² estarían repartidos en dos niveles y el resultado no dice cuánto mide la planta baja: confirmar. Esquinero según el slug. Área en rango aceptable y ~US$10.6/m² (el resultado da $10.55/m²), dentro del ideal. Cerro Viento queda fuera de los alrededores de las estaciones San Miguelito y Los Andes (va hacia la Vía Tocumen); el resultado no menciona cercanía a ninguna estación de Metro, estacionamientos ni acceso de camión. La asociación entre esta URL y los datos se dedujo del slug (Cerro Viento, 360 m) y de la etiqueta 'Vía Tocumen' del resultado. Sin anunciante ni teléfono. Zona oportunista.",
+  "primera_vez": "2026-11-19T13:34-05:00",
+  "ultima_vez": "2026-11-19T13:34-05:00"
+ },
+ {
+  "zona": "San Miguelito",
+  "titulo": "Local comercial en alquiler en la entrada de Brisas del Golf, 384 m, oficina, drive thru (AR) (título tomado del slug de la URL)",
+  "tipo": "esquinero",
+  "area_m2": 384,
+  "precio_mensual_usd": 9000,
+  "ubicacion": "Entrada de Brisas del Golf, San Miguelito; ubicación en esquina",
+  "planta": "n/d",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-comercial-en-alquiler-en-la-entrada-de-brisas-del-golf-384-m-oficina-drive-thru-ar/32580472",
+  "url_es_listado": false,
+  "portal": "encuentra24",
+  "evidencia": "Resumen del buscador: local de 384 m² con oficina y drive-thru en la entrada de Brisas del Golf, San Miguelito, con un alquiler de $9,000 al mes; publicado el 14/07/2026 en Encuentra24; incluye una oficina privada y un baño adicional; ubicación en esquina con buena visibilidad y espacio para servicio de auto rápido.",
+  "notas": "CARO: ~US$23.4/m² (cálculo propio), sobre el tope de US$21/m², y US$9,000 supera el máximo de ~US$6,500 al mes; solo sirve si el precio es muy negociable. Área en rango aceptable (384 m²) y esquinero con drive-thru (formato pensado para comida rápida o banco: habría que adecuarlo). Publicado el 14/07/2026 (cuatro meses): verificar vigencia. El resultado no indica planta, estacionamientos, mantenimiento ni contacto. Un segundo anuncio de Encuentra24, sin URL atribuida, describe una unidad de 384 m² con drive-thru dentro del centro comercial Brisas 507, sobre la vía principal de Brisas del Golf, al mismo precio de $9,000 y publicada el 09/04/2026: puede ser este mismo local; si lo es, está dentro de un centro comercial y hay que verificar que tenga frente a la calle. En los resultados aparece además un anuncio de VENTA de un local en la entrada de Brisas del Golf (https://www.encuentra24.com/panama-en/real-estate-for-sale-commercial/for-sale-local-commercial-entrance-golf-brisas/33019785); no se sabe si es el mismo inmueble. Zona oportunista.",
+  "primera_vez": "2026-11-19T13:34-05:00",
+  "ultima_vez": "2026-11-19T13:34-05:00"
+ },
+ {
+  "zona": "San Miguelito",
+  "titulo": "Local de 380 m² en La Castellana (título exacto no visible en el resultado)",
+  "tipo": "local",
+  "area_m2": 380,
+  "precio_mensual_usd": 2500,
+  "ubicacion": "La Castellana, San Miguelito, según el listado de Mercad",
+  "planta": "n/d",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://panama.mercad.net/alquiler/locales-comerciales/san-miguelito",
+  "url_es_listado": true,
+  "portal": "otro",
+  "evidencia": "Resumen del buscador, sobre el listado de Mercad de locales comerciales en alquiler en San Miguelito: \"La Castellana, 380 m²: $2.500.00+itbms+225 mantenimiento, según el anuncio de Mercad\".",
+  "notas": "DATO DE LISTADO/AGREGADOR con muy poco detalle: no hay URL del anuncio individual ni título; hay que ubicar la ficha en el listado de Mercad de San Miguelito. El resultado solo da barrio, área y precio: US$2,500 + ITBMS + US$225 de mantenimiento, ~US$6.6/m² (cálculo propio), llamativamente bajo. Área en rango aceptable (380 m², cerca del límite superior). POR CONFIRMAR TODO LO DEMÁS: que sea un local a pie de calle y no una galera o una planta alta, dirección exacta dentro de La Castellana, planta, estacionamientos, acceso de camión, fecha de publicación y contacto. El resultado no menciona cercanía a ninguna estación de Metro. Mercad es un agregador: el anuncio original puede estar en otro portal. Zona oportunista.",
+  "primera_vez": "2026-11-19T13:34-05:00",
+  "ultima_vez": "2026-11-19T13:34-05:00"
  }
 ]
