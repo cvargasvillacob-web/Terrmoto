@@ -1,6 +1,6 @@
 # Locales para llamar — 2026-11-19
 
-29 anuncios revisados: 8 de prioridad A, 13 de prioridad B, 6 de prioridad C y 2 descartados.
+29 anuncios revisados: 8 de prioridad A, 13 de prioridad B, 6 de prioridad C y 2 descartados. Actualizado el 19 nov a las 09:28 (hora de Panamá).
 
 > Los datos salen de resultados del buscador web, no de la lectura del anuncio completo (los portales bloquean el acceso automatizado). Área, precio y vigencia deben confirmarse al abrir el anuncio y en la llamada.
 
@@ -24,7 +24,7 @@
 
 ## Prioridad A: cumplen área y alquiler, llamar primero
 
-### A1 · Las Cumbres — Local en Plaza La Villa, Las Cumbres, 400 m2 sobre la calle principal
+### A1 · Las Cumbres — Local en Plaza La Villa, Las Cumbres, 400 m2 sobre la calle principal · NUEVO
 - **Datos:** 400 m² · US$3,200/mes · US$8/m² · planta n/d · ola 1 · 8/9 puntos
 - **Ubicación:** Plaza La Villa, Las Cumbres, sobre la calle principal
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -32,14 +32,14 @@
 - **Confirmar en la llamada:** que sea planta baja a pie de calle
 - **Notas:** Dato de página de listado (no hay URL del anuncio individual). Equivale a ~US$8/m2 (cálculo propio). Área en el límite superior del rango aceptable (400 m2). El listado no muestra fecha de publicación, planta, estacionamientos ni contacto: confirmar vigencia y ubicación exacta de la plaza. Cumple área y precio sobre el papel.
 
-### A2 · Las Mañanitas — ALQUILER LOCAL COMERCIAL EN MAÑANITAS (ref. 26-6516)
+### A2 · Las Mañanitas — ALQUILER LOCAL COMERCIAL EN MAÑANITAS (ref. 26-6516) · NUEVO
 - **Datos:** 369 m² · US$4,989/mes · US$13.5/m² · planta baja · ola 1 · 8/9 puntos
 - **Ubicación:** Las Mañanitas, dentro del Parque Logístico San Carlos
 - **Contacto:** abrir el anuncio para ver el teléfono
 - **Anuncio:** <https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/commercial-local-rental-in-moranitas/32519383>
 - **Notas:** Anuncio individual. El área de 369 m² figura como "lote"; $4,989 ÷ $14 da ~356 m² (cálculo propio): confirmar área arrendable. Rango aceptable (algo sobre el ideal de 350 m²); renta apenas sobre el ideal de $4,800. OJO: está dentro de un parque logístico, no en plaza de barrio; verificar frente a la vía y flujo peatonal. También figuran 7 espacios y 7 baños. Posible duplicado con datos incoherentes: anuncio 32519254 (precio $5,000,000). Sin teléfono en el resultado.
 
-### A3 · Tocumen — Locales de 120 m² y 240 m² a $15/m² (Breslau Properties)
+### A3 · Tocumen — Locales de 120 m² y 240 m² a $15/m² (Breslau Properties) · NUEVO
 - **Datos:** 240 m² · US$3,600/mes · US$15/m² · planta n/d · ola 1 · 8/9 puntos
 - **Ubicación:** Nuevo Tocumen según un resultado de búsqueda; otro resultado indica que el extracto no confirma el distrito
 - **Contacto:** Breslau Properties, S.A. (teléfono en el anuncio)
@@ -47,14 +47,14 @@
 - **Confirmar en la llamada:** que sea planta baja a pie de calle
 - **Notas:** Dato de página de listado/agregador (no se obtuvo URL del anuncio individual). Área en rango aceptable (no ideal) y precio ideal ($15/m²). Ubicación exacta, planta y si está dentro de un mall NO confirmados: preguntar. El mismo anunciante aparece en Mitula con locales en Nuevo Tocumen / 24 de Diciembre "desde 150m2 en adelante a $12 el metro cuadrado" (USD 1,800/mes), sin URL individual. Sin teléfono en el resultado.
 
-### A4 · La Chorrera — Commercial Premises for Rent on the Ground Floor in La Chorrera
+### A4 · La Chorrera — Commercial Premises for Rent on the Ground Floor in La Chorrera · NUEVO
 - **Datos:** 339 m² · US$1,500/mes · US$4.4/m² · planta baja · ola 2 · 8/9 puntos
 - **Ubicación:** Barrio Balboa, La Chorrera
 - **Contacto:** Galceb Group (teléfono en el anuncio)
 - **Anuncio:** <https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/commercial-premises-for-rent-on-the-ground-floor-in-la-chorrera/30638478>
 - **Notas:** Area dentro del rango ideal y barrio interior. PRECIO EN CONFLICTO: icasas y Mitula dan $1,500/mes, pero otra entrada de Encuentra24 de 339 m2 en Barrio Balboa figura a $2,795 (puede ser el mismo inmueble); el precio no aparecio ligado a esta URL concreta, confirmar. OJO: el mismo inmueble aparece titulado 'LOCAL / LA CHORRERA / IDEAL PARA FOOD TRUCK / 339M2' (Galceb Group), lo que sugiere que podria ser un espacio abierto y no un local cerrado: preguntar. En icasas el titulo es 'Se Alquila Amplio y Provechoso Local Comercial con una Excelente Ubicacion en La Chorrera'. Posible anuncio antiguo: el ID 30638478 es bastante mas bajo que el de los anuncios recientes (32.8-33.1 millones); verificar vigencia. Direccion exacta, acceso de camion y cercania a parada de buses no aparecen.
 
-### A5 · 24 de Diciembre — Alquiler Local 241 m² en La 24 Diciembre Tocumen Kaf
+### A5 · 24 de Diciembre — Alquiler Local 241 m² en La 24 Diciembre Tocumen Kaf · NUEVO
 - **Datos:** 240 m² · US$5,000/mes · US$20.8/m² · planta n/d · ola 1 · 7/9 puntos
 - **Ubicación:** La 24 de Diciembre, Tocumen (icasas lo clasifica en Nuevo Belén)
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -62,7 +62,7 @@
 - **Confirmar en la llamada:** que sea planta baja a pie de calle
 - **Notas:** Dato de página de listado/agregador (no se obtuvo URL del anuncio individual). El título dice 241 m² y la ficha 240 m². Aprox. $20.8/m² (cálculo propio): bajo el tope de $21 pero sobre el ideal; total con expensas ~$5,541. 29 estacionamientos. Indicio de anuncio viejo: una de las publicaciones figura con fecha 31 mar 2025. Repetido en icasas (https://www.icasas.com.pa/alquiler/locales/ciudad-panama/nuevo-belen) como "ALQUILER LOCAL 240M2 EN LA 24 DICIEMBRE TOCUMEN KAF" a 5,000 $. "Kaf" parece código del corredor; nombre y teléfono no aparecen. Planta no indicada.
 
-### A6 · Burunga — Local de 225 m2 en Burunga, Plaza 2.000 (titulo exacto no visible en el resultado)
+### A6 · Burunga — Local de 225 m2 en Burunga, Plaza 2.000 (titulo exacto no visible en el resultado) · NUEVO
 - **Datos:** 225 m² · US$2,250/mes · US$10/m² · planta n/d · ola 2 · 7/9 puntos
 - **Ubicación:** Burunga, Plaza 2.000, Arraijan; 'zona frente a la via principal', 'sector cercano a supermercados'
 - **Contacto:** Grupo Gestión Inmobiliario (teléfono en el anuncio)
@@ -70,7 +70,7 @@
 - **Confirmar en la llamada:** que sea planta baja a pie de calle
 - **Notas:** DATO DE LISTADO/AGREGADOR, no de anuncio individual: aparece en varias paginas de listado de Mitula (Arraijan, Nuevo Arraijan, Nuevo Emperador) y en icasas (https://www.icasas.com.pa/alquiler/locales/arraijan). Area en rango aceptable (220-400), por debajo del ideal; ~US$10/m2. Fechas vistas: 27 feb 2026 (Grupo Gestion Inmobiliario) y 30 jul 2026 (la misma ficha atribuida a C&M Bienes Raices Panama): confirmar quien lo gestiona y si sigue disponible. Otra version menciona 'area de terreno de 245 M2'. El anuncio dice que hay supermercados cerca (competencia). Burunga tendra estacion de la Linea 3; la distancia a la estacion no aparece. Planta no indicada.
 
-### A7 · San Miguelito — Alquiler de local sobre vía principal de San Miguelito (esquinero), sector Paraíso
+### A7 · San Miguelito — Alquiler de local sobre vía principal de San Miguelito (esquinero), sector Paraíso · NUEVO
 - **Datos:** 300 m² · US$1,200/mes · US$4/m² · planta n/d · ola 3 · 7/9 puntos
 - **Ubicación:** Paraíso, San Miguelito, sobre la vía principal (otros portales lo ubican como 'Los Andes Mall, Paraíso' y 'Victoriano Lorenzo')
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -78,7 +78,7 @@
 - **Confirmar en la llamada:** que sea planta baja a pie de calle
 - **Notas:** Cumple área y precio sobre el papel, pero el precio es llamativamente bajo (~US$4/m2, cálculo propio): confirmar que US$1,200 sea el canon real y que los 300 m2 sean de planta baja. Distribución actual de oficinas (habría que adecuar). Solo 4 estacionamientos. Sin fecha ni contacto en el resultado. Aparece también en icasas ('Los Andes Mall, Paraíso, San Miguelito, 1 baño, 300 m2, $1,200') y en Mitula ('Victoriano Lorenzo ... excelente visibilidad en los Andes'), probablemente el mismo inmueble; la referencia a Los Andes sugiere cercanía a la estación de Metro Los Andes, no confirmada.
 
-### A8 · San Miguelito — Local comercial de 300 m2 en planta baja, Plaza Brisas, Brisas del Golf
+### A8 · San Miguelito — Local comercial de 300 m2 en planta baja, Plaza Brisas, Brisas del Golf · NUEVO
 - **Datos:** 300 m² · US$3,500/mes · US$11.7/m² · planta baja · ola 3 · 7/9 puntos
 - **Ubicación:** Plaza Brisas, Brisas del Golf (un portal lo ubica en Belisario Porras)
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -88,7 +88,7 @@
 
 ## Prioridad B: faltan datos o el área queda cerca del rango
 
-### B1 · Alcalde Díaz — Alquiler local ubicado en Las Cumbres, Plaza Milla 8, 210 m2
+### B1 · Alcalde Díaz — Alquiler local ubicado en Las Cumbres, Plaza Milla 8, 210 m2 · NUEVO
 - **Datos:** 210 m² · US$2,520/mes · US$12/m² · planta n/d · ola 1 · 7/9 puntos
 - **Ubicación:** Plaza Milla 8, Las Cumbres (Milla 8, Vía Transístmica)
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -96,7 +96,7 @@
 - **Confirmar en la llamada:** si hay una unidad de 220-400 m² o se puede ajustar el área; que sea planta baja a pie de calle
 - **Notas:** Fuera de rango (210 m2, por debajo de 220). Dato de página de listado; fragmento truncado, sin fecha ni contacto. ~US$12/m2 (cálculo propio). El portal lo clasifica como Las Cumbres; se agrupa en Alcalde Díaz por estar en Milla 8. Otros locales de esta plaza vistos en la búsqueda combinan planta baja + mezzanine (130 m2 = 90 PB + 40 mezz; 180 m2 = 115.83 PB + 64.33 mezz), así que hay que confirmar cuántos de los 210 m2 son de planta baja.
 
-### B2 · Las Cumbres — Locales comerciales en alquiler en Plaza Princesa de Gales, Las Cumbres (unidad de 202 m2)
+### B2 · Las Cumbres — Locales comerciales en alquiler en Plaza Princesa de Gales, Las Cumbres (unidad de 202 m2) · NUEVO
 - **Datos:** 202 m² · US$2,626/mes · US$13/m² · planta n/d · ola 1 · 7/9 puntos
 - **Ubicación:** Plaza Princesa de Gales, Las Cumbres (Vía Transístmica)
 - **Contacto:** Van Hoorde Realty (teléfono en el anuncio)
@@ -104,7 +104,7 @@
 - **Confirmar en la llamada:** si hay una unidad de 220-400 m² o se puede ajustar el área; que sea planta baja a pie de calle
 - **Notas:** Fuera de rango (202 m2, por debajo de 220). El anuncio da precio por m2 (US$13/m2), no el total: equivaldría a ~US$2,626/mes (cálculo propio, no figura en el resultado). Anuncio de corredor con varias unidades; sin fecha visible, confirmar que la unidad de 202 m2 siga disponible y en qué planta está. Probablemente la misma plaza/unidad que el registro de icasas (211 m2). icasas anuncia en la misma plaza 211 m² a US$3,165 (~US$15/m²): https://www.icasas.com.pa/alquiler/locales/ciudad-panama/cumbres-cumbres
 
-### B3 · La Chorrera — Taller mecánico de 250 m2 en el centro de La Chorrera (titulo exacto no visible en el resultado)
+### B3 · La Chorrera — Taller mecánico de 250 m2 en el centro de La Chorrera (titulo exacto no visible en el resultado) · NUEVO
 - **Datos:** 250 m² · US$1,800/mes · US$7.2/m² · planta n/d · ola 2 · 7/9 puntos
 - **Ubicación:** Centro de La Chorrera
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -112,7 +112,7 @@
 - **Confirmar en la llamada:** qué tipo de inmueble es y si sirve como local de venta; que sea planta baja a pie de calle
 - **Notas:** DATO DE LISTADO, no de anuncio individual. Se anuncia como taller mecanico, no como local de venta: confirmar si es un local cerrado adaptable a comercio. Area en rango aceptable y ~US$7.2/m2. Podria ser el mismo inmueble que el 'Alquilo Local en La Chorrera Centro 250 m' de Compreoalquile (no confirmado). Sin fecha de publicacion.
 
-### B4 · Las Mañanitas — MAÑANITAS / PLAZA LAS MAÑANITAS / 353 M2 / VIA PRINCIPAL / VACIO
+### B4 · Las Mañanitas — MAÑANITAS / PLAZA LAS MAÑANITAS / 353 M2 / VIA PRINCIPAL / VACIO · NUEVO
 - **Datos:** 353 m² · alquiler n/d · US$/m² n/d · planta varios niveles · ola 1 · 6/9 puntos
 - **Ubicación:** Plaza Las Mañanitas, sobre vía principal
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -120,7 +120,7 @@
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Anuncio individual. Precio no aparece en el resultado. Son dos niveles: la planta baja sola (187 m²) queda fuera de rango para sala de ventas; preguntar si la planta alta sirve de depósito. Sin fecha en el resultado: verificar vigencia. En la misma plaza se anuncia un local de 137 m² a $1,200 (referencia de precio, ~$8.8/m², cálculo propio). Sin teléfono en el resultado.
 
-### B5 · Cerro Silvestre — Local Comercial Alquiler, Plaza Paseo Arraiján Local 9, Cerro Silvestre, Panamá
+### B5 · Cerro Silvestre — Local Comercial Alquiler, Plaza Paseo Arraiján Local 9, Cerro Silvestre, Panamá · NUEVO
 - **Datos:** 181 m² · US$1,814/mes · US$10/m² · planta n/d · ola 2 · 6/9 puntos
 - **Ubicación:** Plaza Paseo Arraiján, Local 9, Cerro Silvestre
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -128,7 +128,7 @@
 - **Confirmar en la llamada:** si hay una unidad de 220-400 m² o se puede ajustar el área; que sea planta baja a pie de calle
 - **Notas:** FUERA DE RANGO (181 m2, por debajo de 220). ~US$10/m2. Anuncio individual en el sitio justrealty.com.pa (nombre del corredor no aparece en el resultado). Segun Proyecta, Paseo Arraijan esta en 'Esquina Via Panamericana, Cerro Silvestre' y es un proyecto 'Comercial / Industrial' de 19,200 m2 rentables: confirmar que sea local de plaza y no bodega, y preguntar por locales contiguos para ampliar. Cerro Silvestre tendra estacion de la Linea 3; la distancia no aparece. Sin fecha de publicacion.
 
-### B6 · 24 de Diciembre — Rental Local Ferra Felipillo - Via Panamericana SP
+### B6 · 24 de Diciembre — Rental Local Ferra Felipillo - Via Panamericana SP · NUEVO
 - **Datos:** área n/d · US$1,900/mes · US$/m² n/d · planta n/d · ola 1 · 5/9 puntos
 - **Ubicación:** Felipillo, sobre vía Panamericana
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -136,7 +136,7 @@
 - **Confirmar en la llamada:** área arrendable; que sea planta baja a pie de calle
 - **Notas:** Anuncio individual. Área NO aparece en el resultado: preguntar metraje, planta y estacionamiento. Zonificación C2 (comercio). Sin teléfono ni fecha en el resultado.
 
-### B7 · Tocumen — Locales comerciales en Plaza Nuevo Tocumen
+### B7 · Tocumen — Locales comerciales en Plaza Nuevo Tocumen · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 1 · 5/9 puntos
 - **Ubicación:** Plaza Nuevo Tocumen, Nuevo Tocumen
 - **Contacto:** IVASI (teléfono en el anuncio)
@@ -144,7 +144,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Anuncio individual, pero sin área, precio ni teléfono en el resultado: solo sirve como pista para llamar. Misma ficha en https://ivasipanama.com/properties/locales-comerciales-en-plaza-nuevo-tocumen/ (de ahí el nombre IVASI). Vigencia no verificable.
 
-### B8 · Las Mañanitas — Silver Plaza (ficha RE/MAX titulada "$ 2,150.00")
+### B8 · Las Mañanitas — Silver Plaza (ficha RE/MAX titulada "$ 2,150.00") · NUEVO
 - **Datos:** área n/d · US$2,150/mes · US$/m² n/d · planta n/d · ola 1 · 5/9 puntos
 - **Ubicación:** Silver Plaza, zona de Las Mañanitas, cerca de la estación de Metro y de las salidas de los corredores Norte y Sur
 - **Contacto:** RE/MAX (teléfono en el anuncio)
@@ -152,7 +152,7 @@
 - **Confirmar en la llamada:** área arrendable; que sea planta baja a pie de calle
 - **Notas:** Prioridad baja. Área NO aparece en el resultado y la ficha tiene formato residencial (1 habitación, 1 baño), por lo que el dato no es fiable para un local; por el precio probablemente sea un local pequeño. Incluido solo por la cercanía a la estación de Metro. Sin teléfono ni fecha en el resultado.
 
-### B9 · La Chorrera — Alquilo Local en La Chorrera Centro 250 m
+### B9 · La Chorrera — Alquilo Local en La Chorrera Centro 250 m · NUEVO
 - **Datos:** 250 m² · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 5/9 puntos
 - **Ubicación:** La Chorrera Centro
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -160,7 +160,7 @@
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** DATO DE LISTADO, no de anuncio individual; hay que ubicar la ficha en la pagina. Area en rango aceptable (220-400). Precio y planta sin dato. En Encuentra24 aparece un 'taller mecanico de 250 m2 en el centro de La Chorrera a $1,800' (ver entrada aparte); no se pudo confirmar si es el mismo inmueble.
 
-### B10 · La Chorrera — Local comercial de 278 m2 en La Chorrera (titulo no visible en el resultado)
+### B10 · La Chorrera — Local comercial de 278 m2 en La Chorrera (titulo no visible en el resultado) · NUEVO
 - **Datos:** 278 m² · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 5/9 puntos
 - **Ubicación:** La Chorrera (barrio no indicado en el resultado)
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -168,7 +168,7 @@
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** DATO DE LISTADO, no de anuncio individual; hay que ubicar la ficha en la pagina. Area practicamente en el rango ideal (280-350) y 12 estacionamientos, pero faltan precio, barrio y planta.
 
-### B11 · Juan Díaz — Se Vende o Alquila Local Comercial en CENTRO COMERCIAL LOS PUEBLOS
+### B11 · Juan Díaz — Se Vende o Alquila Local Comercial en CENTRO COMERCIAL LOS PUEBLOS · NUEVO
 - **Datos:** 333 m² · alquiler n/d · US$/m² n/d · planta n/d · ola 3 · 5/9 puntos
 - **Ubicación:** Centro Comercial Los Pueblos, Juan Díaz
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -176,7 +176,7 @@
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Zona oportunista, prioridad baja. Anuncio individual publicado en la sección de ventas (venta o alquiler). Alquiler NO aparece en el resultado. Área ideal, pero está dentro de un centro comercial grande, no en plaza de barrio: puede no cumplir el criterio de tipo. Sin teléfono en el resultado.
 
-### B12 · La Chorrera — Commercial premises for rent from 168m2 on the highway La Chorrera (DR) (titulo tomado del slug de la URL)
+### B12 · La Chorrera — Commercial premises for rent from 168m2 on the highway La Chorrera (DR) (titulo tomado del slug de la URL) · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 4/9 puntos
 - **Ubicación:** Barrio Colón, La Chorrera; junto a la carretera/autopista Arraiján-La Chorrera
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -184,7 +184,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Se anuncian locales desde 168 m² y un precio de US$3,597, sin saber a qué unidad corresponde. FUERA DE RANGO en la unidad minima (168 m2); 'desde' indica que hay unidades mayores, preguntar por una de 220-350 m2. El precio de $3,597 puede no corresponder a la unidad de 168 m2 (daria ~US$21.4/m2, sobre el tope). En otra busqueda aparecio 'un local de 210 m2 en Barrio Colon a USD 3,045/mes' (~US$14.50/m2) sin URL individual; podria ser del mismo proyecto, es inferencia no confirmada. UBICACION MENOS PREFERIDA: sobre la Autopista, donde estan las tiendas grandes nuevas. El sufijo (DR) coincide con el de un anuncio de Veral Real Estate; posible mismo corredor, no confirmado.
 
-### B13 · San Miguelito — LOCAL COMERCIAL EN PLAZA FORTUNA - US$3,500 USD
+### B13 · San Miguelito — LOCAL COMERCIAL EN PLAZA FORTUNA - US$3,500 USD · NUEVO
 - **Datos:** área n/d · US$3,500/mes · US$/m² n/d · planta n/d · ola 3 · 3/9 puntos
 - **Ubicación:** Plaza Fortuna, Villa Lucre, San Miguelito
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -195,7 +195,7 @@
 
 ## Prioridad C: incumplen algo negociable (alquiler o tamaño)
 
-### C1 · 24 de Diciembre — ALQUILER LOCALES EN LA 24 DICIEMBRE TOCUMEN 289M2 KAF
+### C1 · 24 de Diciembre — ALQUILER LOCALES EN LA 24 DICIEMBRE TOCUMEN 289M2 KAF · NUEVO
 - **Datos:** 289 m² · US$6,200/mes · US$21.5/m² · planta n/d · ola 1 · 7/9 puntos
 - **Ubicación:** La 24 de Diciembre, Tocumen (icasas lo clasifica en Nuevo Belén)
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -203,7 +203,7 @@
 - **Confirmar en la llamada:** si el alquiler es negociable (está sobre el tope de US$21/m²); que sea planta baja a pie de calle
 - **Notas:** Dato de página de listado/agregador (no se obtuvo URL del anuncio individual). Área ideal, pero precio alto: ~$21.4/m² (cálculo propio), apenas sobre el tope de $21; con gastos comunes ~$6,850, sobre el máximo de ~$6,500. Indicios de anuncio viejo en las republicaciones (fechas de marzo 2025; un resultado de ~1,791 días). Mismo corredor/código "Kaf" que los de 241 y 336 m²; posiblemente la misma plaza. Planta no indicada. Sin teléfono en el resultado.
 
-### C2 · 24 de Diciembre — Alquiler Local 336 m² en La 24 Diciembre Tocumen Kaf
+### C2 · 24 de Diciembre — Alquiler Local 336 m² en La 24 Diciembre Tocumen Kaf · NUEVO
 - **Datos:** 336 m² · US$7,600/mes · US$22.6/m² · planta n/d · ola 1 · 7/9 puntos
 - **Ubicación:** La 24 de Diciembre, Tocumen; descrito como en una de las plazas más concurridas de la 24 de Diciembre
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -211,7 +211,7 @@
 - **Confirmar en la llamada:** si el alquiler es negociable (está sobre el tope de US$21/m²); si el total es negociable (supera el máximo de US$6,500/mes); que sea planta baja a pie de calle
 - **Notas:** Dato de página de listado/agregador (no se obtuvo URL del anuncio individual). El título apareció en resultados de listados de compreoalquile/icasas/mitula; no es seguro en cuál de esas páginas está, la URL es la del listado de Compreoalquile de Tocumen. SUPERA EL TOPE: ~$22.6/m² (cálculo propio) y $7,600 > $6,500; incluido solo porque el anuncio describe la plaza como de las más concurridas. Área ideal. Indicios de anuncio viejo (republicaciones con fecha marzo 2025). Sin teléfono en el resultado.
 
-### C3 · 24 de Diciembre — Commercial space for rent on 24 de Diciembre next to El Machetazo supermarket
+### C3 · 24 de Diciembre — Commercial space for rent on 24 de Diciembre next to El Machetazo supermarket · NUEVO
 - **Datos:** 560 m² · US$6,500/mes · US$11.6/m² · planta n/d · ola 1 · 6/9 puntos
 - **Ubicación:** 24 de Diciembre, junto al supermercado El Machetazo
 - **Contacto:** Grupo Gestiones (teléfono en el anuncio)
@@ -219,7 +219,7 @@
 - **Confirmar en la llamada:** área techada real y si se puede subdividir (el total sí entra en presupuesto); que sea planta baja a pie de calle
 - **Notas:** Anuncio individual. FUERA DE RANGO: 560 m² supera incluso el margen de 400-500 m². Precio poco claro ($6,500 vs $6,300); ~$11.3-11.6/m² (cálculo propio), en el tope del presupuesto total. Alta visibilidad y flujo según el anuncio, pero el vecino inmediato es un supermercado competidor. Preguntar si se puede subdividir. Sin teléfono en el resultado.
 
-### C4 · Arraiján — Se Alquila local comercial listo para ocupar, ubicado en ARRAIJAN, PANAMERICANA
+### C4 · Arraiján — Se Alquila local comercial listo para ocupar, ubicado en ARRAIJAN, PANAMERICANA · NUEVO
 - **Datos:** 340 m² · US$6,800/mes · US$20/m² · planta baja · ola 2 · 6/9 puntos
 - **Ubicación:** Arraiján, vía Panamericana ('Local planta baja Via Principal via Panamericana'); Mitula lo ubica en Nuevo Arraiján e iCasas en Ciudad Vacamonte
 - **Contacto:** Galceb Group (teléfono en el anuncio)
@@ -227,7 +227,7 @@
 - **Confirmar en la llamada:** si el total es negociable (supera el máximo de US$6,500/mes)
 - **Notas:** CARO: US$20/m2 y total $6,800, por encima del maximo de ~$6,500; Mitula agrega 'mantenimiento: $1.50 X m2 7,617.50$ + ITBMS + Mant.' (cifra confusa, confirmar total real). Incluido por area ideal, planta baja y frente a la Panamericana; la ubicacion excepcional NO esta confirmada. DATO DE LISTADO, no de anuncio individual. Ubicacion inconsistente entre portales (Panamericana / Nuevo Arraijan / Ciudad Vacamonte). Mitula lo describe como pensado para 'oficinas, consultorios o showroom', con estacionamiento en la plaza. Sin fecha de publicacion.
 
-### C5 · La Chorrera — SE ALQUILA LOCAL EN ALTO DE PRADERA 1000 M2 IDEAL SUPER MARKET
+### C5 · La Chorrera — SE ALQUILA LOCAL EN ALTO DE PRADERA 1000 M2 IDEAL SUPER MARKET · NUEVO
 - **Datos:** 1000 m² · US$2,200/mes · US$2.2/m² · planta baja · ola 2 · 5/9 puntos
 - **Ubicación:** Alto de Pradera, La Chorrera (la etiqueta de ubicación del anuncio dice Barrio Colón); avenida principal a la entrada de la barriada, zona residencial
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -235,7 +235,7 @@
 - **Confirmar en la llamada:** área techada real y si se puede subdividir (el total sí entra en presupuesto)
 - **Notas:** MUY FUERA DE RANGO (1000 m2; fuera incluso de la banda 400-500). Incluido solo porque el total mensual ($2,200) esta dentro del presupuesto, esta en zona residencial y se anuncia para minisuper/supermercado. Los 1000 m2 podrian ser area de terreno y no de construccion: preguntar area techada. DATO DE LISTADO, no de anuncio individual. Sin fecha de publicacion. Descartar si se aplica el criterio de area de forma estricta.
 
-### C6 · San Miguelito — Local comercial en Los Andes I, zona peatonal exterior
+### C6 · San Miguelito — Local comercial en Los Andes I, zona peatonal exterior · NUEVO
 - **Datos:** 300 m² · US$7,500/mes · US$25/m² · planta n/d · ola 3 · 5/9 puntos
 - **Ubicación:** Los Andes I, zona peatonal exterior, San Miguelito
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
