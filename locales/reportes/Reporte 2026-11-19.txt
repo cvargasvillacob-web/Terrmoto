@@ -1,48 +1,51 @@
 *Locales para supermercado de 250 m²*
 Reporte del 19 nov 2026
 
-En seguimiento: 43 anuncios (12 A · 25 B · 6 C)
-Nuevos en las últimas 24 horas: 43
+En seguimiento: 48 anuncios (13 A · 29 B · 6 C)
+Nuevos en las últimas 24 horas: 48
 
-*Prioridad A: llamar primero (12)*
-1. Las Cumbres — Local en Plaza La Villa, Las Cumbres, 400 m2 sobre la calle principal
+*Prioridad A: llamar primero (13)*
+1. Pacora — Locales en Centro Comercial Pacora (ID 13263) - US$4,503 USD
+   300.24 m² · US$4,503/mes · US$15/m² · NUEVO
+   https://dpanamarealestate.com/local-alquiler-pacora/8256765
+2. Las Cumbres — Local en Plaza La Villa, Las Cumbres, 400 m2 sobre la calle principal
    400 m² · US$3,200/mes · US$8/m² · NUEVO
    https://www.icasas.com.pa/alquiler/locales/ciudad-panama/cumbres-cumbres
-2. Las Mañanitas — ALQUILER LOCAL COMERCIAL EN MAÑANITAS (ref. 26-6516)
+3. Las Mañanitas — ALQUILER LOCAL COMERCIAL EN MAÑANITAS (ref. 26-6516)
    369 m² · US$4,989/mes · US$13.5/m² · NUEVO
    https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/commercial-local-rental-in-moranitas/32519383
-3. Tocumen — Locales de 120 m² y 240 m² a $15/m² (Breslau Properties)
+4. Tocumen — Locales de 120 m² y 240 m² a $15/m² (Breslau Properties)
    240 m² · US$3,600/mes · US$15/m² · NUEVO
    https://casas.mitula.com.pa/alquiler-locales-comerciales-24-diciembre
-4. La Chorrera — Commercial Premises for Rent on the Ground Floor in La Chorrera
+5. La Chorrera — Commercial Premises for Rent on the Ground Floor in La Chorrera
    339 m² · US$1,500/mes · US$4.4/m² · NUEVO
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/commercial-premises-for-rent-on-the-ground-floor-in-la-chorrera/30638478
-5. La Chorrera — Local de 339 m² en plaza de Costa Verde (título exacto no visible en…
+6. La Chorrera — Local de 339 m² en plaza de Costa Verde (título exacto no visible en…
    339 m² · US$2,500/mes · US$7.4/m² · NUEVO
    https://www.icasas.com.pa/alquiler/locales/chorrera/p_2
-6. La Chorrera — Local Comercial En Alquiler En La Chorrera Id2781
+7. La Chorrera — Local Comercial En Alquiler En La Chorrera Id2781
    300 m² · US$2,400/mes · US$8/m² · NUEVO
    https://casas.mitula.com.pa/locales-comerciales-planta-baja-chorrera
-7. La Chorrera — Local de 350 m² en planta baja, Ave. Mariano Rivera (título exacto no…
+8. La Chorrera — Local de 350 m² en planta baja, Ave. Mariano Rivera (título exacto no…
    350 m² · US$3,000/mes · US$8.6/m² · NUEVO
    https://casas.mitula.com.pa/alquiler-locales-comerciales-planta-baja-st-chorrera
-8. 24 de Diciembre — Alquiler Local 241 m² en La 24 Diciembre Tocumen Kaf
+9. 24 de Diciembre — Alquiler Local 241 m² en La 24 Diciembre Tocumen Kaf
    240 m² · US$5,000/mes · US$20.8/m² · NUEVO
    https://www.compreoalquile.com/locales-comerciales-en-tocumen.html
-9. Burunga — Local de 225 m2 en Burunga, Plaza 2.000 (titulo exacto no visible en…
+10. Burunga — Local de 225 m2 en Burunga, Plaza 2.000 (titulo exacto no visible en…
    225 m² · US$2,250/mes · US$10/m² · NUEVO
    https://casas.mitula.com.pa/alquiler-locales-comerciales-nuevo-emperador
-10. San Miguelito — Alquiler de local sobre vía principal de San Miguelito (esquinero), s…
+11. San Miguelito — Alquiler de local sobre vía principal de San Miguelito (esquinero), s…
    300 m² · US$1,200/mes · US$4/m² · NUEVO
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-rental-over-via-main-san-miguelito/32116919
-11. San Miguelito — Alquiler de Local Comercial - Altos de Panama
+12. San Miguelito — Alquiler de Local Comercial - Altos de Panama
    296 m² · US$2,400/mes · US$8.1/m² · NUEVO
    https://casas.mitula.com.pa/alquiler-locales-comerciales-andes
-12. San Miguelito — Local comercial de 300 m2 en planta baja, Plaza Brisas, Brisas del Go…
+13. San Miguelito — Local comercial de 300 m2 en planta baja, Plaza Brisas, Brisas del Go…
    300 m² · US$3,500/mes · US$11.7/m² · NUEVO
    https://www.compreoalquile.com/locales-comerciales-en-brisas-de-golf.html
 
-*Otros nuevos, con datos por confirmar (31)*
+*Otros nuevos, con datos por confirmar (35)*
 • Alcalde Díaz — AMPLIO LOCAL EN ALQUILER (Milla 8, Las Cumbres)
    400 m² · US$2,700/mes · US$6.8/m² · NUEVO
    https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/amplio-local-en-alquiler-milla-8-las-cumbres/32131275
@@ -64,9 +67,9 @@ Nuevos en las últimas 24 horas: 43
 • Las Cumbres — Local comercial de 260 m² en Ciudad del Lago, Las Cumbres (título exa…
    260 m² · NUEVO
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/prov-panama-panama-city-las-cumbres
-• Cerro Silvestre — Local Comercial Alquiler, Plaza Paseo Arraiján Local 9, Cerro Silvest…
-   181 m² · US$1,814/mes · US$10/m² · NUEVO
-   https://justrealty.com.pa/mls/local-comercial-alquiler-plaza-paseo-arraijan-local-9-cerro-silvestre-panama/
-…y 23 más en la lista completa.
+• 24 de Diciembre — Local de 273 m² (2 locales unidos) en Centro Comercial La Doña (títul…
+   273 m² · NUEVO
+   https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/prov-panama-ciudad-de-panama-24-de-diciembre.2
+…y 27 más en la lista completa.
 
 _Datos tomados del buscador web: confirmar área, precio y vigencia al llamar._
