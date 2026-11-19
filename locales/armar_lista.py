@@ -10,7 +10,9 @@ La base acumulada está en locales/datos/anuncios.json. Cada anuncio guarda cuá
 se vio por primera y por última vez. A partir de ella se escriben:
     locales/Locales para llamar AAAA-MM-DD.md    (para leer y llamar)
     locales/Locales para llamar AAAA-MM-DD.csv   (para llevar el seguimiento)
-    locales/reportes/Reporte AAAA-MM-DD.txt      (texto corto para WhatsApp)
+    locales/reportes/Reporte AAAA-MM-DD.txt      (texto para WhatsApp)
+    locales/reportes/Enlace WhatsApp AAAA-MM-DD.txt  (enlace que abre WhatsApp con un
+                                                  resumen ya escrito; el grupo se elige a mano)
 
 Un anuncio se marca NUEVO durante las 24 horas siguientes a la primera vez que
 se vio. Las fechas usan la hora de Panamá. Solo usa la biblioteca estándar.
@@ -22,6 +24,7 @@ import sys
 import unicodedata
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 PANAMA = timezone(timedelta(hours=-5))   # Panamá no cambia de hora
 CARPETA = Path(__file__).resolve().parent
@@ -288,6 +291,32 @@ def reporte_whatsapp(filas, conteo, ahora):
     return "\n".join(t) + "\n"
 
 
+def resumen_corto(filas, conteo, ahora, maximo=5):
+    """Versión breve del reporte, pensada para caber en un enlace de WhatsApp."""
+    activos = [r for r in filas if r["prioridad"] != "D"]
+    nuevos = sum(1 for r in activos if r["nuevo"])
+    t = [
+        "*Locales para supermercado de 250 m²*",
+        f"Resumen del {ahora.day} {MESES[ahora.month - 1]} {ahora.year}",
+        "",
+        f"En seguimiento: {len(activos)} anuncios ({conteo['A']} A · {conteo['B']} B · {conteo['C']} C). "
+        f"Nuevos en 24 horas: {nuevos}.",
+    ]
+    primeros = [r for r in filas if r["prioridad"] == "A"][:maximo]
+    if primeros:
+        t += ["", "*Primeros de la lista*"]
+        for i, r in enumerate(primeros, 1):
+            datos = f"{r['area']:g} m² · {dinero(r['precio'])}/mes (US${r['por_m2']:g}/m²)"
+            t += [f"{i}. {r.get('zona') or 'Zona n/d'}: {datos}", str(r.get("url"))]
+    t += ["", "_Datos del buscador web: confirmar área, precio y vigencia al llamar._"]
+    return "\n".join(t)
+
+
+def enlace_whatsapp(texto):
+    """Enlace que abre WhatsApp con el texto escrito; la persona elige el chat o grupo y envía."""
+    return "https://wa.me/?text=" + quote(texto)
+
+
 def generar(base, ahora):
     """Puntúa la base y escribe la lista (Markdown y CSV) y el reporte del día."""
     fecha = ahora.date().isoformat()
@@ -364,7 +393,9 @@ def generar(base, ahora):
     reporte = CARPETA / "reportes" / f"Reporte {fecha}.txt"
     reporte.parent.mkdir(exist_ok=True)
     reporte.write_text(reporte_whatsapp(filas, conteo, ahora), encoding="utf-8")
-    return filas, conteo, [lista.with_suffix(".md"), lista.with_suffix(".csv"), reporte]
+    enlace = CARPETA / "reportes" / f"Enlace WhatsApp {fecha}.txt"
+    enlace.write_text(enlace_whatsapp(resumen_corto(filas, conteo, ahora)) + "\n", encoding="utf-8")
+    return filas, conteo, [lista.with_suffix(".md"), lista.with_suffix(".csv"), reporte, enlace]
 
 
 def siguiente_grupo(ahora):
