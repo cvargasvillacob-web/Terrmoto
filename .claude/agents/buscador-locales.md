@@ -45,9 +45,11 @@ No busques por ahora en Azuero, Coclé ni Veraguas: esas zonas esperan las inspe
    ```json
    {"zona": "Tocumen", "titulo": "...", "tipo": "local|esquinero|edificio comercial|galera|otro",
     "area_m2": 300, "precio_mensual_usd": 3600, "ubicacion": "...", "planta": "baja|alta|varios niveles|n/d",
-    "anunciante": null, "telefono": null, "url": "https://...", "portal": "encuentra24",
-    "evidencia": "frase del resultado que respalda área y precio", "notas": "..."}
+    "anunciante": null, "telefono": null, "url": "https://...", "url_es_listado": false,
+    "portal": "encuentra24", "evidencia": "frase del resultado que respalda área y precio", "notas": "..."}
    ```
+
+   Pon `"url_es_listado": true` cuando la URL sea una página de listado con varios anuncios y no la del anuncio individual.
 
    Incluye también los anuncios de días anteriores que sigan apareciendo, para que la lista del día esté completa.
 
