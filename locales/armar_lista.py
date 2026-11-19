@@ -161,7 +161,11 @@ def evaluar(item):
     n_ola = ola(item.get("zona"))
     p_zona = {1: 3, 2: 2, 3: 1}[n_ola]
 
-    if planta in ("", "n/d", "varios niveles"):
+    if planta == "varios niveles":
+        # el área anunciada suma varias plantas: no se sabe si la planta baja alcanza
+        faltan_datos = True
+        confirmar.append("cuánto mide la planta baja sola")
+    elif planta in ("", "n/d"):
         confirmar.append("que sea planta baja a pie de calle")
 
     puntos = p_area + p_renta + p_zona
