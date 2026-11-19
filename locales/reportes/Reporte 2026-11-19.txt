@@ -1,10 +1,10 @@
 *Locales para supermercado de 250 m²*
 Reporte del 19 nov 2026
 
-En seguimiento: 59 anuncios (14 A · 36 B · 9 C)
-Nuevos en las últimas 24 horas: 59
+En seguimiento: 63 anuncios (15 A · 38 B · 10 C)
+Nuevos en las últimas 24 horas: 63
 
-*Prioridad A: llamar primero (14)*
+*Prioridad A: llamar primero (15)*
 1. Pacora — Locales en Centro Comercial Pacora (ID 13263) - US$4,503 USD
    300.24 m² · US$4,503/mes · US$15/m² · NUEVO
    https://dpanamarealestate.com/local-alquiler-pacora/8256765
@@ -44,11 +44,14 @@ Nuevos en las últimas 24 horas: 59
 13. San Miguelito — Local comercial de 300 m2 en planta baja, Plaza Brisas, Brisas del Go…
    300 m² · US$3,500/mes · US$11.7/m² · NUEVO
    https://www.compreoalquile.com/locales-comerciales-en-brisas-de-golf.html
-14. San Miguelito — Local de 380 m² en La Castellana (título exacto no visible en el resu…
+14. Juan Díaz — Local de 250 m² en PH, Juan Díaz (título exacto no visible en el resu…
+   250 m² · US$1,200/mes · US$4.8/m² · NUEVO
+   https://casas.mitula.com.pa/alquiler-locales-comerciales-juan-diaz-1200-dolares
+15. San Miguelito — Local de 380 m² en La Castellana (título exacto no visible en el resu…
    380 m² · US$2,500/mes · US$6.6/m² · NUEVO
    https://panama.mercad.net/alquiler/locales-comerciales/san-miguelito
 
-*Otros nuevos, con datos por confirmar (45)*
+*Otros nuevos, con datos por confirmar (48)*
 • Alcalde Díaz — AMPLIO LOCAL EN ALQUILER (Milla 8, Las Cumbres)
    400 m² · US$2,700/mes · US$6.8/m² · NUEVO
    https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/amplio-local-en-alquiler-milla-8-las-cumbres/32131275
@@ -73,6 +76,6 @@ Nuevos en las últimas 24 horas: 59
 • 24 de Diciembre — Local de 273 m² (2 locales unidos) en Centro Comercial La Doña (títul…
    273 m² · NUEVO
    https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/prov-panama-ciudad-de-panama-24-de-diciembre.2
-…y 37 más en la lista completa.
+…y 40 más en la lista completa.
 
 _Datos tomados del buscador web: confirmar área, precio y vigencia al llamar._
