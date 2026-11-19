@@ -4,7 +4,7 @@
 Uso:
     python3 locales/armar_lista.py                   # regenera la lista y el reporte del día
     python3 locales/armar_lista.py hallazgos.json    # agrega hallazgos nuevos y regenera
-    python3 locales/armar_lista.py --turno           # dice qué grupo de zonas toca esta hora
+    python3 locales/armar_lista.py --turno           # dice qué grupo de zonas toca en esta corrida
 
 La base acumulada está en locales/datos/anuncios.json. Cada anuncio guarda cuándo
 se vio por primera y por última vez. A partir de ella se escriben:
@@ -26,9 +26,10 @@ from pathlib import Path
 PANAMA = timezone(timedelta(hours=-5))   # Panamá no cambia de hora
 CARPETA = Path(__file__).resolve().parent
 BASE_DATOS = CARPETA / "datos" / "anuncios.json"
+TURNO = CARPETA / "datos" / "turno.json"
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 
-# Grupos de zonas: las corridas de cada hora se turnan entre ellos.
+# Grupos de zonas: las corridas se turnan entre ellos, uno por corrida.
 GRUPOS = [
     ("Este", "Tocumen (Nuevo Tocumen, Altos de Tocumen), 24 de Diciembre (La Doña, Felipillo), Pacora y "
              "Las Mañanitas; oportunista: Juan Díaz y Pedregal"),
@@ -366,12 +367,34 @@ def generar(base, ahora):
     return filas, conteo, [lista.with_suffix(".md"), lista.with_suffix(".csv"), reporte]
 
 
+def siguiente_grupo(ahora):
+    """Turno rotativo entre los grupos de zonas, guardado en datos/turno.json.
+
+    Cada corrida toma el grupo que sigue al de la corrida anterior. Si se pregunta
+    otra vez en menos de dos horas, responde el mismo grupo y no avanza el turno.
+    """
+    nombres = [g[0] for g in GRUPOS]
+    try:
+        estado = json.loads(TURNO.read_text(encoding="utf-8"))
+        ultimo = estado.get("ultimo")
+        reciente = ahora - datetime.fromisoformat(estado["cuando"]) < timedelta(hours=2)
+    except (OSError, ValueError, KeyError, TypeError, AttributeError):
+        ultimo, reciente = None, False
+    if ultimo in nombres and reciente:
+        return GRUPOS[nombres.index(ultimo)]
+    i = (nombres.index(ultimo) + 1) % len(nombres) if ultimo in nombres else 0
+    TURNO.parent.mkdir(parents=True, exist_ok=True)
+    TURNO.write_text(json.dumps({"ultimo": nombres[i], "cuando": ahora.isoformat(timespec="minutes")},
+                                ensure_ascii=False) + "\n", encoding="utf-8")
+    return GRUPOS[i]
+
+
 def main():
     ahora = datetime.now(PANAMA)
     args = sys.argv[1:]
     if args == ["--turno"]:
-        nombre, zonas = GRUPOS[ahora.hour % len(GRUPOS)]
-        print(f"Grupo de esta hora ({ahora:%H:%M} en Panamá): {nombre}")
+        nombre, zonas = siguiente_grupo(ahora)
+        print(f"Grupo de esta corrida ({ahora:%H:%M} en Panamá): {nombre}")
         print(f"Zonas: {zonas}")
         return
     if len(args) > 1 or (args and args[0].startswith("-")):
