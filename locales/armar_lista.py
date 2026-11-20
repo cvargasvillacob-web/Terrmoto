@@ -30,6 +30,8 @@ PANAMA = timezone(timedelta(hours=-5))   # Panamá no cambia de hora
 CARPETA = Path(__file__).resolve().parent
 BASE_DATOS = CARPETA / "datos" / "anuncios.json"
 TURNO = CARPETA / "datos" / "turno.json"
+# Mapa interactivo de locales; el resumen para WhatsApp lo enlaza para mandar un solo mensaje al grupo
+MAPA_URL = "https://claude.ai/artifact/YXzGaM6k8gaTgC1sfAazKk"
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 
 # Grupos de zonas: las corridas se turnan entre ellos, uno por corrida.
@@ -308,7 +310,8 @@ def resumen_corto(filas, conteo, ahora, maximo=5):
         for i, r in enumerate(primeros, 1):
             datos = f"{r['area']:g} m² · {dinero(r['precio'])}/mes (US${r['por_m2']:g}/m²)"
             t += [f"{i}. {r.get('zona') or 'Zona n/d'}: {datos}", str(r.get("url"))]
-    t += ["", "_Datos del buscador web: confirmar área, precio y vigencia al llamar._"]
+    t += ["", f"*Mapa con todos los locales y el plan de recorrido:* {MAPA_URL}",
+          "", "_Datos del buscador web: confirmar área, precio y vigencia al llamar._"]
     return "\n".join(t)
 
 
