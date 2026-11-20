@@ -1,0 +1,563 @@
+<title>Mapa de locales 250 m²</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/*LEAFLET_CSS*/
+</style>
+<style>
+/* Plano de trabajo: mapa a la izquierda, panel de decisiones a la derecha; en teléfono, uno debajo del otro. */
+:root {
+  --bg: #f2f4f3; --surface: #ffffff; --ink: #15202a; --ink-2: #485662; --muted: #6f7b86; --line: #d8dee2;
+  --sea: #dde1e0; --land: #f7f7f4; --ring: #ffffff;
+  --a: #eb6834; --b: #1baf7a; --c: #8a96a0;
+  --p1: #b7d3f6; --p2: #86b6ef; --p3: #5598e7; --p4: #2a78d6; --p5: #1c5cab;
+  --chip: #e7ecef; --focus: #2a78d6;
+  --f-display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --f-body: "Public Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111518; --surface: #1a2024; --ink: #edf1f3; --ink-2: #b9c4cc; --muted: #8b98a3; --line: #2b343a;
+  --sea: #0b0f12; --land: #20272b; --ring: #1a2024;
+  --a: #d95926; --b: #199e70; --c: #7d8a94;
+  --p1: #104281; --p2: #1c5cab; --p3: #2a78d6; --p4: #5598e7; --p5: #86b6ef;
+  --chip: #263036; --focus: #5598e7; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #111518; --surface: #1a2024; --ink: #edf1f3; --ink-2: #b9c4cc; --muted: #8b98a3; --line: #2b343a;
+  --sea: #0b0f12; --land: #20272b; --ring: #1a2024;
+  --a: #d95926; --b: #199e70; --c: #7d8a94;
+  --p1: #104281; --p2: #1c5cab; --p3: #2a78d6; --p4: #5598e7; --p5: #86b6ef;
+  --chip: #263036; --focus: #5598e7; color-scheme: dark }
+
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5; }
+.wrap { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 20px 32px; max-width: 1500px; margin: 0 auto; }
+header.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; margin-bottom: 14px; }
+.eyebrow { font-family: var(--f-display); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+h1 { font-family: var(--f-display); font-weight: 800; font-size: clamp(26px, 3.4vw, 38px); line-height: 1.05; margin: 2px 0 6px; text-wrap: balance; letter-spacing: -.01em; }
+.sub { color: var(--ink-2); max-width: 70ch; margin: 0; }
+.stats { display: flex; gap: 22px; flex-wrap: wrap; font-variant-numeric: tabular-nums; }
+.stat b { display: block; font-family: var(--f-display); font-size: 26px; font-weight: 700; line-height: 1; }
+.stat span { font-size: 12px; color: var(--muted); }
+
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 430px; gap: 16px; align-items: start; }
+@media (max-width: 960px) { .layout { grid-template-columns: minmax(0, 1fr); } }
+.mapbox { position: relative; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--sea); }
+#map { height: min(80vh, 820px); min-height: 460px; background: var(--sea); }
+@media (max-width: 960px) { #map { height: 62vh; min-height: 380px; } }
+
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+.toolbar .lbl { font-size: 12px; color: var(--muted); margin-right: 2px; }
+.tog { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 5px 11px; font: 500 13px var(--f-body); cursor: pointer; }
+.tog[aria-pressed="false"] { opacity: .5; }
+.tog:focus-visible, button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.dot { width: 16px; height: 16px; border-radius: 50%; display: inline-grid; place-items: center; font: 700 10px var(--f-display); color: #fff; border: 2px solid var(--ring); box-shadow: 0 0 0 1px var(--line); }
+.dot.A { background: var(--a); } .dot.B { background: var(--b); } .dot.C { background: var(--surface); color: var(--ink-2); border-color: var(--c); box-shadow: none; } .dot.D { background: var(--chip); color: var(--muted); }
+select { font: 500 13px var(--f-body); border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 8px; padding: 5px 8px; }
+
+/* Leyenda sobre el mapa */
+.legend { position: absolute; right: 10px; bottom: 26px; z-index: 500; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; font-size: 12px; color: var(--ink-2); max-width: min(290px, calc(100% - 20px)); }
+.legend summary { cursor: pointer; font: 600 12px var(--f-display); color: var(--ink); letter-spacing: .02em; list-style-position: inside; }
+.legend[open] summary { margin-bottom: 6px; }
+.ramp { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px; margin-bottom: 3px; }
+.ramp i { height: 10px; border-radius: 2px; display: block; }
+.ramp-l { display: flex; justify-content: space-between; font-variant-numeric: tabular-nums; color: var(--muted); }
+.legend .row { display: flex; align-items: center; gap: 7px; margin-top: 5px; }
+.sw-nd { width: 18px; height: 10px; border-radius: 2px; background: var(--land); border: 1px solid var(--line); }
+.ln1 { width: 18px; height: 0; border-top: 2.5px solid var(--ink); }
+.ln2 { width: 18px; height: 0; border-top: 2px dashed var(--ink); }
+.lnm { width: 18px; height: 0; border-top: 3px solid var(--ink-2); }
+.legend .toggle-leg { display: none; }
+@media (max-width: 600px) { .legend { font-size: 11px; padding: 7px 9px; } }
+
+/* Mapa: etiquetas y ventanas */
+.leaflet-container { font-family: var(--f-body); background: var(--sea); }
+.leaflet-tooltip.lab { background: transparent; border: 0; box-shadow: none; padding: 0; color: var(--ink); font: 700 11px var(--f-display); letter-spacing: .02em; text-shadow: 0 0 3px var(--surface), 0 0 3px var(--surface), 0 0 2px var(--surface); }
+.leaflet-tooltip.lab::before { display: none; }
+.leaflet-tooltip.est { font: 600 11px var(--f-display); }
+.leaflet-tooltip.tip { background: var(--surface); color: var(--ink); border: 1px solid var(--line); box-shadow: 0 2px 8px rgba(0,0,0,.12); font: 13px var(--f-body); border-radius: 6px; }
+.leaflet-tooltip.tip::before { border-top-color: var(--line); }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--surface); color: var(--ink); }
+.leaflet-popup-content { margin: 12px 14px; font: 13px/1.45 var(--f-body); width: min(300px, 70vw) !important; }
+.leaflet-popup-content a { color: var(--focus); }
+.leaflet-container a.leaflet-popup-close-button { color: var(--muted); }
+.leaflet-control-zoom a { background: var(--surface); color: var(--ink); border-color: var(--line) !important; }
+.leaflet-control-attribution { background: var(--surface) !important; color: var(--muted); font-size: 10px; }
+.leaflet-control-attribution a { color: var(--ink-2); }
+.pin { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; font: 800 11px var(--f-display); color: #fff; border: 2px solid var(--ring); box-shadow: 0 1px 3px rgba(0,0,0,.35); }
+.pin.A { background: var(--a); } .pin.B { background: var(--b); width: 18px; height: 18px; font-size: 10px; }
+.pin.C { background: var(--surface); color: var(--ink-2); border-color: var(--c); width: 18px; height: 18px; font-size: 10px; box-shadow: none; }
+.pin.D { background: var(--chip); color: var(--muted); width: 16px; height: 16px; font-size: 9px; box-shadow: none; }
+.pin.hecho { outline: 2px solid var(--ink); outline-offset: 1px; }
+.pop h3 { margin: 0 0 4px; font: 700 14px/1.25 var(--f-display); }
+.pop .meta { color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.pop .warn { color: var(--muted); font-size: 12px; margin-top: 6px; }
+.pop .acts { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+
+/* Panel */
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; min-width: 0; }
+.tabs { display: flex; gap: 2px; padding: 6px; border-bottom: 1px solid var(--line); overflow-x: auto; }
+.tabs button { flex: 0 0 auto; border: 0; background: transparent; color: var(--ink-2); font: 600 13px var(--f-display); padding: 8px 11px; border-radius: 6px; cursor: pointer; letter-spacing: .01em; }
+.tabs button[aria-selected="true"] { background: var(--chip); color: var(--ink); }
+.pane { padding: 14px 16px 18px; max-height: min(80vh, 820px); overflow-y: auto; }
+@media (max-width: 960px) { .pane { max-height: none; } }
+.pane h2 { font: 700 18px/1.2 var(--f-display); margin: 4px 0 6px; text-wrap: balance; }
+.pane h3 { font: 700 14px var(--f-display); margin: 18px 0 6px; letter-spacing: .01em; }
+.pane p, .pane li { color: var(--ink-2); }
+.pane p { margin: 0 0 10px; }
+.pane ul, .pane ol { margin: 0 0 10px; padding-left: 20px; }
+.note { font-size: 12.5px; color: var(--muted); }
+.stop { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 8px; padding: 10px 0; border-top: 1px solid var(--line); }
+.stop:first-of-type { border-top: 0; }
+.stop .t { font-weight: 600; color: var(--ink); cursor: pointer; }
+.stop .t:hover { text-decoration: underline; }
+.stop .m { font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.stop .acts { display: flex; flex-wrap: wrap; gap: 6px 12px; margin-top: 4px; font-size: 13px; }
+.stop .acts a { color: var(--focus); }
+.chk { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; color: var(--ink-2); cursor: pointer; }
+.leg { display: inline-block; font: 700 11px var(--f-display); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 14px 0 2px; }
+.plan { background: var(--chip); border-radius: 8px; padding: 10px 12px; margin: 8px 0 12px; }
+.plan ol { margin: 0; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 6px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 12px var(--f-display); color: var(--muted); letter-spacing: .02em; }
+td.n, th.n { text-align: right; }
+.tw { overflow-x: auto; }
+.kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 8px 0 12px; }
+.kpi { border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; }
+.kpi b { display: block; font: 700 20px var(--f-display); font-variant-numeric: tabular-nums; }
+.kpi span { font-size: 12px; color: var(--ink-2); }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+.empty { color: var(--muted); font-size: 13px; padding: 10px 0; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } .leaflet-zoom-anim .leaflet-zoom-animated { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">Lativium · Supermercados de proximidad · Panamá</div>
+      <h1>Dónde abrir un súper de 250 m²</h1>
+      <p class="sub">Población del Censo 2023, Metro y los locales que el buscador encontró en alquiler. Toca un corregimiento, una estación o un local para ver el detalle.</p>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="toolbar" role="group" aria-label="Capas del mapa">
+    <span class="lbl">Locales:</span>
+    <button class="tog" id="tA" aria-pressed="true" data-p="A"><span class="dot A">A</span>Cumplen</button>
+    <button class="tog" id="tB" aria-pressed="true" data-p="B"><span class="dot B">B</span>Por confirmar</button>
+    <button class="tog" id="tC" aria-pressed="false" data-p="C"><span class="dot C">C</span>Negociar</button>
+    <button class="tog" id="tD" aria-pressed="false" data-p="D"><span class="dot D">D</span>Descartados</button>
+    <span class="lbl" style="margin-left:6px">Capas:</span>
+    <button class="tog" id="tPob" aria-pressed="true">Población</button>
+    <button class="tog" id="tMetro" aria-pressed="true">Metro</button>
+  </div>
+
+  <div class="layout">
+    <div class="mapbox">
+      <div id="map" role="region" aria-label="Mapa del área metropolitana de Panamá"></div>
+      <details class="legend" id="legend" open>
+        <summary>Población 2023 por corregimiento</summary>
+        <div class="ramp"><i style="background:var(--p1)"></i><i style="background:var(--p2)"></i><i style="background:var(--p3)"></i><i style="background:var(--p4)"></i><i style="background:var(--p5)"></i></div>
+        <div class="ramp-l"><span>&lt;35 mil</span><span>50</span><span>65</span><span>&gt;80 mil</span></div>
+        <div class="row"><span class="sw-nd"></span>Sin dato en el estudio</div>
+        <div class="more">
+          <div class="row"><span class="ln1"></span>Ola 1: abrir primero</div>
+          <div class="row"><span class="ln2"></span>Ola 2: asegurar locales en 2027</div>
+          <div class="row"><span class="lnm"></span>Metro, líneas 1 y 2</div>
+        </div>
+      </details>
+    </div>
+
+    <aside class="panel" aria-label="Plan y datos">
+      <div class="tabs" role="tablist">
+        <button role="tab" id="tab-ruta" aria-selected="true" aria-controls="p-ruta">Recorrido</button>
+        <button role="tab" id="tab-locales" aria-selected="false" aria-controls="p-locales">Locales</button>
+        <button role="tab" id="tab-zonas" aria-selected="false" aria-controls="p-zonas">Zonas</button>
+        <button role="tab" id="tab-estrategia" aria-selected="false" aria-controls="p-estrategia">Estrategia</button>
+        <button role="tab" id="tab-estudio" aria-selected="false" aria-controls="p-estudio">Estudio</button>
+      </div>
+
+      <section class="pane" id="p-ruta" role="tabpanel" aria-labelledby="tab-ruta">
+        <h2>Plan para mañana</h2>
+        <div class="plan">
+          <ol>
+            <li><b>8:30 a 10:00, llamadas.</b> Los locales A: confirmar que siguen libres, la dirección exacta, la planta y el precio con mantenimiento.</li>
+            <li><b>10:30 a 13:00, recorrido Este.</b> Los que respondan bien, de Pacora hacia Juan Díaz.</li>
+            <li><b>14:00 a 16:30, San Miguelito y Las Cumbres.</b> Cerca de las estaciones Los Andes, San Miguelito y Brisas del Golf.</li>
+            <li><b>Oeste (Burunga y La Chorrera)</b> en otro día: los locales están lejos del resto.</li>
+          </ol>
+        </div>
+        <p class="note">Ningún anuncio trae teléfono: se saca abriendo el anuncio. Hoy solo cuatro tienen dirección suficiente para ir sin llamar antes: Centro Comercial Pacora, Parque Logístico San Carlos (Las Mañanitas), Plaza Brisas (Brisas del Golf) y La Gran Estación (San Miguelito).</p>
+        <p class="note">Las paradas están en el orden en que conviene manejar. La posición en el mapa es aproximada: la dirección exacta sale de la llamada o del anuncio. Marca lo que vayas haciendo; queda guardado en este navegador.</p>
+        <div id="ruta"></div>
+      </section>
+
+      <section class="pane" id="p-locales" role="tabpanel" aria-labelledby="tab-locales" hidden>
+        <h2>Todos los locales</h2>
+        <div class="filters">
+          <label class="note" for="fGrupo">Zona</label>
+          <select id="fGrupo"><option value="">Todas</option><option>Este</option><option>Norte</option><option>San Miguelito</option><option>Oeste</option></select>
+          <label class="note" for="fPrio">Prioridad</label>
+          <select id="fPrio"><option value="AB">A y B</option><option value="A">Solo A</option><option value="ABC">A, B y C</option><option value="ABCD">Todos</option></select>
+        </div>
+        <div id="lista"></div>
+      </section>
+
+      <section class="pane" id="p-zonas" role="tabpanel" aria-labelledby="tab-zonas" hidden>
+        <h2>Centros de influencia</h2>
+        <p>Corregimientos donde coinciden población grande, crecimiento y flujo de Metro o buses. Orden del estudio.</p>
+        <div class="tw"><table id="tzonas"></table></div>
+        <p class="note">Población: Censo 2023 (INEC), tomada de resúmenes de búsqueda; verificar en el cuadro oficial antes de una presentación formal. Uso del Metro: participación en las validaciones de la Línea 2.</p>
+      </section>
+
+      <section class="pane" id="p-estrategia" role="tabpanel" aria-labelledby="tab-estrategia" hidden>
+        <h2>Estrategia de búsqueda de locales</h2>
+        <p><b>Meta:</b> 10 a 20 locales en racimo en Panamá Este y Norte durante 2027, y reservar 3 a 5 en Panamá Oeste antes de que abra la Línea 3 en 2028.</p>
+        <h3>Seis canales a la vez</h3>
+        <ol>
+          <li><b>Buscador automático.</b> Revisa portales tres veces al día, rota entre Este, Norte y Oeste, y agrega lo nuevo a esta lista con su prioridad.</li>
+          <li><b>Corredores comerciales.</b> Publicar el requerimiento en los grupos (VIP REALTORS, Pacífica) y trabajar con 3 a 5 corredores que publican locales, empezando por Alejandra Arias (MUS Real Estate). Ofrecer comisión clara por local cerrado.</li>
+          <li><b>Recorrido de campo.</b> Los letreros de «Se alquila» no salen en internet. Recorrer las vías de acceso a Nuevo Tocumen, 24 de Diciembre, Las Mañanitas y la Transístmica, y pedir el contacto a la administración de cada plaza.</li>
+          <li><b>Antiguos locales de Justo &amp; Bueno.</b> En 2022 devolvió unos 130 locales en Panamá, del mismo formato y en barrios. Ubicar esas direcciones y ver cuáles siguen libres o tienen un inquilino débil: ya tienen carga, frío y tráfico de súper.</li>
+          <li><b>Plazas en construcción.</b> Ofrecerse como ancla a los promotores: un súper atrae tráfico al resto de la plaza, y eso negocia renta de lanzamiento y adecuación a cargo del dueño.</li>
+          <li><b>Dueños directos.</b> Para un local sin corredor, sacar el número de finca y buscar al propietario en el Registro Público para proponerle el alquiler.</li>
+        </ol>
+        <h3>Filtro para no perder tiempo</h3>
+        <ul>
+          <li>Planta baja, a pie de calle o en plaza de barrio; nada de malls ni galeras.</li>
+          <li>220 a 400 m² arrendables, ideal 280 a 350.</li>
+          <li>Hasta US$15 por m² al mes; tope US$21 y US$6,500 en total.</li>
+          <li>Estacionamientos, acceso para camión y energía trifásica.</li>
+          <li>A más de 700 m de un supermercado de cadena.</li>
+        </ul>
+        <h3>Ritmo semanal</h3>
+        <div class="kpis">
+          <div class="kpi"><b>30</b><span>llamadas a anunciantes</span></div>
+          <div class="kpi"><b>8</b><span>visitas de campo</span></div>
+          <div class="kpi"><b>3</b><span>fichas completas para comité</span></div>
+          <div class="kpi"><b>1</b><span>oferta formal cuando haya racimo</span></div>
+        </div>
+        <h3>Guion de la llamada</h3>
+        <ol>
+          <li>¿Sigue disponible y desde cuándo?</li>
+          <li>Área exacta, frente y altura libre.</li>
+          <li>Alquiler, mantenimiento, ITBMS, depósito y aumentos.</li>
+          <li>Plazo mínimo y meses de gracia para adecuar.</li>
+          <li>¿Gris o terminado? ¿Trifásica y capacidad para frío y aire?</li>
+          <li>Estacionamientos y acceso de camión.</li>
+          <li>¿El uso de suelo permite súper y licor? ¿Hay exclusividad de otro inquilino?</li>
+          <li>¿Tiene revisión estructural después del sismo del 9 de octubre?</li>
+        </ol>
+      </section>
+
+      <section class="pane" id="p-estudio" role="tabpanel" aria-labelledby="tab-estudio" hidden>
+        <h2>Por qué 250 m² y por qué aquí</h2>
+        <div class="kpis">
+          <div class="kpi"><b>~17 %</b><span>más cara la canasta en abarroterías que en súper (ACODECO, 2025-2026)</span></div>
+          <div class="kpi"><b>1,400+ m²</b><span>formato principal de las cadenas: el escalón de 250 m² está vacío</span></div>
+          <div class="kpi"><b>US$0.8-1.05 M</b><span>ventas al año para cubrir costos por tienda</span></div>
+          <div class="kpi"><b>US$8-15</b><span>alquiler por m² que deja vivir el modelo</span></div>
+          <div class="kpi"><b>150-190</b><span>tiendas de proximidad caben en el área metropolitana</span></div>
+          <div class="kpi"><b>2028</b><span>abre la Línea 3 hacia Panamá Oeste</span></div>
+        </div>
+        <h3>Lo que dice el estudio</h3>
+        <ul>
+          <li>Las cadenas venden en cajas de 1,400 a más de 18,000 m²; entre ellas y la abarrotería no hay nadie con precio de cadena.</li>
+          <li>Primero Panamá Este y Norte: los corregimientos más poblados y las estaciones más usadas de la Línea 2.</li>
+          <li>La ventana se cierra: B-sí, el formato de descuento de la dueña de Grupo Rey, abrió en La Chorrera en agosto de 2026.</li>
+          <li>Cada tienda cuesta US$200-325 mil y necesita unos US$1.5 millones al año para recuperarse en tres años.</li>
+          <li>Crecer en racimos de 10 a 20 tiendas cerca de un centro de distribución, con capital propio: la lección de Justo &amp; Bueno.</li>
+        </ul>
+        <p class="note">Cifras del informe «Penetración supermercados 250 m2 Panamá» (noviembre de 2026). Vienen de resúmenes de búsqueda y deben verificarse antes de una decisión de inversión.</p>
+      </section>
+    </aside>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script>
+(function () {
+  "use strict";
+  const MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
+  const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const money = (n) => n == null ? "n/d" : "US$" + Math.round(n).toLocaleString("en-US");
+  const store = {
+    get(k) { try { return JSON.parse(localStorage.getItem("mapa-locales:" + k) || "null"); } catch (e) { return null; } },
+    set(k, v) { try { localStorage.setItem("mapa-locales:" + k, JSON.stringify(v)); } catch (e) {} },
+  };
+  const estado = store.get("estado") || {};
+
+  // Zonas del estudio (ranking de centros de influencia)
+  const ZONAS = [
+    ["1", "Tocumen", "Este", 89361, "+24 %", "L2 Nuevo Tocumen, 1.ª de la L2 (14.9 %)"],
+    ["1", "24 de Diciembre", "Este", 79965, "+22 %", "L2 24 de Diciembre, 2.ª de la L2 (14.7 %)"],
+    ["1", "Pacora", "Este", 70283, "+34 %", "Panamericana; vivienda social nueva"],
+    ["1", "Ernesto Córdoba Campos", "Norte", 71613, "+28 %", "Corredor Norte; L1 Villa Zaita"],
+    ["1", "Las Mañanitas", "Este", 45241, "+15 %", "L2 Las Mañanitas"],
+    ["1", "Las Cumbres", "Norte", 39923, "+21 %", "Transístmica; L1 Villa Zaita"],
+    ["1", "Alcalde Díaz", "Norte", 46976, "+14 %", "Transístmica norte"],
+    ["2", "La Chorrera (área urbana)", "Oeste", 205959, "+56 %", "Autopista; Zona Franca Atlapa"],
+    ["2", "Juan D. Arosemena", "Oeste", 66474, "n/d", "Corredor de la L3 (2028)"],
+    ["2", "Burunga", "Oeste", 51167, "n/d", "L3 Burunga (2028)"],
+    ["2", "Cerro Silvestre", "Oeste", 31567, "n/d", "L3 Cerro Silvestre (2028)"],
+    ["3", "Juan Díaz", "Este", 56583, "n/d", "Densidad más alta de la lista"],
+    ["3", "San Miguelito (nodos)", "San Miguelito", 280777, "−11 %", "Trasbordo L1-L2 y Los Andes: flujo, no residencia"],
+  ];
+  const ESTACIONES_CLAVE = {
+    "Nuevo Tocumen": "1.ª estación de la Línea 2 (14.9 % de las validaciones)",
+    "24 de Diciembre": "2.ª estación de la Línea 2 (14.7 %)",
+    "San Miguelito": "Trasbordo entre las líneas 1 y 2: la de más demanda del sistema",
+    "Los Andes": "La más usada de la Línea 1",
+    "Villa Zaita": "Fin de la Línea 1, abierta en abril de 2024",
+    "Las Mañanitas": "Nodo de la Línea 2 en Panamá Este",
+  };
+  const ORDEN_L2 = ["San Miguelito", "Paraíso", "Cincuentenario", "Villa Lucre", "El Crisol", "Brisas del Golf", "Cerro Viento", "San Antonio", "Pedregal", "Don Bosco", "Corredor Sur", "Las Mañanitas", "Hospital del Este", "Altos de Tocumen", "24 de Diciembre", "Nuevo Tocumen"];
+  const RAMAL = ["Corredor Sur", "ITSE", "Aeropuerto"];
+
+  const map = L.map("map", { zoomControl: true, attributionControl: true, minZoom: 9, maxZoom: 17, maxBounds: [[8.45, -80.3], [9.6, -78.85]], maxBoundsViscosity: 0.8, zoomSnap: 0.25, preferCanvas: false })
+    .setView([9.045, -79.52], 11);
+  map.attributionControl.setPrefix(false);
+  map.attributionControl.addAttribution("Límites: geoBoundaries · Población: INEC 2023");
+
+  let corr, metro, locales;
+  const capas = {};
+
+  function colorPob(p) {
+    if (p == null) return css("--land");
+    if (p < 35000) return css("--p1");
+    if (p < 50000) return css("--p2");
+    if (p < 65000) return css("--p3");
+    if (p < 80000) return css("--p4");
+    return css("--p5");
+  }
+  const pobOn = () => document.getElementById("tPob").getAttribute("aria-pressed") === "true";
+  function estiloCorr(f) {
+    const pr = f.properties, ola = pr.ola;
+    return {
+      fillColor: pobOn() ? colorPob(pr.pob) : css("--land"), fillOpacity: 0.92,
+      color: ola === 1 || ola === 2 ? css("--ink") : css("--ring"),
+      weight: ola === 1 ? 2.2 : ola === 2 ? 1.6 : 0.8,
+      dashArray: ola === 2 ? "6 4" : null, opacity: ola === 3 ? 0.9 : 1,
+    };
+  }
+
+  function popupCorr(pr) {
+    const n = locales.filter((l) => l.prioridad !== "D" && dentro(l, pr.nombre)).length;
+    const ola = pr.ola === 1 ? "Ola 1: abrir primero" : pr.ola === 2 ? "Ola 2: asegurar locales en 2027" : pr.ola === 3 ? "Oportunista" : "Fuera de las olas";
+    return `<div class="pop"><h3>${esc(pr.nombre)}</h3><div class="meta">${pr.pob ? "Población 2023: <b>" + pr.pob.toLocaleString("en-US") + "</b>" : "Sin dato de población en el estudio"}${pr.crec != null ? " · " + (pr.crec > 0 ? "+" : "") + pr.crec + " % desde 2010" : ""}</div><div class="meta">${ola}</div>${n ? `<div class="meta">${n} local${n > 1 ? "es" : ""} en seguimiento cerca</div>` : ""}</div>`;
+  }
+  // Un local pertenece al corregimiento si su punto cae dentro del polígono
+  function dentro(l, nombre) {
+    const f = corr.features.find((x) => x.properties.nombre === nombre);
+    if (!f) return false;
+    const pt = [l.lon, l.lat];
+    const polys = f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates;
+    return polys.some((poly) => enAnillo(pt, poly[0]) && !poly.slice(1).some((h) => enAnillo(pt, h)));
+  }
+  function enAnillo(p, r) {
+    let ins = false;
+    for (let i = 0, j = r.length - 1; i < r.length; j = i++) {
+      const [xi, yi] = r[i], [xj, yj] = r[j];
+      if ((yi > p[1]) !== (yj > p[1]) && p[0] < ((xj - xi) * (p[1] - yi)) / (yj - yi) + xi) ins = !ins;
+    }
+    return ins;
+  }
+
+  function dibujarCorr() {
+    if (capas.corr) map.removeLayer(capas.corr);
+    if (capas.etiquetas) map.removeLayer(capas.etiquetas);
+    capas.corr = L.geoJSON(corr, {
+      style: estiloCorr,
+      onEachFeature: (f, layer) => {
+        layer.on("click", (e) => L.popup().setLatLng(e.latlng).setContent(popupCorr(f.properties)).openOn(map));
+        layer.on("mouseover", () => layer.setStyle({ fillOpacity: 0.75 }));
+        layer.on("mouseout", () => layer.setStyle({ fillOpacity: 0.92 }));
+      },
+    }).addTo(map);
+    capas.corr.bringToBack();
+    capas.etiquetas = L.layerGroup(corr.features.filter((f) => f.properties.ola === 1 || f.properties.ola === 2).map((f) =>
+      L.tooltip({ permanent: true, direction: "center", className: "lab", interactive: false })
+        .setLatLng([f.properties.cy, f.properties.cx]).setContent(esc(f.properties.nombre.replace("(cabecera)", "")))
+    ));
+    if (map.getZoom() >= 11.5) capas.etiquetas.addTo(map);
+  }
+
+  function dibujarMetro() {
+    if (capas.metro) map.removeLayer(capas.metro);
+    const pos = Object.fromEntries(metro.map((s) => [s.nombre, [s.lat, s.lon]]));
+    const l1 = metro.filter((s) => s.linea === "L1").map((s) => [s.lat, s.lon]);
+    const l2 = ORDEN_L2.map((n) => pos[n]).filter(Boolean);
+    const ramal = RAMAL.map((n) => pos[n]).filter(Boolean);
+    const linea = (pts, w) => [
+      L.polyline(pts, { color: css("--ring"), weight: w + 3, opacity: 1, interactive: false }),
+      L.polyline(pts, { color: css("--ink-2"), weight: w, opacity: 1, interactive: false }),
+    ];
+    const grupo = [...linea(l1, 3), ...linea(l2, 3), ...linea(ramal, 2)];
+    metro.forEach((s) => {
+      const clave = ESTACIONES_CLAVE[s.nombre];
+      const m = L.circleMarker([s.lat, s.lon], { radius: clave ? 6 : 3.5, color: css("--ink"), weight: clave ? 2.5 : 1.5, fillColor: css("--surface"), fillOpacity: 1 });
+      m.bindTooltip(`<b>${esc(s.nombre)}</b> · Línea ${s.linea.slice(1)}${clave ? "<br>" + esc(clave) : ""}`, { className: "tip", direction: "top", offset: [0, -6] });
+      grupo.push(m);
+      if (clave) grupo.push(L.tooltip({ permanent: true, direction: "right", offset: [8, 0], className: "lab est", interactive: false }).setLatLng([s.lat, s.lon]).setContent("Ⓜ " + esc(s.nombre)));
+    });
+    capas.metro = L.layerGroup(grupo);
+    if (document.getElementById("tMetro").getAttribute("aria-pressed") === "true") capas.metro.addTo(map);
+  }
+
+  const marcadores = {};
+  function visibles() { return ["A", "B", "C", "D"].filter((p) => document.getElementById("t" + p).getAttribute("aria-pressed") === "true"); }
+  function iconoPara(l) {
+    const hecho = estado[l.id] && (estado[l.id].llamado || estado[l.id].visitado);
+    return L.divIcon({ className: "", html: `<div class="pin ${l.prioridad}${hecho ? " hecho" : ""}">${l.prioridad}</div>`, iconSize: [22, 22], iconAnchor: [11, 11], popupAnchor: [0, -10] });
+  }
+  function popupLocal(l) {
+    const datos = [l.area ? l.area.toLocaleString("en-US") + " m²" : "área n/d", l.precio ? money(l.precio) + "/mes" : "alquiler n/d", l.por_m2 ? "US$" + l.por_m2 + "/m²" : null].filter(Boolean).join(" · ");
+    const quien = [l.anunciante, l.telefono].filter(Boolean).join(" · ");
+    const conf = l.descarte ? "Descartado: " + l.descarte : (l.confirmar && l.confirmar.length ? "Confirmar: " + l.confirmar.join("; ") : "");
+    return `<div class="pop"><h3>${esc(l.titulo || "Local sin título")}</h3>
+      <div class="meta"><span class="dot ${l.prioridad}">${l.prioridad}</span> ${esc(l.zona || "")} · ${esc(datos)}</div>
+      ${l.ubicacion ? `<div class="meta">${esc(l.ubicacion)}</div>` : ""}
+      ${quien ? `<div class="meta">Anunciante: ${esc(quien)}</div>` : ""}
+      ${conf ? `<div class="warn">${esc(conf)}</div>` : ""}
+      <div class="warn">Posición ${esc(l.precision)}.</div>
+      <div class="acts"><a href="${esc(l.url)}" target="_blank" rel="noopener">${l.es_listado ? "Abrir listado" : "Abrir anuncio"}</a><a href="${esc(mapsUrl(l))}" target="_blank" rel="noopener">Buscar en Google Maps</a></div></div>`;
+  }
+  function mapsUrl(l) {
+    const u = String(l.ubicacion || "");
+    const q = /plaza|centro comercial|mall|v[ií]a |avenida|ave\.|calle|frente|al lado/i.test(u) ? u.split(/[;(]/)[0] + ", Panamá" : (l.zona || "") + ", Panamá";
+    return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q);
+  }
+  function dibujarLocales() {
+    if (capas.locales) map.removeLayer(capas.locales);
+    const vis = visibles();
+    const ms = [];
+    locales.forEach((l) => {
+      if (!vis.includes(l.prioridad)) return;
+      const m = L.marker([l.lat, l.lon], { icon: iconoPara(l), keyboard: true, title: (l.titulo || "Local") + " (" + l.prioridad + ")", zIndexOffset: { A: 300, B: 200, C: 100, D: 0 }[l.prioridad] });
+      m.bindPopup(() => popupLocal(l), { maxWidth: 320 });
+      marcadores[l.id] = m;
+      ms.push(m);
+    });
+    capas.locales = L.layerGroup(ms).addTo(map);
+  }
+  function irA(id) {
+    const l = locales.find((x) => x.id === id);
+    if (!l) return;
+    const tog = document.getElementById("t" + l.prioridad);
+    if (tog.getAttribute("aria-pressed") !== "true") { tog.setAttribute("aria-pressed", "true"); dibujarLocales(); }
+    map.flyTo([l.lat, l.lon], Math.max(map.getZoom(), 14), { duration: matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 0.8 });
+    setTimeout(() => marcadores[l.id] && marcadores[l.id].openPopup(), 850);
+    if (window.innerWidth <= 960) document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function fila(l, num) {
+    const e = estado[l.id] || {};
+    const datos = [l.area ? l.area.toLocaleString("en-US") + " m²" : null, l.precio ? money(l.precio) + "/mes" : null, l.por_m2 ? "US$" + l.por_m2 + "/m²" : null].filter(Boolean).join(" · ") || "Área y precio por confirmar";
+    return `<div class="stop"><div><span class="dot ${l.prioridad}" title="Prioridad ${l.prioridad}">${num || l.prioridad}</span></div>
+      <div style="min-width:0"><div class="t" data-ir="${l.id}" tabindex="0" role="button">${esc(l.titulo || "Local sin título")}</div>
+      <div class="m">${esc(l.zona || "")} · ${esc(datos)}</div>
+      ${l.confirmar && l.confirmar.length ? `<div class="m note">Confirmar: ${esc(l.confirmar.join("; "))}</div>` : ""}
+      <div class="acts"><a href="${esc(l.url)}" target="_blank" rel="noopener">${l.es_listado ? "Listado" : "Anuncio"}</a><a href="${esc(mapsUrl(l))}" target="_blank" rel="noopener">Maps</a>
+      <label class="chk"><input type="checkbox" id="ll-${l.id}" data-k="llamado" data-id="${l.id}" ${e.llamado ? "checked" : ""}> Llamado</label>
+      <label class="chk"><input type="checkbox" id="vi-${l.id}" data-k="visitado" data-id="${l.id}" ${e.visitado ? "checked" : ""}> Visitado</label></div></div></div>`;
+  }
+
+  function pintarRuta() {
+    const orden = {
+      "Este": (a, b) => b.lon - a.lon,
+      "San Miguelito": (a, b) => b.lat - a.lat,
+      "Norte": (a, b) => b.lat - a.lat,
+      "Oeste": (a, b) => b.lon - a.lon,
+    };
+    const titulos = { "Este": "Recorrido Este · mañana 10:30", "San Miguelito": "San Miguelito · mañana 14:00", "Norte": "Las Cumbres y Alcalde Díaz · al final de la tarde", "Oeste": "Oeste · otro día" };
+    let html = "", n = 0;
+    ["Este", "San Miguelito", "Norte", "Oeste"].forEach((g) => {
+      const a = locales.filter((l) => l.grupo === g && l.prioridad === "A").sort(orden[g]);
+      const extra = locales.filter((l) => l.grupo === g && l.prioridad === "B" && l.puntos >= 6).sort(orden[g]).slice(0, g === "Norte" ? 3 : 2);
+      if (!a.length && !extra.length) return;
+      html += `<span class="leg">${titulos[g]}</span>`;
+      a.forEach((l) => { n += 1; html += fila(l, n); });
+      if (extra.length) html += `<div class="m note" style="margin-top:6px">Si sobra tiempo, por confirmar:</div>` + extra.map((l) => fila(l)).join("");
+    });
+    document.getElementById("ruta").innerHTML = html || `<p class="empty">No hay locales A todavía.</p>`;
+  }
+  function pintarLista() {
+    const g = document.getElementById("fGrupo").value, p = document.getElementById("fPrio").value;
+    const xs = locales.filter((l) => p.includes(l.prioridad) && (!g || l.grupo === g));
+    document.getElementById("lista").innerHTML = xs.length ? xs.map((l) => fila(l)).join("") : `<p class="empty">Ningún local con ese filtro.</p>`;
+  }
+  function pintarZonas() {
+    document.getElementById("tzonas").innerHTML = `<thead><tr><th>Ola</th><th>Zona</th><th class="n">Pob. 2023</th><th class="n">Crec.</th><th>Nodo</th><th class="n">Locales</th></tr></thead><tbody>` +
+      ZONAS.map(([ola, z, sector, pob, crec, nodo]) => {
+        const nl = locales.filter((l) => l.prioridad !== "D" && (l.zona || "").toLowerCase().startsWith(z.split(" (")[0].toLowerCase().slice(0, 8))).length;
+        return `<tr><td>${ola}</td><td>${esc(z)}</td><td class="n">${pob.toLocaleString("en-US")}</td><td class="n">${esc(crec)}</td><td>${esc(nodo)}</td><td class="n">${nl || "—"}</td></tr>`;
+      }).join("") + `</tbody>`;
+  }
+  function pintarStats() {
+    const act = locales.filter((l) => l.prioridad !== "D");
+    const a = locales.filter((l) => l.prioridad === "A").length;
+    const ult = locales.map((l) => l.primera_vez).sort().pop() || "";
+    const f = ult ? new Date(ult + "T12:00:00") : null;
+    document.getElementById("stats").innerHTML =
+      `<div class="stat"><b>${act.length}</b><span>locales en seguimiento</span></div>` +
+      `<div class="stat"><b>${a}</b><span>cumplen área y precio</span></div>` +
+      `<div class="stat"><b>${metro.length}</b><span>estaciones de Metro</span></div>` +
+      (f ? `<div class="stat"><b>${f.getDate()} ${MESES[f.getMonth()]}</b><span>último anuncio nuevo</span></div>` : "");
+  }
+
+  document.addEventListener("change", (e) => {
+    const t = e.target;
+    if (t.matches("input[data-id]")) {
+      const id = t.dataset.id;
+      estado[id] = Object.assign({}, estado[id], { [t.dataset.k]: t.checked });
+      store.set("estado", estado);
+      document.querySelectorAll(`input[data-id="${id}"][data-k="${t.dataset.k}"]`).forEach((x) => { x.checked = t.checked; });
+      if (marcadores[id]) marcadores[id].setIcon(iconoPara(locales.find((l) => l.id === id)));
+    }
+    if (t.id === "fGrupo" || t.id === "fPrio") { pintarLista(); store.set("filtros", { g: document.getElementById("fGrupo").value, p: document.getElementById("fPrio").value }); }
+  });
+  document.addEventListener("click", (e) => {
+    const ir = e.target.closest("[data-ir]");
+    if (ir) irA(ir.dataset.ir);
+  });
+  document.addEventListener("keydown", (e) => {
+    const ir = e.target.closest && e.target.closest("[data-ir]");
+    if (ir && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); irA(ir.dataset.ir); }
+  });
+  document.querySelectorAll(".tog").forEach((b) => b.addEventListener("click", () => {
+    b.setAttribute("aria-pressed", b.getAttribute("aria-pressed") === "true" ? "false" : "true");
+    if (b.dataset.p) dibujarLocales();
+    else if (b.id === "tPob") capas.corr.setStyle(estiloCorr);
+    else if (b.id === "tMetro") { if (b.getAttribute("aria-pressed") === "true") capas.metro.addTo(map); else map.removeLayer(capas.metro); }
+  }));
+  const tabs = [...document.querySelectorAll('[role="tab"]')];
+  function abrirTab(t) {
+    tabs.forEach((x) => { const on = x === t; x.setAttribute("aria-selected", on); document.getElementById(x.getAttribute("aria-controls")).hidden = !on; });
+    store.set("tab", t.id);
+  }
+  tabs.forEach((t) => t.addEventListener("click", () => abrirTab(t)));
+  map.on("zoomend", () => { if (!capas.etiquetas) return; if (map.getZoom() >= 11.5) capas.etiquetas.addTo(map); else map.removeLayer(capas.etiquetas); });
+
+  // Re-pinta el mapa cuando cambia el tema
+  const repintar = () => { if (!corr) return; dibujarCorr(); dibujarMetro(); dibujarLocales(); };
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", repintar);
+  new MutationObserver(repintar).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+
+  Promise.all(["datos/corregimientos.json", "datos/metro.json", "datos/locales.json"].map((u) => fetch(u).then((r) => { if (!r.ok) throw new Error(u); return r.json(); })))
+    .then(([c, m, l]) => {
+      corr = c; metro = m; locales = l;
+      dibujarCorr(); dibujarMetro(); dibujarLocales();
+      const f = store.get("filtros"); if (f) { document.getElementById("fGrupo").value = f.g || ""; document.getElementById("fPrio").value = f.p || "AB"; }
+      pintarRuta(); pintarLista(); pintarZonas(); pintarStats();
+      const t = store.get("tab"); const tb = t && document.getElementById(t); if (tb) abrirTab(tb);
+      const a = locales.filter((x) => x.prioridad === "A");
+      map.invalidateSize();
+      if (window.innerWidth <= 600) { const lg = document.getElementById("legend"); if (lg) lg.open = false; }
+      if (a.length) map.fitBounds(L.latLngBounds(a.map((x) => [x.lat, x.lon])).pad(0.12), { maxZoom: 12 });
+    })
+    .catch((err) => {
+      document.getElementById("ruta").innerHTML = `<p class="empty">No se pudieron cargar los datos del mapa (${esc(err.message)}). Recarga la página.</p>`;
+    });
+})();
+</script>
