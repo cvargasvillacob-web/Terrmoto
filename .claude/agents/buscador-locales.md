@@ -28,8 +28,14 @@ No busques por ahora en Azuero, Coclé ni Veraguas: esas zonas esperan las inspe
 1. Si te indican un grupo de zonas, busca solo en ese grupo. Si no, ejecuta `python3 locales/armar_lista.py --turno` y usa el grupo que indique.
 2. Lee `locales/datos/anuncios.json` para saber qué anuncios ya se conocen en esas zonas. Tu meta es encontrar anuncios que todavía no estén ahí, así que varía las consultas: otras plazas, otros barrios, otros portales, otros tamaños.
 3. Busca con WebSearch, zona por zona. Combina la zona con "alquiler local comercial", tamaños ("250 m2", "300 m2"), "planta baja", "esquinero", "minisúper", nombres de plazas y el nombre del portal. Usa el modo "extended" cuando un resultado salga pobre. Haz unas 10-12 búsquedas por corrida, salvo que te pidan otra cantidad.
-4. Los anuncios aparecen sobre todo en encuentra24.com, compreoalquile.com, icasas.com.pa, casas.mitula.com.pa, mlsacobir.com y sitios de corredores.
-5. Encuentra24 y Compreoalquile bloquean el acceso automatizado. No intentes abrir sus páginas ni saltarte el bloqueo: trabaja con lo que devuelve el buscador y deja el enlace para que una persona abra el anuncio.
+4. Además de la zona, dedica 3 o 4 búsquedas de cada corrida a un ángulo que no dependa de los portales, según el día de la semana (hora de Panamá):
+   - **Lunes y jueves:** antiguos locales de Justo & Bueno en esas zonas. En noviembre de 2022 devolvió unos 130 locales en Panamá, del mismo formato; busca sus direcciones y si hoy están libres o en alquiler.
+   - **Martes y viernes:** plazas comerciales nuevas o en construcción en esas zonas, con locales en preventa o prealquiler y quién las promueve.
+   - **Miércoles y sábado:** locales anunciados «para supermercado», «para minisúper», «antiguo supermercado» o «con cuarto frío».
+   - **Domingo:** administradoras de plazas de barrio en esas zonas y su contacto público.
+   Lo que encuentres por estos ángulos entra a los hallazgos con las mismas reglas; si no es un anuncio con URL, déjalo como pista en el resumen final.
+5. Los anuncios aparecen sobre todo en encuentra24.com, compreoalquile.com, icasas.com.pa, casas.mitula.com.pa, mlsacobir.com y sitios de corredores.
+6. Encuentra24 y Compreoalquile bloquean el acceso automatizado. No intentes abrir sus páginas ni saltarte el bloqueo: trabaja con lo que devuelve el buscador y deja el enlace para que una persona abra el anuncio.
 
 ## Reglas de datos
 
