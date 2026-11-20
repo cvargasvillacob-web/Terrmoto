@@ -1,12 +1,12 @@
 *Locales para supermercado de 250 m²*
 Reporte del 20 nov 2026
 
-En seguimiento: 101 anuncios (19 A · 66 B · 16 C)
-Nuevos en las últimas 24 horas: 65
+En seguimiento: 103 anuncios (19 A · 68 B · 16 C)
+Nuevos en las últimas 24 horas: 51
 
 *Prioridad A: llamar primero (19)*
 1. Pacora — Locales en Centro Comercial Pacora (ID 13263) - US$4,503 USD
-   300.24 m² · US$4,503/mes · US$15/m² · NUEVO
+   300.24 m² · US$4,503/mes · US$15/m²
    https://dpanamarealestate.com/local-alquiler-pacora/8256765
 2. Las Cumbres — Local en Plaza La Villa, Las Cumbres, 400 m2 sobre la calle principal
    400 m² · US$3,200/mes · US$8/m²
@@ -21,13 +21,13 @@ Nuevos en las últimas 24 horas: 65
    339 m² · US$1,500/mes · US$4.4/m²
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/commercial-premises-for-rent-on-the-ground-floor-in-la-chorrera/30638478
 6. La Chorrera — Local de 339 m² en plaza de Costa Verde (título exacto no visible en…
-   339 m² · US$2,500/mes · US$7.4/m² · NUEVO
+   339 m² · US$2,500/mes · US$7.4/m²
    https://www.icasas.com.pa/alquiler/locales/chorrera/p_2
 7. La Chorrera — Local Comercial En Alquiler En La Chorrera Id2781
-   300 m² · US$2,400/mes · US$8/m² · NUEVO
+   300 m² · US$2,400/mes · US$8/m²
    https://casas.mitula.com.pa/locales-comerciales-planta-baja-chorrera
 8. La Chorrera — Se Renta Local Comercial en La Chorrera - Ave. Mariano Rivera
-   350 m² · US$3,000/mes · US$8.6/m² · NUEVO
+   350 m² · US$3,000/mes · US$8.6/m²
    https://casas.mitula.com.pa/alquiler-locales-comerciales-planta-baja-st-chorrera
 9. 24 de Diciembre — Alquiler Local 241 m² en La 24 Diciembre Tocumen Kaf
    240 m² · US$5,000/mes · US$20.8/m²
@@ -63,31 +63,31 @@ Nuevos en las últimas 24 horas: 65
    307 m² · US$4,928/mes · US$16.1/m² · NUEVO
    https://www.icasas.com.pa/alquiler/locales/san-miguelito
 
-*Otros nuevos, con datos por confirmar (55)*
+*Otros nuevos, con datos por confirmar (45)*
 • Las Cumbres — Local rental milla8 ... mezanine 300meters, Las Lajas (título parcial…
    300 m² · US$1,000/mes · US$3.3/m² · NUEVO
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/prov-panama-panama-city-las-cumbres
 • Las Cumbres — Local de 400 m² en Las Lajas, Milla 8, dos niveles, 15 estacionamient…
    400 m² · US$2,500/mes · US$6.2/m² · NUEVO
    https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/prov-panama-ciudad-de-panama-las-cumbres
+• Arraiján — 290 M2 CÉNTRICO LOCAL CERCA DE TRANSITO (iCasas: 'Local en Cocolí, Ar…
+   290 m² · US$4,350/mes · US$15/m² · NUEVO
+   https://www.icasas.com.pa/alquiler/locales/arraijan/p_2
 • Tocumen — Plaza Las Americas - Se Alquila Local Comercial
    180 m² · US$1,500/mes · US$8.3/m² · NUEVO
    https://www.compreoalquile.com/propiedades/plaza-las-americas-se-alquila-local-comercial-946285.html
 • La Chorrera — LOCAL COMERCIAL PARA TALLER DE MECÁNICO CHORRERA
    250 m² · US$2,000/mes · US$8/m² · NUEVO
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-comercial-para-taller-de-mecanico-chorrera/33288989
-• 24 de Diciembre — Local de 273 m² (2 locales unidos) en Centro Comercial La Doña (títul…
-   273 m² · NUEVO
-   https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/prov-panama-ciudad-de-panama-24-de-diciembre.2
-• Ernesto Córdoba Campos — VILLA ZAITA / CASA COMERCIAL / 2 NIVELES / 830M / 20 PARKING
-   400 m² · NUEVO
-   https://www.encuentra24.com/panama-es/bienes-raices-alquiler-casas/villa-zaita-casa-comercial-2-niveles-830m-20-parking/31792894
 • La Chorrera — Local de 210 m² en Costa Verde (título exacto no visible en el result…
    210 m² · US$3,045/mes · US$14.5/m² · NUEVO
    https://casas.mitula.com.pa/alquiler-locales-comerciales-st-chorrera
-• San Miguelito — Local de 380 m² en La Castellana (título exacto no visible en el resu…
-   380 m² · US$2,500/mes · US$6.6/m² · NUEVO
-   https://panama.mercad.net/alquiler/locales-comerciales/san-miguelito
-…y 47 más en la lista completa.
+• Ernesto Córdoba Campos — Se alquila Local Comercial Villa Zaita - US$15 USD
+   datos por confirmar · NUEVO
+   https://coworkersrealty.com/isla-alquiler-villa-zaita-ciudad-de-panama/3889688
+• 24 de Diciembre — Local de 204 m² en La Doña (título exacto no visible en el resultado)
+   204 m² · NUEVO
+   https://www.compreoalquile.com/locales-comerciales-en-24-de-diciembre-q-24.html
+…y 37 más en la lista completa.
 
 _Datos tomados del buscador web: confirmar área, precio y vigencia al llamar._
