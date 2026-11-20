@@ -1,10 +1,10 @@
 *Locales para supermercado de 250 m²*
 Reporte del 19 nov 2026
 
-En seguimiento: 63 anuncios (15 A · 38 B · 10 C)
-Nuevos en las últimas 24 horas: 63
+En seguimiento: 70 anuncios (18 A · 40 B · 12 C)
+Nuevos en las últimas 24 horas: 70
 
-*Prioridad A: llamar primero (15)*
+*Prioridad A: llamar primero (18)*
 1. Pacora — Locales en Centro Comercial Pacora (ID 13263) - US$4,503 USD
    300.24 m² · US$4,503/mes · US$15/m² · NUEVO
    https://dpanamarealestate.com/local-alquiler-pacora/8256765
@@ -50,8 +50,17 @@ Nuevos en las últimas 24 horas: 63
 15. San Miguelito — Local de 380 m² en La Castellana (título exacto no visible en el resu…
    380 m² · US$2,500/mes · US$6.6/m² · NUEVO
    https://panama.mercad.net/alquiler/locales-comerciales/san-miguelito
+16. San Miguelito — alquiler Local en Omar Torrijos, San Miguelito (8137040)
+   260 m² · US$2,600/mes · US$10/m² · NUEVO
+   https://www.icasas.com.pa/propiedad/5090-9571-19246fe-49e5ad2d80c5-7329
+17. San Miguelito — ¡LOCAL COMERCIAL EN ALQUILER EN SAN MIGUELITO – GRAN ESTACIÓN!
+   352 m² · US$3,780/mes · US$10.7/m² · NUEVO
+   https://www.icasas.com.pa/alquiler/locales/san-miguelito/p_4
+18. San Miguelito — Local Comercial sobre la vía España (icasas lo lista en Victoriano Lo…
+   307 m² · US$4,928/mes · US$16.1/m² · NUEVO
+   https://www.icasas.com.pa/alquiler/locales/san-miguelito
 
-*Otros nuevos, con datos por confirmar (48)*
+*Otros nuevos, con datos por confirmar (52)*
 • Alcalde Díaz — AMPLIO LOCAL EN ALQUILER (Milla 8, Las Cumbres)
    400 m² · US$2,700/mes · US$6.8/m² · NUEVO
    https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/amplio-local-en-alquiler-milla-8-las-cumbres/32131275
@@ -76,6 +85,6 @@ Nuevos en las últimas 24 horas: 63
 • 24 de Diciembre — Local de 273 m² (2 locales unidos) en Centro Comercial La Doña (títul…
    273 m² · NUEVO
    https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/prov-panama-ciudad-de-panama-24-de-diciembre.2
-…y 40 más en la lista completa.
+…y 44 más en la lista completa.
 
 _Datos tomados del buscador web: confirmar área, precio y vigencia al llamar._
