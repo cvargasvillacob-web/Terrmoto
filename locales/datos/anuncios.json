@@ -103,9 +103,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Local nuevo/a estrenar en Plaza Las Mañanitas: 187.30 m² en planta baja y 166.10 m² en planta alta (353 m² en total); el extracto no muestra precio",
-  "notas": "Anuncio individual. Precio no aparece en el resultado. Son dos niveles: la planta baja sola (187 m²) queda fuera de rango para sala de ventas; preguntar si la planta alta sirve de depósito. Sin fecha en el resultado: verificar vigencia. En la misma plaza se anuncia un local de 137 m² a $1,200 (referencia de precio, ~$8.8/m², cálculo propio). Sin teléfono en el resultado.",
+  "notas": "Anuncio individual. Precio no aparece en el resultado. Son dos niveles: la planta baja sola (187 m²) queda fuera de rango para sala de ventas; preguntar si la planta alta sirve de depósito. Sin fecha en el resultado: verificar vigencia. En la misma plaza se anuncia un local de 137 m² a $1,200 (referencia de precio, ~$8.8/m², cálculo propio). Sin teléfono en el resultado. [20 nov, 05:00] Reapareció en dos búsquedas. Dato nuevo: 'Actualizado el: 23/05/2026', casi seis meses atrás, así que hay que verificar la vigencia. Otro aviso, de julio de 2026 y sin URL identificada, ofrece EN VENTA la plaza completa ('Se VENDE PLAZA COMERCIAL Las Mañanitas, a estrenar'): si cambia de dueño, confirmar quién firma el contrato. El precio sigue sin aparecer.",
   "primera_vez": "2026-11-19T00:25-05:00",
-  "ultima_vez": "2026-11-19T12:34-05:00"
+  "ultima_vez": "2026-11-20T05:02-05:00"
  },
  {
   "zona": "24 de Diciembre",
@@ -120,10 +120,10 @@
   "url": "https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/rental-local-ferra-felipillo-via-panamericana-sp/32525610",
   "url_es_listado": false,
   "portal": "encuentra24",
-  "evidencia": "Local en Felipillo, sobre vía Panamericana, zonificación C2, se alquila en USD 1,900",
-  "notas": "Anuncio individual. Área NO aparece en el resultado: preguntar metraje, planta y estacionamiento. Zonificación C2 (comercio). Sin teléfono ni fecha en el resultado.",
+  "evidencia": "Local en Felipillo, sobre vía Panamericana, zonificación C2, se alquila en USD 1,900. [20 nov] Inmueble de dos plantas, 'área construida de 699 mts2', tres locales en planta baja y dos apartamentos arriba; venta $330,000.",
+  "notas": "Anuncio individual. Área NO aparece en el resultado: preguntar metraje, planta y estacionamiento. Zonificación C2 (comercio). Sin teléfono ni fecha en el resultado. [20 nov, 05:00] Reapareció. Dato nuevo del resultado: es un inmueble de dos plantas con 699 m² de área construida, con tres locales en planta baja y dos apartamentos arriba; se alquila en US$1,900 y se vende en US$330,000. No queda claro si los US$1,900 son por un local o por todo el inmueble, y el área de cada local de planta baja no aparece: preguntar si se pueden alquilar los tres locales juntos y cuánto miden.",
   "primera_vez": "2026-11-19T00:25-05:00",
-  "ultima_vez": "2026-11-19T00:25-05:00"
+  "ultima_vez": "2026-11-20T05:02-05:00"
  },
  {
   "zona": "Tocumen",
@@ -211,9 +211,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Local de 333 m² en venta o alquiler, 2 baños y estacionamiento; actualizado 01/08/2026; precio de venta $535,000; alquiler no indicado",
-  "notas": "Zona oportunista, prioridad baja. Anuncio individual publicado en la sección de ventas (venta o alquiler). Alquiler NO aparece en el resultado. Área ideal, pero está dentro de un centro comercial grande, no en plaza de barrio: puede no cumplir el criterio de tipo. Sin teléfono en el resultado. Corrida del 19 nov, 15:30: volvió a aparecer en el buscador, sin datos nuevos.",
+  "notas": "Zona oportunista, prioridad baja. Anuncio individual publicado en la sección de ventas (venta o alquiler). Alquiler NO aparece en el resultado. Área ideal, pero está dentro de un centro comercial grande, no en plaza de barrio: puede no cumplir el criterio de tipo. Sin teléfono en el resultado. Corrida del 19 nov, 15:30: volvió a aparecer en el buscador, sin datos nuevos. [20 nov, 05:00] Reapareció en tres búsquedas de Juan Díaz, sin datos nuevos.",
   "primera_vez": "2026-11-19T00:25-05:00",
-  "ultima_vez": "2026-11-19T15:35-05:00"
+  "ultima_vez": "2026-11-20T05:02-05:00"
  },
  {
   "zona": "Las Cumbres",
@@ -823,9 +823,9 @@
   "url_es_listado": false,
   "portal": "otro",
   "evidencia": "dpanamarealestate.com: \"Locales en Centro Comercial Pacora (ID 13263) - US$4,503 USD\". Resumen del buscador: alquiler mensual de US$4,503 y área construida de 300.24 m²; el Local 1 mide 300.24 m² y hay otras unidades de 146.45 m² y 121.08 m², a $15.00 por m²; Vía Interamericana, diagonal a la entrada de Pacora. Compreoalquile: \"Local comercial · 300m² · Locales en Centro Comercial Pacora (Id 13263)\".",
-  "notas": "Anuncio individual en el sitio de un corredor (dpanamarealestate.com; el nombre del corredor no aparece literalmente en el resultado). El anuncio agrupa tres unidades, pero precisa que el Local 1 mide 300.24 m², y el precio del título cuadra con esa unidad (300.24 × $15 ≈ $4,503, cálculo propio): por eso se anotan área y precio. Área ideal y alquiler justo en el límite del ideal (US$15/m²); total bajo US$4,800. Las otras dos unidades (146.45 y 121.08 m²) suman ~267.5 m² (cálculo propio): preguntar si son contiguas, como alternativa. POR CONFIRMAR: planta; vigencia (el resultado no trae fecha de publicación; dice que la construcción es de 2010); mantenimiento (figura 'US$1', que parece un valor de relleno); estacionamiento y acceso de camión; qué inquilinos tiene el centro comercial y si ya hay un supermercado de cadena dentro o cerca. Verificar que sea una plaza abierta con frente a la vía y no una galera: en la corrida anterior Pacora solo dio galeras. El mismo aviso (Id 13263, 300 m², 'USD 1 Expensas') aparece en el listado de Compreoalquile: https://www.compreoalquile.com/propiedades-en-alquiler-en-pacora.html. Sin teléfono en el resultado. Corrida del 19 nov, 15:30: la ficha volvió a aparecer en el buscador (US$15.00 por m², metrajes desde unos 121 m²), sin datos nuevos. Corrida del 20 nov: reapareció en una búsqueda de Pacora (300 m², US$4,503, US$15.00 por m²), sin datos nuevos de ubicación, planta ni contacto. En la misma búsqueda Compreoalquile mostró en Pacora locales de 105 m² a US$1,500 y de 77.5 m² a US$770; no se sabe si son de este centro comercial.",
+  "notas": "Anuncio individual en el sitio de un corredor (dpanamarealestate.com; el nombre del corredor no aparece literalmente en el resultado). El anuncio agrupa tres unidades, pero precisa que el Local 1 mide 300.24 m², y el precio del título cuadra con esa unidad (300.24 × $15 ≈ $4,503, cálculo propio): por eso se anotan área y precio. Área ideal y alquiler justo en el límite del ideal (US$15/m²); total bajo US$4,800. Las otras dos unidades (146.45 y 121.08 m²) suman ~267.5 m² (cálculo propio): preguntar si son contiguas, como alternativa. POR CONFIRMAR: planta; vigencia (el resultado no trae fecha de publicación; dice que la construcción es de 2010); mantenimiento (figura 'US$1', que parece un valor de relleno); estacionamiento y acceso de camión; qué inquilinos tiene el centro comercial y si ya hay un supermercado de cadena dentro o cerca. Verificar que sea una plaza abierta con frente a la vía y no una galera: en la corrida anterior Pacora solo dio galeras. El mismo aviso (Id 13263, 300 m², 'USD 1 Expensas') aparece en el listado de Compreoalquile: https://www.compreoalquile.com/propiedades-en-alquiler-en-pacora.html. Sin teléfono en el resultado. Corrida del 19 nov, 15:30: la ficha volvió a aparecer en el buscador (US$15.00 por m², metrajes desde unos 121 m²), sin datos nuevos. Corrida del 20 nov: reapareció en una búsqueda de Pacora (300 m², US$4,503, US$15.00 por m²), sin datos nuevos de ubicación, planta ni contacto. En la misma búsqueda Compreoalquile mostró en Pacora locales de 105 m² a US$1,500 y de 77.5 m² a US$770; no se sabe si son de este centro comercial. [20 nov, 05:00] Reapareció en una búsqueda de Pacora ('Área Construida: 300.24 m²', US$4,503, administración 'US$1'), sin datos nuevos de planta, estacionamiento ni contacto.",
   "primera_vez": "2026-11-19T12:34-05:00",
-  "ultima_vez": "2026-11-20T00:57-05:00"
+  "ultima_vez": "2026-11-20T05:02-05:00"
  },
  {
   "zona": "24 de Diciembre",
@@ -877,9 +877,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Resultado titulado \"Comercial in Pacora Local commercial rental\" (Encuentra24), devuelto en dos búsquedas; ninguna ligó área ni precio a esta URL.",
-  "notas": "Solo sirve como pista: anuncio individual sin área, precio, planta ni teléfono en el resultado. PROBABLEMENTE CHICO: en la misma búsqueda el buscador describe 'en el centro de Pacora un inmueble de 176 m² con un local de 650 dólares', en zona de alto flujo vehicular y peatonal; no quedó ligado a esta URL, pero si es este anuncio queda por debajo de 180 m². Abrir el anuncio antes de llamar. El ID es alto (33.07 millones), como el de los anuncios recientes.",
+  "notas": "Solo sirve como pista: anuncio individual sin área, precio, planta ni teléfono en el resultado. PROBABLEMENTE CHICO: en la misma búsqueda el buscador describe 'en el centro de Pacora un inmueble de 176 m² con un local de 650 dólares', en zona de alto flujo vehicular y peatonal; no quedó ligado a esta URL, pero si es este anuncio queda por debajo de 180 m². Abrir el anuncio antes de llamar. El ID es alto (33.07 millones), como el de los anuncios recientes. [20 nov, 05:00] Reapareció en una búsqueda de Pacora, sin área ni precio ligados a la URL.",
   "primera_vez": "2026-11-19T12:34-05:00",
-  "ultima_vez": "2026-11-20T00:57-05:00"
+  "ultima_vez": "2026-11-20T05:02-05:00"
  },
  {
   "zona": "Juan Díaz",
@@ -895,9 +895,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Resultado titulado \"Locales Comerciales en Venta y Alquiler – Crystal Plaza, Juan Díaz (Frente a Los Pueblos)\" (Encuentra24, sección de alquiler); la búsqueda no devolvió área ni alquiler.",
-  "notas": "Zona oportunista, prioridad baja. Anuncio individual con varias unidades, en venta y alquiler, sin precisar tamaños ni alquiler: por eso área y precio van en blanco. Referencia en la misma plaza: un local de 200 m² en planta baja sobre vía principal se anuncia EN VENTA a US$459,999 (anuncio 31152381, sección de ventas); no se sabe si esa unidad también se alquila. Preguntar si hay una unidad de 220-400 m² en planta baja y su alquiler. Queda frente al centro comercial Los Pueblos: verificar qué supermercados de cadena hay ahí (no cumple la preferencia de 700-1,000 m si los hay). POSIBLE ANUNCIO VIEJO: el ID (31.2 millones) es más bajo que el de los anuncios recientes; verificar vigencia. Sin anunciante, teléfono ni fecha en el resultado. Corrida del 19 nov, 15:30: volvió a aparecer en dos búsquedas, sin datos nuevos.",
+  "notas": "Zona oportunista, prioridad baja. Anuncio individual con varias unidades, en venta y alquiler, sin precisar tamaños ni alquiler: por eso área y precio van en blanco. Referencia en la misma plaza: un local de 200 m² en planta baja sobre vía principal se anuncia EN VENTA a US$459,999 (anuncio 31152381, sección de ventas); no se sabe si esa unidad también se alquila. Preguntar si hay una unidad de 220-400 m² en planta baja y su alquiler. Queda frente al centro comercial Los Pueblos: verificar qué supermercados de cadena hay ahí (no cumple la preferencia de 700-1,000 m si los hay). POSIBLE ANUNCIO VIEJO: el ID (31.2 millones) es más bajo que el de los anuncios recientes; verificar vigencia. Sin anunciante, teléfono ni fecha en el resultado. Corrida del 19 nov, 15:30: volvió a aparecer en dos búsquedas, sin datos nuevos. [20 nov, 05:00] Reapareció (versiones en español e inglés). El buscador resumió un local de Crystal Plaza de 200 m² a US$2,000 de alquiler (US$10/m² de construcción), con 40 estacionamientos, en un aviso con fecha 28/08/2025 (viejo), sin dejar claro de qué URL sale. Otra unidad aparece en la sección de VENTAS: 'LOCAL / JUAN DIAZ / CRYSTAL PLAZA / 277M / PLANTA BAJA / VIA PRINCIPAL' (https://www.encuentra24.com/panama-es/bienes-raices-venta-de-propiedades-comercios/local-juan-diaz-crystal-plaza-277m-planta-baja-via-principal/31152384). Con 277 m² en planta baja quedaría en el rango aceptable: preguntar si el dueño también la alquila y a cuánto.",
   "primera_vez": "2026-11-19T12:34-05:00",
-  "ultima_vez": "2026-11-19T15:35-05:00"
+  "ultima_vez": "2026-11-20T05:02-05:00"
  },
  {
   "zona": "Ernesto Córdoba Campos",
@@ -1219,9 +1219,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Encuentra24 (32759768): 'A ground-floor commercial space on the same avenue [Av. José Agustín Arango], also at $20 per m²'; 'It lists one space and one bathroom, and Estacionamiento: Publico'. Otra búsqueda: 'hay locales en centro comercial, en planta baja, pero el anuncio no informa la superficie ni el precio de alquiler'.",
-  "notas": "Zona oportunista. EL ÁREA NO APARECE en el resultado y el alquiler solo sale por metro (US$20/m², bajo el tope de US$21 pero sobre el ideal de US$15): por eso área y precio van en blanco; abrir el anuncio antes de llamar. A US$20/m² solo entraría en el máximo de ~US$6,500 hasta unos 325 m² (cálculo propio). Planta baja según el resultado; 1 espacio, 1 baño y estacionamiento público. El resultado lo ubica en un centro comercial sobre la Av. José Agustín Arango sin decir cuál: confirmar que no sea un centro comercial grande y qué supermercado de cadena tiene cerca. Aviso gemelo del mismo sector y al mismo precio por metro: 'Solo Cliente Directo LFC' (32728117), que mide 128 m²; si esta unidad es igual, queda fuera de rango. 'JG' parece el código del corredor. Era una pista pendiente de corridas anteriores. Sin anunciante, teléfono ni fecha en el resultado.",
+  "notas": "Zona oportunista. EL ÁREA NO APARECE en el resultado y el alquiler solo sale por metro (US$20/m², bajo el tope de US$21 pero sobre el ideal de US$15): por eso área y precio van en blanco; abrir el anuncio antes de llamar. A US$20/m² solo entraría en el máximo de ~US$6,500 hasta unos 325 m² (cálculo propio). Planta baja según el resultado; 1 espacio, 1 baño y estacionamiento público. El resultado lo ubica en un centro comercial sobre la Av. José Agustín Arango sin decir cuál: confirmar que no sea un centro comercial grande y qué supermercado de cadena tiene cerca. Aviso gemelo del mismo sector y al mismo precio por metro: 'Solo Cliente Directo LFC' (32728117), que mide 128 m²; si esta unidad es igual, queda fuera de rango. 'JG' parece el código del corredor. Era una pista pendiente de corridas anteriores. Sin anunciante, teléfono ni fecha en el resultado. [20 nov, 05:00] Reapareció en cuatro búsquedas; el resultado repite planta baja sobre la Av. José Agustín Arango a US$20/m². El área sigue sin aparecer.",
   "primera_vez": "2026-11-19T15:35-05:00",
-  "ultima_vez": "2026-11-19T15:35-05:00"
+  "ultima_vez": "2026-11-20T05:02-05:00"
  },
  {
   "zona": "Juan Díaz",
@@ -1237,9 +1237,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Encuentra24 (32728117): 'A 128 m² commercial space on Av. José Agustín Arango, advertised at $20 per m² and marked \"Solo Cliente Directo LFC\"'; 'Local comercial sobre la Av. José Agustín Arango, Juan Díaz'; 'alto tráfico de clientes, amplia visibilidad, muchos estacionamientos'.",
-  "notas": "FUERA DE RANGO: 128 m², por debajo de 180. Zona oportunista. El resultado da el alquiler por metro (US$20/m²) y no el total: por eso el precio va en blanco; 128 × 20 serían unos US$2,560 (cálculo propio). En la página de resultados de Encuentra24 uno de los avisos 'Solo Cliente Directo LFC' figura con '$2,500 + $200 Mantenimiento', sin quedar ligado a esta URL. El buscador dice que hay varios avisos LFC repetidos, y hay uno gemelo 'JG' (32759768) en planta baja sobre la misma avenida y al mismo precio por metro: preguntar si hay una unidad de 220-400 m² o locales contiguos que se puedan unir. 'Solo cliente directo' indica que el anunciante no quiere tratar con otros corredores. Era una pista pendiente de corridas anteriores; se guarda para no volver a buscarla. Planta, anunciante, teléfono y fecha no aparecen.",
+  "notas": "FUERA DE RANGO: 128 m², por debajo de 180. Zona oportunista. El resultado da el alquiler por metro (US$20/m²) y no el total: por eso el precio va en blanco; 128 × 20 serían unos US$2,560 (cálculo propio). En la página de resultados de Encuentra24 uno de los avisos 'Solo Cliente Directo LFC' figura con '$2,500 + $200 Mantenimiento', sin quedar ligado a esta URL. El buscador dice que hay varios avisos LFC repetidos, y hay uno gemelo 'JG' (32759768) en planta baja sobre la misma avenida y al mismo precio por metro: preguntar si hay una unidad de 220-400 m² o locales contiguos que se puedan unir. 'Solo cliente directo' indica que el anunciante no quiere tratar con otros corredores. Era una pista pendiente de corridas anteriores; se guarda para no volver a buscarla. Planta, anunciante, teléfono y fecha no aparecen. [20 nov, 05:00] Reapareció en dos búsquedas, sin datos nuevos.",
   "primera_vez": "2026-11-19T15:35-05:00",
-  "ultima_vez": "2026-11-19T15:35-05:00"
+  "ultima_vez": "2026-11-20T05:02-05:00"
  },
  {
   "zona": "Juan Díaz",
@@ -1309,9 +1309,9 @@
   "url_es_listado": false,
   "portal": "otro",
   "evidencia": "Resultado titulado 'ALQUILER LOCAL 1000M2 EN LA 24 DICIEMBRE PLAZA COMERCIAL - US$12,500 USD' (myminmobiliariamonteria.com). Área y precio salen del título; el resultado no muestra descripción.",
-  "notas": "MUY FUERA DE RANGO: 1,000 m² y US$12,500 al mes, casi el doble del máximo de ~US$6,500. Se guarda para no volver a buscarlo y porque está en una plaza comercial de zona de ola 1 a US$12.5/m² (cálculo propio), dentro del alquiler ideal: lo único que lo haría útil es que lo subdividan en unos 300 m² (a ese precio serían cerca de US$3,750 al mes; cálculo propio, no dato del anuncio). Ficha individual en el sitio de un corredor; el nombre del corredor no aparece en el resultado. El título tiene el mismo formato que los avisos 'Kaf' de 240, 289 y 336 m² en la 24 de Diciembre que ya están en la base: podría ser la misma plaza o el mismo corredor (inferencia, no confirmado). Plaza, planta, teléfono y fecha no aparecen.",
+  "notas": "MUY FUERA DE RANGO: 1,000 m² y US$12,500 al mes, casi el doble del máximo de ~US$6,500. Se guarda para no volver a buscarlo y porque está en una plaza comercial de zona de ola 1 a US$12.5/m² (cálculo propio), dentro del alquiler ideal: lo único que lo haría útil es que lo subdividan en unos 300 m² (a ese precio serían cerca de US$3,750 al mes; cálculo propio, no dato del anuncio). Ficha individual en el sitio de un corredor; el nombre del corredor no aparece en el resultado. El título tiene el mismo formato que los avisos 'Kaf' de 240, 289 y 336 m² en la 24 de Diciembre que ya están en la base: podría ser la misma plaza o el mismo corredor (inferencia, no confirmado). Plaza, planta, teléfono y fecha no aparecen. [20 nov, 05:00] Reapareció en una búsqueda de Tocumen y 24 de Diciembre, sin datos nuevos.",
   "primera_vez": "2026-11-19T15:35-05:00",
-  "ultima_vez": "2026-11-20T00:57-05:00"
+  "ultima_vez": "2026-11-20T05:02-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -1870,5 +1870,77 @@
   "notas": "SOLO SE CONOCEN EL ENLACE Y LA ZONA; el slug indica varias unidades. En la misma búsqueda el buscador mencionó un anuncio en 'Plaza Central Costa Verde' con alquileres desde US$3,200/mes, sin ligarlo a este ID. Preguntar si hay una unidad de 220-400 m² en planta baja. Por la numeración del ID (32.75 millones) sería de mediados de 2026 (inferencia). Costa Verde no es barrio interior.",
   "primera_vez": "2026-11-20T01:19-05:00",
   "ultima_vez": "2026-11-20T01:19-05:00"
+ },
+ {
+  "zona": "Juan Díaz",
+  "titulo": "Locales Nuevos 2 Pisos en Alquiler/New 2-Story Com Spaces for Rent (Plaza Las Palmeras)",
+  "tipo": "local",
+  "area_m2": 576,
+  "precio_mensual_usd": 2000,
+  "ubicacion": "Plaza Las Palmeras, Juan Díaz, a ~1 km de la Policlínica de Juan Díaz (según el resultado)",
+  "planta": "varios niveles",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/locales-nuevos-2-pisos-en-alquiler-new-2-story-com-spaces-for-rent/32409450",
+  "url_es_listado": false,
+  "portal": "encuentra24",
+  "evidencia": "Plaza Las Palmeras, locales nuevos listos para estrenar: 'Características de cada local: 2 plantas por local 576 m² en total (288 m² por planta), con 2 estacionamientos privados por local', más espacio para clientes; '$2,000 el primer mes, con depósito requerido y contrato mínimo de 1 año'; precio por m² $3 en una versión y $3.47 en otra; 'Actualizado el 02/08/2026' / 'Published 09/06/2026'.",
+  "notas": "Zona oportunista. Anuncio individual (versiones en español e inglés con el mismo ID). FUERA DE RANGO por área total (576 m² en dos plantas), pero la planta baja sola mide 288 m², dentro del rango ideal: preguntar si se alquila solo la planta baja o si la planta alta sirve de depósito. PRECIO POR CONFIRMAR: el resultado dice '$2,000 el primer mes'; US$3.47/m² × 576 m² dan ~US$2,000 (cálculo propio), lo que sugiere que es el alquiler mensual, pero es muy bajo frente a otros avisos de Juan Díaz (US$10-20/m²): confirmar que no sea una promoción del primer mes. El anuncio lo sugiere para oficinas administrativas: confirmar que admita uso comercial con público, frente a la calle, acceso para camión y estacionamiento de clientes. Plaza nueva (ver resumen de plazas). Anunciante, teléfono y dirección exacta no aparecen.",
+  "primera_vez": "2026-11-20T05:02-05:00",
+  "ultima_vez": "2026-11-20T05:02-05:00"
+ },
+ {
+  "zona": "Juan Díaz",
+  "titulo": "Alquiler locales en Plaza Conquistador, Avenida Domingo Diaz",
+  "tipo": "local",
+  "area_m2": null,
+  "precio_mensual_usd": null,
+  "ubicacion": "Plaza Conquistador, Av. Domingo Díaz (corregimiento no indicado en el resultado)",
+  "planta": "n/d",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/alquiler-locales-en-plaza-conquistador-avenida-domingo-diaz/32470235",
+  "url_es_listado": false,
+  "portal": "encuentra24",
+  "evidencia": "Resultado titulado 'Alquiler locales en Plaza Conquistador, Avenida Domingo Diaz'; según el buscador 'el listado figura con 920 m²', sin datos de estacionamiento ni de alquiler.",
+  "notas": "Zona oportunista. Anuncio individual que ofrece varios locales: los 920 m² parecen el total ofrecido o el de la plaza, no una unidad, por eso área y precio van en blanco. Preguntar si hay una unidad de 220-400 m² en planta baja, el alquiler, el estacionamiento y el acceso para camión. La Av. Domingo Díaz es larga y cruza varios corregimientos: confirmar la ubicación exacta y qué supermercados de cadena hay cerca. Anunciante, teléfono y fecha no aparecen.",
+  "primera_vez": "2026-11-20T05:02-05:00",
+  "ultima_vez": "2026-11-20T05:02-05:00"
+ },
+ {
+  "zona": "24 de Diciembre",
+  "titulo": "Se alquilan locales comerciales en la 24 de Diciembre - US$1,600 USD",
+  "tipo": "local",
+  "area_m2": null,
+  "precio_mensual_usd": null,
+  "ubicacion": "Plaza en la 24 de Diciembre (el resultado no da el nombre)",
+  "planta": "n/d",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://kwobarrio.inmo.co/local-alquiler-ciudad-de-panama/3646370",
+  "url_es_listado": false,
+  "portal": "otro",
+  "evidencia": "Título 'Se alquilan locales comerciales en la 24 de Diciembre - US$1,600 USD'; según el buscador, el anuncio indica que hay 37 locales disponibles en la Plaza de la 24 de Diciembre, con alquileres de $1,600 mensuales; no menciona promotor ni fecha de entrega.",
+  "notas": "Anuncio individual en el sitio de un corredor (dominio kwobarrio.inmo.co; el nombre del corredor no aparece en el resultado). Agrupa 37 locales sin precisar tamaños, por eso área y precio van en blanco; los US$1,600 del título no dicen a qué unidad corresponden. PROBABLEMENTE CHICOS: con 37 locales libres y ese precio, lo más probable es que midan menos de 180 m² (inferencia): preguntar si hay unidades de 220-400 m², o contiguas que se puedan unir, y por la planta, el estacionamiento y el acceso para camión. Podría ser Plaza Nuevo Tocumen (44 locales desde 31.3 m², ya en la base) u otra plaza: confirmar el nombre. Anunciante, teléfono y fecha no aparecen.",
+  "primera_vez": "2026-11-20T05:02-05:00",
+  "ultima_vez": "2026-11-20T05:02-05:00"
+ },
+ {
+  "zona": "24 de Diciembre",
+  "titulo": "Local de 300 m² en dos pisos en Centro Comercial La Doña (título exacto no visible en el resultado)",
+  "tipo": "local",
+  "area_m2": 300,
+  "precio_mensual_usd": 12000,
+  "ubicacion": "Centro Comercial La Doña (icasas lo lista en Tocumen)",
+  "planta": "varios niveles",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://www.icasas.com.pa/alquiler/locales/ciudad-panama/tocumen",
+  "url_es_listado": true,
+  "portal": "icasas",
+  "evidencia": "Icasas (listado de Tocumen): 'se alquila un espacioso local de 300 m² en el Centro Comercial La Doña, en dos pisos, por $12,000'.",
+  "notas": "DATO DE LISTADO: buscar la ficha en la página de icasas de Tocumen. NO CUMPLE: US$12,000 al mes son ~US$40/m² (cálculo propio), casi el doble del máximo total; el precio podría ser un error del anuncio, confirmarlo antes de descartar. Los 300 m² suman dos pisos y no se sabe cuánto mide la planta baja. Podría ser el mismo inmueble que el local de 273 m² (2 locales unidos) en CC La Doña que ya está en la base (listado de 24 de Diciembre de Encuentra24, página 2): confirmar. Anunciante, teléfono y fecha no aparecen.",
+  "primera_vez": "2026-11-20T05:02-05:00",
+  "ultima_vez": "2026-11-20T05:02-05:00"
  }
 ]

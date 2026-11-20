@@ -1,6 +1,6 @@
 # Locales para llamar — 2026-11-20
 
-104 anuncios revisados: 19 de prioridad A, 54 de prioridad B, 15 de prioridad C y 16 descartados. Actualizado el 20 nov a las 01:20 (hora de Panamá).
+108 anuncios revisados: 19 de prioridad A, 56 de prioridad B, 16 de prioridad C y 17 descartados. Actualizado el 20 nov a las 05:02 (hora de Panamá).
 
 > Los datos salen de resultados del buscador web, no de la lectura del anuncio completo (los portales bloquean el acceso automatizado). Área, precio y vigencia deben confirmarse al abrir el anuncio y en la llamada.
 
@@ -30,7 +30,7 @@
 - **Contacto:** abrir el anuncio para ver el teléfono
 - **Anuncio:** <https://dpanamarealestate.com/local-alquiler-pacora/8256765>
 - **Confirmar en la llamada:** que sea planta baja a pie de calle
-- **Notas:** Anuncio individual en el sitio de un corredor (dpanamarealestate.com; el nombre del corredor no aparece literalmente en el resultado). El anuncio agrupa tres unidades, pero precisa que el Local 1 mide 300.24 m², y el precio del título cuadra con esa unidad (300.24 × $15 ≈ $4,503, cálculo propio): por eso se anotan área y precio. Área ideal y alquiler justo en el límite del ideal (US$15/m²); total bajo US$4,800. Las otras dos unidades (146.45 y 121.08 m²) suman ~267.5 m² (cálculo propio): preguntar si son contiguas, como alternativa. POR CONFIRMAR: planta; vigencia (el resultado no trae fecha de publicación; dice que la construcción es de 2010); mantenimiento (figura 'US$1', que parece un valor de relleno); estacionamiento y acceso de camión; qué inquilinos tiene el centro comercial y si ya hay un supermercado de cadena dentro o cerca. Verificar que sea una plaza abierta con frente a la vía y no una galera: en la corrida anterior Pacora solo dio galeras. El mismo aviso (Id 13263, 300 m², 'USD 1 Expensas') aparece en el listado de Compreoalquile: https://www.compreoalquile.com/propiedades-en-alquiler-en-pacora.html. Sin teléfono en el resultado. Corrida del 19 nov, 15:30: la ficha volvió a aparecer en el buscador (US$15.00 por m², metrajes desde unos 121 m²), sin datos nuevos. Corrida del 20 nov: reapareció en una búsqueda de Pacora (300 m², US$4,503, US$15.00 por m²), sin datos nuevos de ubicación, planta ni contacto. En la misma búsqueda Compreoalquile mostró en Pacora locales de 105 m² a US$1,500 y de 77.5 m² a US$770; no se sabe si son de este centro comercial.
+- **Notas:** Anuncio individual en el sitio de un corredor (dpanamarealestate.com; el nombre del corredor no aparece literalmente en el resultado). El anuncio agrupa tres unidades, pero precisa que el Local 1 mide 300.24 m², y el precio del título cuadra con esa unidad (300.24 × $15 ≈ $4,503, cálculo propio): por eso se anotan área y precio. Área ideal y alquiler justo en el límite del ideal (US$15/m²); total bajo US$4,800. Las otras dos unidades (146.45 y 121.08 m²) suman ~267.5 m² (cálculo propio): preguntar si son contiguas, como alternativa. POR CONFIRMAR: planta; vigencia (el resultado no trae fecha de publicación; dice que la construcción es de 2010); mantenimiento (figura 'US$1', que parece un valor de relleno); estacionamiento y acceso de camión; qué inquilinos tiene el centro comercial y si ya hay un supermercado de cadena dentro o cerca. Verificar que sea una plaza abierta con frente a la vía y no una galera: en la corrida anterior Pacora solo dio galeras. El mismo aviso (Id 13263, 300 m², 'USD 1 Expensas') aparece en el listado de Compreoalquile: https://www.compreoalquile.com/propiedades-en-alquiler-en-pacora.html. Sin teléfono en el resultado. Corrida del 19 nov, 15:30: la ficha volvió a aparecer en el buscador (US$15.00 por m², metrajes desde unos 121 m²), sin datos nuevos. Corrida del 20 nov: reapareció en una búsqueda de Pacora (300 m², US$4,503, US$15.00 por m²), sin datos nuevos de ubicación, planta ni contacto. En la misma búsqueda Compreoalquile mostró en Pacora locales de 105 m² a US$1,500 y de 77.5 m² a US$770; no se sabe si son de este centro comercial. [20 nov, 05:00] Reapareció en una búsqueda de Pacora ('Área Construida: 300.24 m²', US$4,503, administración 'US$1'), sin datos nuevos de planta, estacionamiento ni contacto.
 
 ### A2 · Las Cumbres — Local en Plaza La Villa, Las Cumbres, 400 m2 sobre la calle principal
 - **Datos:** 400 m² · US$3,200/mes · US$8/m² · planta n/d · ola 1 · 8/9 puntos
@@ -234,7 +234,7 @@
 - **Contacto:** abrir el anuncio para ver el teléfono
 - **Anuncio:** <https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/mananitas-plaza-las-mananitas-353-m2-via-principal-vacio/31151971>
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS; cuánto mide la planta baja sola
-- **Notas:** Anuncio individual. Precio no aparece en el resultado. Son dos niveles: la planta baja sola (187 m²) queda fuera de rango para sala de ventas; preguntar si la planta alta sirve de depósito. Sin fecha en el resultado: verificar vigencia. En la misma plaza se anuncia un local de 137 m² a $1,200 (referencia de precio, ~$8.8/m², cálculo propio). Sin teléfono en el resultado.
+- **Notas:** Anuncio individual. Precio no aparece en el resultado. Son dos niveles: la planta baja sola (187 m²) queda fuera de rango para sala de ventas; preguntar si la planta alta sirve de depósito. Sin fecha en el resultado: verificar vigencia. En la misma plaza se anuncia un local de 137 m² a $1,200 (referencia de precio, ~$8.8/m², cálculo propio). Sin teléfono en el resultado. [20 nov, 05:00] Reapareció en dos búsquedas. Dato nuevo: 'Actualizado el: 23/05/2026', casi seis meses atrás, así que hay que verificar la vigencia. Otro aviso, de julio de 2026 y sin URL identificada, ofrece EN VENTA la plaza completa ('Se VENDE PLAZA COMERCIAL Las Mañanitas, a estrenar'): si cambia de dueño, confirmar quién firma el contrato. El precio sigue sin aparecer.
 
 ### B9 · Las Cumbres — Local comercial de 260 m² en Ciudad del Lago, Las Cumbres (título exacto no visible en el resultado) · NUEVO
 - **Datos:** 260 m² · alquiler n/d · US$/m² n/d · planta n/d · ola 1 · 6/9 puntos
@@ -298,7 +298,7 @@
 - **Contacto:** abrir el anuncio para ver el teléfono
 - **Anuncio:** <https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/rental-local-ferra-felipillo-via-panamericana-sp/32525610>
 - **Confirmar en la llamada:** área arrendable; que sea planta baja a pie de calle
-- **Notas:** Anuncio individual. Área NO aparece en el resultado: preguntar metraje, planta y estacionamiento. Zonificación C2 (comercio). Sin teléfono ni fecha en el resultado.
+- **Notas:** Anuncio individual. Área NO aparece en el resultado: preguntar metraje, planta y estacionamiento. Zonificación C2 (comercio). Sin teléfono ni fecha en el resultado. [20 nov, 05:00] Reapareció. Dato nuevo del resultado: es un inmueble de dos plantas con 699 m² de área construida, con tres locales en planta baja y dos apartamentos arriba; se alquila en US$1,900 y se vende en US$330,000. No queda claro si los US$1,900 son por un local o por todo el inmueble, y el área de cada local de planta baja no aparece: preguntar si se pueden alquilar los tres locales juntos y cuánto miden.
 
 ### B17 · Tocumen — Locales comerciales en Plaza Nuevo Tocumen
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 1 · 5/9 puntos
@@ -346,7 +346,7 @@
 - **Contacto:** abrir el anuncio para ver el teléfono
 - **Anuncio:** <https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-commercial-rental/33071652>
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
-- **Notas:** Solo sirve como pista: anuncio individual sin área, precio, planta ni teléfono en el resultado. PROBABLEMENTE CHICO: en la misma búsqueda el buscador describe 'en el centro de Pacora un inmueble de 176 m² con un local de 650 dólares', en zona de alto flujo vehicular y peatonal; no quedó ligado a esta URL, pero si es este anuncio queda por debajo de 180 m². Abrir el anuncio antes de llamar. El ID es alto (33.07 millones), como el de los anuncios recientes.
+- **Notas:** Solo sirve como pista: anuncio individual sin área, precio, planta ni teléfono en el resultado. PROBABLEMENTE CHICO: en la misma búsqueda el buscador describe 'en el centro de Pacora un inmueble de 176 m² con un local de 650 dólares', en zona de alto flujo vehicular y peatonal; no quedó ligado a esta URL, pero si es este anuncio queda por debajo de 180 m². Abrir el anuncio antes de llamar. El ID es alto (33.07 millones), como el de los anuncios recientes. [20 nov, 05:00] Reapareció en una búsqueda de Pacora, sin área ni precio ligados a la URL.
 
 ### B23 · Ernesto Córdoba Campos — Shopping house in Villa Zaita main street near the metro (AA) (título de la versión en inglés del anuncio) · NUEVO
 - **Datos:** área n/d · US$3,200/mes · US$/m² n/d · planta n/d · ola 1 · 5/9 puntos
@@ -380,7 +380,15 @@
 - **Confirmar en la llamada:** área arrendable; que sea planta baja a pie de calle
 - **Notas:** Anuncio individual. Área sin dato; el precio (US$1,250/mes) sugiere un local pequeño: en la base ya hay locales de Plaza Milla 8 de 130, 180 y 210 m² (el de 210 m² a US$2,520 en icasas), varios con mezzanine. Probablemente queda por debajo de 220 m²: preguntar el área y si hay locales contiguos. Se agrupa en Alcalde Díaz, como las demás fichas de Milla 8. Sin fecha ni contacto en el resultado.
 
-### B27 · La Chorrera — Alquilo Local en La Chorrera Centro 250 m
+### B27 · 24 de Diciembre — Se alquilan locales comerciales en la 24 de Diciembre - US$1,600 USD · NUEVO
+- **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 1 · 5/9 puntos
+- **Ubicación:** Plaza en la 24 de Diciembre (el resultado no da el nombre)
+- **Contacto:** abrir el anuncio para ver el teléfono
+- **Anuncio:** <https://kwobarrio.inmo.co/local-alquiler-ciudad-de-panama/3646370>
+- **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
+- **Notas:** Anuncio individual en el sitio de un corredor (dominio kwobarrio.inmo.co; el nombre del corredor no aparece en el resultado). Agrupa 37 locales sin precisar tamaños, por eso área y precio van en blanco; los US$1,600 del título no dicen a qué unidad corresponden. PROBABLEMENTE CHICOS: con 37 locales libres y ese precio, lo más probable es que midan menos de 180 m² (inferencia): preguntar si hay unidades de 220-400 m², o contiguas que se puedan unir, y por la planta, el estacionamiento y el acceso para camión. Podría ser Plaza Nuevo Tocumen (44 locales desde 31.3 m², ya en la base) u otra plaza: confirmar el nombre. Anunciante, teléfono y fecha no aparecen.
+
+### B28 · La Chorrera — Alquilo Local en La Chorrera Centro 250 m
 - **Datos:** 250 m² · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 5/9 puntos
 - **Ubicación:** La Chorrera Centro
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -388,7 +396,7 @@
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** DATO DE LISTADO, no de anuncio individual; hay que ubicar la ficha en la pagina. Area en rango aceptable (220-400). Precio y planta sin dato. En Encuentra24 aparece un 'taller mecanico de 250 m2 en el centro de La Chorrera a $1,800' (ver entrada aparte); no se pudo confirmar si es el mismo inmueble. 20 nov (corrida Oeste): volvió a aparecer en el buscador con la misma URL. El buscador agrega que tiene 7 estacionamientos y no precisa el corregimiento.
 
-### B28 · La Chorrera — Local comercial de 278 m2 en La Chorrera (titulo no visible en el resultado)
+### B29 · La Chorrera — Local comercial de 278 m2 en La Chorrera (titulo no visible en el resultado)
 - **Datos:** 278 m² · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 5/9 puntos
 - **Ubicación:** La Chorrera (barrio no indicado en el resultado)
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -396,7 +404,7 @@
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** DATO DE LISTADO, no de anuncio individual; hay que ubicar la ficha en la pagina. Area practicamente en el rango ideal (280-350) y 12 estacionamientos, pero faltan precio, barrio y planta.
 
-### B29 · La Chorrera — Local comercial de 376 m² en Plaza Panamá Oeste (título exacto no visible en el resultado) · NUEVO
+### B30 · La Chorrera — Local comercial de 376 m² en Plaza Panamá Oeste (título exacto no visible en el resultado) · NUEVO
 - **Datos:** 376 m² · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 5/9 puntos
 - **Ubicación:** Plaza Panamá Oeste, La Chorrera (sin dirección en el resultado)
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -404,15 +412,15 @@
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** DATO DE LISTADO: buscar la ficha de 376 m² en la página de Compreoalquile de La Chorrera. Área aceptable (376 m², sobre el ideal). Precio, planta, fecha y contacto no aparecen. Los 100 estacionamientos sugieren un centro comercial grande: confirmar si es plaza abierta o mall y si queda sobre la Autopista (cerca de El Machetazo, B-sí y Xtra) o en un barrio interior.
 
-### B30 · Juan Díaz — Se Vende o Alquila Local Comercial en CENTRO COMERCIAL LOS PUEBLOS
+### B31 · Juan Díaz — Se Vende o Alquila Local Comercial en CENTRO COMERCIAL LOS PUEBLOS
 - **Datos:** 333 m² · alquiler n/d · US$/m² n/d · planta n/d · ola 3 · 5/9 puntos
 - **Ubicación:** Centro Comercial Los Pueblos, Juan Díaz
 - **Contacto:** abrir el anuncio para ver el teléfono
 - **Anuncio:** <https://www.encuentra24.com/panama-es/bienes-raices-venta-de-propiedades-comercios/se-vende-o-alquila-local-comercial-en-centro-comercial-los-pueblos/32576658>
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
-- **Notas:** Zona oportunista, prioridad baja. Anuncio individual publicado en la sección de ventas (venta o alquiler). Alquiler NO aparece en el resultado. Área ideal, pero está dentro de un centro comercial grande, no en plaza de barrio: puede no cumplir el criterio de tipo. Sin teléfono en el resultado. Corrida del 19 nov, 15:30: volvió a aparecer en el buscador, sin datos nuevos.
+- **Notas:** Zona oportunista, prioridad baja. Anuncio individual publicado en la sección de ventas (venta o alquiler). Alquiler NO aparece en el resultado. Área ideal, pero está dentro de un centro comercial grande, no en plaza de barrio: puede no cumplir el criterio de tipo. Sin teléfono en el resultado. Corrida del 19 nov, 15:30: volvió a aparecer en el buscador, sin datos nuevos. [20 nov, 05:00] Reapareció en tres búsquedas de Juan Díaz, sin datos nuevos.
 
-### B31 · San Miguelito — Local de 341 m² en planta baja, Brisas Mall, Brisas del Golf (título exacto no visible en el resultado) · NUEVO
+### B32 · San Miguelito — Local de 341 m² en planta baja, Brisas Mall, Brisas del Golf (título exacto no visible en el resultado) · NUEVO
 - **Datos:** 341 m² · alquiler n/d · US$/m² n/d · planta baja · ola 3 · 5/9 puntos
 - **Ubicación:** Brisas Mall, Brisas del Golf, San Miguelito
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -420,7 +428,7 @@
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS
 - **Notas:** DATO DE LISTADO Y DÉBIL: no hay URL del anuncio individual ni título. La atribución a Compreoalquile es probable pero no está confirmada: la URL es la página de listado de Compreoalquile que salió en las dos búsquedas donde apareció el dato (en una salió además la general, https://www.compreoalquile.com/locales-comerciales-en-alquiler-en-san-miguelito.html); el buscador no precisa en cuál está la ficha. PRECIO EN CONFLICTO, por eso va en blanco: un resultado da US$1,900 para un local de 341 m² y otro dice que una página de icasas muestra US$7,500 para un local de 341 m²; ninguna cifra quedó ligada con certeza a este local. US$7,500 serían ~US$22/m² (cálculo propio), parecido al local de 73 m² del mismo centro (US$1,583, ~US$21.7/m²), y quedarían sobre el tope de US$21/m² y sobre el máximo mensual de ~US$6,500; US$1,900 serían ~US$5.6/m², demasiado bajo para ese centro. Área ideal (341 m²) y planta baja. Puede ser del mismo anunciante que el local de 253 m² de Brisas Mall que ya está en la base (mismo centro, también planta baja): preguntar por los dos en una sola llamada. Está dentro de un centro comercial (Brisas Mall): verificar si califica como plaza de barrio. Sin anunciante, teléfono ni fecha. Zona oportunista. PISTA APARTE SIN ENLACE: 'tres locales integrados en un solo espacio completamente abierto', con planta baja de 350 m² y mezanine de 288 m², a US$4,750 + ITBMS y US$744.25 de mantenimiento; el buscador lo mencionó junto a este local, pero no confirma que sea de Brisas Mall ni dio su URL.
 
-### B32 · Juan Díaz — Local comercial de 300 m² con 20 estacionamientos, Juan Díaz (título exacto no visible en el resultado) · NUEVO
+### B33 · Juan Díaz — Local comercial de 300 m² con 20 estacionamientos, Juan Díaz (título exacto no visible en el resultado) · NUEVO
 - **Datos:** 300 m² · alquiler n/d · US$/m² n/d · planta n/d · ola 3 · 5/9 puntos
 - **Ubicación:** Juan Díaz; el buscador lo asocia con Los Pueblos (zona de la vía Domingo Díaz), sin confirmar
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -428,7 +436,7 @@
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** DATO DE LISTADO DÉBIL: el buscador no precisó en cuál de dos páginas de Compreoalquile sale la ficha; probar en esta (locales en Los Pueblos) y en https://www.compreoalquile.com/propiedades-en-alquiler-en-juan-diaz.html. Área ideal (300 m²) y 20 estacionamientos, pero no aparecen precio, planta, calle, fecha ni contacto. Posibles duplicados en la base: Crystal Plaza, frente a Los Pueblos (Encuentra24 31243554, sin área), y el local de 333 m² del Centro Comercial Los Pueblos (Encuentra24 32576658, venta o alquiler). Los Pueblos es un centro comercial grande (dato general): confirmar que el local no esté dentro del complejo y qué supermercado de cadena queda cerca. Zona oportunista.
 
-### B33 · Juan Díaz — Local de 300 m² en dos niveles, Costa del Este (título exacto no visible en el resultado) · NUEVO
+### B34 · Juan Díaz — Local de 300 m² en dos niveles, Costa del Este (título exacto no visible en el resultado) · NUEVO
 - **Datos:** 300 m² · alquiler n/d · US$/m² n/d · planta varios niveles · ola 3 · 5/9 puntos
 - **Ubicación:** Costa del Este, Juan Díaz (sin dirección en el resultado)
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -436,7 +444,7 @@
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS; cuánto mide la planta baja sola
 - **Notas:** DATO DE LISTADO: buscar la ficha en la página de Mitula de Costa del Este. Los 300 m² suman dos niveles: la planta baja mide 180 m², por debajo del rango aceptable para la sala. Precio, dirección, fecha y contacto no aparecen. Costa del Este es una zona de ingresos altos y oficinas, lejos del perfil de vivienda densa del proyecto (dato general): baja prioridad aunque pertenezca a Juan Díaz.
 
-### B34 · La Chorrera — Commercial premises for rent from 168m2 on the highway La Chorrera (DR) (titulo tomado del slug de la URL)
+### B35 · La Chorrera — Commercial premises for rent from 168m2 on the highway La Chorrera (DR) (titulo tomado del slug de la URL)
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 4/9 puntos
 - **Ubicación:** Barrio Colón, La Chorrera; junto a la carretera/autopista Arraiján-La Chorrera
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -444,7 +452,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Se anuncian locales desde 168 m²; área y precio van en blanco porque el anuncio agrupa varias unidades. Según el buscador, los US$3,597.34 corresponden a la unidad de 168.10 m² (~US$21.39/m²); en el mismo desarrollo hay una de 181.50 m² a US$3,884.10 y una de 600 m² a US$12,840 (ver anuncio 33157966). Todas rondan US$21.40/m², apenas sobre el tope de US$21/m², y ninguna cae en 220-400 m²: preguntar si hay una unidad intermedia o si se pueden unir dos contiguas. En una corrida anterior apareció 'un local de 210 m2 en Barrio Colon a USD 3,045/mes' (~US$14.50/m2) sin URL individual; no volvió a aparecer y no se confirmó que sea de este proyecto. UBICACIÓN MENOS PREFERIDA: sobre la Autopista, donde están las tiendas grandes nuevas. El sufijo (DR) coincide con el de un anuncio de Veral Real Estate; posible mismo corredor, no confirmado.
 
-### B35 · La Chorrera — Locales en planta baja de 111 a 306 m², Plaza Los Guayacanes / Uni Plaza · NUEVO
+### B36 · La Chorrera — Locales en planta baja de 111 a 306 m², Plaza Los Guayacanes / Uni Plaza · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta baja · ola 2 · 4/9 puntos
 - **Ubicación:** Plaza Los Guayacanes / Uni Plaza, La Chorrera (dirección no indicada en el resultado)
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -452,7 +460,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS
 - **Notas:** Varias unidades de 111 a 306 m² sin precisar cuál está disponible ni su precio: por eso área y precio van en blanco. Preguntar por la unidad de 306 m² (o por unir locales contiguos) y su alquiler; el rango publicado de US$350-1,700 no dice a qué metraje corresponde. DATO DE LISTADO/AGREGADOR (Mitula); el buscador no precisó en cuál página de Mitula está la ficha (revisar también https://casas.mitula.com.pa/alquiler-locales-comerciales-st-chorrera). No quedó claro si 'Plaza Los Guayacanes' y 'Uni Plaza' son la misma plaza o dos anuncios distintos. Dirección, barrio, anunciante, teléfono y fecha no aparecen. 20 nov (corrida Oeste): volvió a aparecer en el buscador con la misma URL. Se repite el rango de 111 a 306 m² en planta baja y precios de US$350 a US$1,700 en otro anuncio.
 
-### B36 · La Chorrera — Commercial space for rent in Barrio Colon, La Chorrera (RE) (título tomado del slug de la URL) · NUEVO
+### B37 · La Chorrera — Commercial space for rent in Barrio Colon, La Chorrera (RE) (título tomado del slug de la URL) · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 4/9 puntos
 - **Ubicación:** Barrio Colón, La Chorrera; con conexión directa a la autopista Arraiján-La Chorrera
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -460,7 +468,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Área y precio en blanco porque el resultado agrupa varias unidades del mismo desarrollo y no quedó ligado cuál es la de esta URL: abrir el anuncio antes de llamar. Lo más probable es que sea la de 600 m² a US$12,840/mes (sala de exhibición, oficina con baño, oficina gerencial y dos áreas de caja; 'más de 90,000 vehículos por día'), que queda FUERA DE RANGO por tamaño y por total. La única unidad cercana al rango es la de 181.50 m² a US$3,884.10 (~US$21.40/m², apenas sobre el tope de US$21/m² y por debajo de 220 m²). Mismo desarrollo que el anuncio 32799024, ya en la base ('desde 168 m²'). UBICACIÓN MENOS PREFERIDA: sobre la Autopista, donde están las tiendas grandes. El ID es alto (33.1 millones), como el de los anuncios recientes. Anunciante y teléfono no aparecen.
 
-### B37 · La Chorrera — Alquiler de locales comerciales desde 32 m², La Chorrera, Plaza La Onda y El Fuerte (título tomado del slug de la URL) · NUEVO
+### B38 · La Chorrera — Alquiler de locales comerciales desde 32 m², La Chorrera, Plaza La Onda y El Fuerte (título tomado del slug de la URL) · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 4/9 puntos
 - **Ubicación:** Avenida Libertador, zona de Plaza La Onda y El Fuerte, La Chorrera (Barrio Colón según el resultado)
 - **Contacto:** Galceb Group (teléfono en el anuncio)
@@ -468,7 +476,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Se anuncian locales 'desde 32 m²' sin precisar los tamaños disponibles: por eso área y precio van en blanco. El precio de US$2,000 que muestra el resultado no cuadra con una unidad de 32 m² (serían ~US$62/m²): probablemente corresponde a otra unidad; confirmar. PISTA RELACIONADA: en una corrida anterior apareció un local de Galceb en planta baja de 180 m² en Ave. Libertador a US$1,500, sin URL; podría ser una unidad de este mismo anuncio (inferencia, no confirmado): preguntar por esa unidad y por otras de 220-350 m². El anunciante (Galceb Group) se tomó del resumen del buscador y la URL se asoció por el texto del slug ('from 32 mts2 ... Plaza La Onda and El Fuerte'); el resultado no mostraba el título. Confirmar planta, distancia a supermercados de cadena, estacionamiento y acceso de camión. Sin teléfono ni fecha en el resultado. Corrida del 19 nov, 14:30: la URL volvió a aparecer en el buscador, sin datos nuevos. Hay un anuncio gemelo en Burunga ('desde 36 m², Plaza La Onda and El Fuerte', 32758412). 20 nov (corrida Oeste): volvió a aparecer en el buscador con la misma URL.
 
-### B38 · Arraiján — Local Comercial en Alquiler en Arraijan 27jack3107 · NUEVO
+### B39 · Arraiján — Local Comercial en Alquiler en Arraijan 27jack3107 · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 4/9 puntos
 - **Ubicación:** Arraiján (el resultado no indica barrio ni dirección)
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -476,7 +484,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** SOLO SE CONOCEN EL TÍTULO Y EL ENLACE: área, alquiler, barrio, planta, anunciante y teléfono no aparecen en el resultado; hay que abrir el anuncio antes de llamar. El ID es alto (33.16 millones), como el de los anuncios recientes. '27jack3107' parece la referencia interna del corredor; el mismo patrón aparece en una galera de Arraiján (ref. 26jack3921, anuncio 33217595), así que conviene confirmar que este sea un local de venta y no una galera. Una búsqueda dirigida con la referencia no devolvió más datos.
 
-### B39 · Burunga — Alquiler de local desde 36 m², Burunga, Arraiján, Plaza La Onda y El Fuerte (título de la versión en inglés del anuncio) · NUEVO
+### B40 · Burunga — Alquiler de local desde 36 m², Burunga, Arraiján, Plaza La Onda y El Fuerte (título de la versión en inglés del anuncio) · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 4/9 puntos
 - **Ubicación:** Burunga, Arraiján; plaza de La Onda y El Fuerte según el título (dirección no indicada)
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -484,7 +492,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Se anuncian locales 'desde 36 m²' sin precisar los tamaños disponibles: por eso área y precio van en blanco. Preguntar si hay una unidad de 220-400 m² o locales contiguos que se puedan unir, y su alquiler. El título tiene el mismo formato y un ID casi consecutivo al del anuncio de Galceb Group en La Chorrera ('desde 32 m², Plaza La Onda y El Fuerte', 32758390, ya en la base): posible mismo anunciante, no confirmado. OJO: el título sugiere una plaza con La Onda y El Fuerte; si El Fuerte es el supermercado, habría competencia directa en la misma plaza: confirmar. Burunga tendrá estación de la Línea 3; la distancia no aparece. Sin anunciante, teléfono, planta ni fecha en el resultado.
 
-### B40 · Arraiján — Local Comercial en Venta o Alquiler · NUEVO
+### B41 · Arraiján — Local Comercial en Venta o Alquiler · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 4/9 puntos
 - **Ubicación:** Arraiján según el texto de la URL (barrio no indicado en el resultado)
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -492,7 +500,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** SOLO SE CONOCEN EL TÍTULO Y EL ENLACE. OJO: la URL está clasificada como venta ('local-venta-arraijan') y el título dice 'Venta o Alquiler': confirmar que de verdad se alquile y a qué precio. Área, barrio, planta y teléfono no aparecen; abrir la ficha antes de llamar. Anuncio individual en el sitio del corredor lhrealtyteam.com (el nombre del corredor no aparece en el resultado). Sin fecha de publicación.
 
-### B41 · La Chorrera — Alquiler de locales comerciales en Market Plaza Costa Verde, Panamá Oeste (título tomado del slug de la URL) · NUEVO
+### B42 · La Chorrera — Alquiler de locales comerciales en Market Plaza Costa Verde, Panamá Oeste (título tomado del slug de la URL) · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 4/9 puntos
 - **Ubicación:** Market Plaza, Costa Verde, La Chorrera
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -500,7 +508,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** PISTA DÉBIL. El anuncio ofrece varios locales; el único dato que mostró el buscador es una unidad de 100 m² a US$2,500/mes (~US$25/m², sobre el tope de US$21 y muy por debajo de 220 m²). Área y precio van en blanco porque no se sabe qué otros tamaños hay: preguntar si existe una unidad de 220-400 m² o si se pueden unir locales, y a qué precio. UBICACIÓN MENOS PREFERIDA: Costa Verde queda junto a la Autopista, donde están las tiendas grandes. La URL apareció en varias búsquedas de esta corrida. Planta, anunciante, teléfono y fecha no aparecen. 20 nov (corrida Oeste): volvió a aparecer en el buscador con la misma URL. El buscador lo describe como locales en Market Plaza, Costa Verde, orientados a franquicias, boutiques, clínicas y restaurantes.
 
-### B42 · La Chorrera — Últimos dos locales listos para alquilar en Uniplaza Costa Verde (título tomado del slug de la URL) · NUEVO
+### B43 · La Chorrera — Últimos dos locales listos para alquilar en Uniplaza Costa Verde (título tomado del slug de la URL) · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 4/9 puntos
 - **Ubicación:** Uniplaza, Costa Verde; que sea La Chorrera se deduce del nombre, el resultado no lo dice
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -508,7 +516,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** PISTA DÉBIL: solo se conocen el enlace y el título del slug. PROBABLEMENTE VIEJO: el ID 29173260 es muy inferior al de los anuncios recientes (32.8-33.3 millones); verificar vigencia antes de llamar. Podría ser el anuncio original de la ficha 'Plaza Los Guayacanes / Uni Plaza' (locales en planta baja de 111 a 306 m²) que ya está en la base por Mitula: inferencia por el nombre, no confirmado; si lo es, preguntar por la unidad de 306 m². UBICACIÓN MENOS PREFERIDA: Costa Verde queda junto a la Autopista. Área, precio, planta, anunciante y teléfono no aparecen.
 
-### B43 · Arraiján — Plaza comercial en Arraiján con locales de 125 a 251.24 m² desde US$1,800 (título exacto no visible en el resultado) · NUEVO
+### B44 · Arraiján — Plaza comercial en Arraiján con locales de 125 a 251.24 m² desde US$1,800 (título exacto no visible en el resultado) · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 4/9 puntos
 - **Ubicación:** Arraiján, sobre la Panamericana, cerca de la salida del Giro U (según el buscador)
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -516,7 +524,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Era la pista pendiente de la plaza de Arraiján con locales de 125 a 251.24 m². Área y precio en blanco porque el anuncio agrupa varias unidades: preguntar por la de 251.24 m² (rango aceptable) y su alquiler; los US$1,800 son el precio de entrada, no el de esa unidad. DATO DE LISTADO: el buscador no identificó el portal principal; buscar la ficha en esta página de Slideprop. Queda sobre la Panamericana, no en un barrio interior. Disponibilidad, fecha, anunciante y teléfono no aparecen.
 
-### B44 · Nuevo Arraiján — Nuevo Araijan - Locales Comerciales · NUEVO
+### B45 · Nuevo Arraiján — Nuevo Araijan - Locales Comerciales · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 4/9 puntos
 - **Ubicación:** Nuevo Arraiján, Arraiján
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -524,7 +532,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** SOLO SE CONOCEN EL TÍTULO Y EL ENLACE: área, alquiler, planta, fecha, anunciante y teléfono no aparecen, y la URL no dice si es alquiler o venta (apareció en una búsqueda de alquiler): confirmar. El título en plural sugiere varias unidades. Abrir la ficha a mano antes de llamar (Compreoalquile bloquea el acceso automatizado).
 
-### B45 · La Chorrera — NUEVA PLAZA EN COSTA VERDE ALQUILER LOCAL · NUEVO
+### B46 · La Chorrera — NUEVA PLAZA EN COSTA VERDE ALQUILER LOCAL · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 4/9 puntos
 - **Ubicación:** Costa Verde, La Chorrera
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -532,7 +540,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** SOLO SE CONOCEN EL TÍTULO Y EL ENLACE. En la misma búsqueda el buscador describió un local de 126 m² en 'Las Terrazas de Costa Verde', plaza nueva frente a PriceSmart, sin ligarlo con certeza a este ID; si es ese, queda fuera de rango (bajo 180 m²): preguntar por unidades mayores o contiguas. PROBABLEMENTE VIEJO: el ID (31.06 millones) es muy inferior al de los anuncios recientes (32.8-33.3 millones); verificar vigencia. Costa Verde no es barrio interior.
 
-### B46 · La Chorrera — Commercial spaces for lease, Costa Verde (título tomado del slug de la URL) · NUEVO
+### B47 · La Chorrera — Commercial spaces for lease, Costa Verde (título tomado del slug de la URL) · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 2 · 4/9 puntos
 - **Ubicación:** Costa Verde, La Chorrera
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -540,7 +548,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** SOLO SE CONOCEN EL ENLACE Y LA ZONA; el slug indica varias unidades. En la misma búsqueda el buscador mencionó un anuncio en 'Plaza Central Costa Verde' con alquileres desde US$3,200/mes, sin ligarlo a este ID. Preguntar si hay una unidad de 220-400 m² en planta baja. Por la numeración del ID (32.75 millones) sería de mediados de 2026 (inferencia). Costa Verde no es barrio interior.
 
-### B47 · San Miguelito — Alquiler Local en Brisas Mall Planta Baja - Brisas del Golf (20) · NUEVO
+### B48 · San Miguelito — Alquiler Local en Brisas Mall Planta Baja - Brisas del Golf (20) · NUEVO
 - **Datos:** 253 m² · alquiler n/d · US$/m² n/d · planta baja · ola 3 · 4/9 puntos
 - **Ubicación:** Brisas Mall, Brisas del Golf
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -548,7 +556,7 @@
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS
 - **Notas:** DATO DE LISTADO: no hay URL del anuncio individual; la búsqueda devolvió tres páginas de listado de Compreoalquile de San Miguelito y no precisa en cuál está la ficha (se anota la general). Área en rango aceptable (220-400) y planta baja, pero falta el precio. Referencia de precio en el mismo centro: otro resultado muestra un local de 115 m² en Brisas Mall a US$2,760/mes, ~US$24/m² (cálculo propio), sobre el tope de US$21/m²; si este local se cotiza igual, quedaría fuera de presupuesto. Está dentro de un centro comercial ('Brisas Mall'): verificar si califica como plaza de barrio y si ya tiene supermercado. Sin fecha ni contacto. Zona oportunista. Corrida del 19 nov ~13:30: volvió a aparecer en el listado de Compreoalquile de San Miguelito (253 m², 29 estacionamientos, planta baja); sigue sin precio en el resultado.
 
-### B48 · San Miguelito — SE ALQUILA LOCAL ESQUINERO EN VILLA LUCRE MTRS 393 -I.G · NUEVO
+### B49 · San Miguelito — SE ALQUILA LOCAL ESQUINERO EN VILLA LUCRE MTRS 393 -I.G · NUEVO
 - **Datos:** 393 m² · alquiler n/d · US$/m² n/d · planta baja · ola 3 · 4/9 puntos
 - **Ubicación:** Villa Lucre, San Miguelito
 - **Contacto:** Jaime Rodriguez (agente inmobiliario) (teléfono en el anuncio)
@@ -556,7 +564,7 @@
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS
 - **Notas:** DATO DE LISTADO/AGREGADOR: no hay URL del anuncio individual. Los 393 m² son de planta baja (en el límite superior del rango aceptable) y además trae un mezanine de 300 m², ~693 m² en total (cálculo propio): preguntar si se alquila solo la planta baja. PRECIO SIN CONFIRMAR: en la misma página aparece una cifra de US$8,875/mes en una tarjeta contigua que el buscador no pudo atribuir a este local; si fuera suya, supera el máximo de ~US$6,500. Hoy está montado como restaurante (recepción, comedor, área de juegos, bar, cuatro baños y cocina grande): habría que adecuarlo. El nombre del agente (Jaime Rodriguez, para coordinar visitas) sale en la ficha con mezanine de https://casas.mitula.com.pa/alquiler-locales-comerciales-jose-domingo-espinar-villa-lucre, que por área y descripción es probablemente el mismo local. Fechas en conflicto entre agregadores: 16 sep 2025 y 16 sep 2026; verificar vigencia. Sin teléfono. Zona oportunista.
 
-### B49 · San Miguelito — LOCAL COMERCIAL EN PLAZA FORTUNA - US$3,500 USD
+### B50 · San Miguelito — LOCAL COMERCIAL EN PLAZA FORTUNA - US$3,500 USD
 - **Datos:** área n/d · US$3,500/mes · US$/m² n/d · planta n/d · ola 3 · 3/9 puntos
 - **Ubicación:** Plaza Fortuna, Villa Lucre, San Miguelito
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -564,7 +572,7 @@
 - **Confirmar en la llamada:** área arrendable; que sea planta baja a pie de calle
 - **Notas:** El área NO figura en el resultado de búsqueda: no se puede saber si entra en rango ni el precio por m2; verificar antes de llamar. Anuncio individual en el sitio grupogestioninmobiliario.com (nombre del anunciante no aparece literalmente en el resultado). Sin fecha visible. Villa Lucre es zona oportunista.
 
-### B50 · San Miguelito — Alquiler locales comerciales en P.H. Centro Comercial Villa Lucre Mall · NUEVO
+### B51 · San Miguelito — Alquiler locales comerciales en P.H. Centro Comercial Villa Lucre Mall · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 3 · 3/9 puntos
 - **Ubicación:** P.H. Centro Comercial Villa Lucre Mall, Villa Lucre, San Miguelito
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -572,23 +580,23 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Anuncio individual con varias unidades, sin área ni precio en el resultado: por eso quedan en blanco. Otra búsqueda mencionó 'una unidad de 342 m² en el mall de Villa Lucre a US$4,989' (~US$14.6/m², cálculo propio) sin URL propia: no está confirmado que sea de este anuncio; la cifra coincide con la de otro anuncio de la base (Las Mañanitas, US$4,989), así que puede ser una confusión del buscador. La ficha del proyecto (https://www.ventaviv.com/proyectos/villa-lucre-mall/) indica alquiler de US$13/m² en planta baja. Preguntar por una unidad de 220-400 m² en planta baja. Es un centro comercial: verificar si es plaza abierta de barrio o mall cerrado y si ya tiene supermercado. Sin fecha ni contacto. Zona oportunista.
 
-### B51 · Juan Díaz — Locales Comerciales en Venta y Alquiler – Crystal Plaza, Juan Díaz (Frente a Los Pueblos) · NUEVO
+### B52 · Juan Díaz — Locales Comerciales en Venta y Alquiler – Crystal Plaza, Juan Díaz (Frente a Los Pueblos) · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 3 · 3/9 puntos
 - **Ubicación:** Crystal Plaza, Juan Díaz, frente a Los Pueblos
 - **Contacto:** abrir el anuncio para ver el teléfono
 - **Anuncio:** <https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/commercial-premises-for-sale-and-rental-crystal-plaza-juan-diaz-front-of-los-pueblos/31243554>
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
-- **Notas:** Zona oportunista, prioridad baja. Anuncio individual con varias unidades, en venta y alquiler, sin precisar tamaños ni alquiler: por eso área y precio van en blanco. Referencia en la misma plaza: un local de 200 m² en planta baja sobre vía principal se anuncia EN VENTA a US$459,999 (anuncio 31152381, sección de ventas); no se sabe si esa unidad también se alquila. Preguntar si hay una unidad de 220-400 m² en planta baja y su alquiler. Queda frente al centro comercial Los Pueblos: verificar qué supermercados de cadena hay ahí (no cumple la preferencia de 700-1,000 m si los hay). POSIBLE ANUNCIO VIEJO: el ID (31.2 millones) es más bajo que el de los anuncios recientes; verificar vigencia. Sin anunciante, teléfono ni fecha en el resultado. Corrida del 19 nov, 15:30: volvió a aparecer en dos búsquedas, sin datos nuevos.
+- **Notas:** Zona oportunista, prioridad baja. Anuncio individual con varias unidades, en venta y alquiler, sin precisar tamaños ni alquiler: por eso área y precio van en blanco. Referencia en la misma plaza: un local de 200 m² en planta baja sobre vía principal se anuncia EN VENTA a US$459,999 (anuncio 31152381, sección de ventas); no se sabe si esa unidad también se alquila. Preguntar si hay una unidad de 220-400 m² en planta baja y su alquiler. Queda frente al centro comercial Los Pueblos: verificar qué supermercados de cadena hay ahí (no cumple la preferencia de 700-1,000 m si los hay). POSIBLE ANUNCIO VIEJO: el ID (31.2 millones) es más bajo que el de los anuncios recientes; verificar vigencia. Sin anunciante, teléfono ni fecha en el resultado. Corrida del 19 nov, 15:30: volvió a aparecer en dos búsquedas, sin datos nuevos. [20 nov, 05:00] Reapareció (versiones en español e inglés). El buscador resumió un local de Crystal Plaza de 200 m² a US$2,000 de alquiler (US$10/m² de construcción), con 40 estacionamientos, en un aviso con fecha 28/08/2025 (viejo), sin dejar claro de qué URL sale. Otra unidad aparece en la sección de VENTAS: 'LOCAL / JUAN DIAZ / CRYSTAL PLAZA / 277M / PLANTA BAJA / VIA PRINCIPAL' (https://www.encuentra24.com/panama-es/bienes-raices-venta-de-propiedades-comercios/local-juan-diaz-crystal-plaza-277m-planta-baja-via-principal/31152384). Con 277 m² en planta baja quedaría en el rango aceptable: preguntar si el dueño también la alquila y a cuánto.
 
-### B52 · Juan Díaz — Local Comercial en Alquiler en Juan Diaz JG · NUEVO
+### B53 · Juan Díaz — Local Comercial en Alquiler en Juan Diaz JG · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta baja · ola 3 · 3/9 puntos
 - **Ubicación:** Av. José Agustín Arango, Juan Díaz; en un centro comercial que el resultado no nombra
 - **Contacto:** abrir el anuncio para ver el teléfono
 - **Anuncio:** <https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/commercial-space-for-rent-in-juan-diaz-jg/32759768>
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS
-- **Notas:** Zona oportunista. EL ÁREA NO APARECE en el resultado y el alquiler solo sale por metro (US$20/m², bajo el tope de US$21 pero sobre el ideal de US$15): por eso área y precio van en blanco; abrir el anuncio antes de llamar. A US$20/m² solo entraría en el máximo de ~US$6,500 hasta unos 325 m² (cálculo propio). Planta baja según el resultado; 1 espacio, 1 baño y estacionamiento público. El resultado lo ubica en un centro comercial sobre la Av. José Agustín Arango sin decir cuál: confirmar que no sea un centro comercial grande y qué supermercado de cadena tiene cerca. Aviso gemelo del mismo sector y al mismo precio por metro: 'Solo Cliente Directo LFC' (32728117), que mide 128 m²; si esta unidad es igual, queda fuera de rango. 'JG' parece el código del corredor. Era una pista pendiente de corridas anteriores. Sin anunciante, teléfono ni fecha en el resultado.
+- **Notas:** Zona oportunista. EL ÁREA NO APARECE en el resultado y el alquiler solo sale por metro (US$20/m², bajo el tope de US$21 pero sobre el ideal de US$15): por eso área y precio van en blanco; abrir el anuncio antes de llamar. A US$20/m² solo entraría en el máximo de ~US$6,500 hasta unos 325 m² (cálculo propio). Planta baja según el resultado; 1 espacio, 1 baño y estacionamiento público. El resultado lo ubica en un centro comercial sobre la Av. José Agustín Arango sin decir cuál: confirmar que no sea un centro comercial grande y qué supermercado de cadena tiene cerca. Aviso gemelo del mismo sector y al mismo precio por metro: 'Solo Cliente Directo LFC' (32728117), que mide 128 m²; si esta unidad es igual, queda fuera de rango. 'JG' parece el código del corredor. Era una pista pendiente de corridas anteriores. Sin anunciante, teléfono ni fecha en el resultado. [20 nov, 05:00] Reapareció en cuatro búsquedas; el resultado repite planta baja sobre la Av. José Agustín Arango a US$20/m². El área sigue sin aparecer.
 
-### B53 · Juan Díaz — LOCAL / JUAN DIAZ / LLANO BONITO / 478M / SIN DIVISIONES / OFICINA · NUEVO
+### B54 · Juan Díaz — LOCAL / JUAN DIAZ / LLANO BONITO / 478M / SIN DIVISIONES / OFICINA · NUEVO
 - **Datos:** 478 m² · alquiler n/d · US$/m² n/d · planta n/d · ola 3 · 3/9 puntos
 - **Ubicación:** Llano Bonito, Juan Díaz (dirección no indicada en el resultado)
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -596,13 +604,21 @@
 - **Confirmar en la llamada:** si hay una unidad de 220-400 m² o se puede ajustar el área; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** FUERA DE RANGO (478 m², en la banda de 400-500). Zona oportunista. Solo se conocen el título y el enlace: alquiler, planta, estacionamiento, anunciante y teléfono no aparecen; abrir el anuncio antes de llamar. ANUNCIO GEMELO con ID consecutivo, casi seguro el mismo inmueble: 'SE ALQUILA LOCAL COMERCIAL JUAN DIAZ 478M SIN DIVISIONES OFICINA' (https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/se-alquila-local-comercial-juan-diaz-478m-sin-divisiones-oficina/32778752); no se guarda aparte para no llamar dos veces. El título indica un espacio sin divisiones con oficina. OJO: los demás avisos de Llano Bonito que salieron en la búsqueda son galeras (una de 209 m² con mezzanine en un centro logístico; 'Plaza del Este Center / Llano Bonito / 550M / galera con local'): confirmar que sea un local con frente a la vía y acceso de público y no una galera, y preguntar si se alquila una parte de 220-400 m². Por la numeración sería de fines de julio o inicios de agosto de 2026 (inferencia). Sin fecha en el resultado.
 
-### B54 · San Miguelito — Commercial Spaces for Rent Available at La Gran Estación, San Miguelito · NUEVO
+### B55 · San Miguelito — Commercial Spaces for Rent Available at La Gran Estación, San Miguelito · NUEVO
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 3 · 3/9 puntos
 - **Ubicación:** Centro comercial La Gran Estación, San Miguelito (el título del resultado dice 'Pueblo Nuevo')
 - **Contacto:** abrir el anuncio para ver el teléfono
 - **Anuncio:** <https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/commercial-spaces-for-rent-available-at-la-gran-estacion-san-miguelito/32079586>
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Anuncio individual que agrupa varias unidades (de 97.61 a 419.04 m²) en distintos niveles: área y precio sin precisar. Puede incluir el local de 352 m² que está en prioridad A (listado de icasas de San Miguelito, US$3,780): sirve como enlace directo para preguntar por esa unidad y si está en planta baja. OJO CON EL TIPO: es un centro comercial, no una plaza de barrio. Queda junto a la estación San Miguelito del Metro (dato general, no del anuncio). Sin precio, fecha ni contacto en el resultado. Zona oportunista.
+
+### B56 · Juan Díaz — Alquiler locales en Plaza Conquistador, Avenida Domingo Diaz · NUEVO
+- **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 3 · 3/9 puntos
+- **Ubicación:** Plaza Conquistador, Av. Domingo Díaz (corregimiento no indicado en el resultado)
+- **Contacto:** abrir el anuncio para ver el teléfono
+- **Anuncio:** <https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/alquiler-locales-en-plaza-conquistador-avenida-domingo-diaz/32470235>
+- **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
+- **Notas:** Zona oportunista. Anuncio individual que ofrece varios locales: los 920 m² parecen el total ofrecido o el de la plaza, no una unidad, por eso área y precio van en blanco. Preguntar si hay una unidad de 220-400 m² en planta baja, el alquiler, el estacionamiento y el acceso para camión. La Av. Domingo Díaz es larga y cruza varios corregimientos: confirmar la ubicación exacta y qué supermercados de cadena hay cerca. Anunciante, teléfono y fecha no aparecen.
 
 
 ## Prioridad C: incumplen algo negociable (alquiler o tamaño)
@@ -695,7 +711,15 @@
 - **Confirmar en la llamada:** si hay una unidad de 220-400 m² o se puede ajustar el área; si el alquiler es negociable (está sobre el tope de US$21/m²); que sea planta baja a pie de calle
 - **Notas:** FUERA DE RANGO (187 m², bajo 220) y ~US$21.4/m² (cálculo propio), apenas sobre el tope de US$21. Publicado el 26/10/2026 (reciente). Según el buscador da a la calle, con dos baños y estacionamiento. OJO: está en Anclas Mall y los criterios excluyen locales dentro de malls grandes; confirmar si es una plaza abierta o un centro comercial cerrado. En el mismo mall hay un local de 90 m² a US$1,500 (Encuentra24 33180353): preguntar si son contiguos; juntos sumarían ~277 m² y US$5,500 (~US$19.9/m², cálculo propio). Calle exacta, anunciante y teléfono no aparecen.
 
-### C12 · Juan Díaz — Los Pueblos, alquilo 600 m2, 5,000, 2 plantas (título tomado del slug de la URL) · NUEVO
+### C12 · Juan Díaz — Locales Nuevos 2 Pisos en Alquiler/New 2-Story Com Spaces for Rent (Plaza Las Palmeras) · NUEVO
+- **Datos:** 576 m² · US$2,000/mes · US$3.5/m² · planta varios niveles · ola 3 · 4/9 puntos
+- **Ubicación:** Plaza Las Palmeras, Juan Díaz, a ~1 km de la Policlínica de Juan Díaz (según el resultado)
+- **Contacto:** abrir el anuncio para ver el teléfono
+- **Anuncio:** <https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/locales-nuevos-2-pisos-en-alquiler-new-2-story-com-spaces-for-rent/32409450>
+- **Confirmar en la llamada:** área techada real y si se puede subdividir (el total sí entra en presupuesto); cuánto mide la planta baja sola
+- **Notas:** Zona oportunista. Anuncio individual (versiones en español e inglés con el mismo ID). FUERA DE RANGO por área total (576 m² en dos plantas), pero la planta baja sola mide 288 m², dentro del rango ideal: preguntar si se alquila solo la planta baja o si la planta alta sirve de depósito. PRECIO POR CONFIRMAR: el resultado dice '$2,000 el primer mes'; US$3.47/m² × 576 m² dan ~US$2,000 (cálculo propio), lo que sugiere que es el alquiler mensual, pero es muy bajo frente a otros avisos de Juan Díaz (US$10-20/m²): confirmar que no sea una promoción del primer mes. El anuncio lo sugiere para oficinas administrativas: confirmar que admita uso comercial con público, frente a la calle, acceso para camión y estacionamiento de clientes. Plaza nueva (ver resumen de plazas). Anunciante, teléfono y dirección exacta no aparecen.
+
+### C13 · Juan Díaz — Los Pueblos, alquilo 600 m2, 5,000, 2 plantas (título tomado del slug de la URL) · NUEVO
 - **Datos:** 600 m² · US$5,000/mes · US$8.3/m² · planta varios niveles · ola 3 · 4/9 puntos
 - **Ubicación:** Los Pueblos, Juan Díaz, según el texto de la URL
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -703,7 +727,7 @@
 - **Confirmar en la llamada:** área techada real y si se puede subdividir (el total sí entra en presupuesto); cuánto mide la planta baja sola
 - **Notas:** FUERA DE RANGO: 600 m² repartidos en 2 plantas. TODO SALE DEL TEXTO DE LA URL: se interpreta '5-000' como US$5,000 al mes; confirmar al abrir el anuncio. Se guarda porque el total entra en presupuesto (~US$8.3/m², cálculo propio): preguntar cuánto mide la planta baja sola y si se alquila sin la planta alta, o si esta serviría de depósito. Los Pueblos es un centro comercial grande: puede no cumplir el criterio de tipo; verificar qué supermercados de cadena hay ahí. POSIBLE ANUNCIO VIEJO: el ID (31.98 millones) es más bajo que el de los anuncios recientes (32.7-33.2 millones); verificar vigencia. Zona oportunista. Sin anunciante, teléfono ni fecha en el resultado.
 
-### C13 · San Miguelito — Local comercial en alquiler en la entrada de Brisas del Golf, 384 m, oficina, drive thru (AR) (título tomado del slug de la URL) · NUEVO
+### C14 · San Miguelito — Local comercial en alquiler en la entrada de Brisas del Golf, 384 m, oficina, drive thru (AR) (título tomado del slug de la URL) · NUEVO
 - **Datos:** 384 m² · US$9,000/mes · US$23.4/m² · planta n/d · ola 3 · 4/9 puntos
 - **Ubicación:** Entrada de Brisas del Golf, San Miguelito; ubicación en esquina
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -711,7 +735,7 @@
 - **Confirmar en la llamada:** si el alquiler es negociable (está sobre el tope de US$21/m²); si el total es negociable (supera el máximo de US$6,500/mes); que sea planta baja a pie de calle
 - **Notas:** CARO: ~US$23.4/m² (cálculo propio), sobre el tope de US$21/m², y US$9,000 supera el máximo de ~US$6,500 al mes; solo sirve si el precio es muy negociable. Área en rango aceptable (384 m²) y esquinero con drive-thru (formato pensado para comida rápida o banco: habría que adecuarlo). Publicado el 14/07/2026 (cuatro meses): verificar vigencia. El resultado no indica planta, estacionamientos, mantenimiento ni contacto. Un segundo anuncio de Encuentra24, sin URL atribuida, describe una unidad de 384 m² con drive-thru dentro del centro comercial Brisas 507, sobre la vía principal de Brisas del Golf, al mismo precio de $9,000 y publicada el 09/04/2026: puede ser este mismo local; si lo es, está dentro de un centro comercial y hay que verificar que tenga frente a la calle. En los resultados aparece además un anuncio de VENTA de un local en la entrada de Brisas del Golf (https://www.encuentra24.com/panama-en/real-estate-for-sale-commercial/for-sale-local-commercial-entrance-golf-brisas/33019785); no se sabe si es el mismo inmueble. Zona oportunista.
 
-### C14 · San Miguelito — Commercial Space for Sale/Rent Paseo Drive Brisas del Golf · NUEVO
+### C15 · San Miguelito — Commercial Space for Sale/Rent Paseo Drive Brisas del Golf · NUEVO
 - **Datos:** 461.51 m² · US$8,300/mes · US$18/m² · planta n/d · ola 3 · 3/9 puntos
 - **Ubicación:** Plaza Paseo Drive, Paseo del Norte / Brisas Norte, sector de Brisas del Golf
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -719,7 +743,7 @@
 - **Confirmar en la llamada:** si hay una unidad de 220-400 m² o se puede ajustar el área; si el total es negociable (supera el máximo de US$6,500/mes); que sea planta baja a pie de calle
 - **Notas:** FUERA DE RANGO: 461.51 m² (banda de 400-500) y US$8,300 al mes, sobre el máximo de ~US$6,500; US$18/m² según otra ficha de la misma unidad, más US$2.50/m² de mantenimiento. Solo sirve si aceptan subdividir o negociar. La asociación entre esta URL y los datos se dedujo de que el título del resultado ('for Sale/Rent') coincide con la ficha que ofrece la misma propiedad en venta por US$1.28 M o en alquiler: verificar al abrirla. También está en venta. El resultado no indica planta, estacionamientos, fecha, nombre del anunciante (el sitio es casanova.realty) ni teléfono. Paseo Drive es una plaza comercial nueva; Encuentra24 la etiqueta como Brisas del Golf y un listado de Mitula la ubica en 'Brisas del Norte en Panamá Norte': confirmar si cae en San Miguelito (oportunista) o en Ernesto Córdoba Campos (ola 1). Otros locales de la misma plaza vistos en la búsqueda, todos pequeños: 123.70 m² en planta baja a US$29/m² + US$2.50/m² de mantenimiento; 52 m² a US$1,500; una planta baja sin área indicada a US$3,500 + US$3 de mantenimiento. Aviso de Encuentra24 de la plaza, sin datos atribuibles: https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/rent-plaza-paseo-drive-a-local-new-brisas-del-golf-paseo-del-norte/29234765. El buscador advierte que varios avisos tienen meses de antigüedad.
 
-### C15 · San Miguelito — Local en Esquina con Terraza: Máxima Exposición en Brisas Mall · NUEVO
+### C16 · San Miguelito — Local en Esquina con Terraza: Máxima Exposición en Brisas Mall · NUEVO
 - **Datos:** 211 m² · US$5,000/mes · US$23.7/m² · planta baja · ola 3 · 3/9 puntos
 - **Ubicación:** Brisas Mall, Brisas del Golf, San Miguelito
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -734,6 +758,7 @@
 - Tocumen — Alquiler de Bodega con Oficina 256 m2: tipo no apto (galera). <https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/alquiler-de-bodega-con-oficina-256-m2/33120632>
 - Ernesto Córdoba Campos — Propiedad en alquiler para local u oficina, Villa Zaita (título tomado del slug de la URL): área fuera de rango (915 m²). <https://www.colliers.com/es-pa/propiedades/propiedad-en-alquiler-para-local-u-oficina-villa-zaita/pan-villa-zaita/pan7000462>
 - 24 de Diciembre — ALQUILER LOCAL 1000M2 EN LA 24 DICIEMBRE PLAZA COMERCIAL - US$12,500 USD: área fuera de rango (1000 m²). <https://myminmobiliariamonteria.com/local-alquiler-tocumen-tocumen/9361239>
+- 24 de Diciembre — Local de 300 m² en dos pisos en Centro Comercial La Doña (título exacto no visible en el resultado): alquiler alto (US$40/m²). <https://www.icasas.com.pa/alquiler/locales/ciudad-panama/tocumen>
 - Vacamonte — Local en Plaza Ayin, vía Puerto Vacamonte (título exacto no visible en el resultado): área fuera de rango (140 m²). <https://www.icasas.com.pa/alquiler/comerciales/arraijan/ciudad-vacamonte>
 - Arraiján — ALQUILO EN LA MITRA ARRAIJAN: área fuera de rango (80 m²). <https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/alquilo-en-la-mitra-arraijan/33284783>
 - La Chorrera — Alquiler Local Comercial - La Chorrera -80 Mts2 PARA TODO NEGOCIO!: área fuera de rango (80 m²). <https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/alquiler-local-comercial-la-chorrera-80-mts2-para-todo-negocio/32994279>
