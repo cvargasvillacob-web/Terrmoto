@@ -1,8 +1,8 @@
 *Locales para supermercado de 250 m²*
 Reporte del 20 nov 2026
 
-En seguimiento: 103 anuncios (19 A · 68 B · 16 C)
-Nuevos en las últimas 24 horas: 51
+En seguimiento: 105 anuncios (19 A · 70 B · 16 C)
+Nuevos en las últimas 24 horas: 42
 
 *Prioridad A: llamar primero (19)*
 1. Pacora — Locales en Centro Comercial Pacora (ID 13263) - US$4,503 USD
@@ -51,7 +51,7 @@ Nuevos en las últimas 24 horas: 51
    250 m² · US$4,000/mes · US$16/m² · NUEVO
    https://www.bienesonline.com.pa/buscar-alquiler-local-la-chorrera.php
 16. Juan Díaz — Local de 250 m² en PH, Juan Díaz (título exacto no visible en el resu…
-   250 m² · US$1,200/mes · US$4.8/m² · NUEVO
+   250 m² · US$1,200/mes · US$4.8/m²
    https://casas.mitula.com.pa/alquiler-locales-comerciales-juan-diaz-1200-dolares
 17. San Miguelito — alquiler Local en Omar Torrijos, San Miguelito (8137040)
    260 m² · US$2,600/mes · US$10/m² · NUEVO
@@ -63,7 +63,7 @@ Nuevos en las últimas 24 horas: 51
    307 m² · US$4,928/mes · US$16.1/m² · NUEVO
    https://www.icasas.com.pa/alquiler/locales/san-miguelito
 
-*Otros nuevos, con datos por confirmar (45)*
+*Otros nuevos, con datos por confirmar (37)*
 • Las Cumbres — Local rental milla8 ... mezanine 300meters, Las Lajas (título parcial…
    300 m² · US$1,000/mes · US$3.3/m² · NUEVO
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/prov-panama-panama-city-las-cumbres
@@ -88,6 +88,6 @@ Nuevos en las últimas 24 horas: 51
 • 24 de Diciembre — Local de 204 m² en La Doña (título exacto no visible en el resultado)
    204 m² · NUEVO
    https://www.compreoalquile.com/locales-comerciales-en-24-de-diciembre-q-24.html
-…y 37 más en la lista completa.
+…y 29 más en la lista completa.
 
 _Datos tomados del buscador web: confirmar área, precio y vigencia al llamar._
