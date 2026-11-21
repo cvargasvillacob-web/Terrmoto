@@ -47,6 +47,7 @@ ZONA_CORR = {
     "alcalde diaz": "alcalde diaz", "san miguelito": "belisario porras", "la chorrera": "barrio colon",
     "burunga": "burunga", "cerro silvestre": "cerro silvestre", "vista alegre": "vista alegre",
     "arraijan": "arraijan cabecera", "juan d arosemena": "juan demostenes arosemena",
+    "nuevo arraijan": "juan demostenes arosemena", "vacamonte": "arraijan cabecera",
 }
 # Estaciones cuyo nombre es también un barrio: si el texto lo nombra, el local está cerca
 ESTACIONES_REFERENCIA = ["nuevo tocumen", "24 de diciembre", "altos de tocumen", "las mananitas", "hospital del este",
@@ -57,7 +58,8 @@ RECORRIDO = {
     "Este": {"tocumen", "24 de diciembre", "pacora", "las mananitas", "juan diaz"},
     "Norte": {"ernesto cordoba campos", "las cumbres", "alcalde diaz"},
     "San Miguelito": {"san miguelito"},
-    "Oeste": {"la chorrera", "burunga", "cerro silvestre", "vista alegre", "arraijan", "juan d arosemena"},
+    "Oeste": {"la chorrera", "burunga", "cerro silvestre", "vista alegre", "arraijan", "juan d arosemena",
+              "nuevo arraijan", "vacamonte"},
 }
 
 
@@ -87,6 +89,10 @@ def ubicar(x):
         if len(c) > 5 and re.search(rf"\b{c}\b", texto):
             la, lo = punto_corr[c]
             return la, lo, "centro del corregimiento que nombra el anuncio (aproximada)", "corregimiento"
+    if zona.startswith("via transistmica") and "san isidro" in punto_est:
+        # tramo sin confirmar: se usa la estación San Isidro solo como referencia sobre la vía
+        la, lo, _ = punto_est["san isidro"]
+        return la, lo, "de referencia sobre la Vía Transístmica; el tramo está sin confirmar", "corregimiento"
     if zona_ok and zona_ok in punto_corr:
         la, lo = punto_corr[zona_ok]
         return la, lo, "centro del corregimiento de la zona (aproximada)", "corregimiento"
@@ -95,6 +101,8 @@ def ubicar(x):
 
 def grupo(x):
     z = plano(x.get("zona"))
+    if z.startswith("via transistmica"):
+        return "Norte"
     for g, zs in RECORRIDO.items():
         if z in zs:
             return g

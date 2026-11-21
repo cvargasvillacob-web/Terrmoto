@@ -1,6 +1,6 @@
 # Locales para llamar — 2026-11-21
 
-126 anuncios revisados: 19 de prioridad A, 72 de prioridad B, 16 de prioridad C y 19 descartados. Actualizado el 21 nov a las 05:01 (hora de Panamá).
+126 anuncios revisados: 19 de prioridad A, 72 de prioridad B, 16 de prioridad C y 19 descartados. Actualizado el 21 nov a las 06:35 (hora de Panamá).
 
 > Los datos salen de resultados del buscador web, no de la lectura del anuncio completo (los portales bloquean el acceso automatizado). Área, precio y vigencia deben confirmarse al abrir el anuncio y en la llamada.
 
@@ -396,7 +396,7 @@
 - **Confirmar en la llamada:** si hay una unidad de 220-400 m² o se puede ajustar el área; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** DATO DE LISTADO: buscar la ficha de 204 m² en la página. FUERA DE RANGO (204 m², bajo el mínimo de 220). Solo se conocen las expensas (USD 459/mes), no el alquiler. Puede ser el mismo local de 200 m² en planta baja de Arturo Jordan en Plaza La Doña (Encuentra24 31966156, US$5,200 + mantenimiento): si es así, el alquiler supera el tope. Los locales de planta baja en La Doña que salieron en esta corrida rondan US$26/m². Planta, fecha y contacto no aparecen.
 
-### B29 · 24 de Diciembre — Se alquilan locales comerciales en la 24 de Diciembre - US$1,600 USD · NUEVO
+### B29 · 24 de Diciembre — Se alquilan locales comerciales en la 24 de Diciembre - US$1,600 USD
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 1 · 5/9 puntos
 - **Ubicación:** Plaza en la 24 de Diciembre (el resultado no da el nombre)
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -652,7 +652,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Anuncio individual que agrupa varias unidades (de 97.61 a 419.04 m²) en distintos niveles: área y precio sin precisar. Puede incluir el local de 352 m² que está en prioridad A (listado de icasas de San Miguelito, US$3,780): sirve como enlace directo para preguntar por esa unidad y si está en planta baja. OJO CON EL TIPO: es un centro comercial, no una plaza de barrio. Queda junto a la estación San Miguelito del Metro (dato general, no del anuncio). Sin precio, fecha ni contacto en el resultado. Zona oportunista.
 
-### B61 · Juan Díaz — Alquiler locales en Plaza Conquistador, Avenida Domingo Diaz · NUEVO
+### B61 · Juan Díaz — Alquiler locales en Plaza Conquistador, Avenida Domingo Diaz
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 3 · 3/9 puntos
 - **Ubicación:** Plaza Conquistador, Av. Domingo Díaz (corregimiento no indicado en el resultado)
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -839,7 +839,7 @@
 - **Confirmar en la llamada:** si hay una unidad de 220-400 m² o se puede ajustar el área; si el alquiler es negociable (está sobre el tope de US$21/m²); que sea planta baja a pie de calle
 - **Notas:** FUERA DE RANGO (187 m², bajo 220) y ~US$21.4/m² (cálculo propio), apenas sobre el tope de US$21. Publicado el 26/10/2026 (reciente). Según el buscador da a la calle, con dos baños y estacionamiento. OJO: está en Anclas Mall y los criterios excluyen locales dentro de malls grandes; confirmar si es una plaza abierta o un centro comercial cerrado. En el mismo mall hay un local de 90 m² a US$1,500 (Encuentra24 33180353): preguntar si son contiguos; juntos sumarían ~277 m² y US$5,500 (~US$19.9/m², cálculo propio). Calle exacta, anunciante y teléfono no aparecen.
 
-### C12 · Juan Díaz — Locales Nuevos 2 Pisos en Alquiler/New 2-Story Com Spaces for Rent (Plaza Las Palmeras) · NUEVO
+### C12 · Juan Díaz — Locales Nuevos 2 Pisos en Alquiler/New 2-Story Com Spaces for Rent (Plaza Las Palmeras)
 - **Datos:** 576 m² · US$2,000/mes · US$3.5/m² · planta varios niveles · ola 3 · 4/9 puntos
 - **Ubicación:** Plaza Las Palmeras, Juan Díaz, a ~1 km de la Policlínica de Juan Díaz (según el resultado)
 - **Contacto:** abrir el anuncio para ver el teléfono
