@@ -23,6 +23,30 @@ Fuentes: [Infoguía](https://infoguia.com.pa/is.asp?ciud=54&clte=10031852&emp=ju
 [localizador de Justo & Bueno](https://www.justoybuenopanama.com/ubicaciones/),
 [Bloomberg Línea, cierre](https://www.bloomberglinea.com/2022/11/26/una-reorganizacion-inviable-justo-y-bueno-en-panama-cancela-operaciones/).
 
+## Antiguos locales de Justo & Bueno en Panamá Oeste
+
+Direcciones del localizador de la cadena, Infoguía y Waze (búsqueda del 21 de noviembre de 2026). Ninguna
+apareció en un anuncio de alquiler, así que hay que verlas en el lugar.
+
+| Zona | Dirección | Nota |
+|---|---|---|
+| La Chorrera | Plaza Victoria | |
+| La Chorrera | Uniplaza, Costa Verde | La base tiene locales libres en Uniplaza (Encuentra24 29173260 y uno de 111 a 306 m² en Mitula); uno podría ser este |
+| La Chorrera | Av. Rockefeller | |
+| La Chorrera | MAC Chorrera | |
+| La Chorrera | Valle Dorado | |
+| La Chorrera | Vista Mar Chorrera | |
+| La Chorrera | El Libertador | Según Waze |
+| Arraiján | Plaza Edén | |
+| Arraiján | Galerías de Arraiján | |
+| Arraiján | PH Galería | |
+| Arraiján | City Plaza | |
+| Arraiján | Brisas de Arraiján | El local de Juan D. Arosemena «cerca de Brisas de Arraiján» que está en la base podría ser este |
+| Vacamonte | PH Servicentro, Ciudad Vacamonte | Infoguía da otra dirección: Vía Puerto de Vacamonte, Vista Alegre |
+
+Fuentes: [localizador de Justo & Bueno](https://www.justoybuenopanama.com/ubicaciones/),
+[Infoguía, Panamá Oeste](https://infoguia.com.pa/is.asp?clte=10031852&e=20&emp=justo-y-bueno-panama-oeste).
+
 ## Plazas nuevas o en construcción
 
 | Zona | Plaza | Lo que se sabe |
