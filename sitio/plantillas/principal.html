@@ -73,18 +73,18 @@ nav.menu a:hover { color: var(--azul); }
 .hero h1 { font-size: clamp(38px, 5.4vw, 64px); line-height: 1.02; font-weight: 800; margin: 14px 0 18px; }
 .hero h1 em { font-style: normal; background: linear-gradient(90deg, #ffffff, #b7c8f2 60%, #dfe3ea); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hero p.lead { font-size: 18px; color: #d5ddf3; max-width: 52ch; margin: 0 0 26px; }
-.lativium { background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .18); border-radius: 16px; padding: 16px; backdrop-filter: blur(6px); }
-.lativium label { display: flex; align-items: center; gap: 8px; font: 700 13px var(--f-display); letter-spacing: .06em; text-transform: uppercase; color: #dbe4fb; margin-bottom: 10px; }
-.lativium label .punto { width: 8px; height: 8px; border-radius: 50%; background: #4ade80; box-shadow: 0 0 0 0 rgba(74, 222, 128, .6); animation: latido 2s infinite; }
+.buscador { background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .18); border-radius: 16px; padding: 16px; backdrop-filter: blur(6px); }
+.buscador label { display: flex; align-items: center; gap: 8px; font: 700 13px var(--f-display); letter-spacing: .06em; text-transform: uppercase; color: #dbe4fb; margin-bottom: 10px; }
+.buscador label .punto { width: 8px; height: 8px; border-radius: 50%; background: #4ade80; box-shadow: 0 0 0 0 rgba(74, 222, 128, .6); animation: latido 2s infinite; }
 @keyframes latido { 0% { box-shadow: 0 0 0 0 rgba(74, 222, 128, .55); } 70% { box-shadow: 0 0 0 10px rgba(74, 222, 128, 0); } 100% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0); } }
-.lativium .caja { display: flex; gap: 10px; align-items: stretch; }
-.lativium textarea { flex: 1; min-width: 0; resize: none; border: 0; border-radius: 10px; padding: 12px 14px; font: 16px/1.4 var(--f-body); color: var(--tinta); background: #fff; }
-.lativium .btn { white-space: nowrap; justify-content: center; }
-@media (max-width: 520px) { .lativium .caja { flex-direction: column; } }
+.buscador .caja { display: flex; gap: 10px; align-items: stretch; }
+.buscador textarea { flex: 1; min-width: 0; resize: none; border: 0; border-radius: 10px; padding: 12px 14px; font: 16px/1.4 var(--f-body); color: var(--tinta); background: #fff; }
+.buscador .btn { white-space: nowrap; justify-content: center; }
+@media (max-width: 520px) { .buscador .caja { flex-direction: column; } }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
 .chip { border: 1px solid rgba(255, 255, 255, .28); background: transparent; color: #e6ecfb; font: 500 13px var(--f-body); padding: 6px 12px; border-radius: 999px; }
 .chip:hover { background: rgba(255, 255, 255, .12); }
-.lativium .nota { font-size: 13px; color: #aebbe0; margin: 10px 0 0; }
+.buscador .nota { font-size: 13px; color: #aebbe0; margin: 10px 0 0; }
 .ficha-viva { justify-self: end; align-self: start; margin-top: 12px; width: min(320px, 100%); background: rgba(255, 255, 255, .96); color: var(--tinta); border-radius: 16px; padding: 18px 20px; box-shadow: 0 24px 60px rgba(4, 10, 40, .45); }
 .ficha-viva .eyebrow { color: var(--muted); font-size: 11px; }
 .ficha-viva h3 { font-size: 24px; margin: 6px 0 2px; }
@@ -238,8 +238,8 @@ footer .legal { font-size: 12.5px; color: #8796c2; }
         <div class="eyebrow">Bienes raíces en Panamá</div>
         <h1 id="titulo-hero">Conocemos cada metro cuadrado de <em>Panamá.</em></h1>
         <p class="lead">Compramos, vendemos y alquilamos casas, apartamentos y locales comerciales. Detrás de cada búsqueda hay datos de población, transporte y mercado, y un agente digital que no deja de buscar.</p>
-        <form class="lativium" id="lativium">
-          <label for="pregunta"><span class="punto" aria-hidden="true"></span>Pregúntale a Lativium</label>
+        <form class="buscador" id="buscador">
+          <label for="pregunta"><span class="punto" aria-hidden="true"></span>Dinos qué buscas</label>
           <div class="caja">
             <textarea id="pregunta" rows="2" required placeholder="Ej.: local de 300 m² cerca del Metro en Tocumen, hasta $4,500 al mes"></textarea>
             <button class="btn blanco" type="submit">Buscar</button>
@@ -270,7 +270,7 @@ footer .legal { font-size: 12.5px; color: #8796c2; }
       <div class="sec-cab">
         <div class="eyebrow">Lo que nos hace distintos</div>
         <h2>Veinte años de calle, ahora con datos y un agente digital.</h2>
-        <p>Combinamos la experiencia de nuestros asesores con información de cada zona y con Lativium, el agente que busca, compara y avisa por ti.</p>
+        <p>Combinamos la experiencia de nuestros asesores con información de cada zona y con un agente digital que busca, compara y avisa por ti.</p>
       </div>
       <div class="pilares">
         <article class="pilar">
@@ -290,7 +290,7 @@ footer .legal { font-size: 12.5px; color: #8796c2; }
         <article class="pilar">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a6 6 0 016 6c0 4-6 12-6 12S6 13 6 9a6 6 0 016-6zm0 3.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5z" stroke="currentColor" stroke-width="1.6" fill="none"/></svg>
           <div class="num">03</div>
-          <h3>Lativium, agente digital</h3>
+          <h3>Agente digital de búsqueda</h3>
           <p>Dile qué buscas. Revisa el mercado todos los días, prioriza lo que encuentra y te avisa.</p>
           <a href="#inicio" data-ir-pregunta>Probar ahora →</a>
         </article>
@@ -458,14 +458,14 @@ footer .legal { font-size: 12.5px; color: #8796c2; }
   }
   document.querySelectorAll("[data-wa-texto]").forEach(a => a.addEventListener("click", e => { e.preventDefault(); enviar(a.dataset.waTexto); }));
 
-  // Pregúntale a Lativium
+  // Búsqueda: el pedido sale por WhatsApp
   const pregunta = document.getElementById("pregunta");
   document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => { pregunta.value = c.textContent; pregunta.focus(); }));
-  document.getElementById("lativium").addEventListener("submit", e => {
+  document.getElementById("buscador").addEventListener("submit", e => {
     e.preventDefault();
     const q = pregunta.value.trim();
     if (!q) { pregunta.focus(); return; }
-    enviar("Hola Pacífica, Lativium: busco " + q);
+    enviar("Hola Pacífica, busco " + q);
   });
   document.querySelectorAll("[data-ir-pregunta]").forEach(a => a.addEventListener("click", () => setTimeout(() => pregunta.focus(), 400)));
 

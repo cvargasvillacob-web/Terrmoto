@@ -82,7 +82,7 @@ def vista_mapa(metro, locales):
 
 
 def proyecto_supermercados(fecha):
-    """Proyecto Lativium: locales de ~250 m² para supermercados de proximidad."""
+    """Proyecto de Julio (Pacífica): locales de ~250 m² para supermercados de proximidad, preparado por Lativium."""
     carpeta = PORTAL / "supermercados"
     subprocess.run([sys.executable, str(REPO / "locales" / "mapa" / "construir.py")], check=True)
     shutil.copytree(REPO / "locales" / "mapa" / "publicar", carpeta / "mapa", dirs_exist_ok=True)
@@ -124,7 +124,7 @@ def proyecto_supermercados(fecha):
         for href, titulo, desc, cifras in docs)
     return f"""<section class="proyecto">
   <h1>Locales para supermercados de proximidad (250 m²)</h1>
-  <p class="meta">Proyecto Lativium · {len(locales)} anuncios revisados · {cuenta.get('A', 0)} de prioridad A</p>
+  <p class="meta">Preparado por Lativium para Pacífica Inmobiliaria · {len(locales)} anuncios revisados · {cuenta.get('A', 0)} de prioridad A</p>
   <a class="mapa" href="supermercados/mapa/">
     <div class="vista">{vista_mapa(metro, locales)}</div>
     <div class="txt">
