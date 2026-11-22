@@ -1,0 +1,65 @@
+# Publica la web de Pacífica Inmobiliaria y el portal de proyectos de Julio en su hosting.
+# Corre en cada cambio de la web o de los datos del proyecto (el agente busca y guarda
+# tres veces al día) y también a mano desde la pestaña Actions.
+#
+# Configuración, una sola vez (Settings > Secrets and variables > Actions):
+#   Secretos:  PACIFICA_FTP_SERVER, PACIFICA_FTP_USERNAME, PACIFICA_FTP_PASSWORD
+#   Variables (opcionales): PACIFICA_DIR_WEB (por defecto ./), PACIFICA_DIR_PROYECTOS
+#   (por defecto ./proyectos/), PACIFICA_FTP_PROTOCOL (ftps por defecto; ftp si el
+#   hosting no acepta conexión cifrada).
+# Sin los secretos, arma la web pero no sube nada.
+name: Publicar web de Pacífica
+
+on:
+  push:
+    branches: [main, claude/fervent-faraday-l67o51]
+    paths: ["sitio/**", "locales/**", "reports/**", ".github/workflows/publicar-pacifica.yml"]
+  workflow_dispatch:
+
+concurrency:
+  group: publicar-pacifica
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    env:
+      FTP_SERVER: ${{ secrets.PACIFICA_FTP_SERVER }}
+      FTP_USERNAME: ${{ secrets.PACIFICA_FTP_USERNAME }}
+      FTP_PASSWORD: ${{ secrets.PACIFICA_FTP_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Armar la web y el portal
+        run: |
+          pip install "markdown>=3.5,<4"
+          python3 sitio/construir.py
+      - name: Aviso si falta el FTP
+        if: env.FTP_SERVER == ''
+        run: echo "::warning::Faltan los secretos PACIFICA_FTP_*. La web se armó pero no se subió."
+      - name: Subir la web pública
+        if: env.FTP_SERVER != ''
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ env.FTP_SERVER }}
+          username: ${{ env.FTP_USERNAME }}
+          password: ${{ env.FTP_PASSWORD }}
+          protocol: ${{ vars.PACIFICA_FTP_PROTOCOL || 'ftps' }}
+          local-dir: sitio/salida/sitio/
+          server-dir: ${{ vars.PACIFICA_DIR_WEB || './' }}
+          state-name: .sync-web.json
+          exclude: |
+            **/proyectos/**
+      - name: Subir el portal de proyectos
+        if: env.FTP_SERVER != ''
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ env.FTP_SERVER }}
+          username: ${{ env.FTP_USERNAME }}
+          password: ${{ env.FTP_PASSWORD }}
+          protocol: ${{ vars.PACIFICA_FTP_PROTOCOL || 'ftps' }}
+          local-dir: sitio/salida/proyectos/
+          server-dir: ${{ vars.PACIFICA_DIR_PROYECTOS || './proyectos/' }}
+          state-name: .sync-proyectos.json
