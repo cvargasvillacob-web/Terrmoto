@@ -236,6 +236,57 @@ def horizontal_20(oscuro=False, con_fondo=True):
     return W, H, cuerpo
 
 
+PIN_DEFS = f"""<defs>
+  <radialGradient id="pin-cuerpo" cx=".34" cy=".26" r=".9">
+    <stop offset="0" stop-color="#6f97f5"/><stop offset=".28" stop-color="{AZUL_CLARO}"/>
+    <stop offset=".62" stop-color="{AZUL}"/><stop offset="1" stop-color="#0b1a52"/>
+  </radialGradient>
+  <linearGradient id="pin-reflejo" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".7" stop-color="#8fb0ff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#8fb0ff" stop-opacity=".55"/>
+  </linearGradient>
+  <linearGradient id="pin-lado" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0" stop-color="#9fbaff" stop-opacity=".35"/><stop offset=".12" stop-color="#9fbaff" stop-opacity="0"/>
+    <stop offset=".55" stop-color="#050d30" stop-opacity="0"/><stop offset="1" stop-color="#050d30" stop-opacity=".45"/>
+  </linearGradient>
+  <radialGradient id="pin-brillo" cx=".5" cy=".5" r=".5">
+    <stop offset="0" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="pin-hueco" cx=".5" cy=".38" r=".7">
+    <stop offset="0" stop-color="{AZUL_CLARO}"/><stop offset=".6" stop-color="{AZUL}"/><stop offset="1" stop-color="{AZUL_OSC}"/>
+  </radialGradient>
+  <radialGradient id="pin-suelo" cx=".5" cy=".5" r=".5">
+    <stop offset="0" stop-color="#0b1a52" stop-opacity=".45"/><stop offset="1" stop-color="#0b1a52" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="pin-interior" x="-10%" y="-10%" width="120%" height="120%">
+    <feOffset dy="6"/><feGaussianBlur stdDeviation="7" result="b"/>
+    <feComposite in="SourceAlpha" in2="b" operator="arithmetic" k2="-1" k3="1" result="borde"/>
+    <feFlood flood-color="#050d30" flood-opacity=".7"/><feComposite in2="borde" operator="in"/>
+    <feComposite in2="SourceGraphic" operator="over"/>
+  </filter>
+</defs>"""
+
+
+def pin_3d():
+    """Pin de ubicación propio: gota azul con volumen, aro plateado y el edificio de Pacífica adentro."""
+    W, H = 400, 520
+    cx, cy, r = 200, 190, 160
+    gota = (f"M{cx},470 C{cx - 52},392 {cx - r},300 {cx - r},{cy} "
+            f"A{r},{r} 0 1 1 {cx + r},{cy} C{cx + r},300 {cx + 52},392 {cx},470 Z")
+    ancho_m = 166
+    cuerpo = f"""<ellipse cx="{cx}" cy="488" rx="96" ry="20" fill="url(#pin-suelo)"/>
+<path d="{gota}" fill="url(#pin-cuerpo)"/>
+<path d="{gota}" fill="url(#pin-lado)"/>
+<path d="{gota}" fill="url(#pin-reflejo)"/>
+<ellipse cx="128" cy="98" rx="62" ry="30" transform="rotate(-38 128 98)" fill="url(#pin-brillo)" opacity=".75"/>
+<circle cx="{cx}" cy="{cy}" r="104" fill="url(#aro)"/>
+<circle cx="{cx}" cy="{cy}" r="92" fill="url(#pin-hueco)" filter="url(#pin-interior)"/>
+{marca(cx - ancho_m / 2 - 3, cy - alto_marca(ancho_m) / 2 + 2, ancho_m, sombra="sombra-suave")}
+<ellipse cx="{cx - 30}" cy="{cy - 62}" rx="44" ry="14" transform="rotate(-20 {cx - 30} {cy - 62})" fill="#fff" opacity=".18"/>"""
+    defs = DEFS.replace("</defs>", PIN_DEFS.replace("<defs>", ""))
+    return W, H, f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">\n{defs}\n{cuerpo}\n</svg>\n'
+
+
 def renderizar(svg_path, png_path, w, h):
     js = """const { chromium } = require('playwright');
 (async () => { const [src, out, w, h] = process.argv.slice(-4);
@@ -268,6 +319,11 @@ def main():
                                       f'{marca((lado - am) / 2, (lado - alto_marca(am)) / 2, am)}'))
     renderizar(ruta, SALIDA / "pacifica-marca.png", lado, lado)
     print("ok marca")
+    w, h, contenido = pin_3d()
+    ruta = SALIDA / "pacifica-pin.svg"
+    ruta.write_text(contenido)
+    renderizar(ruta, SALIDA / "pacifica-pin.png", w, h)
+    print("ok pin")
 
 
 if __name__ == "__main__":
