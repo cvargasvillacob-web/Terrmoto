@@ -1,6 +1,6 @@
 # Locales para llamar — 2026-11-22
 
-133 anuncios revisados: 20 de prioridad A, 75 de prioridad B, 16 de prioridad C y 22 descartados. Actualizado el 22 nov a las 05:02 (hora de Panamá).
+133 anuncios revisados: 20 de prioridad A, 75 de prioridad B, 16 de prioridad C y 22 descartados. Actualizado el 22 nov a las 06:35 (hora de Panamá).
 
 > Los datos salen de resultados del buscador web, no de la lectura del anuncio completo (los portales bloquean el acceso automatizado). Área, precio y vigencia deben confirmarse al abrir el anuncio y en la llamada.
 
