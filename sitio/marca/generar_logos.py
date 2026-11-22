@@ -205,7 +205,8 @@ def sello_20():
     return W, H, cuerpo
 
 
-def horizontal_20(oscuro=False):
+def horizontal_20(oscuro=False, con_fondo=True):
+    """oscuro: letras blancas para fondos azules; con_fondo=False lo deja transparente."""
     W, H = 1600, 400
     lado = 330
     y0 = (H - lado) / 2
@@ -224,7 +225,7 @@ def horizontal_20(oscuro=False):
     anos = SANS.texto("AÑOS", 52, x_20 + w20 / 2, 330, tracking=SANS.tracking_para("AÑOS", 52, w20) , anclaje="middle")
     tinta = "#fff" if oscuro else AZUL
     inm_color = "#d9dde6" if oscuro else "#5b5d63"
-    fondo = f'<rect width="{W}" height="{H}" fill="url(#fondo)"/>' if oscuro else ""
+    fondo = f'<rect width="{W}" height="{H}" fill="url(#fondo)"/>' if oscuro and con_fondo else ""
     cuerpo = f"""{fondo}
 {caja}
 <path d="{pac}" fill="{tinta}"/>
@@ -251,6 +252,7 @@ def main():
         "pacifica-sello-20-anos": sello_20(),
         "pacifica-horizontal-20-anos": horizontal_20(),
         "pacifica-horizontal-20-anos-oscuro": horizontal_20(oscuro=True),
+        "pacifica-horizontal-20-anos-blanco": horizontal_20(oscuro=True, con_fondo=False),
     }
     for nombre, (w, h, cuerpo) in piezas.items():
         ruta = SALIDA / f"{nombre}.svg"
