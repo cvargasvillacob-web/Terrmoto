@@ -1,8 +1,8 @@
 *Locales para supermercado de 250 m²*
 Reporte del 22 nov 2026
 
-En seguimiento: 111 anuncios (20 A · 75 B · 16 C)
-Nuevos en las últimas 24 horas: 5
+En seguimiento: 114 anuncios (20 A · 77 B · 17 C)
+Nuevos en las últimas 24 horas: 7
 
 *Prioridad A: llamar primero (20)*
 1. Pacora — Locales en Centro Comercial Pacora (ID 13263) - US$4,503 USD
@@ -66,18 +66,24 @@ Nuevos en las últimas 24 horas: 5
    307 m² · US$4,928/mes · US$16.1/m²
    https://www.icasas.com.pa/alquiler/locales/san-miguelito
 
-*Otros nuevos, con datos por confirmar (4)*
+*Otros nuevos, con datos por confirmar (6)*
 • Alcalde Díaz — Local de 500 m² en planta baja, Av. Ramón Arias (página de Locanto 'O…
    500 m² · US$5,000/mes · US$10/m² · NUEVO
    https://www.locanto.com.pa/lascumbres/Oficinas-locales-en-renta/303/
 • Tocumen — LOCAL COMERCIAL - LA SIESTA TOCUMEN - US$2,440 USD
    US$2,440/mes · NUEVO
    https://capital-bienesraices.com/lote-comercial-alquiler-la-siesta-tocumen/9007052
-• La Chorrera — Premises for rent in Chorrera (ABS) (título tomado del slug de la URL…
+• La Chorrera — SE ALQUILA LOCALES 100MT2 CADA UNO CENTRO DE LA CHORRERA
    datos por confirmar · NUEVO
-   https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/premises-for-rent-in-chorrera-abs/32953553
+   https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/se-alquila-locales-100mt2-cada-uno-centro-de-la-chorrera/32941285
+• Cerro Silvestre — Local en planta baja en Cerro Silvestre, uso preferido panadería (tít…
+   US$1,850/mes · NUEVO
+   https://www.icasas.com.pa/alquiler/locales/arraijan
 • Pedregal — COMMERCIAL PREMISES FOR RENT - PEDREGAL
    datos por confirmar · NUEVO
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/commercial-premises-for-rent-pedregal/32452212
+• La Chorrera — Se alquila local comercial de esquina en La Chorrera diagonal Musquit…
+   550 m² · US$1,500/mes · US$2.7/m² · NUEVO
+   https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/se-alquila-local-comercial-de-esquina-en-la-chorrera-diagonal-musquita-sanchez/31718224
 
 _Datos tomados del buscador web: confirmar área, precio y vigencia al llamar._
