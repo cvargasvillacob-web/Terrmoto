@@ -10,6 +10,8 @@ const MAT = {
   plata: new THREE.MeshPhysicalMaterial({ color: 0xe9ecf2, metalness: 1, roughness: 0.24, clearcoat: 0.8, clearcoatRoughness: 0.18 }),
   cromo: new THREE.MeshPhysicalMaterial({ color: 0xf6f8fb, metalness: 1, roughness: 0.07, clearcoat: 1, clearcoatRoughness: 0.04 }),
   vidrio: new THREE.MeshPhysicalMaterial({ color: 0x0c2a8f, metalness: 0, roughness: 0.18, clearcoat: 0.45, clearcoatRoughness: 0.08, emissive: 0x081f78, emissiveIntensity: 0.5 }),
+  plataClara: new THREE.MeshPhysicalMaterial({ color: 0xf1f3f7, metalness: 0.65, roughness: 0.26, clearcoat: 1, clearcoatRoughness: 0.1, emissive: 0x8a93a8, emissiveIntensity: 0.25 }),
+  azul: new THREE.MeshPhysicalMaterial({ color: 0x2149c4, metalness: 0.3, roughness: 0.2, clearcoat: 1, clearcoatRoughness: 0.06 }),
   blanco: new THREE.MeshPhysicalMaterial({ color: 0xffffff, metalness: 0, roughness: 0.32, clearcoat: 0.7, clearcoatRoughness: 0.2 }),
 };
 
@@ -72,6 +74,14 @@ function edificio() {
   return g;
 }
 
+// Pin de ubicación: gota con centro hueco y tres ondas plateadas incrustadas de lado a lado.
+function pin() {
+  const g = new THREE.Group();
+  for (const p of formas(F.pin.cuerpo).map(voltear)) g.add(extruir(p.s, 0.75, 0.1, MAT.azul));
+  for (const p of formas(F.pin.ondas).map(voltear)) g.add(extruir(p.s, 0.75, 0.1, MAT.plataClara));
+  return g;
+}
+
 function texto(clave, prof, bisel, mat) {
   const g = new THREE.Group();
   for (const p of formas(F.textos[clave]).map(voltear)) g.add(extruir(p.s, prof, bisel, mat));
@@ -124,7 +134,7 @@ window.preparar = (nombre, ancho, alto) => {
 
   raiz = new THREE.Group();
   scene.add(raiz);
-  const ed = edificio();
+  const ed = nombre === "pin" ? pin() : edificio();
   raiz.add(ed);
   const tam = centrar(ed);
 
@@ -162,7 +172,7 @@ window.preparar = (nombre, ancho, alto) => {
   sombra.rotation.x = -Math.PI / 2;
   sombra.position.y = caja.min.y - 0.02;
   sombra.receiveShadow = true;
-  scene.add(sombra);
+  if (nombre !== "pin") scene.add(sombra);
 
   const radio = caja.getBoundingSphere(new THREE.Sphere()).radius;
   camera = new THREE.PerspectiveCamera(28, ancho / alto, 0.1, 200);
@@ -176,7 +186,7 @@ window.preparar = (nombre, ancho, alto) => {
 // t en [0,1): el logo gira suave de un lado a otro y la luz barre el metal; el ciclo empalma.
 window.cuadro = (t) => {
   const a = Math.sin(t * Math.PI * 2);
-  raiz.rotation.y = 0.42 * a;
+  raiz.rotation.y = (variante === "pin" ? 0.5 : 0) + 0.42 * a;
   raiz.rotation.x = 0.06 + 0.03 * Math.cos(t * Math.PI * 2);
   luzClave.position.x = -3 + 6 * Math.cos(t * Math.PI * 2);
   renderer.render(scene, camera);

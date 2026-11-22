@@ -136,8 +136,11 @@ def main():
     if PORTAL.exists():
         shutil.rmtree(PORTAL)
     (PORTAL / "marca").mkdir(parents=True)
-    for nombre in ("pacifica-horizontal-20-anos-blanco.svg", "pacifica-marca.svg"):
-        shutil.copy(AQUI / "marca" / "logos" / nombre, PORTAL / "marca" / nombre)
+    for nombre in ("logo-pacifica-web.jpg", "logo-pacifica-web@2x.jpg"):
+        shutil.copy(AQUI / "marca" / nombre, PORTAL / "marca" / nombre)
+    shutil.copy(AQUI / "marca" / "logos" / "pacifica-marca.svg", PORTAL / "marca" / "pacifica-marca.svg")
+    for nombre in ("pacifica-cursor.png", "pacifica-cursor@2x.png"):
+        shutil.copy(AQUI / "marca" / "pin" / nombre, PORTAL / "marca" / nombre)
 
     ahora = dt.datetime.now(PANAMA)
     fecha = fecha_larga(ahora)
