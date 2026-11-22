@@ -1,3 +1,5 @@
 locales/.entrada/
 __pycache__/
 locales/mapa/publicar/
+sitio/marca/logos/*.png
+sitio/salida/
