@@ -54,3 +54,4 @@ Fuentes: [localizador de Justo & Bueno](https://www.justoybuenopanama.com/ubicac
 | Vía Transístmica (tramo por confirmar) | Plaza comercial en obra gris, Panamá Home Realty | Locales de ~56 a más de 1,000 m²; 3 meses de gracia para planos y permisos |
 | La Chorrera, Montelimar / Costa Verde | Plaza en preventa | Entrega en 2028; ya tiene un supermercado ancla (competencia) |
 | Juan Díaz | Plaza Las Palmeras | Locales nuevos de 2 pisos, 288 m² por planta |
+| 24 de Diciembre, Felipillo | Plaza Canaima, local de esquina de 280 m² con más de 10 estacionamientos | Está en venta a B/.290,000 ([MercadoLibre](https://inmueble.mercadolibre.com.pa/MPA-569768532-plaza-canaima-felipillo-280-m2-local-comercial-esquina-10-p-_JM)); preguntar si el dueño lo alquilaría |
