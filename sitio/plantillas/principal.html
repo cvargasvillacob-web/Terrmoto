@@ -3,179 +3,428 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pacífica Inmobiliaria</title>
-<meta name="description" content="Bienes raíces en Panamá: venta y alquiler residencial y comercial, y búsqueda de locales para empresas con análisis de ubicación.">
+<title>Pacífica Inmobiliaria · Bienes raíces en Panamá</title>
+<meta name="description" content="Compra, venta y alquiler de propiedades y locales comerciales en Panamá, con datos de población, transporte y mercado. 20 años en el mercado panameño.">
+<meta property="og:title" content="Pacífica Inmobiliaria">
+<meta property="og:description" content="Conocemos cada metro cuadrado de Panamá. Propiedades verificadas, locales comerciales y análisis de ubicación.">
+<meta property="og:image" content="marca/logo-pacifica-web@2x.jpg">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#203e98">
+<link rel="icon" href="marca/pacifica-marca.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Public+Sans:wght@400;500;600&display=swap">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <style>
-/* Una sola columna editorial: franja de presentación, servicios, método y contacto. */
+/* Portada de Pacífica: mapa vivo de Panamá en la portada, tres pilares, datos por zona,
+   verificación, locales para empresas, publicar una propiedad y contacto. */
 :root {
-  --bg: #f4f5f3; --surface: #ffffff; --ink: #14212b; --ink-2: #46535e; --muted: #6c7883; --line: #d9dfe2;
-  --sea: #1c5cab; --sea-2: #2a78d6; --sand: #e9e4d8; --on-sea: #ffffff;
+  --azul: #203e98; --azul-osc: #122766; --azul-noche: #0b1a52; --azul-claro: #3460d0; --azul-suave: #e9eefb;
+  --plata: #c9ccd2; --tinta: #121a33; --tinta-2: #454e66; --muted: #6b7388; --linea: #dde2ea;
+  --fondo: #f6f7fa; --sup: #ffffff; --ok: #1f8a5b; --alerta: #c77a12;
   --f-display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
   --f-body: "Public Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --pin: url("marca/pacifica-cursor.png") 25 47;
+  color-scheme: light;
 }
-@media (prefers-color-scheme: dark) { :root {
-  --bg: #0f1418; --surface: #182026; --ink: #edf1f3; --ink-2: #b8c3cb; --muted: #8b98a3; --line: #29333a;
-  --sea: #2a78d6; --sea-2: #5598e7; --sand: #232c32; --on-sea: #ffffff; color-scheme: dark } }
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 var(--f-body); }
-a { color: var(--sea-2); }
-a:focus-visible, button:focus-visible { outline: 2px solid var(--sea-2); outline-offset: 3px; }
-.wrap { max-width: 1120px; margin: 0 auto; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
-header.top { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
-header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 14px; }
-.marca { font: 800 18px/1 var(--f-display); letter-spacing: .01em; color: var(--ink); text-decoration: none; display: flex; align-items: center; gap: 10px; }
-.marca i { width: 26px; height: 26px; border-radius: 6px; background: linear-gradient(160deg, var(--sea-2), var(--sea)); display: inline-block; position: relative; }
-.marca i::after { content: ""; position: absolute; left: 5px; right: 5px; bottom: 6px; height: 3px; border-radius: 2px; background: var(--on-sea); box-shadow: 0 -6px 0 var(--on-sea); opacity: .9; }
-nav.menu { display: flex; gap: 18px; flex-wrap: wrap; font: 600 14px var(--f-display); }
-nav.menu a { color: var(--ink-2); text-decoration: none; }
-nav.menu a:hover { color: var(--ink); }
-nav.menu a.acceso { color: var(--on-sea); background: var(--sea); padding: 7px 13px; border-radius: 999px; }
-@media (max-width: 640px) { nav.menu a:not(.acceso) { display: none; } }
+html { scroll-behavior: smooth; cursor: var(--pin), auto; cursor: -webkit-image-set(url("marca/pacifica-cursor.png") 1x, url("marca/pacifica-cursor@2x.png") 2x) 25 47, auto; }
+a, button, label, summary, .leaflet-interactive, .chip { cursor: var(--pin), pointer; cursor: -webkit-image-set(url("marca/pacifica-cursor.png") 1x, url("marca/pacifica-cursor@2x.png") 2x) 25 47, pointer; }
+input, textarea, select { cursor: auto; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
+body { margin: 0; overflow-x: clip; background: var(--fondo); color: var(--tinta); font: 16px/1.6 var(--f-body); -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; }
+a { color: var(--azul-claro); }
+:focus-visible { outline: 3px solid #7fa2f0; outline-offset: 3px; border-radius: 6px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--f-display); letter-spacing: -.015em; text-wrap: balance; margin: 0; }
+.eyebrow { font: 700 12px var(--f-display); letter-spacing: .16em; text-transform: uppercase; }
+.btn { display: inline-flex; align-items: center; gap: 8px; font: 700 15px var(--f-display); padding: 12px 20px; border-radius: 10px; text-decoration: none; border: 0; transition: transform .15s ease, box-shadow .15s ease, background .15s ease; }
+.btn:hover { transform: translateY(-1px); }
+.btn.azul { background: var(--azul); color: #fff; box-shadow: 0 6px 18px rgba(32, 62, 152, .28); }
+.btn.azul:hover { background: var(--azul-claro); }
+.btn.blanco { background: #fff; color: var(--azul); }
+.btn.borde { background: transparent; color: var(--azul); box-shadow: inset 0 0 0 1.5px var(--azul); }
+.btn.wa { background: #1f9d57; color: #fff; }
 
-.hero { background: var(--sea); color: var(--on-sea); }
-.hero .wrap { padding-block: 72px 64px; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 40px; align-items: end; }
-@media (max-width: 820px) { .hero .wrap { grid-template-columns: minmax(0, 1fr); padding-block: 48px; } }
-.eyebrow { font: 600 12px var(--f-display); letter-spacing: .12em; text-transform: uppercase; opacity: .8; }
-h1 { font: 800 clamp(34px, 5.2vw, 58px)/1.02 var(--f-display); letter-spacing: -.02em; margin: 10px 0 18px; text-wrap: balance; }
-.hero p { font-size: 18px; max-width: 54ch; margin: 0 0 26px; opacity: .92; }
-.cta { display: inline-flex; gap: 10px; flex-wrap: wrap; }
-.btn { display: inline-block; font: 700 15px var(--f-display); padding: 12px 18px; border-radius: 8px; text-decoration: none; }
-.btn.claro { background: var(--on-sea); color: var(--sea); }
-.btn.borde { border: 1.5px solid color-mix(in srgb, var(--on-sea) 60%, transparent); color: var(--on-sea); }
-/* Plano de corregimientos estilizado: el detalle que solo tiene este negocio */
-.plano { aspect-ratio: 4 / 3; max-width: 100%; border-radius: 12px; background: color-mix(in srgb, var(--on-sea) 10%, transparent); padding: 14px; }
-.plano svg { width: 100%; height: 100%; display: block; }
-.plano figcaption { font-size: 12px; opacity: .75; margin-top: 8px; }
+/* Cabecera */
+header.top { position: sticky; top: 0; z-index: 1000; background: rgba(255, 255, 255, .94); backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid var(--linea); }
+header.top .wrap { display: flex; align-items: center; gap: 18px; padding-block: 10px; }
+.marca { display: flex; align-items: center; gap: 14px; text-decoration: none; }
+.marca img { height: 58px; width: auto; display: block; border-radius: 3px; }
+.marca .anos { font: 600 11px var(--f-display); letter-spacing: .16em; text-transform: uppercase; color: var(--muted); border-left: 1px solid var(--linea); padding-left: 14px; line-height: 1.35; }
+nav.menu { display: flex; gap: 22px; margin-left: auto; font: 600 14.5px var(--f-display); }
+nav.menu a { color: var(--tinta-2); text-decoration: none; }
+nav.menu a:hover { color: var(--azul); }
+.acciones { display: flex; gap: 10px; }
+.acciones .btn { padding: 10px 16px; font-size: 14px; }
+@media (max-width: 1080px) { nav.menu { display: none; } .acciones { margin-left: auto; } }
+@media (max-width: 620px) { .acciones .borde, .marca .anos { display: none; } .marca img { height: 48px; } }
 
-section { padding-block: 64px; }
-section h2 { font: 800 clamp(26px, 3.4vw, 36px)/1.1 var(--f-display); margin: 0 0 10px; letter-spacing: -.01em; text-wrap: balance; }
-section .intro { color: var(--ink-2); max-width: 62ch; margin: 0 0 32px; }
-.grid3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
-@media (max-width: 820px) { .grid3 { grid-template-columns: minmax(0, 1fr); } }
-.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 22px; }
-.card h3 { font: 700 19px var(--f-display); margin: 0 0 8px; }
-.card p { color: var(--ink-2); margin: 0 0 10px; }
-.card ul { margin: 0; padding-left: 18px; color: var(--ink-2); }
-.banda { background: var(--sand); }
-.pasos { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; counter-reset: paso; }
-@media (max-width: 820px) { .pasos { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
-@media (max-width: 520px) { .pasos { grid-template-columns: minmax(0, 1fr); } }
-.paso { counter-increment: paso; }
-.paso::before { content: counter(paso); display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: var(--sea); color: var(--on-sea); font: 800 15px var(--f-display); margin-bottom: 10px; }
-.paso h3 { font: 700 17px var(--f-display); margin: 0 0 6px; }
-.paso p { color: var(--ink-2); margin: 0; font-size: 15px; }
-.contacto { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start; }
-@media (max-width: 820px) { .contacto { grid-template-columns: minmax(0, 1fr); } }
-.dato { font: 600 18px var(--f-display); word-break: break-word; }
-.nota { font-size: 13px; color: var(--muted); }
-footer { border-top: 1px solid var(--line); padding-block: 28px; color: var(--muted); font-size: 14px; }
-footer .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+/* Portada con el mapa vivo */
+.hero { position: relative; min-height: min(88vh, 780px); background: var(--azul-noche); color: #fff; overflow: hidden; isolation: isolate; }
+#mapa-hero { position: absolute; inset: 0; z-index: 0; background: var(--azul-noche); }
+.hero::after { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(90deg, rgba(11, 26, 82, .97) 0%, rgba(11, 26, 82, .88) 34%, rgba(11, 26, 82, .25) 66%, rgba(11, 26, 82, .05) 100%); }
+@media (max-width: 900px) { .hero::after { background: linear-gradient(180deg, rgba(11, 26, 82, .55) 0%, rgba(11, 26, 82, .92) 46%, rgba(11, 26, 82, .97) 100%); } }
+.hero .wrap { position: relative; z-index: 2; display: grid; grid-template-columns: minmax(0, 560px) minmax(0, 1fr); gap: 40px; min-height: min(88vh, 780px); align-items: center; padding-block: 56px; pointer-events: none; }
+.hero .wrap > * { pointer-events: auto; }
+@media (max-width: 900px) { .hero .wrap { grid-template-columns: minmax(0, 1fr); align-items: end; padding-top: 220px; } }
+.hero .eyebrow { color: #a9c0f5; }
+.hero h1 { font-size: clamp(38px, 5.4vw, 64px); line-height: 1.02; font-weight: 800; margin: 14px 0 18px; }
+.hero h1 em { font-style: normal; background: linear-gradient(90deg, #ffffff, #b7c8f2 60%, #dfe3ea); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero p.lead { font-size: 18px; color: #d5ddf3; max-width: 52ch; margin: 0 0 26px; }
+.lativium { background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .18); border-radius: 16px; padding: 16px; backdrop-filter: blur(6px); }
+.lativium label { display: flex; align-items: center; gap: 8px; font: 700 13px var(--f-display); letter-spacing: .06em; text-transform: uppercase; color: #dbe4fb; margin-bottom: 10px; }
+.lativium label .punto { width: 8px; height: 8px; border-radius: 50%; background: #4ade80; box-shadow: 0 0 0 0 rgba(74, 222, 128, .6); animation: latido 2s infinite; }
+@keyframes latido { 0% { box-shadow: 0 0 0 0 rgba(74, 222, 128, .55); } 70% { box-shadow: 0 0 0 10px rgba(74, 222, 128, 0); } 100% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0); } }
+.lativium .caja { display: flex; gap: 10px; align-items: stretch; }
+.lativium textarea { flex: 1; min-width: 0; resize: none; border: 0; border-radius: 10px; padding: 12px 14px; font: 16px/1.4 var(--f-body); color: var(--tinta); background: #fff; }
+.lativium .btn { white-space: nowrap; justify-content: center; }
+@media (max-width: 520px) { .lativium .caja { flex-direction: column; } }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.chip { border: 1px solid rgba(255, 255, 255, .28); background: transparent; color: #e6ecfb; font: 500 13px var(--f-body); padding: 6px 12px; border-radius: 999px; }
+.chip:hover { background: rgba(255, 255, 255, .12); }
+.lativium .nota { font-size: 13px; color: #aebbe0; margin: 10px 0 0; }
+.ficha-viva { justify-self: end; align-self: start; margin-top: 12px; width: min(320px, 100%); background: rgba(255, 255, 255, .96); color: var(--tinta); border-radius: 16px; padding: 18px 20px; box-shadow: 0 24px 60px rgba(4, 10, 40, .45); }
+.ficha-viva .eyebrow { color: var(--muted); font-size: 11px; }
+.ficha-viva h3 { font-size: 24px; margin: 6px 0 2px; }
+.ficha-viva .sector { color: var(--muted); font-size: 14px; }
+.ficha-viva .cifras { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px; }
+.ficha-viva .cifra b { display: block; font: 800 22px var(--f-display); font-variant-numeric: tabular-nums; color: var(--azul); }
+.ficha-viva .cifra span { font-size: 12.5px; color: var(--muted); }
+.ficha-viva .metro { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--linea); font-size: 13.5px; color: var(--tinta-2); }
+@media (max-width: 900px) { .ficha-viva { display: none; } }
+.leaflet-container .leaflet-marker-pane .pin-mapa img { width: 30px; height: auto; display: block; filter: drop-shadow(0 6px 6px rgba(0, 0, 0, .35)); transform-origin: 50% 100%; animation: caida .9s cubic-bezier(.2, .9, .25, 1.25) both; }
+@keyframes caida { 0% { transform: translateY(-80px) scale(.6); opacity: 0; } 70% { opacity: 1; } 100% { transform: translateY(0) scale(1); } }
+.leaflet-container .leaflet-marker-pane .pin-mapa.activo img { width: 40px; margin-left: -5px; margin-top: -13px; }
+
+/* Secciones */
+section { padding-block: 88px; scroll-margin-top: 78px; }
+.sec-cab { max-width: 720px; margin-bottom: 40px; }
+.sec-cab .eyebrow { color: var(--azul-claro); }
+.sec-cab h2 { font-size: clamp(30px, 3.8vw, 44px); line-height: 1.08; font-weight: 800; margin: 10px 0 14px; }
+.sec-cab p { color: var(--tinta-2); font-size: 17.5px; margin: 0; }
+
+.pilares { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+@media (max-width: 900px) { .pilares { grid-template-columns: minmax(0, 1fr); } }
+.pilar { background: var(--sup); border: 1px solid var(--linea); border-radius: 18px; padding: 28px; position: relative; overflow: hidden; }
+.pilar .num { font: 800 13px var(--f-display); color: var(--azul-claro); letter-spacing: .1em; }
+.pilar h3 { font-size: 22px; margin: 10px 0 8px; }
+.pilar p { color: var(--tinta-2); margin: 0 0 14px; }
+.pilar a { font: 700 14.5px var(--f-display); text-decoration: none; }
+.pilar svg { position: absolute; right: -12px; top: -12px; width: 120px; height: 120px; opacity: .09; color: var(--azul); }
+
+.datos { background: var(--sup); border-block: 1px solid var(--linea); }
+.datos-grid { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 24px; align-items: stretch; }
+@media (max-width: 900px) { .datos-grid { grid-template-columns: minmax(0, 1fr); } }
+.mapa-caja { position: relative; border-radius: 18px; overflow: hidden; border: 1px solid var(--linea); min-height: 520px; }
+#mapa-datos { position: absolute; inset: 0; background: #cfe0f4; }
+@media (max-width: 900px) { .mapa-caja { min-height: 420px; } }
+.capas { position: absolute; z-index: 500; top: 12px; right: 12px; display: flex; background: #fff; border-radius: 10px; box-shadow: 0 4px 14px rgba(18, 26, 51, .14); padding: 4px; }
+.capas button { border: 0; background: transparent; font: 700 13.5px var(--f-display); color: var(--tinta-2); padding: 8px 12px; border-radius: 7px; }
+.capas button[aria-pressed="true"] { background: var(--azul); color: #fff; }
+.leyenda { position: absolute; z-index: 500; bottom: 12px; left: 12px; background: rgba(255, 255, 255, .95); border-radius: 10px; padding: 10px 12px; font-size: 12px; color: var(--tinta-2); box-shadow: 0 4px 14px rgba(18, 26, 51, .12); max-width: calc(100% - 24px); }
+.leyenda .escala { display: flex; gap: 2px; margin: 6px 0 4px; }
+.leyenda .escala i { width: 34px; height: 10px; display: block; }
+.leyenda .extremos { display: flex; justify-content: space-between; font-variant-numeric: tabular-nums; }
+.leyenda .metro-ley { display: flex; gap: 12px; margin-top: 6px; }
+.leyenda .metro-ley span::before { content: ""; display: inline-block; width: 16px; height: 3px; border-radius: 2px; margin-right: 6px; vertical-align: middle; background: var(--c); }
+.ficha { background: var(--fondo); border: 1px solid var(--linea); border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 14px; }
+.ficha h3 { font-size: 28px; }
+.ficha .sector { color: var(--muted); margin-top: -8px; }
+.ficha dl { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 0; }
+.ficha dt { font-size: 12.5px; color: var(--muted); }
+.ficha dd { margin: 2px 0 0; font: 800 24px var(--f-display); color: var(--azul); font-variant-numeric: tabular-nums; }
+.ficha .linea { border-top: 1px solid var(--linea); padding-top: 14px; color: var(--tinta-2); font-size: 15px; }
+.ficha .pista { font-size: 13px; color: var(--muted); margin-top: auto; }
+.fuente { font-size: 12.5px; color: var(--muted); margin-top: 14px; }
+
+#verificadas { overflow: hidden; }
+.verif { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 48px; align-items: center; }
+@media (max-width: 900px) { .verif { grid-template-columns: minmax(0, 1fr); } }
+.sello { position: relative; aspect-ratio: 1; max-width: 420px; width: 100%; justify-self: center; display: grid; place-items: center; }
+.sello::before { content: ""; position: absolute; inset: 6%; border-radius: 50%; background: radial-gradient(circle at 40% 32%, #3a66d8, var(--azul) 52%, var(--azul-noche)); box-shadow: 0 30px 70px rgba(32, 62, 152, .35), inset 0 0 0 10px rgba(255, 255, 255, .12); }
+.sello::after { content: ""; position: absolute; inset: 0; border-radius: 50%; border: 2px dashed rgba(32, 62, 152, .25); animation: giro 40s linear infinite; }
+@keyframes giro { to { transform: rotate(360deg); } }
+.sello img { position: relative; width: 38%; height: auto; filter: drop-shadow(0 18px 22px rgba(4, 10, 40, .45)); }
+.sello .marca-sello { position: absolute; bottom: 17%; left: 50%; transform: translateX(-50%); background: #fff; color: var(--azul); font: 800 13px var(--f-display); letter-spacing: .12em; text-transform: uppercase; padding: 8px 14px; border-radius: 999px; white-space: nowrap; box-shadow: 0 8px 20px rgba(4, 10, 40, .25); }
+.pasos { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; counter-reset: paso; }
+.pasos li { counter-increment: paso; display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 14px; background: var(--sup); border: 1px solid var(--linea); border-radius: 14px; padding: 16px 18px; }
+.pasos li::before { content: counter(paso); width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; background: var(--azul-suave); color: var(--azul); font: 800 18px var(--f-display); }
+.pasos b { font-family: var(--f-display); font-size: 17px; }
+.pasos span { display: block; color: var(--tinta-2); font-size: 15px; }
+
+.empresas { background: radial-gradient(120% 140% at 85% 0%, #2b4fb8 0%, var(--azul) 35%, var(--azul-noche) 100%); color: #fff; }
+.empresas .sec-cab .eyebrow { color: #a9c0f5; }
+.empresas .sec-cab p { color: #d3dbf2; }
+.metodo { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-bottom: 36px; }
+@media (max-width: 900px) { .metodo { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+@media (max-width: 520px) { .metodo { grid-template-columns: minmax(0, 1fr); } }
+.metodo div { background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .16); border-radius: 16px; padding: 22px; }
+.metodo .n { font: 800 34px var(--f-display); color: #9db6f3; line-height: 1; }
+.metodo h3 { font-size: 18px; margin: 12px 0 6px; }
+.metodo p { margin: 0; color: #cfd8f1; font-size: 15px; }
+
+.publica-grid { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: 36px; align-items: start; }
+@media (max-width: 900px) { .publica-grid { grid-template-columns: minmax(0, 1fr); } }
+.perfiles { display: grid; gap: 14px; }
+.perfil { display: flex; gap: 14px; align-items: flex-start; background: var(--sup); border: 1.5px solid var(--linea); border-radius: 16px; padding: 18px; }
+.perfil input { margin-top: 5px; accent-color: var(--azul); width: 18px; height: 18px; }
+.perfil b { font-family: var(--f-display); font-size: 18px; }
+.perfil span { display: block; color: var(--tinta-2); font-size: 15px; }
+.perfil:has(input:checked) { border-color: var(--azul); box-shadow: 0 0 0 3px var(--azul-suave); }
+form.alta { background: var(--sup); border: 1px solid var(--linea); border-radius: 20px; padding: 26px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px 16px; box-shadow: 0 20px 50px rgba(18, 26, 51, .06); }
+form.alta .ancho { grid-column: 1 / -1; }
+@media (max-width: 560px) { form.alta { grid-template-columns: minmax(0, 1fr); } }
+form.alta label { display: block; font: 700 13px var(--f-display); color: var(--tinta-2); margin-bottom: 6px; }
+form.alta input, form.alta select, form.alta textarea { width: 100%; border: 1px solid var(--linea); border-radius: 10px; padding: 11px 12px; font: 15.5px var(--f-body); color: var(--tinta); background: #fbfcfe; }
+form.alta input:focus, form.alta select:focus, form.alta textarea:focus { border-color: var(--azul-claro); outline: 3px solid var(--azul-suave); }
+#mapa-form { height: 260px; border-radius: 12px; border: 1px solid var(--linea); background: #cfe0f4; }
+.ubic { font-size: 13.5px; color: var(--tinta-2); margin-top: 6px; }
+.licencia-campo[hidden] { display: none; }
+form.alta .pie { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; }
+form.alta .pie small { color: var(--muted); max-width: 46ch; }
+
+.anos20 { background: var(--azul); color: #fff; padding-block: 72px; }
+.anos20 .wrap { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 48px; align-items: center; }
+@media (max-width: 760px) { .anos20 .wrap { grid-template-columns: minmax(0, 1fr); } .anos20 img { max-width: 240px; } }
+.anos20 img { width: 100%; height: auto; display: block; }
+.anos20 h2 { font-size: clamp(28px, 3.4vw, 40px); line-height: 1.12; }
+.anos20 p { color: #d3dbf2; font-size: 17.5px; max-width: 56ch; }
+
+.contacto { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 36px; align-items: center; }
+@media (max-width: 860px) { .contacto { grid-template-columns: minmax(0, 1fr); } }
+.tarjeta { background: var(--sup); border: 1px solid var(--linea); border-radius: 20px; padding: 28px; display: grid; gap: 18px; }
+.tarjeta .dato small { display: block; font-size: 12.5px; color: var(--muted); }
+.tarjeta .dato b { font: 700 19px var(--f-display); word-break: break-word; }
+
+footer { background: var(--azul-noche); color: #aebbe0; padding-block: 40px; font-size: 14px; }
+footer .wrap { display: flex; flex-wrap: wrap; gap: 16px 32px; justify-content: space-between; align-items: center; }
+footer a { color: #dbe4fb; }
+footer .legal { font-size: 12.5px; color: #8796c2; }
+
+/* Leaflet sin marcos ni sombras de más */
+.leaflet-container { font-family: var(--f-body); }
+.leaflet-control-attribution { font-size: 10.5px; }
+.leaflet-tooltip.tt { font: 600 12.5px var(--f-body); border-radius: 8px; border: 0; box-shadow: 0 6px 18px rgba(18, 26, 51, .18); }
 </style>
 </head>
-<body>
+<body data-wa="{{WA}}" data-correo="{{CORREO}}">
+
 <header class="top">
   <div class="wrap">
-    <a class="marca" href="#inicio"><i aria-hidden="true"></i>Pacífica Inmobiliaria</a>
+    <a class="marca" href="#inicio" aria-label="Pacífica Inmobiliaria, inicio">
+      <img src="marca/logo-pacifica-web.jpg" srcset="marca/logo-pacifica-web@2x.jpg 2x" alt="Pacífica Inmobiliaria" width="400" height="323">
+      <span class="anos">20 años<br>en Panamá</span>
+    </a>
     <nav class="menu" aria-label="Secciones">
-      <a href="#servicios">Servicios</a>
-      <a href="#locales">Locales comerciales</a>
+      <a href="#datos">Panamá en datos</a>
+      <a href="#verificadas">Propiedad verificada</a>
+      <a href="#empresas">Locales para empresas</a>
       <a href="#contacto">Contacto</a>
-      <a class="acceso" href="https://proyectos.pacificainmobiliaria.com/">Acceso a proyectos</a>
     </nav>
+    <div class="acciones">
+      <a class="btn borde" href="#publica">Publica tu propiedad</a>
+      <a class="btn azul" href="/proyectos/">Acceso a proyectos</a>
+    </div>
   </div>
 </header>
 
 <main id="inicio">
-  <div class="hero">
+  <section class="hero" aria-labelledby="titulo-hero" style="padding:0">
+    <div id="mapa-hero" aria-hidden="true"></div>
     <div class="wrap">
       <div>
-        <div class="eyebrow">Bienes raíces · Panamá</div>
-        <h1>Propiedades y locales en Panamá, con datos para decidir</h1>
-        <p>Compra, venta y alquiler de propiedades residenciales y comerciales. Para empresas, buscamos el local correcto cruzando población, transporte y competencia de cada zona.</p>
-        <div class="cta">
-          <a class="btn claro" href="#contacto">Hablemos de su propiedad</a>
-          <a class="btn borde" href="#locales">Busco un local</a>
-        </div>
+        <div class="eyebrow">Bienes raíces en Panamá</div>
+        <h1 id="titulo-hero">Conocemos cada metro cuadrado de <em>Panamá.</em></h1>
+        <p class="lead">Compramos, vendemos y alquilamos casas, apartamentos y locales comerciales. Detrás de cada búsqueda hay datos de población, transporte y mercado, y un agente digital que no deja de buscar.</p>
+        <form class="lativium" id="lativium">
+          <label for="pregunta"><span class="punto" aria-hidden="true"></span>Pregúntale a Lativium</label>
+          <div class="caja">
+            <textarea id="pregunta" rows="2" required placeholder="Ej.: local de 300 m² cerca del Metro en Tocumen, hasta $4,500 al mes"></textarea>
+            <button class="btn blanco" type="submit">Buscar</button>
+          </div>
+          <div class="chips" role="group" aria-label="Ejemplos de búsqueda">
+            <button type="button" class="chip">Apartamento de 2 recámaras en San Francisco</button>
+            <button type="button" class="chip">Local de 250 m² en Panamá Este</button>
+            <button type="button" class="chip">Casa familiar en La Chorrera</button>
+          </div>
+          <p class="nota">Te respondemos por WhatsApp con opciones revisadas por un asesor.</p>
+        </form>
       </div>
-      <figure class="plano" aria-label="Esquema de zonas de la ciudad con estaciones de Metro">
-        <svg viewBox="0 0 400 300" role="img" aria-hidden="true">
-          <g fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="1.5">
-            <path d="M20 210 L70 170 L120 182 L150 150 L190 160 L215 128 L262 120 L300 92 L350 84 L384 60"/>
-            <path d="M70 170 L84 120 L130 96 L150 150"/>
-            <path d="M190 160 L200 92 L250 70 L262 120"/>
-            <path d="M262 120 L290 160 L340 150 L384 170"/>
-            <path d="M120 182 L110 236 L170 250 L190 160"/>
-            <path d="M290 160 L300 222 L360 230 L384 170"/>
-          </g>
-          <g fill="currentColor" fill-opacity=".16">
-            <path d="M200 92 L250 70 L262 120 L215 128 Z"/>
-            <path d="M262 120 L300 92 L350 84 L340 150 L290 160 Z"/>
-            <path d="M290 160 L340 150 L384 170 L360 230 L300 222 Z"/>
-          </g>
-          <path d="M60 250 C120 230 170 200 205 150 C230 116 260 112 300 118 C330 122 352 132 380 128" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-          <g fill="#ffffff" stroke="currentColor" stroke-width="2.5">
-            <circle cx="205" cy="150" r="6"/><circle cx="300" cy="118" r="6"/><circle cx="380" cy="128" r="6"/><circle cx="120" cy="222" r="5"/>
-          </g>
-          <g fill="#eb6834" stroke="#ffffff" stroke-width="2">
-            <circle cx="232" cy="104" r="7"/><circle cx="318" cy="140" r="7"/><circle cx="160" cy="176" r="7"/><circle cx="352" cy="190" r="7"/>
-          </g>
-        </svg>
-        <figcaption>Esquema ilustrativo: zonas, Metro y locales candidatos.</figcaption>
-      </figure>
+      <aside class="ficha-viva" aria-live="polite">
+        <div class="eyebrow">Zona en análisis</div>
+        <h3 id="fv-nombre">Tocumen</h3>
+        <div class="sector" id="fv-sector">Panamá Este</div>
+        <div class="cifras">
+          <div class="cifra"><b id="fv-pob">89,361</b><span>habitantes (Censo 2023)</span></div>
+          <div class="cifra"><b id="fv-crec">+24.2%</b><span>desde 2010</span></div>
+        </div>
+        <div class="metro" id="fv-metro">Metro más cercano: —</div>
+      </aside>
     </div>
-  </div>
+  </section>
 
-  <section id="servicios">
+  <section id="pilares">
     <div class="wrap">
-      <h2>Servicios</h2>
-      <p class="intro">Acompañamos a propietarios, compradores e inquilinos desde la primera visita hasta la firma.</p>
-      <div class="grid3">
-        <div class="card">
-          <h3>Residencial</h3>
-          <p>Venta y alquiler de casas y apartamentos.</p>
-          <ul><li>Valoración y promoción de su propiedad</li><li>Búsqueda según presupuesto y zona</li><li>Acompañamiento en el cierre</li></ul>
-        </div>
-        <div class="card">
-          <h3>Comercial</h3>
-          <p>Locales, galeras y oficinas en alquiler y venta.</p>
-          <ul><li>Locales para comercio y franquicias</li><li>Búsqueda de ubicaciones para cadenas</li><li>Negociación con propietarios y plazas</li></ul>
-        </div>
-        <div class="card">
-          <h3>Análisis de ubicación</h3>
-          <p>Estudios de zona para decidir dónde abrir o invertir, con el apoyo tecnológico de Lativium.</p>
-          <ul><li>Población y crecimiento por corregimiento</li><li>Estaciones de Metro y flujo de personas</li><li>Competencia y precio por metro cuadrado</li></ul>
-        </div>
+      <div class="sec-cab">
+        <div class="eyebrow">Lo que nos hace distintos</div>
+        <h2>Veinte años de calle, ahora con datos y un agente digital.</h2>
+        <p>Combinamos la experiencia de nuestros asesores con información de cada zona y con Lativium, el agente que busca, compara y avisa por ti.</p>
+      </div>
+      <div class="pilares">
+        <article class="pilar">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2V6zm6 0v12m6-10v12" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+          <div class="num">01</div>
+          <h3>Panamá en datos</h3>
+          <p>Antes de visitar, conoce la zona: población, crecimiento y la estación de Metro más cercana.</p>
+          <a href="#datos">Explorar el mapa →</a>
+        </article>
+        <article class="pilar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5l8-3zm-3.5 10l2.5 2.5 5-5" stroke="currentColor" stroke-width="1.6" fill="none"/></svg>
+          <div class="num">02</div>
+          <h3>Propiedad verificada</h3>
+          <p>Ninguna propiedad se publica sin pasar por un asesor: visita, Registro Público y fotos reales.</p>
+          <a href="#verificadas">Cómo verificamos →</a>
+        </article>
+        <article class="pilar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a6 6 0 016 6c0 4-6 12-6 12S6 13 6 9a6 6 0 016-6zm0 3.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5z" stroke="currentColor" stroke-width="1.6" fill="none"/></svg>
+          <div class="num">03</div>
+          <h3>Lativium, agente digital</h3>
+          <p>Dile qué buscas. Revisa el mercado todos los días, prioriza lo que encuentra y te avisa.</p>
+          <a href="#inicio" data-ir-pregunta>Probar ahora →</a>
+        </article>
       </div>
     </div>
   </section>
 
-  <section id="locales" class="banda">
+  <section class="datos" id="datos">
     <div class="wrap">
-      <h2>Cómo buscamos un local</h2>
-      <p class="intro">Un buen local no siempre está anunciado. Combinamos búsqueda diaria en portales, la red de corredores y recorridos de campo.</p>
-      <div class="pasos">
-        <div class="paso"><h3>Definir el local</h3><p>Área, planta, presupuesto por m², estacionamientos y zonas de interés.</p></div>
-        <div class="paso"><h3>Buscar todos los días</h3><p>Revisión de portales, grupos de corredores y plazas nuevas o en construcción.</p></div>
-        <div class="paso"><h3>Ubicar en el mapa</h3><p>Cada opción se cruza con población, Metro y competencia de la zona.</p></div>
-        <div class="paso"><h3>Visitar y negociar</h3><p>Llamadas, visitas y negociación del contrato con el propietario.</p></div>
+      <div class="sec-cab">
+        <div class="eyebrow">Panamá en datos</div>
+        <h2>Conoce la zona antes de visitarla.</h2>
+        <p>Toca un corregimiento para ver su población, cuánto creció desde 2010 y qué tan cerca queda el Metro.</p>
+      </div>
+      <div class="datos-grid">
+        <div class="mapa-caja">
+          <div id="mapa-datos" role="region" aria-label="Mapa de corregimientos con población y Metro"></div>
+          <div class="capas" role="group" aria-label="Qué mostrar en el mapa">
+            <button type="button" data-capa="pob" aria-pressed="true">Población</button>
+            <button type="button" data-capa="crec" aria-pressed="false">Crecimiento</button>
+          </div>
+          <div class="leyenda" id="leyenda"></div>
+        </div>
+        <aside class="ficha" id="ficha" aria-live="polite">
+          <div class="eyebrow" style="color:var(--azul-claro)">Ficha de la zona</div>
+          <h3 id="f-nombre">Tocumen</h3>
+          <div class="sector" id="f-sector">Panamá Este</div>
+          <dl>
+            <div><dt>Habitantes (2023)</dt><dd id="f-pob">89,361</dd></div>
+            <div><dt>Crecimiento desde 2010</dt><dd id="f-crec">+24.2%</dd></div>
+          </dl>
+          <div class="linea" id="f-metro">Metro más cercano: —</div>
+          <a class="btn azul" id="f-buscar" href="#inicio">Buscar en esta zona</a>
+          <p class="pista">Los corregimientos en gris aún no tienen datos del estudio.</p>
+        </aside>
+      </div>
+      <p class="fuente">Población: Censo 2023 (INEC). Límites de corregimientos: geoBoundaries (CC BY 4.0). Estaciones de las líneas 1 y 2 del Metro de Panamá.</p>
+    </div>
+  </section>
+
+  <section id="verificadas">
+    <div class="wrap verif">
+      <div class="sello">
+        <img src="marca/pacifica-pin-3d.png" alt="" width="524" height="722">
+        <span class="marca-sello">Verificada por Pacífica</span>
+      </div>
+      <div>
+        <div class="sec-cab" style="margin-bottom:24px">
+          <div class="eyebrow">Propiedad verificada</div>
+          <h2>Si lleva nuestro sello, la revisamos.</h2>
+          <p>Los anuncios falsos abundan. Por eso cada propiedad pasa por cuatro controles antes de publicarse.</p>
+        </div>
+        <ol class="pasos">
+          <li><div><b>Visita de un asesor</b><span>Confirmamos que existe, que está disponible y que coincide con lo anunciado.</span></div></li>
+          <li><div><b>Registro Público</b><span>Revisamos quién es el dueño y si tiene gravámenes antes de ofrecerla.</span></div></li>
+          <li><div><b>Fotos y precio reales</b><span>Fotos tomadas en la visita y precio confirmado con el propietario.</span></div></li>
+          <li><div><b>Corredor con licencia</b><span>Cada anuncio lleva el número de licencia del corredor responsable.</span></div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="empresas" id="empresas">
+    <div class="wrap">
+      <div class="sec-cab">
+        <div class="eyebrow">Locales para empresas</div>
+        <h2>¿Va a abrir sucursales? Le encontramos el local correcto.</h2>
+        <p>Para cadenas y franquicias combinamos estudio de mercado, búsqueda diaria y trabajo de campo. Usted recibe opciones ordenadas por prioridad y un mapa para decidir.</p>
+      </div>
+      <div class="metodo">
+        <div><div class="n">01</div><h3>Estudio de zona</h3><p>Dónde vive su cliente, cómo se mueve y quién compite cerca.</p></div>
+        <div><div class="n">02</div><h3>Búsqueda diaria</h3><p>Nuestro agente revisa portales y corredores varias veces al día.</p></div>
+        <div><div class="n">03</div><h3>Lista y mapa</h3><p>Cada local con área, precio por m² y prioridad, ubicado en el mapa.</p></div>
+        <div><div class="n">04</div><h3>Visita y negociación</h3><p>Recorremos, negociamos y le acompañamos hasta la firma.</p></div>
+      </div>
+      <a class="btn blanco" href="#contacto" data-wa-texto="Hola Pacífica, busco locales comerciales para mi empresa.">Cuéntenos qué local busca</a>
+    </div>
+  </section>
+
+  <section id="publica">
+    <div class="wrap">
+      <div class="sec-cab">
+        <div class="eyebrow">Publica tu propiedad</div>
+        <h2>Publica con nosotros y llega con el sello de verificada.</h2>
+        <p>Propietarios y corredores asociados cargan su propiedad aquí. Un asesor la revisa y la publica con nuestro sello.</p>
+      </div>
+      <div class="publica-grid">
+        <div class="perfiles" role="radiogroup" aria-label="¿Quién publica?">
+          <label class="perfil"><input type="radio" name="perfil" value="Propietario" checked><div><b>Soy propietario</b><span>Te asignamos un asesor que visita, verifica y comercializa tu propiedad.</span></div></label>
+          <label class="perfil"><input type="radio" name="perfil" value="Corredor asociado"><div><b>Soy corredor asociado</b><span>Publica con tu licencia y comparte cartera con Pacífica.</span></div></label>
+          <p class="fuente" style="margin:4px 2px 0">Marca la ubicación en el mapa: la usamos para mostrar los datos de la zona junto a tu anuncio.</p>
+        </div>
+        <form class="alta" id="alta" novalidate>
+          <div><label for="a-op">Operación</label><select id="a-op"><option>Venta</option><option>Alquiler</option></select></div>
+          <div><label for="a-tipo">Tipo</label><select id="a-tipo"><option>Apartamento</option><option>Casa</option><option>Local comercial</option><option>Oficina</option><option>Terreno</option><option>Galera</option></select></div>
+          <div><label for="a-precio">Precio (US$)</label><input id="a-precio" inputmode="decimal" placeholder="Ej.: 185,000"></div>
+          <div><label for="a-area">Área (m²)</label><input id="a-area" inputmode="decimal" placeholder="Ej.: 120"></div>
+          <div class="ancho"><label>Ubicación</label><div id="mapa-form" role="region" aria-label="Mapa para marcar la ubicación"></div><div class="ubic" id="a-ubic">Toca el mapa o arrastra el pin hasta tu propiedad.</div></div>
+          <div class="ancho"><label for="a-desc">Descripción</label><textarea id="a-desc" rows="3" placeholder="Recámaras, baños, estacionamientos, estado, lo que la hace especial"></textarea></div>
+          <div><label for="a-nombre">Tu nombre</label><input id="a-nombre" autocomplete="name"></div>
+          <div><label for="a-tel">Tu teléfono o WhatsApp</label><input id="a-tel" inputmode="tel" autocomplete="tel"></div>
+          <div class="ancho licencia-campo" id="licencia-campo" hidden><label for="a-lic">Número de licencia de corredor</label><input id="a-lic" placeholder="Licencia de la Junta Técnica de Bienes Raíces"></div>
+          <div class="ancho pie">
+            <small>Al enviar, se abre WhatsApp con los datos para que un asesor los revise. No publicamos nada sin verificarlo.</small>
+            <button class="btn azul" type="submit">Enviar a revisión</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="anos20" aria-labelledby="titulo-anos">
+    <div class="wrap">
+      <img src="marca/logo-pacifica-web@2x.jpg" alt="Pacífica Inmobiliaria" width="800" height="645">
+      <div>
+        <div class="eyebrow" style="color:#a9c0f5">20 años en el mercado</div>
+        <h2 id="titulo-anos">Dos décadas acompañando a familias, inversionistas y empresas en Panamá.</h2>
+        <p>Lo que cambió es cómo trabajamos: hoy cada recomendación viene con datos de la zona, y un agente digital sigue buscando mientras usted decide.</p>
       </div>
     </div>
   </section>
 
   <section id="contacto">
     <div class="wrap contacto">
-      <div>
-        <h2>Contacto</h2>
-        <p class="intro">Cuéntenos qué busca o qué propiedad quiere vender o alquilar.</p>
+      <div class="sec-cab" style="margin:0">
+        <div class="eyebrow">Contacto</div>
+        <h2>Hablemos de lo que busca.</h2>
+        <p>Escríbanos por WhatsApp: le responde un asesor, no un formulario.</p>
       </div>
-      <div class="card">
-        <div class="nota">Correo</div>
-        <div class="dato"><a href="mailto:{{CORREO}}">{{CORREO}}</a></div>
-        <p class="nota" style="margin-top:14px">Clientes con proyecto activo: entren a <a href="https://proyectos.pacificainmobiliaria.com/">proyectos.pacificainmobiliaria.com</a> con la clave que les entregamos.</p>
+      <div class="tarjeta">
+        <!--si:wa--><div class="dato"><small>WhatsApp · {{CONTACTO}}</small><b>{{WA_VISIBLE}}</b></div><!--/si:wa-->
+        <!--si:correo--><div class="dato"><small>Correo</small><b><a href="mailto:{{CORREO}}">{{CORREO}}</a></b></div><!--/si:correo-->
+        <!--si:direccion--><div class="dato"><small>Oficina</small><b>{{DIRECCION}}</b></div><!--/si:direccion-->
+        <a class="btn wa" href="#" data-wa-texto="Hola Pacífica, quisiera más información.">Escribir por WhatsApp</a>
       </div>
     </div>
   </section>
@@ -183,9 +432,207 @@ footer .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wr
 
 <footer>
   <div class="wrap">
-    <span>© {{ANIO}} Pacífica Inmobiliaria · Panamá</span>
-    <a href="https://proyectos.pacificainmobiliaria.com/">Acceso a proyectos</a>
+    <div>© {{ANIO}} Pacífica Inmobiliaria · Panamá<!--si:licencia--> · Licencia {{LICENCIA}}<!--/si:licencia--></div>
+    <div><a href="/proyectos/">Acceso a proyectos</a></div>
+    <div class="legal">Límites: geoBoundaries (CC BY 4.0) · Población: Censo 2023, INEC</div>
   </div>
 </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="datos/mapa.js"></script>
+<script>
+(function () {
+  "use strict";
+  const D = window.PANAMA_DATOS;
+  const WA = document.body.dataset.wa.replace(/\D/g, "");
+  const CORREO = document.body.dataset.correo;
+  const quieto = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const fmt = n => n.toLocaleString("en-US");
+  const fmtCrec = c => c == null ? "—" : (c > 0 ? "+" : "") + c.toFixed(1) + "%";
+
+  // WhatsApp (o correo si aún no hay número) con el mensaje armado
+  function enviar(texto) {
+    if (WA) { window.open("https://wa.me/" + WA + "?text=" + encodeURIComponent(texto), "_blank", "noopener"); return; }
+    if (CORREO) { location.href = "mailto:" + CORREO + "?subject=" + encodeURIComponent("Consulta desde la web") + "&body=" + encodeURIComponent(texto); return; }
+    location.hash = "#contacto";
+  }
+  document.querySelectorAll("[data-wa-texto]").forEach(a => a.addEventListener("click", e => { e.preventDefault(); enviar(a.dataset.waTexto); }));
+
+  // Pregúntale a Lativium
+  const pregunta = document.getElementById("pregunta");
+  document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => { pregunta.value = c.textContent; pregunta.focus(); }));
+  document.getElementById("lativium").addEventListener("submit", e => {
+    e.preventDefault();
+    const q = pregunta.value.trim();
+    if (!q) { pregunta.focus(); return; }
+    enviar("Hola Pacífica, Lativium: busco " + q);
+  });
+  document.querySelectorAll("[data-ir-pregunta]").forEach(a => a.addEventListener("click", () => setTimeout(() => pregunta.focus(), 400)));
+
+  // Geometría: centro, punto dentro de polígono, distancia
+  const conDatos = D.corr.features.filter(f => f.properties.pob);
+  function dentro(lon, lat, anillo) {
+    let si = false;
+    for (let i = 0, j = anillo.length - 1; i < anillo.length; j = i++) {
+      const [xi, yi] = anillo[i], [xj, yj] = anillo[j];
+      if ((yi > lat) !== (yj > lat) && lon < (xj - xi) * (lat - yi) / (yj - yi) + xi) si = !si;
+    }
+    return si;
+  }
+  function corregimientoEn(lat, lon) {
+    for (const f of D.corr.features) {
+      const g = f.geometry, polis = g.type === "Polygon" ? [g.coordinates] : g.coordinates;
+      if (polis.some(p => dentro(lon, lat, p[0]))) return f;
+    }
+    return null;
+  }
+  function km(a, b, c, d) {
+    const r = Math.PI / 180, x = (d - b) * r * Math.cos((a + c) / 2 * r), y = (c - a) * r;
+    return Math.sqrt(x * x + y * y) * 6371;
+  }
+  function metroCercano(p) {
+    let mejor = null;
+    for (const s of D.metro) { const k = km(p.cy, p.cx, s.lat, s.lon); if (!mejor || k < mejor.k) mejor = { s, k }; }
+    return mejor;
+  }
+  const textoMetro = p => {
+    const m = metroCercano(p);
+    return m ? "Metro más cercano: " + m.s.nombre + " (Línea " + m.s.linea.slice(1) + "), a " + m.k.toFixed(1) + " km del centro de la zona" : "";
+  };
+  const SECTOR = { Este: "Panamá Este", Norte: "Panamá Norte", Oeste: "Panamá Oeste", Centro: "Ciudad de Panamá", "San Miguelito": "San Miguelito" };
+  const NOMBRE = n => n.replace("Cordoba", "Córdoba").replace("Demostenes", "Demóstenes").replace("Diaz", "Díaz");
+  const pinIcono = (clase) => L.divIcon({ className: "pin-mapa " + (clase || ""), html: '<img src="marca/pacifica-marcador-96.png" alt="">', iconSize: [30, 39], iconAnchor: [15, 38] });
+
+  // Metro como líneas en orden de estaciones
+  function dibujarMetro(mapa, estilos) {
+    ["L1", "L2"].forEach(l => {
+      const pts = D.metro.filter(s => s.linea === l).map(s => [s.lat, s.lon]);
+      L.polyline(pts, estilos[l]).addTo(mapa);
+    });
+  }
+
+  // 1. Portada: mapa vivo, oscuro, con pines que caen y una ficha que recorre las zonas
+  const limites = L.geoJSON({ type: "FeatureCollection", features: conDatos }).getBounds();
+  const hero = L.map("mapa-hero", { zoomControl: false, attributionControl: false, dragging: false, scrollWheelZoom: false, doubleClickZoom: false, boxZoom: false, keyboard: false, touchZoom: false, zoomSnap: 0.1 });
+  function encuadrarHero() {
+    const el = document.getElementById("mapa-hero"), ancho = el.clientWidth, alto = el.clientHeight;
+    if (ancho > 900) hero.fitBounds(limites, { paddingTopLeft: [Math.round(ancho * 0.42), 60], paddingBottomRight: [40, 60] });
+    else hero.fitBounds(limites, { paddingTopLeft: [16, 24], paddingBottomRight: [16, Math.max(40, alto - 250)] });
+  }
+  encuadrarHero();
+  const capaHero = L.geoJSON(D.corr, { style: f => ({ color: "rgba(160,185,245,.28)", weight: 0.8, fillColor: f.properties.pob ? "#3460d0" : "#1a2e78", fillOpacity: f.properties.pob ? 0.22 : 0.35 }) }).addTo(hero);
+  dibujarMetro(hero, { L1: { color: "#9db6f3", weight: 2.5, opacity: 0.9 }, L2: { color: "#ffffff", weight: 2.5, opacity: 0.75, dashArray: "6 6" } });
+  window.addEventListener("resize", () => { hero.invalidateSize(); encuadrarHero(); });
+  const zonas = conDatos.slice().sort((a, b) => b.properties.pob - a.properties.pob).slice(0, 10);
+  const pines = zonas.map((f, i) => {
+    const m = L.marker([f.properties.cy, f.properties.cx], { icon: pinIcono(), interactive: false, keyboard: false }).addTo(hero);
+    m.getElement().querySelector("img").style.animationDelay = (0.25 + i * 0.18) + "s";
+    return m;
+  });
+  const capaPorNombre = {};
+  capaHero.eachLayer(l => { capaPorNombre[l.feature.properties.nombre] = l; });
+  let actual = 0;
+  function mostrarZona(i) {
+    zonas.forEach((f, k) => capaPorNombre[f.properties.nombre].setStyle(k === i ? { fillColor: "#7fa2f0", fillOpacity: 0.55, color: "#ffffff", weight: 1.6 } : { fillColor: "#3460d0", fillOpacity: 0.22, color: "rgba(160,185,245,.28)", weight: 0.8 }));
+    pines.forEach((m, k) => m.getElement().classList.toggle("activo", k === i));
+    const p = zonas[i].properties;
+    document.getElementById("fv-nombre").textContent = NOMBRE(p.nombre);
+    document.getElementById("fv-sector").textContent = SECTOR[p.sector] || "";
+    document.getElementById("fv-pob").textContent = fmt(p.pob);
+    document.getElementById("fv-crec").textContent = fmtCrec(p.crec);
+    document.getElementById("fv-metro").textContent = textoMetro(p);
+  }
+  mostrarZona(0);
+  if (!quieto) setInterval(() => { actual = (actual + 1) % zonas.length; mostrarZona(actual); }, 3800);
+
+  // 2. Panamá en datos: mapa interactivo con población o crecimiento y ficha por zona
+  const ESCALAS = {
+    pob: { cortes: [30000, 45000, 60000, 75000], colores: ["#dbe5f8", "#a9c0ef", "#6f93df", "#3a63c4", "#1d3a8f"], extremos: ["menos de 30 mil", "75 mil o más"], titulo: "Habitantes por corregimiento (2023)" },
+    crec: { cortes: [0, 15, 25], colores: ["#e8a33d", "#c9d7f3", "#7d9be2", "#2f55c0"], extremos: ["decrece", "+25% o más"], titulo: "Crecimiento de la población desde 2010" }
+  };
+  let capaActual = "pob";
+  const colorDe = (v, e) => { if (v == null) return null; let i = 0; while (i < e.cortes.length && v >= e.cortes[i]) i++; return e.colores[i]; };
+  const datos = L.map("mapa-datos", { scrollWheelZoom: false, zoomSnap: 0.25, minZoom: 9, attributionControl: true });
+  datos.attributionControl.setPrefix(false).addAttribution("geoBoundaries · INEC");
+  datos.fitBounds(limites, { padding: [20, 20] });
+  const estilo = f => {
+    const e = ESCALAS[capaActual], c = colorDe(f.properties[capaActual], e);
+    return { color: c ? "#ffffff" : "#c8d0de", weight: c ? 1 : 0.6, fillColor: c || "#eef1f6", fillOpacity: c ? 0.92 : 0.7 };
+  };
+  let seleccion = null;
+  const capaDatos = L.geoJSON(D.corr, {
+    style: estilo,
+    onEachFeature: (f, l) => {
+      l.bindTooltip(NOMBRE(f.properties.nombre), { className: "tt", sticky: true });
+      l.on("click", () => elegir(f, l));
+    }
+  }).addTo(datos);
+  dibujarMetro(datos, { L1: { color: "#c0392b", weight: 3 }, L2: { color: "#1f8a5b", weight: 3 } });
+  D.metro.forEach(s => L.circleMarker([s.lat, s.lon], { radius: 3, color: "#ffffff", weight: 1.2, fillColor: s.linea === "L1" ? "#c0392b" : "#1f8a5b", fillOpacity: 1 }).bindTooltip("Estación " + s.nombre, { className: "tt" }).addTo(datos));
+  function elegir(f, l) {
+    if (seleccion) capaDatos.resetStyle(seleccion);
+    seleccion = l;
+    l.setStyle({ weight: 3, color: "#122766" }); l.bringToFront();
+    const p = f.properties;
+    document.getElementById("f-nombre").textContent = NOMBRE(p.nombre);
+    document.getElementById("f-sector").textContent = SECTOR[p.sector] || (p.pob ? "" : "Sin datos del estudio");
+    document.getElementById("f-pob").textContent = p.pob ? fmt(p.pob) : "—";
+    document.getElementById("f-crec").textContent = fmtCrec(p.crec);
+    document.getElementById("f-metro").textContent = textoMetro(p);
+    document.getElementById("f-buscar").dataset.zona = NOMBRE(p.nombre);
+  }
+  document.getElementById("f-buscar").addEventListener("click", e => {
+    const z = e.currentTarget.dataset.zona || "Tocumen";
+    pregunta.value = "una propiedad en " + z + ", ";
+    setTimeout(() => pregunta.focus(), 400);
+  });
+  function leyenda() {
+    const e = ESCALAS[capaActual];
+    document.getElementById("leyenda").innerHTML = "<b>" + e.titulo + "</b><div class='escala'>" + e.colores.map(c => "<i style='background:" + c + "'></i>").join("") + "</div><div class='extremos'><span>" + e.extremos[0] + "</span><span>" + e.extremos[1] + "</span></div><div class='metro-ley'><span style='--c:#c0392b'>Metro Línea 1</span><span style='--c:#1f8a5b'>Línea 2</span></div>";
+  }
+  leyenda();
+  document.querySelectorAll(".capas button").forEach(b => b.addEventListener("click", () => {
+    capaActual = b.dataset.capa;
+    document.querySelectorAll(".capas button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    capaDatos.setStyle(estilo); if (seleccion) seleccion.setStyle({ weight: 3, color: "#122766" });
+    leyenda();
+  }));
+  capaDatos.eachLayer(l => { if (l.feature.properties.nombre === "Tocumen") elegir(l.feature, l); });
+
+  // 3. Publica tu propiedad: pin arrastrable, zona detectada y envío por WhatsApp
+  const licCampo = document.getElementById("licencia-campo");
+  document.querySelectorAll("input[name=perfil]").forEach(r => r.addEventListener("change", () => { licCampo.hidden = r.value !== "Corredor asociado" || !r.checked; }));
+  const form = L.map("mapa-form", { scrollWheelZoom: false, zoomSnap: 0.5, attributionControl: false }).setView([9.02, -79.5], 11);
+  L.geoJSON(D.corr, { style: f => ({ color: "#ffffff", weight: 0.8, fillColor: f.properties.pob ? "#a9c0ef" : "#e6ebf3", fillOpacity: 0.95 }), interactive: false }).addTo(form);
+  dibujarMetro(form, { L1: { color: "#c0392b", weight: 2 }, L2: { color: "#1f8a5b", weight: 2 } });
+  const marcador = L.marker([9.02, -79.5], { icon: pinIcono(), draggable: true, autoPan: true }).addTo(form);
+  let ubicacion = null;
+  function ubicar(ll) {
+    ubicacion = ll;
+    const f = corregimientoEn(ll.lat, ll.lng);
+    document.getElementById("a-ubic").textContent = (f ? "Corregimiento: " + NOMBRE(f.properties.nombre) + " · " : "") + ll.lat.toFixed(5) + ", " + ll.lng.toFixed(5);
+  }
+  marcador.on("dragend", () => ubicar(marcador.getLatLng()));
+  form.on("click", e => { marcador.setLatLng(e.latlng); ubicar(e.latlng); });
+  new IntersectionObserver((es, o) => { if (es[0].isIntersecting) { form.invalidateSize(); datos.invalidateSize(); o.disconnect(); } }).observe(document.getElementById("mapa-form"));
+  document.getElementById("alta").addEventListener("submit", e => {
+    e.preventDefault();
+    const v = id => document.getElementById(id).value.trim();
+    const perfil = document.querySelector("input[name=perfil]:checked").value;
+    if (!v("a-nombre") || !v("a-tel")) { document.getElementById(v("a-nombre") ? "a-tel" : "a-nombre").focus(); return; }
+    const lineas = [
+      "Hola Pacífica, quiero publicar una propiedad.",
+      "Perfil: " + perfil + (perfil === "Corredor asociado" && v("a-lic") ? " (licencia " + v("a-lic") + ")" : ""),
+      v("a-op") + " · " + v("a-tipo"),
+      v("a-precio") ? "Precio: US$" + v("a-precio") : "",
+      v("a-area") ? "Área: " + v("a-area") + " m²" : "",
+      ubicacion ? "Ubicación: https://www.google.com/maps?q=" + ubicacion.lat.toFixed(6) + "," + ubicacion.lng.toFixed(6) + " (" + document.getElementById("a-ubic").textContent.split(" · ")[0] + ")" : "",
+      v("a-desc") ? "Descripción: " + v("a-desc") : "",
+      "Contacto: " + v("a-nombre") + ", " + v("a-tel")
+    ].filter(Boolean);
+    enviar(lineas.join("\n"));
+  });
+})();
+</script>
 </body>
 </html>

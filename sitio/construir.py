@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
-"""Arma el portal privado de proyectos (proyectos.pacificainmobiliaria.com).
+"""Arma la web pública de Pacífica Inmobiliaria y el portal privado de proyectos.
 
 Uso: python3 sitio/construir.py
 
-Escribe sitio/salida/proyectos/ y el paquete sitio/salida/proyectos.zip, listo para
-subir al subdominio y proteger con clave desde el panel del hosting. Cada proyecto
-lleva su mapa interactivo y sus documentos más recientes, convertidos a páginas.
+Escribe dos paquetes listos para subir al hosting:
+- sitio/salida/pacificainmobiliaria.zip: la web pública (va en public_html).
+- sitio/salida/proyectos.zip: el portal de proyectos (va en public_html/proyectos y se
+  protege con clave desde el panel del hosting). Cada proyecto lleva su mapa
+  interactivo y sus documentos más recientes, convertidos a páginas.
+
+Los datos de contacto de la web salen de sitio/contacto.json; un dato vacío no se muestra.
 Requiere: pip install markdown
 """
 import collections
@@ -25,6 +29,7 @@ AQUI = Path(__file__).resolve().parent
 REPO = AQUI.parent
 SALIDA = AQUI / "salida"
 PORTAL = SALIDA / "proyectos"
+SITIO = SALIDA / "sitio"
 PANAMA = dt.timezone(dt.timedelta(hours=-5))
 MESES = "enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre".split()
 
@@ -132,7 +137,61 @@ def proyecto_supermercados(fecha):
 </section>"""
 
 
-def main():
+def empaquetar(carpeta, paquete):
+    with zipfile.ZipFile(paquete, "w", zipfile.ZIP_DEFLATED) as z:
+        for f in sorted(carpeta.rglob("*")):
+            if f.is_file():
+                z.write(f, f.relative_to(carpeta))
+    return paquete.stat().st_size // 1024
+
+
+def whatsapp_visible(numero):
+    d = re.sub(r"\D", "", numero)
+    if d.startswith("507") and len(d) == 11:
+        return f"+507 {d[3:7]}-{d[7:]}"
+    return f"+{d}" if d else ""
+
+
+def armar_sitio():
+    """Web pública: portada con mapa vivo, datos por zona, verificación, locales y alta de propiedades."""
+    contacto = json.loads((AQUI / "contacto.json").read_text(encoding="utf-8"))
+    if SITIO.exists():
+        shutil.rmtree(SITIO)
+    (SITIO / "marca").mkdir(parents=True)
+    (SITIO / "datos").mkdir()
+    for nombre in ("logo-pacifica-web.jpg", "logo-pacifica-web@2x.jpg"):
+        shutil.copy(AQUI / "marca" / nombre, SITIO / "marca" / nombre)
+    shutil.copy(AQUI / "marca" / "logos" / "pacifica-marca.svg", SITIO / "marca" / "pacifica-marca.svg")
+    for nombre in ("pacifica-cursor.png", "pacifica-cursor@2x.png", "pacifica-marcador-96.png", "pacifica-pin-3d.png"):
+        shutil.copy(AQUI / "marca" / "pin" / nombre, SITIO / "marca" / nombre)
+
+    base = REPO / "locales" / "mapa" / "base"
+    datos = {"corr": json.loads((base / "corregimientos.json").read_text(encoding="utf-8")),
+             "metro": json.loads((base / "metro.json").read_text(encoding="utf-8"))}
+    (SITIO / "datos" / "mapa.js").write_text(
+        "window.PANAMA_DATOS = " + json.dumps(datos, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
+
+    pagina = (AQUI / "plantillas" / "principal.html").read_text(encoding="utf-8")
+    wa = re.sub(r"\D", "", contacto.get("whatsapp", ""))
+    valores = {"wa": wa, "correo": contacto.get("correo", ""), "direccion": contacto.get("direccion", ""),
+               "licencia": contacto.get("licencia", "")}
+    for clave, valor in valores.items():  # bloques opcionales: se quitan si el dato falta
+        patron = re.compile(rf"<!--si:{clave}-->(.*?)<!--/si:{clave}-->", re.S)
+        pagina = patron.sub((lambda m: m.group(1)) if valor else "", pagina)
+    reemplazos = {"{{WA}}": wa, "{{WA_VISIBLE}}": whatsapp_visible(wa), "{{CONTACTO}}": html.escape(contacto.get("contacto", "")),
+                  "{{CORREO}}": html.escape(valores["correo"]), "{{DIRECCION}}": html.escape(valores["direccion"]),
+                  "{{LICENCIA}}": html.escape(valores["licencia"]), "{{ANIO}}": str(dt.datetime.now(PANAMA).year)}
+    for k, v in reemplazos.items():
+        pagina = pagina.replace(k, v)
+    (SITIO / "index.html").write_text(pagina, encoding="utf-8")
+    (SITIO / "robots.txt").write_text("User-agent: *\nDisallow: /proyectos/\n", encoding="utf-8")
+    kb = empaquetar(SITIO, SALIDA / "pacificainmobiliaria.zip")
+    faltan = [k for k, v in valores.items() if not v]
+    print(f"Web lista en {SITIO.relative_to(REPO)} y sitio/salida/pacificainmobiliaria.zip ({kb} KB)"
+          + (f"; faltan datos de contacto: {', '.join(faltan)}" if faltan else ""))
+
+
+def armar_portal():
     if PORTAL.exists():
         shutil.rmtree(PORTAL)
     (PORTAL / "marca").mkdir(parents=True)
@@ -151,13 +210,13 @@ def main():
         portada.replace("{{PROYECTOS}}", "\n".join(proyectos)).replace("{{FECHA}}", fecha), encoding="utf-8")
     (PORTAL / "robots.txt").write_text("User-agent: *\nDisallow: /\n", encoding="utf-8")
 
-    paquete = SALIDA / "proyectos.zip"
-    with zipfile.ZipFile(paquete, "w", zipfile.ZIP_DEFLATED) as z:
-        for f in sorted(PORTAL.rglob("*")):
-            if f.is_file():
-                z.write(f, f.relative_to(PORTAL))
-    print("Portal listo en", PORTAL.relative_to(REPO), "y", paquete.relative_to(REPO),
-          f"({paquete.stat().st_size // 1024} KB)")
+    kb = empaquetar(PORTAL, SALIDA / "proyectos.zip")
+    print(f"Portal listo en {PORTAL.relative_to(REPO)} y sitio/salida/proyectos.zip ({kb} KB)")
+
+
+def main():
+    armar_sitio()
+    armar_portal()
 
 
 if __name__ == "__main__":
