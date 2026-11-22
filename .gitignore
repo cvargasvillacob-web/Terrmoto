@@ -3,3 +3,6 @@ __pycache__/
 locales/mapa/publicar/
 sitio/marca/logos/*.png
 sitio/salida/
+sitio/marca/logo3d/node_modules/
+sitio/marca/logo3d/build/
+sitio/marca/logo3d/salida/

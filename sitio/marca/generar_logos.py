@@ -267,24 +267,37 @@ PIN_DEFS = f"""<defs>
 </defs>"""
 
 
-def pin_3d():
-    """Pin de ubicación propio: gota azul con volumen, aro plateado y el edificio de Pacífica adentro."""
-    W, H = 400, 520
+def pin_3d(cursor=False):
+    """Pin de ubicación propio: gota azul con volumen, centro hueco y ondas plateadas como las del logo.
+
+    cursor=True encuadra el pin en un cuadrado sin sombra en el piso, para usarlo como puntero.
+    """
     cx, cy, r = 200, 190, 160
     gota = (f"M{cx},470 C{cx - 52},392 {cx - r},300 {cx - r},{cy} "
             f"A{r},{r} 0 1 1 {cx + r},{cy} C{cx + r},300 {cx + 52},392 {cx},470 Z")
-    ancho_m = 166
-    cuerpo = f"""<ellipse cx="{cx}" cy="488" rx="96" ry="20" fill="url(#pin-suelo)"/>
-<path d="{gota}" fill="url(#pin-cuerpo)"/>
-<path d="{gota}" fill="url(#pin-lado)"/>
-<path d="{gota}" fill="url(#pin-reflejo)"/>
-<ellipse cx="128" cy="98" rx="62" ry="30" transform="rotate(-38 128 98)" fill="url(#pin-brillo)" opacity=".75"/>
-<circle cx="{cx}" cy="{cy}" r="104" fill="url(#aro)"/>
-<circle cx="{cx}" cy="{cy}" r="92" fill="url(#pin-hueco)" filter="url(#pin-interior)"/>
-{marca(cx - ancho_m / 2 - 3, cy - alto_marca(ancho_m) / 2 + 2, ancho_m, sombra="sombra-suave")}
-<ellipse cx="{cx - 30}" cy="{cy - 62}" rx="44" ry="14" transform="rotate(-20 {cx - 30} {cy - 62})" fill="#fff" opacity=".18"/>"""
+    rh = 70  # hueco central
+    hueco = f"M{cx - rh},{cy} a{rh},{rh} 0 1 0 {rh * 2},0 a{rh},{rh} 0 1 0 {-rh * 2},0 Z"
+    cuerpo_d = gota + " " + hueco
+    ondas = "".join(
+        f'<path d="M-20,{326 + k * 50} C70,{346 + k * 50} 150,{340 + k * 50} 232,{300 + k * 50} '
+        f'S362,{220 + k * 50} 430,{210 + k * 50}" fill="none" stroke="url(#plata)" stroke-width="28"/>'
+        for k in range(3))
+    cuerpo = f"""{'' if cursor else '<ellipse cx="200" cy="488" rx="96" ry="20" fill="url(#pin-suelo)"/>'}
+<clipPath id="pin-forma"><path d="{cuerpo_d}" clip-rule="evenodd"/></clipPath>
+<path d="{cuerpo_d}" fill="url(#pin-cuerpo)" fill-rule="evenodd"/>
+<g clip-path="url(#pin-forma)" filter="url(#sombra-suave)">{ondas}</g>
+<path d="{cuerpo_d}" fill="url(#pin-lado)" fill-rule="evenodd"/>
+<path d="{cuerpo_d}" fill="url(#pin-reflejo)" fill-rule="evenodd"/>
+<ellipse cx="122" cy="104" rx="52" ry="24" transform="rotate(-40 122 104)" fill="url(#pin-brillo)" opacity=".7"/>
+<circle cx="{cx}" cy="{cy}" r="{rh + 4}" fill="none" stroke="url(#aro)" stroke-width="10"/>"""
     defs = DEFS.replace("</defs>", PIN_DEFS.replace("<defs>", ""))
-    return W, H, f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">\n{defs}\n{cuerpo}\n</svg>\n'
+    if cursor:
+        W = H = 48
+        caja = "-22 28 444 444"
+    else:
+        W, H, caja = 400, 520, "0 0 400 520"
+    return W, H, (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{caja}" width="{W}" height="{H}">\n'
+                  f"{defs}\n{cuerpo}\n</svg>\n")
 
 
 def renderizar(svg_path, png_path, w, h):
@@ -323,7 +336,14 @@ def main():
     ruta = SALIDA / "pacifica-pin.svg"
     ruta.write_text(contenido)
     renderizar(ruta, SALIDA / "pacifica-pin.png", w, h)
-    print("ok pin")
+    # Puntero del mouse: 48 px (y 96 px para pantallas de alta densidad); la punta queda en (24, 47)
+    w, h, contenido = pin_3d(cursor=True)
+    ruta = SALIDA / "pacifica-cursor.svg"
+    ruta.write_text(contenido)
+    renderizar(ruta, SALIDA / "pacifica-cursor@2x.png", w, h)
+    from PIL import Image
+    Image.open(SALIDA / "pacifica-cursor@2x.png").resize((48, 48), Image.LANCZOS).save(SALIDA / "pacifica-cursor.png")
+    print("ok pin y cursor")
 
 
 if __name__ == "__main__":
