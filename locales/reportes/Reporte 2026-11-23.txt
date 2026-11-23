@@ -1,10 +1,10 @@
 *Locales para supermercado de 250 m²*
 Reporte del 23 nov 2026
 
-En seguimiento: 121 anuncios (20 A · 84 B · 17 C)
-Nuevos en las últimas 24 horas: 10
+En seguimiento: 123 anuncios (21 A · 85 B · 17 C)
+Nuevos en las últimas 24 horas: 9
 
-*Prioridad A: llamar primero (20)*
+*Prioridad A: llamar primero (21)*
 1. Pacora — Locales en Centro Comercial Pacora (ID 13263) - US$4,503 USD
    300.24 m² · US$4,503/mes · US$15/m²
    https://dpanamarealestate.com/local-alquiler-pacora/8256765
@@ -32,41 +32,44 @@ Nuevos en las últimas 24 horas: 10
 9. 24 de Diciembre — Alquiler Local 241 m² en La 24 Diciembre Tocumen Kaf
    240 m² · US$5,000/mes · US$20.8/m²
    https://www.compreoalquile.com/locales-comerciales-en-tocumen.html
-10. La Chorrera — Local Comercial en Barrio Balboa, La Chorrera, 375 m² (título exacto…
+10. La Chorrera — ALQUILER LOCAL CHORRERA
+   375 m² · US$2,500/mes · US$6.7/m² · NUEVO
+   https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/alquiler-local-chorrera/32275280
+11. La Chorrera — Local Comercial en Barrio Balboa, La Chorrera, 375 m² (título exacto…
    375 m² · US$2,800/mes · US$7.5/m²
    https://casas.mitula.com.pa/alquiler-locales-comerciales-st-chorrera
-11. San Miguelito — Alquiler de local sobre vía principal de San Miguelito (esquinero), s…
+12. San Miguelito — Alquiler de local sobre vía principal de San Miguelito (esquinero), s…
    300 m² · US$1,200/mes · US$4/m²
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-rental-over-via-main-san-miguelito/32116919
-12. San Miguelito — Alquiler de Local Comercial - Altos de Panama
+13. San Miguelito — Alquiler de Local Comercial - Altos de Panama
    296 m² · US$2,400/mes · US$8.1/m²
    https://casas.mitula.com.pa/alquiler-locales-comerciales-andes
-13. San Miguelito — Local comercial de 300 m2 en planta baja, Plaza Brisas, Brisas del Go…
+14. San Miguelito — Local comercial de 300 m2 en planta baja, Plaza Brisas, Brisas del Go…
    300 m² · US$3,500/mes · US$11.7/m²
    https://www.compreoalquile.com/locales-comerciales-en-brisas-de-golf.html
-14. Burunga — Local de 225 m2 en Burunga, Plaza 2.000 (titulo exacto no visible en…
+15. Burunga — Local de 225 m2 en Burunga, Plaza 2.000 (titulo exacto no visible en…
    225 m² · US$3,500/mes · US$15.6/m²
    https://casas.mitula.com.pa/alquiler-locales-comerciales-nuevo-emperador
-15. La Chorrera — Local en planta baja de 250 m² en La Chorrera (título exacto no visib…
+16. La Chorrera — Local en planta baja de 250 m² en La Chorrera (título exacto no visib…
    250 m² · US$4,000/mes · US$16/m²
    https://www.bienesonline.com.pa/buscar-alquiler-local-la-chorrera.php
-16. Juan Díaz — Local de 250 m² en PH, Juan Díaz (título exacto no visible en el resu…
+17. Juan Díaz — Local de 250 m² en PH, Juan Díaz (título exacto no visible en el resu…
    250 m² · US$1,200/mes · US$4.8/m²
    https://casas.mitula.com.pa/alquiler-locales-comerciales-juan-diaz-1200-dolares
-17. San Miguelito — alquiler Local en Omar Torrijos, San Miguelito (8137040)
+18. San Miguelito — alquiler Local en Omar Torrijos, San Miguelito (8137040)
    260 m² · US$2,600/mes · US$10/m²
    https://www.icasas.com.pa/propiedad/5090-9571-19246fe-49e5ad2d80c5-7329
-18. San Miguelito — ¡LOCAL COMERCIAL EN ALQUILER EN SAN MIGUELITO – GRAN ESTACIÓN!
+19. San Miguelito — ¡LOCAL COMERCIAL EN ALQUILER EN SAN MIGUELITO – GRAN ESTACIÓN!
    352 m² · US$3,780/mes · US$10.7/m²
    https://www.icasas.com.pa/alquiler/locales/san-miguelito/p_4
-19. San Miguelito — Local de 224 m² en Plaza Premier, Brisas del Golf (título exacto no v…
+20. San Miguelito — Local de 224 m² en Plaza Premier, Brisas del Golf (título exacto no v…
    224 m² · US$2,500/mes · US$11.2/m²
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-rental-in-brisas-del-golf-plaza-premier-kc/32691244
-20. San Miguelito — Local Comercial sobre la vía España (icasas lo lista en Victoriano Lo…
+21. San Miguelito — Local Comercial sobre la vía España (icasas lo lista en Victoriano Lo…
    307 m² · US$4,928/mes · US$16.1/m²
    https://www.icasas.com.pa/alquiler/locales/san-miguelito
 
-*Otros nuevos, con datos por confirmar (10)*
+*Otros nuevos, con datos por confirmar (8)*
 • Las Mañanitas — ALQUILER LOCALES COMERCIALES EN LAS MAÑANITAS
    datos por confirmar · NUEVO
    https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/alquiler-locales-comerciales-en-las-mananitas/32519254
@@ -82,15 +85,14 @@ Nuevos en las últimas 24 horas: 10
 • San Miguelito — Alquiler de Local Comercial de 290mts2 en Los Andes Mall
    290 m² · NUEVO
    https://www.bienesonline.com.pa/locales/alquiler/panama/san-miguelito
-• La Chorrera — SE ALQUILA LOCALES 100MT2 CADA UNO CENTRO DE LA CHORRERA
-   datos por confirmar · NUEVO
-   https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/se-alquila-locales-100mt2-cada-uno-centro-de-la-chorrera/32941285
-• Cerro Silvestre — Local en planta baja en Cerro Silvestre, uso preferido panadería (tít…
-   US$1,850/mes · NUEVO
-   https://www.icasas.com.pa/alquiler/locales/arraijan
+• La Chorrera — Local comercial esquinero en planta baja, en plaza del centro de La C…
+   US$1,650/mes · NUEVO
+   https://www.bienesonline.com.pa/buscar-alquiler-local-la-chorrera.php
 • San Miguelito — Alquiler de Local Comercial en Los Andes Mall, 207m²
    207 m² · US$4,000/mes · US$19.3/m² · NUEVO
    https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/commercial-space-for-rent-in-los-andes-mall-207m/32580289
-…y 2 más en la lista completa.
+• San Miguelito — SE ALQUILA LOCAL EN LOS ANDES MALL - US$2,500 USD
+   US$2,500/mes · NUEVO
+   https://capital-bienesraices.com/local-alquiler-san-miguelito/10327270
 
 _Datos tomados del buscador web: confirmar área, precio y vigencia al llamar._

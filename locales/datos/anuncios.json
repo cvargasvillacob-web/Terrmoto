@@ -419,17 +419,17 @@
   "tipo": "local",
   "area_m2": 278,
   "precio_mensual_usd": null,
-  "ubicacion": "La Chorrera (barrio no indicado en el resultado)",
+  "ubicacion": "Proyecto Plaza Panamá Oeste, La Chorrera (según el resultado); dirección no indicada",
   "planta": "n/d",
-  "anunciante": null,
+  "anunciante": "Rent-A-House",
   "telefono": null,
   "url": "https://www.compreoalquile.com/locales-comerciales-en-alquiler-en-la-chorrera.html",
   "url_es_listado": true,
   "portal": "compreoalquile",
   "evidencia": "Compreoalquile: 278 m2, 2 banos, 12 estacionamientos, 'USD 1 Expensas'. El alquiler no aparece en el resultado.",
-  "notas": "DATO DE LISTADO, no de anuncio individual; hay que ubicar la ficha en la pagina. Area practicamente en el rango ideal (280-350) y 12 estacionamientos, pero faltan precio, barrio y planta.",
+  "notas": "DATO DE LISTADO, no de anuncio individual; hay que ubicar la ficha en la pagina. Area practicamente en el rango ideal (280-350) y 12 estacionamientos, pero faltan precio, barrio y planta. [23 nov, corrida Oeste del lunes] Reapareció en dos búsquedas. Datos nuevos según el resumen del buscador: la ficha de Compreoalquile ('Local comercial · 278m² · 12 Estacionamientos') la publica Rent-A-House y la ubica dentro del proyecto Plaza Panamá Oeste, en La Chorrera; es la misma plaza del local de 376 m² que ya está en la base, del mismo listado. Un primer resumen asoció a esta unidad la planta baja y un alquiler de USD 4,200, pero una búsqueda dirigida no lo confirmó y señaló que el 'USD 1 Expensas' parece un error del portal: el precio sigue en blanco y la planta sin confirmar (si fueran USD 4,200, serían ~US$15.1/m², cálculo propio). Confirmar si Plaza Panamá Oeste es plaza abierta o mall y si queda sobre la Autopista.",
   "primera_vez": "2026-11-19T00:25-05:00",
-  "ultima_vez": "2026-11-19T00:25-05:00"
+  "ultima_vez": "2026-11-23T14:03-05:00"
  },
  {
   "zona": "Cerro Silvestre",
@@ -463,9 +463,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Encuentra24 (Barrio Colón): locales comerciales en alquiler 'desde 168 m2', junto a la carretera Arraiján-La Chorrera. En la corrida del 19 nov por la tarde el buscador detalla: unidad de 168.10 m² con frente de vidrio y 11 m de altura a $3,597.34 (~$21.39/m²) y, en el mismo desarrollo, 181.50 m² a $3,884.10 y 600 m² a $12,840.",
-  "notas": "Se anuncian locales desde 168 m²; área y precio van en blanco porque el anuncio agrupa varias unidades. Según el buscador, los US$3,597.34 corresponden a la unidad de 168.10 m² (~US$21.39/m²); en el mismo desarrollo hay una de 181.50 m² a US$3,884.10 y una de 600 m² a US$12,840 (ver anuncio 33157966). Todas rondan US$21.40/m², apenas sobre el tope de US$21/m², y ninguna cae en 220-400 m²: preguntar si hay una unidad intermedia o si se pueden unir dos contiguas. En una corrida anterior apareció 'un local de 210 m2 en Barrio Colon a USD 3,045/mes' (~US$14.50/m2) sin URL individual; no volvió a aparecer y no se confirmó que sea de este proyecto. UBICACIÓN MENOS PREFERIDA: sobre la Autopista, donde están las tiendas grandes nuevas. El sufijo (DR) coincide con el de un anuncio de Veral Real Estate; posible mismo corredor, no confirmado. [20 nov, corrida Oeste de la tarde] Reapareció: el buscador repite la unidad de 168 m² sobre la autopista Arraiján-La Chorrera a US$3,597.",
+  "notas": "Se anuncian locales desde 168 m²; área y precio van en blanco porque el anuncio agrupa varias unidades. Según el buscador, los US$3,597.34 corresponden a la unidad de 168.10 m² (~US$21.39/m²); en el mismo desarrollo hay una de 181.50 m² a US$3,884.10 y una de 600 m² a US$12,840 (ver anuncio 33157966). Todas rondan US$21.40/m², apenas sobre el tope de US$21/m², y ninguna cae en 220-400 m²: preguntar si hay una unidad intermedia o si se pueden unir dos contiguas. En una corrida anterior apareció 'un local de 210 m2 en Barrio Colon a USD 3,045/mes' (~US$14.50/m2) sin URL individual; no volvió a aparecer y no se confirmó que sea de este proyecto. UBICACIÓN MENOS PREFERIDA: sobre la Autopista, donde están las tiendas grandes nuevas. El sufijo (DR) coincide con el de un anuncio de Veral Real Estate; posible mismo corredor, no confirmado. [20 nov, corrida Oeste de la tarde] Reapareció: el buscador repite la unidad de 168 m² sobre la autopista Arraiján-La Chorrera a US$3,597. [23 nov, corrida Oeste del lunes] Reapareció en la búsqueda de Barrio Colón: unidad de 168 m² sobre la carretera Arraiján-La Chorrera a US$3,597 (~US$21.40/m²), sin datos nuevos.",
   "primera_vez": "2026-11-19T00:25-05:00",
-  "ultima_vez": "2026-11-20T14:01-05:00"
+  "ultima_vez": "2026-11-23T14:03-05:00"
  },
  {
   "zona": "Arraiján",
@@ -481,9 +481,9 @@
   "url_es_listado": true,
   "portal": "encuentra24",
   "evidencia": "Encuentra24: 'Local planta baja Via Principal via Panamericana 340m2 1 Banos', $6,800, Galceb Group. iCasas: $6,800 y 340 m2.",
-  "notas": "CARO: US$20/m2 y total $6,800, por encima del maximo de ~$6,500; Mitula agrega 'mantenimiento: $1.50 X m2 7,617.50$ + ITBMS + Mant.' (cifra confusa, confirmar total real). Incluido por area ideal, planta baja y frente a la Panamericana; la ubicacion excepcional NO esta confirmada. DATO DE LISTADO, no de anuncio individual. Ubicacion inconsistente entre portales (Panamericana / Nuevo Arraijan / Ciudad Vacamonte). Mitula lo describe como pensado para 'oficinas, consultorios o showroom', con estacionamiento en la plaza. Sin fecha de publicacion. Corrida del 19 nov, 14:30: el listado volvió a aparecer y el buscador mencionó otra vez el local de 340 m² en planta baja sobre la vía Panamericana, pero en un resultado con 'USD 750' como precio; no cuadra con los US$6,800 vistos antes en Encuentra24 e iCasas (podría ser otra cifra del anuncio o un error del resultado): confirmar el alquiler real. 20 nov (corrida Oeste): volvió a aparecer en el buscador con la misma URL. Se repite el dato: 'Se Alquila local comercial listo para ocupar, ubicado en ARRAIJAN, PANAMERICANA', USD 6,800, 340 m² en planta baja. [22 nov, corrida Oeste del domingo] Reapareció en el listado de Encuentra24 de Arraiján: 'un local de 340 m² sobre la Vía Panamericana en Arraiján', sin datos nuevos de precio ni contacto.",
+  "notas": "CARO: US$20/m2 y total $6,800, por encima del maximo de ~$6,500; Mitula agrega 'mantenimiento: $1.50 X m2 7,617.50$ + ITBMS + Mant.' (cifra confusa, confirmar total real). Incluido por area ideal, planta baja y frente a la Panamericana; la ubicacion excepcional NO esta confirmada. DATO DE LISTADO, no de anuncio individual. Ubicacion inconsistente entre portales (Panamericana / Nuevo Arraijan / Ciudad Vacamonte). Mitula lo describe como pensado para 'oficinas, consultorios o showroom', con estacionamiento en la plaza. Sin fecha de publicacion. Corrida del 19 nov, 14:30: el listado volvió a aparecer y el buscador mencionó otra vez el local de 340 m² en planta baja sobre la vía Panamericana, pero en un resultado con 'USD 750' como precio; no cuadra con los US$6,800 vistos antes en Encuentra24 e iCasas (podría ser otra cifra del anuncio o un error del resultado): confirmar el alquiler real. 20 nov (corrida Oeste): volvió a aparecer en el buscador con la misma URL. Se repite el dato: 'Se Alquila local comercial listo para ocupar, ubicado en ARRAIJAN, PANAMERICANA', USD 6,800, 340 m² en planta baja. [22 nov, corrida Oeste del domingo] Reapareció en el listado de Encuentra24 de Arraiján: 'un local de 340 m² sobre la Vía Panamericana en Arraiján', sin datos nuevos de precio ni contacto. [23 nov, corrida Oeste del lunes] Reapareció en una búsqueda de Nuevo Arraiján: el resumen menciona locales de 130 a 340 m² en planta baja sobre la Panamericana, de US$2,600 a US$6,800, en Encuentra24; sin datos nuevos de esta unidad.",
   "primera_vez": "2026-11-19T00:25-05:00",
-  "ultima_vez": "2026-11-22T14:01-05:00"
+  "ultima_vez": "2026-11-23T14:03-05:00"
  },
  {
   "zona": "La Chorrera",
@@ -517,9 +517,9 @@
   "url_es_listado": true,
   "portal": "encuentra24",
   "evidencia": "Encuentra24: 'SE ALQUILA LOCAL EN ALTO DE PRADERA 1000 M2 IDEAL SUPER MARKET', $2,200 mensuales, 1 bano; edificio de un solo nivel con anexo, sobre avenida principal a la entrada de la barriada, en area residencial.",
-  "notas": "MUY FUERA DE RANGO (1000 m2; fuera incluso de la banda 400-500). Incluido solo porque el total mensual ($2,200) esta dentro del presupuesto, esta en zona residencial y se anuncia para minisuper/supermercado. Los 1000 m2 podrian ser area de terreno y no de construccion: preguntar area techada. DATO DE LISTADO, no de anuncio individual. Sin fecha de publicacion. Descartar si se aplica el criterio de area de forma estricta. Corrida del 19 nov, 14:30: volvió a aparecer en el listado, esta vez con 'a monthly rent of $2,500' (antes US$2,200) y 'ideal for Mini Super or Super Markets'. PRECIO EN CONFLICTO: se deja el dato anterior; confirmar. [22 nov, corrida Oeste del domingo] Reapareció en el listado de Encuentra24 de La Chorrera: 1000 m² en Alto de Pradera a US$2,200, sin datos nuevos.",
+  "notas": "MUY FUERA DE RANGO (1000 m2; fuera incluso de la banda 400-500). Incluido solo porque el total mensual ($2,200) esta dentro del presupuesto, esta en zona residencial y se anuncia para minisuper/supermercado. Los 1000 m2 podrian ser area de terreno y no de construccion: preguntar area techada. DATO DE LISTADO, no de anuncio individual. Sin fecha de publicacion. Descartar si se aplica el criterio de area de forma estricta. Corrida del 19 nov, 14:30: volvió a aparecer en el listado, esta vez con 'a monthly rent of $2,500' (antes US$2,200) y 'ideal for Mini Super or Super Markets'. PRECIO EN CONFLICTO: se deja el dato anterior; confirmar. [22 nov, corrida Oeste del domingo] Reapareció en el listado de Encuentra24 de La Chorrera: 1000 m² en Alto de Pradera a US$2,200, sin datos nuevos. [23 nov, corrida Oeste del lunes] Reapareció en el listado de Encuentra24 de La Chorrera: 1,000 m² en Alto de Pradera a US$2,200, 'ideal para supermercado'. Dato nuevo del resumen: queda cerca de una parada de autobuses. Sin contacto.",
   "primera_vez": "2026-11-19T00:25-05:00",
-  "ultima_vez": "2026-11-22T14:01-05:00"
+  "ultima_vez": "2026-11-23T14:03-05:00"
  },
  {
   "zona": "Alcalde Díaz",
@@ -805,9 +805,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Encuentra24: 'un listado de Galceb ofrece locales en Avenida Libertador, en la zona de Plaza La Onda y El Fuerte, desde 32 m²'; una unidad de 32 m² en Barrio Colón aparece con un precio de $2,000.",
-  "notas": "Se anuncian locales 'desde 32 m²' sin precisar los tamaños disponibles: por eso área y precio van en blanco. El precio de US$2,000 que muestra el resultado no cuadra con una unidad de 32 m² (serían ~US$62/m²): probablemente corresponde a otra unidad; confirmar. PISTA RELACIONADA: en una corrida anterior apareció un local de Galceb en planta baja de 180 m² en Ave. Libertador a US$1,500, sin URL; podría ser una unidad de este mismo anuncio (inferencia, no confirmado): preguntar por esa unidad y por otras de 220-350 m². El anunciante (Galceb Group) se tomó del resumen del buscador y la URL se asoció por el texto del slug ('from 32 mts2 ... Plaza La Onda and El Fuerte'); el resultado no mostraba el título. Confirmar planta, distancia a supermercados de cadena, estacionamiento y acceso de camión. Sin teléfono ni fecha en el resultado. Corrida del 19 nov, 14:30: la URL volvió a aparecer en el buscador, sin datos nuevos. Hay un anuncio gemelo en Burunga ('desde 36 m², Plaza La Onda and El Fuerte', 32758412). 20 nov (corrida Oeste): volvió a aparecer en el buscador con la misma URL. [20 nov, corrida Oeste de la tarde] Reapareció: 'Local Comercial-Desde 32 Mts2', US$2,000, actualizado el 27/07/2026 según el resultado. [21 nov, corrida Oeste de la tarde] Reapareció en varias búsquedas: 'Local Comercial-Desde 32 Mts2', US$2,000, actualizado el 27/07/2026; un resumen lo ubica sobre la Avenida Libertador. ANUNCIANTE EN CONFLICTO: un resumen del buscador lo atribuye a 'Century Administradora', mientras la base lo tenía como Galceb Group; confirmar quién lo publica y si administra la plaza.",
+  "notas": "Se anuncian locales 'desde 32 m²' sin precisar los tamaños disponibles: por eso área y precio van en blanco. El precio de US$2,000 que muestra el resultado no cuadra con una unidad de 32 m² (serían ~US$62/m²): probablemente corresponde a otra unidad; confirmar. PISTA RELACIONADA: en una corrida anterior apareció un local de Galceb en planta baja de 180 m² en Ave. Libertador a US$1,500, sin URL; podría ser una unidad de este mismo anuncio (inferencia, no confirmado): preguntar por esa unidad y por otras de 220-350 m². El anunciante (Galceb Group) se tomó del resumen del buscador y la URL se asoció por el texto del slug ('from 32 mts2 ... Plaza La Onda and El Fuerte'); el resultado no mostraba el título. Confirmar planta, distancia a supermercados de cadena, estacionamiento y acceso de camión. Sin teléfono ni fecha en el resultado. Corrida del 19 nov, 14:30: la URL volvió a aparecer en el buscador, sin datos nuevos. Hay un anuncio gemelo en Burunga ('desde 36 m², Plaza La Onda and El Fuerte', 32758412). 20 nov (corrida Oeste): volvió a aparecer en el buscador con la misma URL. [20 nov, corrida Oeste de la tarde] Reapareció: 'Local Comercial-Desde 32 Mts2', US$2,000, actualizado el 27/07/2026 según el resultado. [21 nov, corrida Oeste de la tarde] Reapareció en varias búsquedas: 'Local Comercial-Desde 32 Mts2', US$2,000, actualizado el 27/07/2026; un resumen lo ubica sobre la Avenida Libertador. ANUNCIANTE EN CONFLICTO: un resumen del buscador lo atribuye a 'Century Administradora', mientras la base lo tenía como Galceb Group; confirmar quién lo publica y si administra la plaza. [23 nov, corrida Oeste del lunes] Reapareció en tres búsquedas: local de 32 m² a US$2,000 (US$63/m² de construcción según el anuncio), sin datos nuevos.",
   "primera_vez": "2026-11-19T11:34-05:00",
-  "ultima_vez": "2026-11-21T14:01-05:00"
+  "ultima_vez": "2026-11-23T14:03-05:00"
  },
  {
   "zona": "Pacora",
@@ -1093,9 +1093,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Encuentra24 (32840335, YD, Costa Verde/Arboledas): publicado el 13/08/2026, alquiler de $8,190; 'el terreno mide 455 m²'; frente a la carretera Arraiján-La Chorrera, con flujo de tráfico estimado de más de 90,000.",
-  "notas": "FUERA DE RANGO: 455 m² (banda 400-500) y total de US$8,190, sobre el máximo de ~US$6,500; ~US$18/m², bajo el tope. El resultado llama 'terreno' a los 455 m²; como $8,190 entre 455 da $18.00/m² exactos, parece ser el área arrendable: confirmar área techada. UBICACIÓN MENOS PREFERIDA: sobre la Autopista (Costa Verde/Arboledas), donde están las tiendas grandes. POSIBLE DUPLICADO del anuncio 32259267 (ABS, ref. 26-6280), con el mismo precio y la misma área: podría ser el mismo inmueble publicado por otro corredor; comprobarlo antes de llamar dos veces. La frase de los 90,000 vehículos coincide con la del desarrollo de Barrio Colón que ya está en la base (32799024 y 33157966): podría ser el mismo proyecto (inferencia, no confirmado). Preguntar si hay una unidad de 220-400 m². Era una pista pendiente de corridas anteriores. Planta, anunciante y teléfono no aparecen. [20 nov, corrida Oeste de la tarde] Reapareció solo como enlace, sin datos nuevos. [21 nov, corrida Oeste de la tarde] Reapareció solo como enlace, sin datos nuevos.",
+  "notas": "FUERA DE RANGO: 455 m² (banda 400-500) y total de US$8,190, sobre el máximo de ~US$6,500; ~US$18/m², bajo el tope. El resultado llama 'terreno' a los 455 m²; como $8,190 entre 455 da $18.00/m² exactos, parece ser el área arrendable: confirmar área techada. UBICACIÓN MENOS PREFERIDA: sobre la Autopista (Costa Verde/Arboledas), donde están las tiendas grandes. POSIBLE DUPLICADO del anuncio 32259267 (ABS, ref. 26-6280), con el mismo precio y la misma área: podría ser el mismo inmueble publicado por otro corredor; comprobarlo antes de llamar dos veces. La frase de los 90,000 vehículos coincide con la del desarrollo de Barrio Colón que ya está en la base (32799024 y 33157966): podría ser el mismo proyecto (inferencia, no confirmado). Preguntar si hay una unidad de 220-400 m². Era una pista pendiente de corridas anteriores. Planta, anunciante y teléfono no aparecen. [20 nov, corrida Oeste de la tarde] Reapareció solo como enlace, sin datos nuevos. [21 nov, corrida Oeste de la tarde] Reapareció solo como enlace, sin datos nuevos. [23 nov, corrida Oeste del lunes] Reapareció solo como enlace, sin datos nuevos.",
   "primera_vez": "2026-11-19T14:35-05:00",
-  "ultima_vez": "2026-11-21T14:01-05:00"
+  "ultima_vez": "2026-11-23T14:03-05:00"
  },
  {
   "zona": "La Chorrera",
@@ -1129,9 +1129,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Encuentra24 (32259193): 'local de 144 m² en planta baja con vista directa a la calle. El precio aparece tachado: $2,708 y luego $2,600.'",
-  "notas": "FUERA DE RANGO: 144 m², por debajo de 180. ~US$18/m². Precio rebajado de US$2,708 a US$2,600. Por la numeración sería de abril de 2026 (inferencia): posible anuncio viejo. Era una pista pendiente de corridas anteriores; se guarda para no volver a buscarla. Barrio, anunciante y teléfono no aparecen. [20 nov, corrida Oeste de la tarde] Reapareció con los mismos datos (144 m², US$2,600, planta baja con vista a la calle). [21 nov, corrida Oeste de la tarde] Reapareció en cuatro búsquedas con los mismos datos (144 m², US$2,600, antes US$2,708, planta baja con vista a la calle); el resultado sigue sin dar calle ni corredor. [22 nov, corrida Oeste del domingo] Reapareció en dos búsquedas (El Coco y Guadalupe): 144 m² en planta baja con vista directa a la calle, en un centro comercial pequeño con 20 estacionamientos, a US$2,600 (el resultado también muestra una cifra anterior de US$2,708). El resultado no dice en qué barrio de La Chorrera queda.",
+  "notas": "FUERA DE RANGO: 144 m², por debajo de 180. ~US$18/m². Precio rebajado de US$2,708 a US$2,600. Por la numeración sería de abril de 2026 (inferencia): posible anuncio viejo. Era una pista pendiente de corridas anteriores; se guarda para no volver a buscarla. Barrio, anunciante y teléfono no aparecen. [20 nov, corrida Oeste de la tarde] Reapareció con los mismos datos (144 m², US$2,600, planta baja con vista a la calle). [21 nov, corrida Oeste de la tarde] Reapareció en cuatro búsquedas con los mismos datos (144 m², US$2,600, antes US$2,708, planta baja con vista a la calle); el resultado sigue sin dar calle ni corredor. [22 nov, corrida Oeste del domingo] Reapareció en dos búsquedas (El Coco y Guadalupe): 144 m² en planta baja con vista directa a la calle, en un centro comercial pequeño con 20 estacionamientos, a US$2,600 (el resultado también muestra una cifra anterior de US$2,708). El resultado no dice en qué barrio de La Chorrera queda. [23 nov, corrida Oeste del lunes] Reapareció en tres búsquedas con los mismos datos (144 m² en planta baja con vista a la calle, US$2,600, antes US$2,708, centro comercial pequeño con 20 estacionamientos); sigue sin barrio ni corredor.",
   "primera_vez": "2026-11-19T14:35-05:00",
-  "ultima_vez": "2026-11-22T14:01-05:00"
+  "ultima_vez": "2026-11-23T14:03-05:00"
  },
  {
   "zona": "La Chorrera",
@@ -1183,9 +1183,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Encuentra24: 'La Chorrera (Costa Verde): A 100 m² unit at Market Plaza is listed at $2,500/month'. El título del anuncio habla de 'locales comerciales', en plural.",
-  "notas": "PISTA DÉBIL. El anuncio ofrece varios locales; el único dato que mostró el buscador es una unidad de 100 m² a US$2,500/mes (~US$25/m², sobre el tope de US$21 y muy por debajo de 220 m²). Área y precio van en blanco porque no se sabe qué otros tamaños hay: preguntar si existe una unidad de 220-400 m² o si se pueden unir locales, y a qué precio. UBICACIÓN MENOS PREFERIDA: Costa Verde queda junto a la Autopista, donde están las tiendas grandes. La URL apareció en varias búsquedas de esta corrida. Planta, anunciante, teléfono y fecha no aparecen. 20 nov (corrida Oeste): volvió a aparecer en el buscador con la misma URL. El buscador lo describe como locales en Market Plaza, Costa Verde, orientados a franquicias, boutiques, clínicas y restaurantes. [20 nov, corrida Oeste de la tarde] Reapareció: el buscador muestra unidades de planta baja de unos 98-100 m², sin acabados, a US$23/m² + ITBM, y US$2,500 al mes; fecha de publicación 29/05/2026 (anuncio de casi seis meses: verificar vigencia). [21 nov, corrida Oeste de la tarde] Reapareció en varias búsquedas: unidades de ~98 y 100.40 m² en obra gris a US$23/m² + ITBM y una de 100 m² a US$2,500 (US$25/m²); sin datos nuevos ni contacto de la administración. [22 nov, corrida Oeste del domingo] Reapareció en dos búsquedas, sin datos nuevos del anuncio. El directorio InfoGuía da para Market Plaza (sede principal en Costa Verde) el teléfono 396-7030 (https://infoguia.com.pa/is.asp?ciud=60&clte=10009203&emp=market-plaza-la-chorrera); es un dato de directorio, no del anuncio: confirmar si es de la administración de la plaza.",
+  "notas": "PISTA DÉBIL. El anuncio ofrece varios locales; el único dato que mostró el buscador es una unidad de 100 m² a US$2,500/mes (~US$25/m², sobre el tope de US$21 y muy por debajo de 220 m²). Área y precio van en blanco porque no se sabe qué otros tamaños hay: preguntar si existe una unidad de 220-400 m² o si se pueden unir locales, y a qué precio. UBICACIÓN MENOS PREFERIDA: Costa Verde queda junto a la Autopista, donde están las tiendas grandes. La URL apareció en varias búsquedas de esta corrida. Planta, anunciante, teléfono y fecha no aparecen. 20 nov (corrida Oeste): volvió a aparecer en el buscador con la misma URL. El buscador lo describe como locales en Market Plaza, Costa Verde, orientados a franquicias, boutiques, clínicas y restaurantes. [20 nov, corrida Oeste de la tarde] Reapareció: el buscador muestra unidades de planta baja de unos 98-100 m², sin acabados, a US$23/m² + ITBM, y US$2,500 al mes; fecha de publicación 29/05/2026 (anuncio de casi seis meses: verificar vigencia). [21 nov, corrida Oeste de la tarde] Reapareció en varias búsquedas: unidades de ~98 y 100.40 m² en obra gris a US$23/m² + ITBM y una de 100 m² a US$2,500 (US$25/m²); sin datos nuevos ni contacto de la administración. [22 nov, corrida Oeste del domingo] Reapareció en dos búsquedas, sin datos nuevos del anuncio. El directorio InfoGuía da para Market Plaza (sede principal en Costa Verde) el teléfono 396-7030 (https://infoguia.com.pa/is.asp?ciud=60&clte=10009203&emp=market-plaza-la-chorrera); es un dato de directorio, no del anuncio: confirmar si es de la administración de la plaza. [23 nov, corrida Oeste del lunes] Reapareció en varias búsquedas: unidades de planta baja de ~98 y 100 m² a US$23/m² + ITBM, sin datos nuevos.",
   "primera_vez": "2026-11-19T14:35-05:00",
-  "ultima_vez": "2026-11-22T14:01-05:00"
+  "ultima_vez": "2026-11-23T14:03-05:00"
  },
  {
   "zona": "La Chorrera",
@@ -1759,9 +1759,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "'Ground-floor unit, 80 m²: Listed at $1,000 per month, with a 4-meter ceiling and about 25 parking spaces. It is shown as published on 14/09/2026.'",
-  "notas": "FUERA DE RANGO: 80 m², muy por debajo de 180 (~US$12.5/m², cálculo propio). Se guarda para no volver a buscarlo. Cielo de 4 m y unos 25 estacionamientos según el buscador; publicado el 14/09/2026. Barrio, anunciante y teléfono no aparecen.",
+  "notas": "FUERA DE RANGO: 80 m², muy por debajo de 180 (~US$12.5/m², cálculo propio). Se guarda para no volver a buscarlo. Cielo de 4 m y unos 25 estacionamientos según el buscador; publicado el 14/09/2026. Barrio, anunciante y teléfono no aparecen. [23 nov, corrida Oeste del lunes] Reapareció con los mismos datos (80 m² a US$1,000).",
   "primera_vez": "2026-11-20T01:19-05:00",
-  "ultima_vez": "2026-11-20T01:19-05:00"
+  "ultima_vez": "2026-11-23T14:03-05:00"
  },
  {
   "zona": "La Chorrera",
@@ -1813,9 +1813,9 @@
   "url_es_listado": false,
   "portal": "compreoalquile",
   "evidencia": "Solo el título del resultado: 'Nuevo Araijan - Locales Comerciales, Panamá Oeste - CompreOAlquile'.",
-  "notas": "SOLO SE CONOCEN EL TÍTULO Y EL ENLACE: área, alquiler, planta, fecha, anunciante y teléfono no aparecen, y la URL no dice si es alquiler o venta (apareció en una búsqueda de alquiler): confirmar. El título en plural sugiere varias unidades. Abrir la ficha a mano antes de llamar (Compreoalquile bloquea el acceso automatizado).",
+  "notas": "SOLO SE CONOCEN EL TÍTULO Y EL ENLACE: área, alquiler, planta, fecha, anunciante y teléfono no aparecen, y la URL no dice si es alquiler o venta (apareció en una búsqueda de alquiler): confirmar. El título en plural sugiere varias unidades. Abrir la ficha a mano antes de llamar (Compreoalquile bloquea el acceso automatizado). [23 nov, corrida Oeste del lunes] Reapareció con datos. Según el resumen del buscador, son locales EN CONSTRUCCIÓN de 106 m² cada uno, con baño propio, a US$15.00/m² en planta baja y US$10.00/m² en planta alta; el precio por m² sugiere alquiler, sin confirmar. La atribución a esta ficha se deduce del título ('Nuevo Araijan'). Cada unidad queda por debajo de 180 m²: solo serviría uniendo unas tres contiguas en planta baja (~318 m², ~US$4,770 al mes a US$15/m²; cálculo propio). Preguntar fecha de entrega, si se pueden unir unidades y quién promueve la plaza. Sin dirección, anunciante ni teléfono.",
   "primera_vez": "2026-11-20T01:19-05:00",
-  "ultima_vez": "2026-11-20T01:19-05:00"
+  "ultima_vez": "2026-11-23T14:03-05:00"
  },
  {
   "zona": "Vacamonte",
@@ -1849,9 +1849,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Solo el título del resultado: 'NUEVA PLAZA EN COSTA VERDE ALQUILER LOCAL'.",
-  "notas": "SOLO SE CONOCEN EL TÍTULO Y EL ENLACE. En la misma búsqueda el buscador describió un local de 126 m² en 'Las Terrazas de Costa Verde', plaza nueva frente a PriceSmart, sin ligarlo con certeza a este ID; si es ese, queda fuera de rango (bajo 180 m²): preguntar por unidades mayores o contiguas. PROBABLEMENTE VIEJO: el ID (31.06 millones) es muy inferior al de los anuncios recientes (32.8-33.3 millones); verificar vigencia. Costa Verde no es barrio interior. [20 nov, corrida Oeste de la tarde] Reapareció solo como enlace, sin datos nuevos.",
+  "notas": "SOLO SE CONOCEN EL TÍTULO Y EL ENLACE. En la misma búsqueda el buscador describió un local de 126 m² en 'Las Terrazas de Costa Verde', plaza nueva frente a PriceSmart, sin ligarlo con certeza a este ID; si es ese, queda fuera de rango (bajo 180 m²): preguntar por unidades mayores o contiguas. PROBABLEMENTE VIEJO: el ID (31.06 millones) es muy inferior al de los anuncios recientes (32.8-33.3 millones); verificar vigencia. Costa Verde no es barrio interior. [20 nov, corrida Oeste de la tarde] Reapareció solo como enlace, sin datos nuevos. [23 nov, corrida Oeste del lunes] Reapareció solo como enlace, sin datos nuevos.",
   "primera_vez": "2026-11-20T01:19-05:00",
-  "ultima_vez": "2026-11-20T14:01-05:00"
+  "ultima_vez": "2026-11-23T14:03-05:00"
  },
  {
   "zona": "La Chorrera",
@@ -2590,5 +2590,41 @@
   "notas": "FUERA DE RANGO: 207 m² (por debajo de 220 m²). El total de US$4,000 sale del listado de espacios comerciales en alquiler de San Miguelito de Casas24, sitio hermano de Encuentra24 (https://www.casas24.com/panama-es/propiedades-comerciales-alquiler-espacios-comerciales/prov-panama-san-miguelito); se asocia a esta ficha porque coinciden el área y el centro comercial, y cuadra con los US$19/m² del resumen de Encuentra24 (US$4,000 / 207 m² = ~US$19.3/m², cálculo propio): verificar al abrirla. Bajo el tope de US$21/m² pero sobre el ideal de US$15. No se sabe si incluye mantenimiento. OJO CON EL TIPO: está dentro de Los Andes Mall y el criterio excluye locales dentro de malls grandes; se guarda por la cercanía a la estación Los Andes del Metro (dato general, no del anuncio). Sin planta, fecha ni contacto. Zona oportunista. Hallado el 23 nov.",
   "primera_vez": "2026-11-23T05:04-05:00",
   "ultima_vez": "2026-11-23T05:04-05:00"
+ },
+ {
+  "zona": "La Chorrera",
+  "titulo": "ALQUILER LOCAL CHORRERA",
+  "tipo": "local",
+  "area_m2": 375,
+  "precio_mensual_usd": 2500,
+  "ubicacion": "La Chorrera (el resultado no indica barrio ni calle)",
+  "planta": "n/d",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/alquiler-local-chorrera/32275280",
+  "url_es_listado": false,
+  "portal": "encuentra24",
+  "evidencia": "Encuentra24 (32275280, versión en inglés): 'Comercial for rent in La Chorrera : ALQUILER LOCAL CHORRERA : rooms, USD 2500.00'. Resumen del buscador: edificación de 375 m² con techo alto, estacionamiento para unos 10 vehículos, 2 baños, precio por m² de construcción de $6.66; el texto en español dice que la tarifa de US$2,500 aplica al primer año. Fecha de publicación 11/04/2026 (o 04/11/2026).",
+  "notas": "Anuncio individual. Área aceptable (375 m², sobre el ideal) y ~US$6.7/m² (el anuncio da US$6.66/m² de construcción). Los US$2,500 son la tarifa del PRIMER AÑO: preguntar los aumentos. POSIBLE MISMO INMUEBLE que 'Local Comercial en Barrio Balboa, La Chorrera, 375 m²' (Mitula, US$2,800, Corporación Veral SA), que ya está en la base: sus notas mencionan otro anuncio de 375 m² en Barrio Balboa, descrito como 'local alto', con primer año a US$2,500 y aumentos hasta US$3,000; por área y precio sería este (inferencia, no confirmado). Comprobarlo antes de llamar dos veces. PLANTA POR CONFIRMAR ANTES DE LLAMAR: este resultado habla de techo alto, lo que sugiere que 'alto' se refería a la altura y no a una planta alta (inferencia); si es planta alta, se descarta. El techo alto también podría indicar una galera: confirmar que sea local de venta con frente a la calle y acceso para camión. Barrio Balboa sale solo de la ficha de Mitula, no de este resultado. FECHA AMBIGUA (11 abr o 4 nov de 2026): el ID es cercano al del anuncio 32259193, que la base estima de abril de 2026, así que probablemente es de abril (inferencia): verificar que siga vigente. Sin anunciante ni teléfono en el resultado. Hallado el 23 nov, corrida Oeste del lunes, con una búsqueda dirigida por su ID.",
+  "primera_vez": "2026-11-23T14:03-05:00",
+  "ultima_vez": "2026-11-23T14:03-05:00"
+ },
+ {
+  "zona": "La Chorrera",
+  "titulo": "Local comercial esquinero en planta baja, en plaza del centro de La Chorrera (título exacto no visible en el resultado)",
+  "tipo": "esquinero",
+  "area_m2": null,
+  "precio_mensual_usd": 1650,
+  "ubicacion": "Centro de La Chorrera, en una plaza concurrida (según el resultado); dirección no indicada",
+  "planta": "baja",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://www.bienesonline.com.pa/buscar-alquiler-local-la-chorrera.php",
+  "url_es_listado": true,
+  "portal": "bienesonline",
+  "evidencia": "Resumen del buscador: 'Bienesonline has a ground-floor commercial local on a corner in a busy plaza in central La Chorrera, priced at USD 1,650. Its size is not given in the snippet.'",
+  "notas": "DATO DE LISTADO: buscar en la página de Bienes Online de locales en alquiler en La Chorrera la ficha del local esquinero en planta baja a USD 1,650. ÁREA DESCONOCIDA: es lo primero que hay que preguntar. El resultado no dice expresamente que los USD 1,650 sean mensuales (se asume por ser un listado de alquiler). En la misma página está el local de 250 m² a USD 4,000 que ya está en la base; el precio es distinto, así que parece otra unidad. Si queda en el centro, verificar la distancia a El Machetazo, B-sí y Xtra. Fecha, anunciante y teléfono no aparecen. Hallado el 23 nov, corrida Oeste del lunes.",
+  "primera_vez": "2026-11-23T14:03-05:00",
+  "ultima_vez": "2026-11-23T14:03-05:00"
  }
 ]
