@@ -52,8 +52,9 @@ Fuentes: [localizador de Justo & Bueno](https://www.justoybuenopanama.com/ubicac
 | Zona | Plaza | Lo que se sabe |
 |---|---|---|
 | Vía Transístmica (tramo por confirmar) | Plaza comercial en obra gris, Panamá Home Realty | Locales de ~56 a más de 1,000 m²; 3 meses de gracia para planos y permisos |
-| La Chorrera, Montelimar / Costa Verde | Plaza en preventa | Entrega en 2028; ya tiene un supermercado ancla (competencia) |
+| La Chorrera, Montelimar / Costa Verde | Plaza en preventa | Obra desde agosto de 2026, entrega en el primer trimestre de 2028; locales de 54 a 140 m² solo en venta (US$2,900-3,800/m²); anclas: un supermercado (competencia) y comida rápida |
 | Juan Díaz | Plaza Las Palmeras | Locales nuevos de 2 pisos, 288 m² por planta |
+| Vacamonte | Vecentro Plaza, 27 locales en ~5,723 m² | Ficha de Locations Corp de enero de 2025; solo marcaba restaurantes libres. Preguntar a Locations Corp ([ficha](https://locationscorp.com/wp-content/uploads/2025/04/Vecentro-Plaza-FactSheet-250127.pdf)) |
 | Villa Zaita | Plaza Zaita (Proyecta), sobre la Transístmica, 4,000 m² rentables | Sin fecha de entrega; puede ser la misma Plaza Villa Zaita de BRCOT (23 locales desde 79 m², 80 estacionamientos). Solo sirve uniendo 3 o 4 locales ([Proyecta](https://www.proyecta.com.pa/proyectos/393/plaza-zaita)) |
 | Villa Zaita | Espacios comerciales del Metro junto a la estación | Metro de Panamá concesionará unos 462.56 m² para kioscos o locales; preguntar cómo va el proceso ([Panamá América](https://www.panamaamerica.com.pa/nacion/espacios-del-metro-en-villa-zaita-seran-concesionados-1263349)) |
 | 24 de Diciembre, Felipillo | Plaza Canaima, local de esquina de 280 m² con más de 10 estacionamientos | Está en venta a B/.290,000 ([MercadoLibre](https://inmueble.mercadolibre.com.pa/MPA-569768532-plaza-canaima-felipillo-280-m2-local-comercial-esquina-10-p-_JM)); preguntar si el dueño lo alquilaría |
@@ -62,6 +63,7 @@ Fuentes: [localizador de Justo & Bueno](https://www.justoybuenopanama.com/ubicac
 
 | Zona | Local | Por qué |
 |---|---|---|
+| Vista Alegre (El Tecal) | Inmopanama P28078, 226 m² a US$1,500 «en las instalaciones del Super 99» | Anuncio vencido; además queda dentro de la competencia ([Inmopanama](https://www.inmopanama.com/alquilo-local-comercial-vacamonte-super-99_p-28078.htm)) |
 | Pedregal | Plaza Terranova, 383 m² en planta baja y esquina, US$5,745 + US$957 de mantenimiento | La ficha dice que ya no está disponible ([panama-real-estate 63345](https://www.panama-real-estate.com/propiedad/pedregal-local-comercial-plaza-terranova-383-m-planta-baja-j-63345/)), aunque sigue en Mitula. El de 937 m² de la misma plaza tampoco está disponible. El anuncio de Terranova a US$6,500 (B) sí está en la base |
 
 ## Más antiguos Justo & Bueno (corrida del 23 nov)
