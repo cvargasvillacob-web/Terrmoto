@@ -1,6 +1,6 @@
 # Locales para llamar — 2026-11-24
 
-149 anuncios revisados: 21 de prioridad A, 87 de prioridad B, 17 de prioridad C y 24 descartados. Actualizado el 24 nov a las 05:01 (hora de Panamá).
+149 anuncios revisados: 21 de prioridad A, 87 de prioridad B, 17 de prioridad C y 24 descartados. Actualizado el 24 nov a las 06:36 (hora de Panamá).
 
 > Los datos salen de resultados del buscador web, no de la lectura del anuncio completo (los portales bloquean el acceso automatizado). Área, precio y vigencia deben confirmarse al abrir el anuncio y en la llamada.
 
@@ -468,7 +468,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Agrupa varios locales 'desde 57 m²' sin precisar tamaños: por eso área y precio van en blanco; los US$1,195 del título corresponderían a la unidad más chica (inferencia). PROBABLEMENTE CHICOS: preguntar si hay una unidad de 220-400 m² o locales contiguos que se puedan unir, en qué plaza y planta están, y si Santa Elena queda de verdad en Pacora. Anuncio individual en el sitio de un corredor (grupogestioninmobiliario.com; el nombre del corredor no aparece en el resultado). El teléfono es el de la agencia según el resumen del buscador. Sin fecha en el resultado: verificar vigencia.
 
-### B36 · Alcalde Díaz — Se Alquila local comercial en Plaza Milla 8 · NUEVO
+### B36 · Alcalde Díaz — Se Alquila local comercial en Plaza Milla 8
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 1 · 5/9 puntos
 - **Ubicación:** Plaza Milla 8 (Encuentra24 lo clasifica en Milla 8)
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -476,7 +476,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Anuncio individual distinto del 32394504 (130 m² a US$1,250) y de los 32713168 y 32621303 de la misma plaza. Solo se conoce el título: abrir la ficha antes de llamar. Los demás locales de Plaza Milla 8 en la base miden de 130 a 210 m², varios con mezzanine, así que probablemente este también quede por debajo de 220 m²: preguntar el área, si es planta baja y si hay locales contiguos para unir. El número de anuncio es anterior al de las otras fichas de la plaza: puede ser un aviso más viejo. Se agrupa en Alcalde Díaz, como las demás fichas de Milla 8. Sin fecha ni contacto en el resultado. Hallado el 23 nov.
 
-### B37 · Ernesto Córdoba Campos — Se alquila local comercial en Villa Zaita · NUEVO
+### B37 · Ernesto Córdoba Campos — Se alquila local comercial en Villa Zaita
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 1 · 5/9 puntos
 - **Ubicación:** Villa Zaita
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -548,7 +548,7 @@
 - **Confirmar en la llamada:** alquiler mensual, mantenimiento e ITBMS; cuánto mide la planta baja sola
 - **Notas:** DATO DE LISTADO: buscar la ficha en la página de Mitula de Costa del Este. Los 300 m² suman dos niveles: la planta baja mide 180 m², por debajo del rango aceptable para la sala. Precio, dirección, fecha y contacto no aparecen. Costa del Este es una zona de ingresos altos y oficinas, lejos del perfil de vivienda densa del proyecto (dato general): baja prioridad aunque pertenezca a Juan Díaz.
 
-### B46 · San Miguelito — Alquiler de Local Comercial de 290mts2 en Los Andes Mall · NUEVO
+### B46 · San Miguelito — Alquiler de Local Comercial de 290mts2 en Los Andes Mall
 - **Datos:** 290 m² · alquiler n/d · US$/m² n/d · planta baja · ola 3 · 5/9 puntos
 - **Ubicación:** Los Andes Mall, San Miguelito; según el resumen, cerca de los elevadores y visible desde la entrada principal
 - **Contacto:** buscar la ficha en el listado para ver el teléfono
@@ -700,7 +700,7 @@
 - **Confirmar en la llamada:** área arrendable
 - **Notas:** DATO DE LISTADO: buscar en la página de Bienes Online de locales en alquiler en La Chorrera la ficha del local esquinero en planta baja a USD 1,650. ÁREA DESCONOCIDA: es lo primero que hay que preguntar. El resultado no dice expresamente que los USD 1,650 sean mensuales (se asume por ser un listado de alquiler). En la misma página está el local de 250 m² a USD 4,000 que ya está en la base; el precio es distinto, así que parece otra unidad. Si queda en el centro, verificar la distancia a El Machetazo, B-sí y Xtra. Fecha, anunciante y teléfono no aparecen. Hallado el 23 nov, corrida Oeste del lunes.
 
-### B65 · San Miguelito — Alquiler de Local Comercial en Los Andes Mall, 207m² · NUEVO
+### B65 · San Miguelito — Alquiler de Local Comercial en Los Andes Mall, 207m²
 - **Datos:** 207 m² · US$4,000/mes · US$19.3/m² · planta n/d · ola 3 · 4/9 puntos
 - **Ubicación:** Los Andes Mall, San Miguelito, frente a 'La Onda' según el resumen
 - **Contacto:** abrir el anuncio para ver el teléfono
@@ -868,7 +868,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Zona oportunista; primer anuncio de Pedregal en la base. Solo se conocen el título y el enlace: abrir el anuncio antes de llamar y confirmar área, alquiler, planta y frente. En la misma búsqueda el buscador mencionó, sin decir de qué URL salen: 'Terranova Plaza Pedregal', 300 m² de espacio comercial en planta baja totalmente terminado, precio no claro (sería ideal por área: preguntar si es este aviso); un local de 201 m² a US$4,500 + US$152 de expensas con 3 estacionamientos en Parque Lefevre que 'figura como ubicado en Pedregal' (~US$22.4/m², cálculo propio, sobre el tope); y un local de 2 plantas en Pedregal de 91 m² a US$2,000 (fuera de rango). POSIBLE ANUNCIO VIEJO: el ID (32.45 millones) es más bajo que el de los avisos recientes; verificar vigencia. Sin anunciante, teléfono ni fecha en el resultado.
 
-### B86 · San Miguelito — SE ALQUILA LOCAL EN LOS ANDES MALL - US$2,500 USD · NUEVO
+### B86 · San Miguelito — SE ALQUILA LOCAL EN LOS ANDES MALL - US$2,500 USD
 - **Datos:** área n/d · US$2,500/mes · US$/m² n/d · planta n/d · ola 3 · 3/9 puntos
 - **Ubicación:** Los Andes Mall, San Miguelito
 - **Contacto:** abrir el anuncio para ver el teléfono
