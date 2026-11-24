@@ -1,8 +1,8 @@
 *Locales para supermercado de 250 m²*
 Reporte del 23 nov 2026
 
-En seguimiento: 123 anuncios (21 A · 85 B · 17 C)
-Nuevos en las últimas 24 horas: 9
+En seguimiento: 124 anuncios (21 A · 86 B · 17 C)
+Nuevos en las últimas 24 horas: 8
 
 *Prioridad A: llamar primero (21)*
 1. Pacora — Locales en Centro Comercial Pacora (ID 13263) - US$4,503 USD
@@ -69,13 +69,7 @@ Nuevos en las últimas 24 horas: 9
    307 m² · US$4,928/mes · US$16.1/m²
    https://www.icasas.com.pa/alquiler/locales/san-miguelito
 
-*Otros nuevos, con datos por confirmar (8)*
-• Las Mañanitas — ALQUILER LOCALES COMERCIALES EN LAS MAÑANITAS
-   datos por confirmar · NUEVO
-   https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/alquiler-locales-comerciales-en-las-mananitas/32519254
-• Pacora — LOCALES COMERCIALES SANTA ELENA DESDE 57MTS - US$1,195 USD
-   datos por confirmar · NUEVO
-   https://grupogestioninmobiliario.com/local-alquiler-pacora/1181679
+*Otros nuevos, con datos por confirmar (7)*
 • Alcalde Díaz — Se Alquila local comercial en Plaza Milla 8
    datos por confirmar · NUEVO
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/se-alquila-local-comercial-en-plaza-milla-8/31770003
@@ -94,5 +88,8 @@ Nuevos en las últimas 24 horas: 9
 • San Miguelito — SE ALQUILA LOCAL EN LOS ANDES MALL - US$2,500 USD
    US$2,500/mes · NUEVO
    https://capital-bienesraices.com/local-alquiler-san-miguelito/10327270
+• Pedregal — Local Comercial Terranova Plaza Pedregal (título según el resumen del…
+   US$6,500/mes · NUEVO
+   https://www.compreoalquile.com/locales-comerciales-en-alquiler.html
 
 _Datos tomados del buscador web: confirmar área, precio y vigencia al llamar._
