@@ -54,6 +54,8 @@ Fuentes: [localizador de Justo & Bueno](https://www.justoybuenopanama.com/ubicac
 | Vía Transístmica (tramo por confirmar) | Plaza comercial en obra gris, Panamá Home Realty | Locales de ~56 a más de 1,000 m²; 3 meses de gracia para planos y permisos |
 | La Chorrera, Montelimar / Costa Verde | Plaza en preventa | Entrega en 2028; ya tiene un supermercado ancla (competencia) |
 | Juan Díaz | Plaza Las Palmeras | Locales nuevos de 2 pisos, 288 m² por planta |
+| Villa Zaita | Plaza Zaita (Proyecta), sobre la Transístmica, 4,000 m² rentables | Sin fecha de entrega; puede ser la misma Plaza Villa Zaita de BRCOT (23 locales desde 79 m², 80 estacionamientos). Solo sirve uniendo 3 o 4 locales ([Proyecta](https://www.proyecta.com.pa/proyectos/393/plaza-zaita)) |
+| Villa Zaita | Espacios comerciales del Metro junto a la estación | Metro de Panamá concesionará unos 462.56 m² para kioscos o locales; preguntar cómo va el proceso ([Panamá América](https://www.panamaamerica.com.pa/nacion/espacios-del-metro-en-villa-zaita-seran-concesionados-1263349)) |
 | 24 de Diciembre, Felipillo | Plaza Canaima, local de esquina de 280 m² con más de 10 estacionamientos | Está en venta a B/.290,000 ([MercadoLibre](https://inmueble.mercadolibre.com.pa/MPA-569768532-plaza-canaima-felipillo-280-m2-local-comercial-esquina-10-p-_JM)); preguntar si el dueño lo alquilaría |
 
 ## Descartados por no disponibles (no volver a cargar)
