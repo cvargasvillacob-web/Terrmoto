@@ -64,6 +64,7 @@ Fuentes: [localizador de Justo & Bueno](https://www.justoybuenopanama.com/ubicac
 
 | Zona | Local | Por qué |
 |---|---|---|
+| Las Cumbres | Plaza del Lago, 3,058 m² (Encuentra24 31152710) | Según panama-real-estate.com (ficha 63229) ya no está disponible; queda descartado en la base |
 | Vista Alegre (El Tecal) | Inmopanama P28078, 226 m² a US$1,500 «en las instalaciones del Super 99» | Anuncio vencido; además queda dentro de la competencia ([Inmopanama](https://www.inmopanama.com/alquilo-local-comercial-vacamonte-super-99_p-28078.htm)) |
 | Pedregal | Plaza Terranova, 383 m² en planta baja y esquina, US$5,745 + US$957 de mantenimiento | La ficha dice que ya no está disponible ([panama-real-estate 63345](https://www.panama-real-estate.com/propiedad/pedregal-local-comercial-plaza-terranova-383-m-planta-baja-j-63345/)), aunque sigue en Mitula. El de 937 m² de la misma plaza tampoco está disponible. El anuncio de Terranova a US$6,500 (B) sí está en la base |
 
@@ -76,3 +77,9 @@ Fuentes: [localizador de Justo & Bueno](https://www.justoybuenopanama.com/ubicac
 | 24 de Diciembre | Plaza Panamericana, Carretera Panamericana | Dirección de Waze para «Justo y Bueno 24 de Diciembre»; puede ser la misma Galerías Panamericanas |
 | La Chorrera | El Coco | Dirección en Infoguía; sin anuncio |
 | Arraiján | Plaza Nuevo Chorrillo | Dirección en Infoguía; solo salió una galera de ~1,200 m² |
+
+## Locales equipados para supermercado (en venta)
+
+| Zona | Local | Lo que se sabe |
+|---|---|---|
+| San Miguelito, Los Andes | «Ideal para minisúper», 292 m² con cuarto frío, 4 neveras, carnicería y estanterías | Está en venta, no en alquiler, y el aviso puede ser viejo. Preguntar si el dueño lo alquilaría ([Encuentra24 31152417](https://www.encuentra24.com/panama-es/bienes-raices-venta-de-propiedades-comercios/ganga-local-comercial-ideal-para-minisuper-san-miguelito-292m-jc/31152417)) |

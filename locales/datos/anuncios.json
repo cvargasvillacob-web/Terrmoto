@@ -283,9 +283,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Galera de 340 m2 con altura de 7 a 8 metros, a $2,289 mensuales con mantenimiento e ITBMS incluidos Corrida del 19 nov ~13:30: \"aparece en $2,289 al mes con mantenimiento e ITBMS incluidos. El desglose es alquiler de $2,140, mantenimiento de $224 e ITBMS de $149.80\" (resumen del buscador).",
-  "notas": "NO cumple el tipo (galera/bodega); se incluye solo porque área y precio encajan (~US$6.7/m2, cálculo propio) y está en zona de prioridad alta. La asociación entre esta URL y los datos de 340 m2 / $2,289 se dedujo del título ('excelente altura') y por descarte frente a otra galera de 320 m2 del mismo resultado; verificar al abrir el anuncio. Sin fecha ni contacto en el resultado. No se indica frente a calle ni cercanía al Metro Villa Zaita. Corrida del 19 nov ~13:30: volvió a aparecer. DESGLOSE EN CONFLICTO: el resultado dice que los $2,289 incluyen mantenimiento e ITBMS, pero alquiler $2,140 + ITBMS $149.80 ya suman ~$2,289.80 (cálculo propio), así que el mantenimiento de $224 parece ir aparte; el canon base sería $2,140 (~US$6.3/m², cálculo propio). Capital Bienes Raíces anuncia un ofidepósito/galera de 340 m² en Villa Zaita a US$2,400 al mes, con 2 oficinas, 1 baño, área de showroom y bodega, 'a solo 5 minutos de la estación del metro de Villa Zaita' (https://capital-bienesraices.com/bodega-alquiler-las-cumbres/8394651): por el área es probablemente esta misma galera ofrecida por un corredor; tampoco cumple el tipo. [21 nov] Volvió a aparecer (en una búsqueda de locales 'para supermercado'); el resumen dice 'Total mensual: $2,289.80' y lo presenta para almacenamiento o logística. Sigue siendo galera. [22 nov] Volvió a aparecer, sin datos nuevos. Sigue siendo galera. [23 nov] Volvió a aparecer en una búsqueda de Gonzalillo y Villa Zaita: 340 m², unos US$2,289 al mes con mantenimiento e ITBMS, altura de 7 a 8 m y luz trifásica. Sigue siendo galera.",
+  "notas": "NO cumple el tipo (galera/bodega); se incluye solo porque área y precio encajan (~US$6.7/m2, cálculo propio) y está en zona de prioridad alta. La asociación entre esta URL y los datos de 340 m2 / $2,289 se dedujo del título ('excelente altura') y por descarte frente a otra galera de 320 m2 del mismo resultado; verificar al abrir el anuncio. Sin fecha ni contacto en el resultado. No se indica frente a calle ni cercanía al Metro Villa Zaita. Corrida del 19 nov ~13:30: volvió a aparecer. DESGLOSE EN CONFLICTO: el resultado dice que los $2,289 incluyen mantenimiento e ITBMS, pero alquiler $2,140 + ITBMS $149.80 ya suman ~$2,289.80 (cálculo propio), así que el mantenimiento de $224 parece ir aparte; el canon base sería $2,140 (~US$6.3/m², cálculo propio). Capital Bienes Raíces anuncia un ofidepósito/galera de 340 m² en Villa Zaita a US$2,400 al mes, con 2 oficinas, 1 baño, área de showroom y bodega, 'a solo 5 minutos de la estación del metro de Villa Zaita' (https://capital-bienesraices.com/bodega-alquiler-las-cumbres/8394651): por el área es probablemente esta misma galera ofrecida por un corredor; tampoco cumple el tipo. [21 nov] Volvió a aparecer (en una búsqueda de locales 'para supermercado'); el resumen dice 'Total mensual: $2,289.80' y lo presenta para almacenamiento o logística. Sigue siendo galera. [22 nov] Volvió a aparecer, sin datos nuevos. Sigue siendo galera. [23 nov] Volvió a aparecer en una búsqueda de Gonzalillo y Villa Zaita: 340 m², unos US$2,289 al mes con mantenimiento e ITBMS, altura de 7 a 8 m y luz trifásica. Sigue siendo galera. [25 nov, corrida Norte y San Miguelito del miércoles] Volvió a aparecer en una búsqueda de Villa Zaita (también con otro slug: .../strategic-location-with-easy-access-to-the-north-corridor-and-main-roads/32164333): 340 m², US$2,289 al mes con mantenimiento e ITBMS, altura de 7 a 8 m, trifásica y acceso para carga y descarga. Sigue siendo galera.",
   "primera_vez": "2026-11-19T00:25-05:00",
-  "ultima_vez": "2026-11-23T05:04-05:00"
+  "ultima_vez": "2026-11-25T05:02-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -345,19 +345,19 @@
   "zona": "San Miguelito",
   "titulo": "LOCAL COMERCIAL EN PLAZA FORTUNA - US$3,500 USD",
   "tipo": "local",
-  "area_m2": null,
+  "area_m2": 219,
   "precio_mensual_usd": 3500,
   "ubicacion": "Plaza Fortuna, Villa Lucre, San Miguelito",
-  "planta": "n/d",
+  "planta": "varios niveles",
   "anunciante": null,
   "telefono": null,
   "url": "https://grupogestioninmobiliario.com/local-alquiler-villa-lucre-san-miguelito/168060",
   "url_es_listado": false,
   "portal": "otro",
-  "evidencia": "Título del resultado: \"LOCAL COMERCIAL EN PLAZA FORTUNA - US$3,500 USD\" (URL .../local-alquiler-villa-lucre-san-miguelito/168060)",
-  "notas": "El área NO figura en el resultado de búsqueda: no se puede saber si entra en rango ni el precio por m2; verificar antes de llamar. Anuncio individual en el sitio grupogestioninmobiliario.com (nombre del anunciante no aparece literalmente en el resultado). Sin fecha visible. Villa Lucre es zona oportunista.",
+  "evidencia": "Título del resultado: \"LOCAL COMERCIAL EN PLAZA FORTUNA - US$3,500 USD\" (URL .../local-alquiler-villa-lucre-san-miguelito/168060) [25 nov, corrida Norte y San Miguelito del miércoles] Resumen del buscador: '219 m² two-level local, near Plaza Fortuna: Precio de alquiler US$3,500 Mensual, plus $331.50 de mantenimiento (Grupo Gestión Inmobiliario). Its ground floor has only a half bathroom (Es de dos plantas, un medio baño en planta baja.)'.",
+  "notas": "El área NO figura en el resultado de búsqueda: no se puede saber si entra en rango ni el precio por m2; verificar antes de llamar. Anuncio individual en el sitio grupogestioninmobiliario.com (nombre del anunciante no aparece literalmente en el resultado). Sin fecha visible. Villa Lucre es zona oportunista. [25 nov, corrida Norte y San Miguelito del miércoles] Reapareció en una búsqueda de locales en Villa Lucre y esta vez el resumen del buscador, atribuido a Grupo Gestión Inmobiliario, dio el área: local de 219 m² en dos plantas 'cerca de Plaza Fortuna', 'Precio de alquiler US$3,500 Mensual' más US$331.50 de mantenimiento, con 'un medio baño en planta baja'. Con esos datos serían ~US$16/m² (cálculo propio), dentro del tope, pero 219 m² queda apenas bajo el rango aceptable y suma dos plantas: la planta baja sola sería bastante menor. Preguntar cuánto mide la planta baja y si es el mismo local de Plaza Fortuna o uno cercano.",
   "primera_vez": "2026-11-19T00:25-05:00",
-  "ultima_vez": "2026-11-19T00:25-05:00"
+  "ultima_vez": "2026-11-25T05:02-05:00"
  },
  {
   "zona": "La Chorrera",
@@ -625,9 +625,9 @@
   "url_es_listado": false,
   "portal": "otro",
   "evidencia": "Resultado titulado \"Comercial Para arrendamiento — Villa Zaita\" en colliers.com. Resumen del buscador (corrida del 19 nov ~13:30): Colliers ofrece un inmueble comercial con \"Área del Lote: 2,228 m²\", \"Área cerrada y Semi abierta: 915 m²\" y \"Renta Mensual: $9,500.00 (Negociables)\", en el sector Milla 8, con frente a la Vía Transístmica; el anuncio menciona el futuro desarrollo del Metro.",
-  "notas": "FUERA DE RANGO: 915 m² de área cerrada y semiabierta sobre un lote de 2,228 m², a US$9,500 al mes (negociables), ~US$10.4/m² (cálculo propio); muy por encima del área (máx. 500 m²) y del total mensual (~US$6,500) del proyecto. Solo serviría si el dueño aceptara alquilar una parte. La asociación entre estos datos y esta URL se dedujo de que es la única ficha de Colliers devuelta en la búsqueda: verificar al abrirla. 'Área cerrada y semi abierta' sugiere cobertizos o galera más que un local a pie de calle; el slug dice 'local u oficina'. El anunciante se deduce del dominio (colliers.com). Sin planta, teléfono ni fecha en el resultado. Hasta la corrida anterior esta ficha no tenía área ni precio. Corrida del 19 nov ~21:00: volvió a aparecer en el buscador con el mismo precio (US$9,500); el resumen lo describe como un inmueble que originalmente fue taller automotriz, sobre un lote de 2,228 m², con frente a la Transístmica en el sector Milla 8. Sin datos nuevos de área arrendable. [23 nov] Volvió a aparecer en una búsqueda de Gonzalillo y Villa Zaita. Esta vez el resumen atribuyó a Colliers 'un local de 283 m² en Plaza Galapagos, Ave. Domingo Díaz', en la zona de Villa Zaita, sin planta ni precio; no coincide con los 915 m² de esta ficha y no salió con URL propia (la base ubica la Av. Domingo Díaz en Tocumen, no en Villa Zaita). Una búsqueda dirigida (Colliers, 'Plaza Galápagos', 283 m²) no encontró nada. Queda como pista: confirmar en el sitio de Colliers si existe esa ficha y dónde queda.",
+  "notas": "FUERA DE RANGO: 915 m² de área cerrada y semiabierta sobre un lote de 2,228 m², a US$9,500 al mes (negociables), ~US$10.4/m² (cálculo propio); muy por encima del área (máx. 500 m²) y del total mensual (~US$6,500) del proyecto. Solo serviría si el dueño aceptara alquilar una parte. La asociación entre estos datos y esta URL se dedujo de que es la única ficha de Colliers devuelta en la búsqueda: verificar al abrirla. 'Área cerrada y semi abierta' sugiere cobertizos o galera más que un local a pie de calle; el slug dice 'local u oficina'. El anunciante se deduce del dominio (colliers.com). Sin planta, teléfono ni fecha en el resultado. Hasta la corrida anterior esta ficha no tenía área ni precio. Corrida del 19 nov ~21:00: volvió a aparecer en el buscador con el mismo precio (US$9,500); el resumen lo describe como un inmueble que originalmente fue taller automotriz, sobre un lote de 2,228 m², con frente a la Transístmica en el sector Milla 8. Sin datos nuevos de área arrendable. [23 nov] Volvió a aparecer en una búsqueda de Gonzalillo y Villa Zaita. Esta vez el resumen atribuyó a Colliers 'un local de 283 m² en Plaza Galapagos, Ave. Domingo Díaz', en la zona de Villa Zaita, sin planta ni precio; no coincide con los 915 m² de esta ficha y no salió con URL propia (la base ubica la Av. Domingo Díaz en Tocumen, no en Villa Zaita). Una búsqueda dirigida (Colliers, 'Plaza Galápagos', 283 m²) no encontró nada. Queda como pista: confirmar en el sitio de Colliers si existe esa ficha y dónde queda. [25 nov, corrida Norte y San Miguelito del miércoles] Volvió a aparecer en una búsqueda de Villa Zaita, sin datos nuevos de esta ficha. El resumen repitió 'un local de 283 m² en Plaza Galapagos, Av. Domingo Díaz' atribuido a Colliers, otra vez sin URL propia; una búsqueda dirigida por la ficha pan7000219 (Villa Zaita Mall) tampoco lo encontró.",
   "primera_vez": "2026-11-19T10:36-05:00",
-  "ultima_vez": "2026-11-23T05:04-05:00"
+  "ultima_vez": "2026-11-25T05:02-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -1399,9 +1399,9 @@
   "url_es_listado": true,
   "portal": "compreoalquile",
   "evidencia": "Resumen del buscador (19 nov, ~21:00), primera búsqueda: en Brisas Mall \"hay locales de 73 m², 115 m², 136 m², 167 m² y 341 m² en planta baja\", con precio publicado solo para el de 73 m² ($1,583). Segunda búsqueda, sobre el local de 341 m²: \"Otro listado de 341 m² aparece en USD 1,900, y una página de icasas muestra 7,500 $ para un local de 341 m²\".",
-  "notas": "DATO DE LISTADO Y DÉBIL: no hay URL del anuncio individual ni título. La atribución a Compreoalquile es probable pero no está confirmada: la URL es la página de listado de Compreoalquile que salió en las dos búsquedas donde apareció el dato (en una salió además la general, https://www.compreoalquile.com/locales-comerciales-en-alquiler-en-san-miguelito.html); el buscador no precisa en cuál está la ficha. PRECIO EN CONFLICTO, por eso va en blanco: un resultado da US$1,900 para un local de 341 m² y otro dice que una página de icasas muestra US$7,500 para un local de 341 m²; ninguna cifra quedó ligada con certeza a este local. US$7,500 serían ~US$22/m² (cálculo propio), parecido al local de 73 m² del mismo centro (US$1,583, ~US$21.7/m²), y quedarían sobre el tope de US$21/m² y sobre el máximo mensual de ~US$6,500; US$1,900 serían ~US$5.6/m², demasiado bajo para ese centro. Área ideal (341 m²) y planta baja. Puede ser del mismo anunciante que el local de 253 m² de Brisas Mall que ya está en la base (mismo centro, también planta baja): preguntar por los dos en una sola llamada. Está dentro de un centro comercial (Brisas Mall): verificar si califica como plaza de barrio. Sin anunciante, teléfono ni fecha. Zona oportunista. PISTA APARTE SIN ENLACE: 'tres locales integrados en un solo espacio completamente abierto', con planta baja de 350 m² y mezanine de 288 m², a US$4,750 + ITBMS y US$744.25 de mantenimiento; el buscador lo mencionó junto a este local, pero no confirma que sea de Brisas Mall ni dio su URL. [23 nov] Reapareció en dos búsquedas (Los Andes y Brisas del Golf); el resumen repite 'local de 341m2 de area cerrada en planta baja' en Brisas Mall y dice que un directorio lo lista en alquiler. Sigue sin precio. Según Infoguía, Justo & Bueno tuvo una tienda en el edificio Brisas Mall (Rufina Alfaro): preguntar si este local o el de 253 m² es el que dejó la cadena.",
+  "notas": "DATO DE LISTADO Y DÉBIL: no hay URL del anuncio individual ni título. La atribución a Compreoalquile es probable pero no está confirmada: la URL es la página de listado de Compreoalquile que salió en las dos búsquedas donde apareció el dato (en una salió además la general, https://www.compreoalquile.com/locales-comerciales-en-alquiler-en-san-miguelito.html); el buscador no precisa en cuál está la ficha. PRECIO EN CONFLICTO, por eso va en blanco: un resultado da US$1,900 para un local de 341 m² y otro dice que una página de icasas muestra US$7,500 para un local de 341 m²; ninguna cifra quedó ligada con certeza a este local. US$7,500 serían ~US$22/m² (cálculo propio), parecido al local de 73 m² del mismo centro (US$1,583, ~US$21.7/m²), y quedarían sobre el tope de US$21/m² y sobre el máximo mensual de ~US$6,500; US$1,900 serían ~US$5.6/m², demasiado bajo para ese centro. Área ideal (341 m²) y planta baja. Puede ser del mismo anunciante que el local de 253 m² de Brisas Mall que ya está en la base (mismo centro, también planta baja): preguntar por los dos en una sola llamada. Está dentro de un centro comercial (Brisas Mall): verificar si califica como plaza de barrio. Sin anunciante, teléfono ni fecha. Zona oportunista. PISTA APARTE SIN ENLACE: 'tres locales integrados en un solo espacio completamente abierto', con planta baja de 350 m² y mezanine de 288 m², a US$4,750 + ITBMS y US$744.25 de mantenimiento; el buscador lo mencionó junto a este local, pero no confirma que sea de Brisas Mall ni dio su URL. [23 nov] Reapareció en dos búsquedas (Los Andes y Brisas del Golf); el resumen repite 'local de 341m2 de area cerrada en planta baja' en Brisas Mall y dice que un directorio lo lista en alquiler. Sigue sin precio. Según Infoguía, Justo & Bueno tuvo una tienda en el edificio Brisas Mall (Rufina Alfaro): preguntar si este local o el de 253 m² es el que dejó la cadena. [25 nov, corrida Norte y San Miguelito del miércoles] Volvió a aparecer en una búsqueda de locales cerca de las estaciones de San Miguelito y Los Andes: el resumen dice que hay 'varios anuncios de locales en planta baja en Brisas Mall, con tamaños desde 116 m² hasta 341 m²'. Sigue sin precio.",
   "primera_vez": "2026-11-19T21:03-05:00",
-  "ultima_vez": "2026-11-23T05:04-05:00"
+  "ultima_vez": "2026-11-25T05:02-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -1425,7 +1425,7 @@
   "zona": "Ernesto Córdoba Campos",
   "titulo": "Se alquila Local Comercial Villa Zaita - US$15 USD",
   "tipo": "local",
-  "area_m2": null,
+  "area_m2": 145,
   "precio_mensual_usd": null,
   "ubicacion": "Villa Zaita (el resultado no da dirección ni plaza)",
   "planta": "n/d",
@@ -1434,10 +1434,10 @@
   "url": "https://coworkersrealty.com/isla-alquiler-villa-zaita-ciudad-de-panama/3889688",
   "url_es_listado": false,
   "portal": "otro",
-  "evidencia": "Resultado titulado \"Se alquila Local Comercial Villa Zaita - US$15 USD\" (coworkersrealty.com), devuelto el 19 nov ~21:00 en una búsqueda de locales en Villa Zaita; el resumen del buscador no dio más datos de este anuncio.",
-  "notas": "SOLO SE CONOCEN EL TÍTULO Y EL ENLACE: el buscador no dio área, planta ni ubicación exacta; abrir el anuncio antes de llamar. El 'US$15' del título probablemente sea el alquiler por m² y no el total (no confirmado), por eso el precio va en blanco; a US$15/m² estaría dentro del ideal. OJO: la URL dice 'isla' (isla-alquiler-villa-zaita), lo que puede indicar que el sitio lo clasifica como isla o quiosco: confirmar que sea un local y de qué tamaño. Anuncio individual en coworkersrealty.com (el nombre del anunciante no aparece literalmente en el resultado). Sin fecha visible. Villa Zaita es zona de ola 1.",
+  "evidencia": "Resultado titulado \"Se alquila Local Comercial Villa Zaita - US$15 USD\" (coworkersrealty.com), devuelto el 19 nov ~21:00 en una búsqueda de locales en Villa Zaita; el resumen del buscador no dio más datos de este anuncio. [25 nov, corrida Norte y San Miguelito del miércoles] Resumen del buscador: 'One Coworkers Realty listing is priced at $15 a month for a 145 m² unit, which is almost certainly a typo or an unclear price'.",
+  "notas": "SOLO SE CONOCEN EL TÍTULO Y EL ENLACE: el buscador no dio área, planta ni ubicación exacta; abrir el anuncio antes de llamar. El 'US$15' del título probablemente sea el alquiler por m² y no el total (no confirmado), por eso el precio va en blanco; a US$15/m² estaría dentro del ideal. OJO: la URL dice 'isla' (isla-alquiler-villa-zaita), lo que puede indicar que el sitio lo clasifica como isla o quiosco: confirmar que sea un local y de qué tamaño. Anuncio individual en coworkersrealty.com (el nombre del anunciante no aparece literalmente en el resultado). Sin fecha visible. Villa Zaita es zona de ola 1. [25 nov, corrida Norte y San Miguelito del miércoles] Reapareció en una búsqueda de locales en Villa Zaita. Dato nuevo: el resumen del buscador dice que Coworkers Realty anuncia 'a $15 a month for a 145 m² unit' (lo considera un error de digitación). Si el área es 145 m², queda fuera de rango (menos de 180 m²); a US$15/m² serían unos US$2,175 al mes (cálculo propio, no confirmado). El precio sigue en blanco porque no se sabe si los US$15 son por m². Confirmar el área al abrir el anuncio.",
   "primera_vez": "2026-11-19T21:03-05:00",
-  "ultima_vez": "2026-11-19T21:03-05:00"
+  "ultima_vez": "2026-11-25T05:02-05:00"
  },
  {
   "zona": "24 de Diciembre",
@@ -1561,9 +1561,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Tres búsquedas del 20 nov (tarde) devolvieron esta URL; resúmenes: 'Rent $1,250 (Reduced 10%), 2 spaces, 1 bathroom, 1 parking, 130 m² lot' y 'Plaza Milla 8: local de 130 m² (90 m² en planta baja y 40 m² de mezzanine), $1,250 mensuales', con estacionamiento amplio dentro de la plaza.",
-  "notas": "Anuncio individual. Área sin dato; el precio (US$1,250/mes) sugiere un local pequeño: en la base ya hay locales de Plaza Milla 8 de 130, 180 y 210 m² (el de 210 m² a US$2,520 en icasas), varios con mezzanine. Probablemente queda por debajo de 220 m²: preguntar el área y si hay locales contiguos. Se agrupa en Alcalde Díaz, como las demás fichas de Milla 8. Sin fecha ni contacto en el resultado. [20 nov, tarde] Volvió a aparecer en tres búsquedas: el área es 130 m² (90 m² de planta baja + 40 m² de mezzanine), precio US$1,250 rebajado 10%. Queda por debajo de 180 m²: fuera de rango salvo que haya locales contiguos para unir. [22 nov] Volvió a aparecer en dos búsquedas: 130 m² (90 de planta baja + 40 de mezzanine) a US$1,250, referencia 2772843; un resumen da como fecha de publicación 15/07/2026 y otro 05/09/2026. En la misma búsqueda salieron otros dos avisos de Plaza Milla 8 del mismo agente (https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/commercial-premises-for-rent-in-plaza-milla-8-sg/32713168 y /32621303), uno de ellos de 141 m² en planta baja con mezzanine a US$1,750: también por debajo del rango; preguntar si hay locales contiguos que se puedan unir. [23 nov] Volvió a aparecer en una búsqueda de locales en Milla 8 con los mismos datos (130 m²: 90 de planta baja + 40 de mezzanine, US$1,250 rebajado 10%). En la misma búsqueda salió otra ficha de Plaza Milla 8 (31770003, agregada aparte, sin área ni precio). [24 nov, corrida Norte y San Miguelito del martes] Reapareció en una búsqueda de locales esquineros en Las Cumbres: USD 1,250, '2 rooms', con estacionamiento, aire acondicionado y recepción. Sin datos nuevos de área; sigue fuera de rango.",
+  "notas": "Anuncio individual. Área sin dato; el precio (US$1,250/mes) sugiere un local pequeño: en la base ya hay locales de Plaza Milla 8 de 130, 180 y 210 m² (el de 210 m² a US$2,520 en icasas), varios con mezzanine. Probablemente queda por debajo de 220 m²: preguntar el área y si hay locales contiguos. Se agrupa en Alcalde Díaz, como las demás fichas de Milla 8. Sin fecha ni contacto en el resultado. [20 nov, tarde] Volvió a aparecer en tres búsquedas: el área es 130 m² (90 m² de planta baja + 40 m² de mezzanine), precio US$1,250 rebajado 10%. Queda por debajo de 180 m²: fuera de rango salvo que haya locales contiguos para unir. [22 nov] Volvió a aparecer en dos búsquedas: 130 m² (90 de planta baja + 40 de mezzanine) a US$1,250, referencia 2772843; un resumen da como fecha de publicación 15/07/2026 y otro 05/09/2026. En la misma búsqueda salieron otros dos avisos de Plaza Milla 8 del mismo agente (https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/commercial-premises-for-rent-in-plaza-milla-8-sg/32713168 y /32621303), uno de ellos de 141 m² en planta baja con mezzanine a US$1,750: también por debajo del rango; preguntar si hay locales contiguos que se puedan unir. [23 nov] Volvió a aparecer en una búsqueda de locales en Milla 8 con los mismos datos (130 m²: 90 de planta baja + 40 de mezzanine, US$1,250 rebajado 10%). En la misma búsqueda salió otra ficha de Plaza Milla 8 (31770003, agregada aparte, sin área ni precio). [24 nov, corrida Norte y San Miguelito del martes] Reapareció en una búsqueda de locales esquineros en Las Cumbres: USD 1,250, '2 rooms', con estacionamiento, aire acondicionado y recepción. Sin datos nuevos de área; sigue fuera de rango. [25 nov, corrida Norte y San Miguelito del miércoles] Reapareció en dos búsquedas (Las Cumbres y locales para supermercado) con los mismos datos: 130 m² (90 en planta baja y 40 de mezzanine), US$1,250 rebajado 10%; el resumen aclara que el aviso lo ofrece para oficinas, tiendas o servicios. OJO: en otra búsqueda de Las Cumbres, sin dar URL, el resumen dijo que en Plaza Milla 8 hay un local de 130 m² a US$1,500 y que 'otro anuncio de la misma plaza aparece a $1,250 y está marcado como no disponible': este aviso podría estar vencido. Sigue fuera de rango.",
   "primera_vez": "2026-11-20T00:57-05:00",
-  "ultima_vez": "2026-11-24T05:01-05:00"
+  "ultima_vez": "2026-11-25T05:02-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -2659,9 +2659,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Título del resultado: 'Comercial in Villa Zaita Local rental in Villa Zaita, next to the Fort and close to the metro'. Resumen del buscador: 'Un anuncio publicado en noviembre de 2026 ofrece un local de 100 m² con mezzanine en plaza comercial junto a El Fuerte, a $2,500 mensual'.",
-  "notas": "Anuncio individual y reciente (noviembre de 2026 según el resumen). El resumen no cita la URL junto al dato, pero el título coincide ('next to the Fort' / 'junto a El Fuerte'). Fuera de rango: 100 m² con mezzanine, muy por debajo de 180 m², y ~US$25/m² (cálculo propio), sobre el tope. Se guarda para no volver a investigarlo. Cerca del Metro según el título (no dice qué estación; en Villa Zaita está la de la Línea 1, no confirmado). Preguntar solo si hay locales más grandes o contiguos en la misma plaza. Sin anunciante ni teléfono en el resultado. Hallado el 24 nov.",
+  "notas": "Anuncio individual y reciente (noviembre de 2026 según el resumen). El resumen no cita la URL junto al dato, pero el título coincide ('next to the Fort' / 'junto a El Fuerte'). Fuera de rango: 100 m² con mezzanine, muy por debajo de 180 m², y ~US$25/m² (cálculo propio), sobre el tope. Se guarda para no volver a investigarlo. Cerca del Metro según el título (no dice qué estación; en Villa Zaita está la de la Línea 1, no confirmado). Preguntar solo si hay locales más grandes o contiguos en la misma plaza. Sin anunciante ni teléfono en el resultado. Hallado el 24 nov. [25 nov, corrida Norte y San Miguelito del miércoles] Volvió a aparecer en una búsqueda de Villa Zaita con los mismos datos: 100 m² con mezzanine en plaza junto a El Fuerte, cerca de la estación del Metro, a US$2,500 al mes. Sigue fuera de rango.",
   "primera_vez": "2026-11-24T05:01-05:00",
-  "ultima_vez": "2026-11-24T05:01-05:00"
+  "ultima_vez": "2026-11-25T05:02-05:00"
  },
  {
   "zona": "Ernesto Córdoba Campos",
@@ -2878,5 +2878,41 @@
   "notas": "NO CUMPLE EL TIPO: galera. Se guarda para no volver a buscarla (área en rango ideal, unos US$5.2/m², cálculo propio). Sin fecha, anunciante ni teléfono.",
   "primera_vez": "2026-11-24T21:02-05:00",
   "ultima_vez": "2026-11-24T21:02-05:00"
+ },
+ {
+  "zona": "San Miguelito",
+  "titulo": "SE ALQUILA LOCAL COMERCIAL (San Miguelito)",
+  "tipo": "local",
+  "area_m2": null,
+  "precio_mensual_usd": null,
+  "ubicacion": "San Miguelito (Encuentra24 lo clasifica en San Miguelito; el resultado no da calle, plaza ni sector)",
+  "planta": "n/d",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/se-alquila-local-comercial/33125528",
+  "url_es_listado": false,
+  "portal": "encuentra24",
+  "evidencia": "Resultado titulado 'Comercial in San Miguelito SE ALQUILA LOCAL COMERCIAL', devuelto en una búsqueda de locales para minisúper o supermercado en San Miguelito, Villa Lucre, Brisas del Golf y Cerro Viento; el buscador no ligó área ni alquiler a esta URL.",
+  "notas": "Zona oportunista. Solo se conocen el título y el enlace: abrir el anuncio antes de llamar. El ID es alto (33.12 millones), como el de los anuncios recientes. Área, alquiler, planta, anunciante y teléfono no aparecen; no se sabe si queda cerca de la estación San Miguelito o Los Andes. Hallado el 25 nov.",
+  "primera_vez": "2026-11-25T05:02-05:00",
+  "ultima_vez": "2026-11-25T05:02-05:00"
+ },
+ {
+  "zona": "San Miguelito",
+  "titulo": "Locales En Alquiler Frente A la Estación del Metro (Villa Lucre)",
+  "tipo": "local",
+  "area_m2": 91,
+  "precio_mensual_usd": 1400,
+  "ubicacion": "Villa Lucre, San Miguelito, frente a la estación del Metro (según el título; sería la estación Villa Lucre de la Línea 2, no confirmado)",
+  "planta": "baja",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://borealty.com/local-alquiler-villa-lucre-san-miguelito/9409743",
+  "url_es_listado": false,
+  "portal": "otro",
+  "evidencia": "Resumen del buscador, atribuido a Borealty: '91 m² ground floor, in front of the metro station: Precio del alquiler: $1,400.00'. Título del resultado: 'Locales En Alquiler Frente A la Estación del Metro' (URL .../local-alquiler-villa-lucre-san-miguelito/9409743).",
+  "notas": "Zona oportunista. Fuera de rango: 91 m², muy por debajo de 180 m²; ~US$15.4/m² (cálculo propio). Se guarda para no volver a investigarlo. El título dice 'Locales' en plural: preguntar solo si hay varias unidades contiguas en planta baja que se puedan unir hasta 220-400 m². Queda frente a una estación del Metro según el título. Anuncio en el sitio borealty.com (el nombre del corredor no aparece literalmente en el resultado). Sin fecha ni teléfono. Hallado el 25 nov.",
+  "primera_vez": "2026-11-25T05:02-05:00",
+  "ultima_vez": "2026-11-25T05:02-05:00"
  }
 ]
