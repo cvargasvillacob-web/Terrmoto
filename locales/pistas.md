@@ -83,3 +83,10 @@ Fuentes: [localizador de Justo & Bueno](https://www.justoybuenopanama.com/ubicac
 | Zona | Local | Lo que se sabe |
 |---|---|---|
 | San Miguelito, Los Andes | «Ideal para minisúper», 292 m² con cuarto frío, 4 neveras, carnicería y estanterías | Está en venta, no en alquiler, y el aviso puede ser viejo. Preguntar si el dueño lo alquilaría ([Encuentra24 31152417](https://www.encuentra24.com/panama-es/bienes-raices-venta-de-propiedades-comercios/ganga-local-comercial-ideal-para-minisuper-san-miguelito-292m-jc/31152417)) |
+| La Chorrera, La Valdeza | Plaza completa en venta por US$1,550,000 con un local de ~991 m² acondicionado como supermercado, con carnicería | Solo venta y muy grande ([Encuentra24 32764661](https://www.encuentra24.com/panama-es/bienes-raices-venta-de-propiedades-comercios/x/32764661)) |
+
+## Competencia nueva en el Oeste
+
+- El Machetazo abrió su sucursal No. 18 en La Chorrera (Telemetro, 14 oct 2026).
+- Estudios de impacto ambiental en MiAmbiente para un futuro Súper Carnes en la calle El Trapichito (Herrera) y para «Tienda y Supermercado Chorrera» en Barrio Colón (La Chorrera Development Group, mayo de 2024).
+- Plazas con estudio de impacto ambiental: Plaza Total (Naryken, S.A.) en Cerro Silvestre, enero de 2025, y Uniplaza Vacamonte (Desarrollo Nuevo Vacamonte, S.A.).
