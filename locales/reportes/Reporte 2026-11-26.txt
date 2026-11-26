@@ -1,8 +1,8 @@
 *Locales para supermercado de 250 m²*
 Reporte del 26 nov 2026
 
-En seguimiento: 136 anuncios (24 A · 95 B · 17 C)
-Nuevos en las últimas 24 horas: 5
+En seguimiento: 137 anuncios (24 A · 96 B · 17 C)
+Nuevos en las últimas 24 horas: 3
 
 *Prioridad A: llamar primero (24)*
 1. Pacora — Locales en Centro Comercial Pacora (ID 13263) - US$4,503 USD
@@ -30,7 +30,7 @@ Nuevos en las últimas 24 horas: 5
    350 m² · US$3,000/mes · US$8.6/m²
    https://casas.mitula.com.pa/alquiler-locales-comerciales-planta-baja-st-chorrera
 9. Arraiján — RAH - Comercial en Alquiler, Arraijan, Panama, RAH: PA 24-6302, 4000…
-   306 m² · US$4,000/mes · US$13.1/m² · NUEVO
+   306 m² · US$4,000/mes · US$13.1/m²
    https://rentahouse.com.pa/comercial_en_alquiler_en_panama-oeste_en_arraijan_rah-24-6302.html
 10. 24 de Diciembre — Alquiler Local 241 m² en La 24 Diciembre Tocumen Kaf
    240 m² · US$5,000/mes · US$20.8/m²
@@ -78,13 +78,10 @@ Nuevos en las últimas 24 horas: 5
    307 m² · US$4,928/mes · US$16.1/m²
    https://www.icasas.com.pa/alquiler/locales/san-miguelito
 
-*Otros nuevos, con datos por confirmar (4)*
-• La Chorrera — Local en Planta baja en la chorrera
-   datos por confirmar · NUEVO
-   https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-en-planta-baja-en-la-chorrera/33280197
-• Vista Alegre — Local for rent Panama Oeste Vista Alegre (DR)
-   datos por confirmar · NUEVO
-   https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-for-rent-panama-oeste-vista-alegre-dr/33067945
+*Otros nuevos, con datos por confirmar (3)*
+• La Chorrera — Alquiler de Local en Chorrera, 379 m² (título según el resumen del bu…
+   379 m² · NUEVO
+   https://www.compreoalquile.com/propiedades-en-alquiler-en-la-chorrera-ciudad-de-la-chorrera.html
 • Juan Díaz — ALQUILER DE LOCAL EN JUAN DIAZ - LOCAL 5
    datos por confirmar · NUEVO
    https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/alquiler-de-local-en-juan-diaz-local-5/32792854
