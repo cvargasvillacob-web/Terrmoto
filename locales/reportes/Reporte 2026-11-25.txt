@@ -1,8 +1,8 @@
 *Locales para supermercado de 250 m²*
 Reporte del 25 nov 2026
 
-En seguimiento: 135 anuncios (24 A · 93 B · 18 C)
-Nuevos en las últimas 24 horas: 11
+En seguimiento: 136 anuncios (24 A · 95 B · 17 C)
+Nuevos en las últimas 24 horas: 6
 
 *Prioridad A: llamar primero (24)*
 1. Pacora — Locales en Centro Comercial Pacora (ID 13263) - US$4,503 USD
@@ -42,7 +42,7 @@ Nuevos en las últimas 24 horas: 11
    375 m² · US$2,800/mes · US$7.5/m²
    https://casas.mitula.com.pa/alquiler-locales-comerciales-st-chorrera
 13. Burunga — Local Comercial USD$ 2,200/mes Sector 9, Burunga 222 m² (título según…
-   222.49 m² · US$2,200/mes · US$9.9/m² · NUEVO
+   222.49 m² · US$2,200/mes · US$9.9/m²
    https://casas.mitula.com.pa/alquiler-locales-comerciales-burunga
 14. San Miguelito — Alquiler de local sobre vía principal de San Miguelito (esquinero), s…
    300 m² · US$1,200/mes · US$4/m²
@@ -54,7 +54,7 @@ Nuevos en las últimas 24 horas: 11
    300 m² · US$3,500/mes · US$11.7/m²
    https://www.compreoalquile.com/locales-comerciales-en-brisas-de-golf.html
 17. Juan Díaz — Alquilo local frente a la Estación del Metro 340 m2
-   340 m² · US$4,760/mes · US$14/m² · NUEVO
+   340 m² · US$4,760/mes · US$14/m²
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/alquilo-local-frente-a-la-estacion-del-metro-340-m2/33141622
 18. Burunga — Local de 225 m2 en Burunga, Plaza 2.000 (titulo exacto no visible en…
    225 m² · US$3,500/mes · US$15.6/m²
@@ -78,30 +78,21 @@ Nuevos en las últimas 24 horas: 11
    307 m² · US$4,928/mes · US$16.1/m²
    https://www.icasas.com.pa/alquiler/locales/san-miguelito
 
-*Otros nuevos, con datos por confirmar (8)*
-• Arraiján — Local-bodega de 250 m² en Loma Bonita, Arraiján (título exacto no vis…
-   250 m² · US$975/mes · US$3.9/m² · NUEVO
-   https://www.olx.com.pa/oficinas-y-locales-comerciales_c368/q-locales-en-arraijan
-• Arraiján — Se Alquila Local en Plaza Galeria Arraijan
-   datos por confirmar · NUEVO
-   https://ivasipanama.com/properties/se-alquila-local-en-plaza-galeria-arraijan/
+*Otros nuevos, con datos por confirmar (5)*
 • La Chorrera — Local en Planta baja en la chorrera
    datos por confirmar · NUEVO
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-en-planta-baja-en-la-chorrera/33280197
 • Vista Alegre — Local for rent Panama Oeste Vista Alegre (DR)
    datos por confirmar · NUEVO
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-for-rent-panama-oeste-vista-alegre-dr/33067945
-• Juan Díaz — SE ALQUILA LOCAL EN PLAZA COMERCIAL JUAN DIAZ
-   datos por confirmar · NUEVO
-   https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/se-alquila-local-en-plaza-comercial-juan-diaz/32586386
-• Juan Díaz — Local Comercial en Alquiler en Juan Diaz. 27-3607.
-   datos por confirmar · NUEVO
-   https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-comercial-en-alquiler-en-juan-diaz-27-3607/33268320
-• Juan Díaz — LOCALES EN ALQUILER (Los Pueblos, listo para operar; resto del título…
-   datos por confirmar · NUEVO
-   https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/locales-en-alquiler-los-pueblos-listo-para-operar/32369245
 • San Miguelito — SE ALQUILA LOCAL COMERCIAL (San Miguelito)
    datos por confirmar · NUEVO
    https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/se-alquila-local-comercial/33125528
+• Juan Díaz — ALQUILER DE LOCAL EN JUAN DIAZ - LOCAL 5
+   datos por confirmar · NUEVO
+   https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/alquiler-de-local-en-juan-diaz-local-5/32792854
+• Juan Díaz — Alquiler de local comercial en Juan Diaz AK
+   datos por confirmar · NUEVO
+   https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/commercial-space-for-rent-in-juan-diaz-ak/32525697
 
 _Datos tomados del buscador web: confirmar área, precio y vigencia al llamar._
