@@ -1,6 +1,6 @@
 # Locales para llamar — 2026-11-26
 
-172 anuncios revisados: 24 de prioridad A, 95 de prioridad B, 17 de prioridad C y 36 descartados. Actualizado el 26 nov a las 05:01 (hora de Panamá).
+172 anuncios revisados: 24 de prioridad A, 95 de prioridad B, 17 de prioridad C y 36 descartados. Actualizado el 26 nov a las 06:36 (hora de Panamá).
 
 > Los datos salen de resultados del buscador web, no de la lectura del anuncio completo (los portales bloquean el acceso automatizado). Área, precio y vigencia deben confirmarse al abrir el anuncio y en la llamada.
 
@@ -948,7 +948,7 @@
 - **Confirmar en la llamada:** área arrendable; alquiler mensual, mantenimiento e ITBMS; que sea planta baja a pie de calle
 - **Notas:** Zona oportunista. Solo se conocen el título y el enlace: abrir el anuncio antes de llamar. El título en plural sugiere varias unidades; preguntar si hay una de 220-400 m² en planta baja. Puede repetir alguno de los avisos de Los Pueblos que ya están en la base (600 m² en 2 plantas; 300 m² con 20 estacionamientos): comparar al abrirlo. Los Pueblos es un centro comercial grande: confirmar que no sea local dentro de mall. Sin fecha, anunciante ni teléfono.
 
-### B93 · San Miguelito — SE ALQUILA LOCAL COMERCIAL (San Miguelito) · NUEVO
+### B93 · San Miguelito — SE ALQUILA LOCAL COMERCIAL (San Miguelito)
 - **Datos:** área n/d · alquiler n/d · US$/m² n/d · planta n/d · ola 3 · 3/9 puntos
 - **Ubicación:** San Miguelito (Encuentra24 lo clasifica en San Miguelito; el resultado no da calle, plaza ni sector)
 - **Contacto:** abrir el anuncio para ver el teléfono
