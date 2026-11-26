@@ -76,6 +76,9 @@ Fuentes: [localizador de Justo & Bueno](https://www.justoybuenopanama.com/ubicac
 | Tocumen | Galerías Panamericanas | Local de ~125 m² a US$1,400 en [Inmopanama](https://www.inmopanama.com/alquiler-locales-tocumen?prop_unavailable=84736); muy chico para la tienda completa |
 | 24 de Diciembre | Plaza Panamericana, Carretera Panamericana | Dirección de Waze para «Justo y Bueno 24 de Diciembre»; puede ser la misma Galerías Panamericanas |
 | La Chorrera | El Coco | Dirección en Infoguía; sin anuncio |
+| Villa Zaita | C.C. Plaza Villa Zaita, frente a la panadería La Baguette | Localizador de la cadena e Infoguía; ningún anuncio dice que esté libre. En la misma plaza: Encuentra24 32962042 (US$1,400, ya en la base). Ver en el lugar |
+| El Crisol (Cerro Viento) | City Plaza, local G-17, Av. Domingo Díaz | Ahí solo salen bodegas de ~468 m² (Encuentra24 33000182 y 32666934). Preguntar si alguna es el G-17 |
+| Belisario Porras | Vía Interamericana | Infoguía, sin dirección exacta; la de Milla 8 probablemente es la de C.C. Mis Provincias |
 | Arraiján | Plaza Nuevo Chorrillo | Dirección en Infoguía; solo salió una galera de ~1,200 m² |
 
 ## Locales equipados para supermercado (en venta)
@@ -90,3 +93,4 @@ Fuentes: [localizador de Justo & Bueno](https://www.justoybuenopanama.com/ubicac
 - El Machetazo abrió su sucursal No. 18 en La Chorrera (Telemetro, 14 oct 2026).
 - Estudios de impacto ambiental en MiAmbiente para un futuro Súper Carnes en la calle El Trapichito (Herrera) y para «Tienda y Supermercado Chorrera» en Barrio Colón (La Chorrera Development Group, mayo de 2024).
 - Plazas con estudio de impacto ambiental: Plaza Total (Naryken, S.A.) en Cerro Silvestre, enero de 2025, y Uniplaza Vacamonte (Desarrollo Nuevo Vacamonte, S.A.).
+- Villa Zaita Mall ya tiene Super 99 y El Fuerte (reseña en top-rated.online): pesa en contra de los locales de ese centro.
