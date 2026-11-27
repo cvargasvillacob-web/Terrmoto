@@ -115,3 +115,11 @@ Por confirmar las direcciones: el texto de los directorios salió desordenado.
 - Estación Villa Zaita: el Metro licitó la operación del complejo de estacionamientos de la estación (662 puestos, 400 de uso comercial). Fuente: carreteras-pa.com. El artículo no tiene fecha visible.
 - Posible plaza nueva en Villa Zaita, sin confirmar: estudio de impacto ambiental de una plaza sobre la Transístmica con un local ancla, 18 locales y 66 estacionamientos. Revisar a mano en documentoesia.miambiente.gob.pa los PDF 56607, 66662 y 95778. Plaza Villa Zaita (BRCOT, Acobir) sigue igual: 23 locales y 80 estacionamientos, en venta desde US$177,120.
 - Plaza Conquistador, local 124 (Fortuna, Villa Lucre): 172 m² en planta baja a US$2,300. Solo sirve si tiene un vecino libre para unir.
+
+## Oeste (corrida del 27 nov, ángulo plazas nuevas)
+
+- «Centro Comercial Vacamonte», Ciudad Vacamonte (Vista Alegre): estudio ambiental de junio de 2019 para un edificio de dos plantas con un local de minisúper de 376.04 m² y 8 locales de 52.99 m². Es justo el formato del proyecto. Averiguar si se construyó y quién ocupa hoy ese local. Fuente: documentoesia.miambiente.gob.pa/5920.pdf (sin promotor ni dirección exacta).
+- «ON D GO City», La Chorrera: estudio ambiental de un centro comercial. Hay un aviso de 173 m² en dos niveles a US$2,430, sin enlace propio. Posible relación con Grupo Corcione (grupocorcione.com, proyecto 479), no confirmada.
+- Local de 336 m² **en venta** en Barrio Colón (Encuentra24 33073739). El tamaño es ideal; preguntar al dueño si lo alquilaría.
+- Paseo Costa Verde (IVASI): tiene dos locales independientes de 260 y 350 m², pero el aviso tiene unos 788 días y hay Riba Smith y PriceSmart cerca.
+- Plaza Total (Cerro Silvestre) y Uniplaza Vacamonte: sin novedades, solo sus estudios ambientales.
