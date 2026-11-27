@@ -94,3 +94,17 @@ Fuentes: [localizador de Justo & Bueno](https://www.justoybuenopanama.com/ubicac
 - Estudios de impacto ambiental en MiAmbiente para un futuro Súper Carnes en la calle El Trapichito (Herrera) y para «Tienda y Supermercado Chorrera» en Barrio Colón (La Chorrera Development Group, mayo de 2024).
 - Plazas con estudio de impacto ambiental: Plaza Total (Naryken, S.A.) en Cerro Silvestre, enero de 2025, y Uniplaza Vacamonte (Desarrollo Nuevo Vacamonte, S.A.).
 - Villa Zaita Mall ya tiene Super 99 y El Fuerte (reseña en top-rated.online): pesa en contra de los locales de ese centro.
+
+## Más antiguos Justo & Bueno en el Este (corrida del 26 nov)
+
+Por confirmar las direcciones: el texto de los directorios salió desordenado.
+
+- Plaza Sur, Las Mañanitas: Inmopanama ofrece ahí locales de 108 y 117 m² (US$550 y US$1,755). Si son contiguos, juntos darían ~225 m². No está confirmado que sean contiguos ni que sean el antiguo Justo & Bueno.
+- Plaza La Siesta, Tocumen: la base ya tiene un aviso de US$2,440 sin área (capital-bienesraices 9007052). Preguntar si es el antiguo Justo & Bueno.
+- Pedregal Mall, Av. José María Torrijos.
+- «Galería de Juan Díaz», Calle 4ta.
+- Fuentes: Infoguía (justo-y-bueno-ciudad-de-panama, páginas 1 y 2), el localizador de justoybuenopanama.com e inmopanama.com/alquiler-locales-las-mananitas.
+
+## Competencia en el Este
+
+- Plaza Las Mañanitas: un aviso de 54 m² en planta alta (Encuentra24 32081408) dice que queda cerca de un supermercado Xtra. Esto pesa en contra del local de 353 m² de esa plaza que está en la base (Encuentra24 31151971).
