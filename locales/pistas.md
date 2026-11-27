@@ -108,3 +108,10 @@ Por confirmar las direcciones: el texto de los directorios salió desordenado.
 ## Competencia en el Este
 
 - Plaza Las Mañanitas: un aviso de 54 m² en planta alta (Encuentra24 32081408) dice que queda cerca de un supermercado Xtra. Esto pesa en contra del local de 353 m² de esa plaza que está en la base (Encuentra24 31151971).
+
+## Norte y San Miguelito (corrida del 27 nov, ángulo plazas nuevas)
+
+- Panama Plaza (Transístmica, entre Tiendas Raenco y Mega Storage) quedaría en Betania, fuera de las zonas del proyecto. Si se confirma, los avisos de «Plaza Panama» que están como B (Encuentra24 33286683 y 33286722) quedan fuera de zona. Ahí ofrecen un local de 1,010 m² «ideal para tienda ancla» (Encuentra24 33279557): sería competencia si lo toma una cadena.
+- Estación Villa Zaita: el Metro licitó la operación del complejo de estacionamientos de la estación (662 puestos, 400 de uso comercial). Fuente: carreteras-pa.com. El artículo no tiene fecha visible.
+- Posible plaza nueva en Villa Zaita, sin confirmar: estudio de impacto ambiental de una plaza sobre la Transístmica con un local ancla, 18 locales y 66 estacionamientos. Revisar a mano en documentoesia.miambiente.gob.pa los PDF 56607, 66662 y 95778. Plaza Villa Zaita (BRCOT, Acobir) sigue igual: 23 locales y 80 estacionamientos, en venta desde US$177,120.
+- Plaza Conquistador, local 124 (Fortuna, Villa Lucre): 172 m² en planta baja a US$2,300. Solo sirve si tiene un vecino libre para unir.
