@@ -123,3 +123,12 @@ Por confirmar las direcciones: el texto de los directorios salió desordenado.
 - Local de 336 m² **en venta** en Barrio Colón (Encuentra24 33073739). El tamaño es ideal; preguntar al dueño si lo alquilaría.
 - Paseo Costa Verde (IVASI): tiene dos locales independientes de 260 y 350 m², pero el aviso tiene unos 788 días y hay Riba Smith y PriceSmart cerca.
 - Plaza Total (Cerro Silvestre) y Uniplaza Vacamonte: sin novedades, solo sus estudios ambientales.
+
+## Este (corrida del 27 nov, ángulo plazas nuevas)
+
+- Plaza Nuevo Tocumen tiene locales en planta baja de 141 m² (Encuentra24 30587757, US$2,850) y 190 m² (Encuentra24 30158837, US$4,650). Si son contiguos sumarían ~331 m². Hacer una sola llamada que cubra ambos y la ficha de IVASI (inmuebles.wasi.co, 5686849). El de 190 m² es probablemente el mismo C que se cargó el 26 nov desde el listado de 24 de Diciembre.
+- «La 25 Plaza», corregimiento 24 de Diciembre: estudio ambiental Categoría I de febrero de 2023 (promotora Aropecuaria, S.A.), probablemente documentoesia.miambiente.gob.pa/69530.pdf. No se sabe si se construyó.
+- El estudio ambiental 95778 (anotado arriba como posible plaza de Villa Zaita) podría ser en realidad una «Plaza Comercial» en Juan Díaz de febrero de 2025. Revisarlo a mano.
+- Estudios ambientales Categoría I de locales y plazas: Portales Río Chico, S.A. (Pacora, sin fecha), Maremis Internacional, S.A. (Tocumen) e Inversiones Mochanpen, S.A. (Calle Peña Blanca, La Morelo, Tocumen). Ejemplos: documentoesia 91660 y 100309.
+- Terranova Plaza: hay un local esquinero de 157 m² en planta baja a US$2,355, con estacionamiento. No salió su enlace. Solo sirve si se une con el local vecino.
+- Costa Sur Shopping Center (Juan Díaz): local de 450 m² a US$4,500 (Encuentra24 33001920). Averiguar si alguna tienda ancla de ese centro es un supermercado.
