@@ -132,3 +132,10 @@ Por confirmar las direcciones: el texto de los directorios salió desordenado.
 - Estudios ambientales Categoría I de locales y plazas: Portales Río Chico, S.A. (Pacora, sin fecha), Maremis Internacional, S.A. (Tocumen) e Inversiones Mochanpen, S.A. (Calle Peña Blanca, La Morelo, Tocumen). Ejemplos: documentoesia 91660 y 100309.
 - Terranova Plaza: hay un local esquinero de 157 m² en planta baja a US$2,355, con estacionamiento. No salió su enlace. Solo sirve si se une con el local vecino.
 - Costa Sur Shopping Center (Juan Díaz): local de 450 m² a US$4,500 (Encuentra24 33001920). Averiguar si alguna tienda ancla de ese centro es un supermercado.
+
+## Norte y San Miguelito (corrida del 28 nov, ángulo «para supermercado»)
+
+- Competencia en Villa Lucre: varios avisos de vivienda dicen «frente a supermercado El Rey» (Encuentra24 33199145). Medir la distancia de El Rey al local A de 340 m² de la vía Domingo Díaz (Encuentra24 33141622) y a los demás de Villa Lucre.
+- Belisario Frías (San Miguelito): un minisúper vende solo el local, «no el negocio ni aviso de operación». Preguntar si el dueño lo alquilaría. No salió el enlace del aviso; buscar en inmopanama.com/locales-san-miguelito o bienesonline.com.pa.
+- Supermercados cerrados fuera de zona: en vía Porras (San Francisco) alquilan un local de 1,860 m² a US$5,600 que «estaba ocupado como supermercado». En Carrasquilla hay otro inmueble de 1,860.52 m² «acondicionado para operar como supermercado». Son muy grandes, pero sirven como señal del mercado.
+- Antes de llamar, confirmar en el A de Plaza Premier (Encuentra24 32691244) si el «primer piso» del aviso es planta baja. En el A de 340 m² (33141622), confirmar que es un local comercial y no una galera.

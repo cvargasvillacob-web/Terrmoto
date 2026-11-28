@@ -247,9 +247,9 @@
   "url_es_listado": true,
   "portal": "icasas",
   "evidencia": "\"2,520 $ Local en Las Cumbres, Panamá ... ALQUILER LOCAL UBICADO EN LAS CUMBRES PLAZA MILLA 8 210M2\"",
-  "notas": "Fuera de rango (210 m2, por debajo de 220). Dato de página de listado; fragmento truncado, sin fecha ni contacto. ~US$12/m2 (cálculo propio). El portal lo clasifica como Las Cumbres; se agrupa en Alcalde Díaz por estar en Milla 8. Otros locales de esta plaza vistos en la búsqueda combinan planta baja + mezzanine (130 m2 = 90 PB + 40 mezz; 180 m2 = 115.83 PB + 64.33 mezz), así que hay que confirmar cuántos de los 210 m2 son de planta baja.",
+  "notas": "Fuera de rango (210 m2, por debajo de 220). Dato de página de listado; fragmento truncado, sin fecha ni contacto. ~US$12/m2 (cálculo propio). El portal lo clasifica como Las Cumbres; se agrupa en Alcalde Díaz por estar en Milla 8. Otros locales de esta plaza vistos en la búsqueda combinan planta baja + mezzanine (130 m2 = 90 PB + 40 mezz; 180 m2 = 115.83 PB + 64.33 mezz), así que hay que confirmar cuántos de los 210 m2 son de planta baja. [28 nov, corrida Norte y San Miguelito del sábado] Reapareció en una búsqueda de icasas en Las Cumbres con los mismos datos (Plaza Milla 8, 210 m², US$2,520). icasas tiene además una página más amplia de Las Cumbres (https://www.icasas.com.pa/alquiler/locales/ciudad-panama/cumbres, 20 locales) donde solo se vieron locales chicos (75-100 m²).",
   "primera_vez": "2026-11-19T00:25-05:00",
-  "ultima_vez": "2026-11-19T00:25-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "Las Cumbres",
@@ -355,9 +355,9 @@
   "url_es_listado": false,
   "portal": "otro",
   "evidencia": "Título del resultado: \"LOCAL COMERCIAL EN PLAZA FORTUNA - US$3,500 USD\" (URL .../local-alquiler-villa-lucre-san-miguelito/168060) [25 nov, corrida Norte y San Miguelito del miércoles] Resumen del buscador: '219 m² two-level local, near Plaza Fortuna: Precio de alquiler US$3,500 Mensual, plus $331.50 de mantenimiento (Grupo Gestión Inmobiliario). Its ground floor has only a half bathroom (Es de dos plantas, un medio baño en planta baja.)'.",
-  "notas": "El área NO figura en el resultado de búsqueda: no se puede saber si entra en rango ni el precio por m2; verificar antes de llamar. Anuncio individual en el sitio grupogestioninmobiliario.com (nombre del anunciante no aparece literalmente en el resultado). Sin fecha visible. Villa Lucre es zona oportunista. [25 nov, corrida Norte y San Miguelito del miércoles] Reapareció en una búsqueda de locales en Villa Lucre y esta vez el resumen del buscador, atribuido a Grupo Gestión Inmobiliario, dio el área: local de 219 m² en dos plantas 'cerca de Plaza Fortuna', 'Precio de alquiler US$3,500 Mensual' más US$331.50 de mantenimiento, con 'un medio baño en planta baja'. Con esos datos serían ~US$16/m² (cálculo propio), dentro del tope, pero 219 m² queda apenas bajo el rango aceptable y suma dos plantas: la planta baja sola sería bastante menor. Preguntar cuánto mide la planta baja y si es el mismo local de Plaza Fortuna o uno cercano.",
+  "notas": "El área NO figura en el resultado de búsqueda: no se puede saber si entra en rango ni el precio por m2; verificar antes de llamar. Anuncio individual en el sitio grupogestioninmobiliario.com (nombre del anunciante no aparece literalmente en el resultado). Sin fecha visible. Villa Lucre es zona oportunista. [25 nov, corrida Norte y San Miguelito del miércoles] Reapareció en una búsqueda de locales en Villa Lucre y esta vez el resumen del buscador, atribuido a Grupo Gestión Inmobiliario, dio el área: local de 219 m² en dos plantas 'cerca de Plaza Fortuna', 'Precio de alquiler US$3,500 Mensual' más US$331.50 de mantenimiento, con 'un medio baño en planta baja'. Con esos datos serían ~US$16/m² (cálculo propio), dentro del tope, pero 219 m² queda apenas bajo el rango aceptable y suma dos plantas: la planta baja sola sería bastante menor. Preguntar cuánto mide la planta baja y si es el mismo local de Plaza Fortuna o uno cercano. [28 nov, corrida Norte y San Miguelito del sábado] Reapareció en una búsqueda de 'antiguo supermercado' en Villa Lucre; el resumen repite 219 m² a US$3,500 en Plaza Fortuna. Ningún texto dice que haya sido supermercado.",
   "primera_vez": "2026-11-19T00:25-05:00",
-  "ultima_vez": "2026-11-25T05:02-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "La Chorrera",
@@ -553,9 +553,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Resumen del buscador: local de 400 m² en dos plantas en Plaza La Provincia, Milla 8, a US$2,900 al mes más US$150 de mantenimiento; un baño, esquinero, vitrina amplia y estacionamientos al frente; etiquetado como San Miguelito.",
-  "notas": "OJO: son 400 m² repartidos en DOS PLANTAS y el resultado no dice cuántos m² tiene la planta baja: confirmar. PRECIO EN CONFLICTO: esta búsqueda dio US$2,900 + US$150 de mantenimiento; otra búsqueda dio US$2,500 + US$150 para un local de 400 m² en dos plantas en Milla 8 'dentro de un centro comercial', que puede ser este mismo anuncio u otro. La asociación entre esta URL y los datos se dedujo de la etiqueta 'San Miguelito, Milla 8' del título: verificar al abrir. ~US$7.25/m² (cálculo propio). El portal lo ubica en San Miguelito; se agrupa en Alcalde Díaz por estar en Milla 8 (misma convención que Plaza Milla 8). Sin fecha ni contacto en el resultado. Posible mismo inmueble que el 'AMPLIO LOCAL EN ALQUILER' de Milla 8 (anuncio 32131275, B/.2,700, junto a Supermercado Rey) y que el de Plaza La Villa a US$3,200 (icasas): no confirmado; si es el mismo, hay un supermercado de cadena al lado.",
+  "notas": "OJO: son 400 m² repartidos en DOS PLANTAS y el resultado no dice cuántos m² tiene la planta baja: confirmar. PRECIO EN CONFLICTO: esta búsqueda dio US$2,900 + US$150 de mantenimiento; otra búsqueda dio US$2,500 + US$150 para un local de 400 m² en dos plantas en Milla 8 'dentro de un centro comercial', que puede ser este mismo anuncio u otro. La asociación entre esta URL y los datos se dedujo de la etiqueta 'San Miguelito, Milla 8' del título: verificar al abrir. ~US$7.25/m² (cálculo propio). El portal lo ubica en San Miguelito; se agrupa en Alcalde Díaz por estar en Milla 8 (misma convención que Plaza Milla 8). Sin fecha ni contacto en el resultado. Posible mismo inmueble que el 'AMPLIO LOCAL EN ALQUILER' de Milla 8 (anuncio 32131275, B/.2,700, junto a Supermercado Rey) y que el de Plaza La Villa a US$3,200 (icasas): no confirmado; si es el mismo, hay un supermercado de cadena al lado. [28 nov, corrida Norte y San Miguelito del sábado] Reapareció en una búsqueda de locales de 250-350 m² en Milla 8: el resumen repite 400 m² en dos plantas en Plaza La Provincia a US$2,900 más US$150 de mantenimiento (agua y luz aparte) y menciona año de construcción 2024. Sigue sin saberse cuánto mide la planta baja.",
   "primera_vez": "2026-11-19T10:36-05:00",
-  "ultima_vez": "2026-11-19T10:36-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "Las Cumbres",
@@ -967,9 +967,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Resumen del buscador: local de 384 m² con oficina y drive-thru en la entrada de Brisas del Golf, San Miguelito, con un alquiler de $9,000 al mes; publicado el 14/07/2026 en Encuentra24; incluye una oficina privada y un baño adicional; ubicación en esquina con buena visibilidad y espacio para servicio de auto rápido.",
-  "notas": "CARO: ~US$23.4/m² (cálculo propio), sobre el tope de US$21/m², y US$9,000 supera el máximo de ~US$6,500 al mes; solo sirve si el precio es muy negociable. Área en rango aceptable (384 m²) y esquinero con drive-thru (formato pensado para comida rápida o banco: habría que adecuarlo). Publicado el 14/07/2026 (cuatro meses): verificar vigencia. El resultado no indica planta, estacionamientos, mantenimiento ni contacto. Un segundo anuncio de Encuentra24, sin URL atribuida, describe una unidad de 384 m² con drive-thru dentro del centro comercial Brisas 507, sobre la vía principal de Brisas del Golf, al mismo precio de $9,000 y publicada el 09/04/2026: puede ser este mismo local; si lo es, está dentro de un centro comercial y hay que verificar que tenga frente a la calle. En los resultados aparece además un anuncio de VENTA de un local en la entrada de Brisas del Golf (https://www.encuentra24.com/panama-en/real-estate-for-sale-commercial/for-sale-local-commercial-entrance-golf-brisas/33019785); no se sabe si es el mismo inmueble. Zona oportunista. [22 nov] Volvió a aparecer en una búsqueda de plazas de Brisas del Golf, sin datos nuevos. [24 nov, corrida Norte y San Miguelito del martes] Reapareció en una búsqueda de plazas nuevas en Brisas del Golf, ahora con el título completo visible. Datos nuevos del resumen: la cuota de mantenimiento está incluida en los US$9,000; da como fecha de publicación junio de 2026 (antes se vio 14/07/2026), así que hay que verificar la vigencia. Sigue caro (~US$23.4/m²). [26 nov, corrida Norte y San Miguelito del jueves] Reapareció en una búsqueda de locales cerca de la estación San Miguelito, sin datos nuevos de este aviso. [27 nov, corrida Norte y San Miguelito del viernes] Reapareció en una búsqueda de plazas de Brisas del Golf. El resumen repite 384 m² con oficina y drive-thru a US$9,000 con mantenimiento incluido y menciona que queda cerca de PriceSmart y de la estación del Metro. Sin datos nuevos de planta ni contacto; sigue caro.",
+  "notas": "CARO: ~US$23.4/m² (cálculo propio), sobre el tope de US$21/m², y US$9,000 supera el máximo de ~US$6,500 al mes; solo sirve si el precio es muy negociable. Área en rango aceptable (384 m²) y esquinero con drive-thru (formato pensado para comida rápida o banco: habría que adecuarlo). Publicado el 14/07/2026 (cuatro meses): verificar vigencia. El resultado no indica planta, estacionamientos, mantenimiento ni contacto. Un segundo anuncio de Encuentra24, sin URL atribuida, describe una unidad de 384 m² con drive-thru dentro del centro comercial Brisas 507, sobre la vía principal de Brisas del Golf, al mismo precio de $9,000 y publicada el 09/04/2026: puede ser este mismo local; si lo es, está dentro de un centro comercial y hay que verificar que tenga frente a la calle. En los resultados aparece además un anuncio de VENTA de un local en la entrada de Brisas del Golf (https://www.encuentra24.com/panama-en/real-estate-for-sale-commercial/for-sale-local-commercial-entrance-golf-brisas/33019785); no se sabe si es el mismo inmueble. Zona oportunista. [22 nov] Volvió a aparecer en una búsqueda de plazas de Brisas del Golf, sin datos nuevos. [24 nov, corrida Norte y San Miguelito del martes] Reapareció en una búsqueda de plazas nuevas en Brisas del Golf, ahora con el título completo visible. Datos nuevos del resumen: la cuota de mantenimiento está incluida en los US$9,000; da como fecha de publicación junio de 2026 (antes se vio 14/07/2026), así que hay que verificar la vigencia. Sigue caro (~US$23.4/m²). [26 nov, corrida Norte y San Miguelito del jueves] Reapareció en una búsqueda de locales cerca de la estación San Miguelito, sin datos nuevos de este aviso. [27 nov, corrida Norte y San Miguelito del viernes] Reapareció en una búsqueda de plazas de Brisas del Golf. El resumen repite 384 m² con oficina y drive-thru a US$9,000 con mantenimiento incluido y menciona que queda cerca de PriceSmart y de la estación del Metro. Sin datos nuevos de planta ni contacto; sigue caro. [28 nov, corrida Norte y San Miguelito del sábado] Reapareció en una búsqueda de locales esquineros en Brisas del Golf: 384 m² en esquina, US$9,000, oficina privada y drive-thru; dato nuevo del resumen: 5 estacionamientos. Sigue caro.",
   "primera_vez": "2026-11-19T13:34-05:00",
-  "ultima_vez": "2026-11-27T05:02-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -1561,9 +1561,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Tres búsquedas del 20 nov (tarde) devolvieron esta URL; resúmenes: 'Rent $1,250 (Reduced 10%), 2 spaces, 1 bathroom, 1 parking, 130 m² lot' y 'Plaza Milla 8: local de 130 m² (90 m² en planta baja y 40 m² de mezzanine), $1,250 mensuales', con estacionamiento amplio dentro de la plaza.",
-  "notas": "Anuncio individual. Área sin dato; el precio (US$1,250/mes) sugiere un local pequeño: en la base ya hay locales de Plaza Milla 8 de 130, 180 y 210 m² (el de 210 m² a US$2,520 en icasas), varios con mezzanine. Probablemente queda por debajo de 220 m²: preguntar el área y si hay locales contiguos. Se agrupa en Alcalde Díaz, como las demás fichas de Milla 8. Sin fecha ni contacto en el resultado. [20 nov, tarde] Volvió a aparecer en tres búsquedas: el área es 130 m² (90 m² de planta baja + 40 m² de mezzanine), precio US$1,250 rebajado 10%. Queda por debajo de 180 m²: fuera de rango salvo que haya locales contiguos para unir. [22 nov] Volvió a aparecer en dos búsquedas: 130 m² (90 de planta baja + 40 de mezzanine) a US$1,250, referencia 2772843; un resumen da como fecha de publicación 15/07/2026 y otro 05/09/2026. En la misma búsqueda salieron otros dos avisos de Plaza Milla 8 del mismo agente (https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/commercial-premises-for-rent-in-plaza-milla-8-sg/32713168 y /32621303), uno de ellos de 141 m² en planta baja con mezzanine a US$1,750: también por debajo del rango; preguntar si hay locales contiguos que se puedan unir. [23 nov] Volvió a aparecer en una búsqueda de locales en Milla 8 con los mismos datos (130 m²: 90 de planta baja + 40 de mezzanine, US$1,250 rebajado 10%). En la misma búsqueda salió otra ficha de Plaza Milla 8 (31770003, agregada aparte, sin área ni precio). [24 nov, corrida Norte y San Miguelito del martes] Reapareció en una búsqueda de locales esquineros en Las Cumbres: USD 1,250, '2 rooms', con estacionamiento, aire acondicionado y recepción. Sin datos nuevos de área; sigue fuera de rango. [25 nov, corrida Norte y San Miguelito del miércoles] Reapareció en dos búsquedas (Las Cumbres y locales para supermercado) con los mismos datos: 130 m² (90 en planta baja y 40 de mezzanine), US$1,250 rebajado 10%; el resumen aclara que el aviso lo ofrece para oficinas, tiendas o servicios. OJO: en otra búsqueda de Las Cumbres, sin dar URL, el resumen dijo que en Plaza Milla 8 hay un local de 130 m² a US$1,500 y que 'otro anuncio de la misma plaza aparece a $1,250 y está marcado como no disponible': este aviso podría estar vencido. Sigue fuera de rango. [27 nov, corrida Norte y San Miguelito del viernes] Reapareció en dos búsquedas (Milla 8 y Las Cumbres). Una repite US$1,250 rebajado 10%, 130 m² y 1 estacionamiento, publicado el 15/07/2026; la otra vuelve a decir que el aviso de 130 m² a US$1,250 figura como no disponible: probablemente vencido. En la misma búsqueda salió otra vez el aviso de Plaza Milla 8 de 141.36 m² con mezzanine a US$1,750 (publicado en julio de 2026), sin decir si es el 32621303 o el 32713168. Sigue fuera de rango.",
+  "notas": "Anuncio individual. Área sin dato; el precio (US$1,250/mes) sugiere un local pequeño: en la base ya hay locales de Plaza Milla 8 de 130, 180 y 210 m² (el de 210 m² a US$2,520 en icasas), varios con mezzanine. Probablemente queda por debajo de 220 m²: preguntar el área y si hay locales contiguos. Se agrupa en Alcalde Díaz, como las demás fichas de Milla 8. Sin fecha ni contacto en el resultado. [20 nov, tarde] Volvió a aparecer en tres búsquedas: el área es 130 m² (90 m² de planta baja + 40 m² de mezzanine), precio US$1,250 rebajado 10%. Queda por debajo de 180 m²: fuera de rango salvo que haya locales contiguos para unir. [22 nov] Volvió a aparecer en dos búsquedas: 130 m² (90 de planta baja + 40 de mezzanine) a US$1,250, referencia 2772843; un resumen da como fecha de publicación 15/07/2026 y otro 05/09/2026. En la misma búsqueda salieron otros dos avisos de Plaza Milla 8 del mismo agente (https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/commercial-premises-for-rent-in-plaza-milla-8-sg/32713168 y /32621303), uno de ellos de 141 m² en planta baja con mezzanine a US$1,750: también por debajo del rango; preguntar si hay locales contiguos que se puedan unir. [23 nov] Volvió a aparecer en una búsqueda de locales en Milla 8 con los mismos datos (130 m²: 90 de planta baja + 40 de mezzanine, US$1,250 rebajado 10%). En la misma búsqueda salió otra ficha de Plaza Milla 8 (31770003, agregada aparte, sin área ni precio). [24 nov, corrida Norte y San Miguelito del martes] Reapareció en una búsqueda de locales esquineros en Las Cumbres: USD 1,250, '2 rooms', con estacionamiento, aire acondicionado y recepción. Sin datos nuevos de área; sigue fuera de rango. [25 nov, corrida Norte y San Miguelito del miércoles] Reapareció en dos búsquedas (Las Cumbres y locales para supermercado) con los mismos datos: 130 m² (90 en planta baja y 40 de mezzanine), US$1,250 rebajado 10%; el resumen aclara que el aviso lo ofrece para oficinas, tiendas o servicios. OJO: en otra búsqueda de Las Cumbres, sin dar URL, el resumen dijo que en Plaza Milla 8 hay un local de 130 m² a US$1,500 y que 'otro anuncio de la misma plaza aparece a $1,250 y está marcado como no disponible': este aviso podría estar vencido. Sigue fuera de rango. [27 nov, corrida Norte y San Miguelito del viernes] Reapareció en dos búsquedas (Milla 8 y Las Cumbres). Una repite US$1,250 rebajado 10%, 130 m² y 1 estacionamiento, publicado el 15/07/2026; la otra vuelve a decir que el aviso de 130 m² a US$1,250 figura como no disponible: probablemente vencido. En la misma búsqueda salió otra vez el aviso de Plaza Milla 8 de 141.36 m² con mezzanine a US$1,750 (publicado en julio de 2026), sin decir si es el 32621303 o el 32713168. Sigue fuera de rango. [28 nov, corrida Norte y San Miguelito del sábado] Reapareció en tres búsquedas (minisúper, cuarto frío y Milla 8) con los mismos datos: US$1,250, 130 m², 1 estacionamiento, publicado el 15/07/2026; el resumen dice que el aviso lo ofrece para oficinas, tiendas, servicios o negocios comerciales. Ninguna búsqueda lo relaciona con minisúper ni refrigeración. Sigue fuera de rango.",
   "primera_vez": "2026-11-20T00:57-05:00",
-  "ultima_vez": "2026-11-27T05:02-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -2137,9 +2137,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Solo el título y la URL en el resultado; el resumen no atribuye área ni precio a este aviso.",
-  "notas": "Anuncio individual sin datos en el resultado. En la misma búsqueda salieron locales de Brisas del Golf de 68 m² (US$1,549) y 120 m² en planta alta (Village Galery), pero no se pudo atribuir ninguno a este aviso. Puede ser pequeño: abrir el anuncio antes de llamar. [22 nov] Volvió a aparecer junto con un aviso gemelo del mismo agente (AFC 26-8841, https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/local-comercial-en-alquiler-en-brisas-del-golf-afc-26-8841/32588066); ninguno muestra área ni precio en el resultado. [26 nov, corrida Norte y San Miguelito del jueves] Reapareció en una búsqueda de locales cerca de la estación San Miguelito; el resultado sigue sin área ni precio atribuibles a este aviso. [27 nov, corrida Norte y San Miguelito del viernes] Reapareció solo como enlace, junto con el gemelo AFC 26-8841 (32588066), en una búsqueda de plazas de Brisas del Golf; sigue sin área ni precio.",
+  "notas": "Anuncio individual sin datos en el resultado. En la misma búsqueda salieron locales de Brisas del Golf de 68 m² (US$1,549) y 120 m² en planta alta (Village Galery), pero no se pudo atribuir ninguno a este aviso. Puede ser pequeño: abrir el anuncio antes de llamar. [22 nov] Volvió a aparecer junto con un aviso gemelo del mismo agente (AFC 26-8841, https://www.encuentra24.com/panama-es/bienes-raices-alquiler-comercios/local-comercial-en-alquiler-en-brisas-del-golf-afc-26-8841/32588066); ninguno muestra área ni precio en el resultado. [26 nov, corrida Norte y San Miguelito del jueves] Reapareció en una búsqueda de locales cerca de la estación San Miguelito; el resultado sigue sin área ni precio atribuibles a este aviso. [27 nov, corrida Norte y San Miguelito del viernes] Reapareció solo como enlace, junto con el gemelo AFC 26-8841 (32588066), en una búsqueda de plazas de Brisas del Golf; sigue sin área ni precio. [28 nov, corrida Norte y San Miguelito del sábado] Reapareció junto con el gemelo AFC 26-8841 (32588066) en dos búsquedas (locales para supermercado en San Miguelito y locales en Brisas del Golf); ninguno muestra área ni precio.",
   "primera_vez": "2026-11-20T10:58-05:00",
-  "ultima_vez": "2026-11-27T05:02-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "Las Cumbres",
@@ -2371,9 +2371,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Resumen del buscador: 'A 224 m² first-floor unit is listed at $2,500/month, and the listing says it is rented to direct clients only. It is a large first-floor space in Plaza Premier on the main road'. Otra búsqueda cita el texto del aviso: 'Amplio local de 224mt2, ubicado en el primer piso de la plaza Premier' y dice que el precio de $2,500 incluye mantenimiento.",
-  "notas": "PRIMERO CONFIRMAR LA PLANTA: el aviso dice 'primer piso' y uno de los resúmenes lo interpreta como planta alta; si no es planta baja a pie de calle, se descarta. Área en el borde inferior del rango aceptable (224 m²). US$2,500 al mes con mantenimiento incluido según un resumen (~US$11/m²). Hoy tiene juegos infantiles instalados o se entrega vacío; solo cliente directo; un resumen dice que la plaza es esquinera sobre la vía principal. El área y el precio se ligan a esta URL porque es la única de Plaza Premier que devolvió el buscador; la segunda búsqueda citó el aviso sin enlace: verificar al abrirlo. En Compreoalquile aparece un local de 224 m² en Premier Plaza a US$4,480 más US$357 de expensas, con datos mezclados (dice '1 recámara') y sin URL individual: preguntar cuál es el precio real. Contacto público de la plaza en el directorio AiYellow: 6987-9773 (https://www.aiyellow.com/Premierplazabrisasdelgolf/), sin confirmar que sea la administración. AiYellow menciona estacionamiento de 2 niveles. Sin fecha en el resultado. Zona oportunista: verificar la distancia al supermercado de cadena más cercano. Hallado el 22 nov. [26 nov, contactos] fuente del contacto: https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-rental-in-brisas-del-golf-plaza-premier-kc/32691244; Ref. KC25-5614, del 13/07/2026; esquina, 4 estacionamientos; confirmar planta. El contacto está en la ficha de Encuentra24.",
+  "notas": "PRIMERO CONFIRMAR LA PLANTA: el aviso dice 'primer piso' y uno de los resúmenes lo interpreta como planta alta; si no es planta baja a pie de calle, se descarta. Área en el borde inferior del rango aceptable (224 m²). US$2,500 al mes con mantenimiento incluido según un resumen (~US$11/m²). Hoy tiene juegos infantiles instalados o se entrega vacío; solo cliente directo; un resumen dice que la plaza es esquinera sobre la vía principal. El área y el precio se ligan a esta URL porque es la única de Plaza Premier que devolvió el buscador; la segunda búsqueda citó el aviso sin enlace: verificar al abrirlo. En Compreoalquile aparece un local de 224 m² en Premier Plaza a US$4,480 más US$357 de expensas, con datos mezclados (dice '1 recámara') y sin URL individual: preguntar cuál es el precio real. Contacto público de la plaza en el directorio AiYellow: 6987-9773 (https://www.aiyellow.com/Premierplazabrisasdelgolf/), sin confirmar que sea la administración. AiYellow menciona estacionamiento de 2 niveles. Sin fecha en el resultado. Zona oportunista: verificar la distancia al supermercado de cadena más cercano. Hallado el 22 nov. [26 nov, contactos] fuente del contacto: https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-rental-in-brisas-del-golf-plaza-premier-kc/32691244; Ref. KC25-5614, del 13/07/2026; esquina, 4 estacionamientos; confirmar planta. El contacto está en la ficha de Encuentra24. [28 nov, corrida Norte y San Miguelito del sábado] Reapareció en una búsqueda de locales esquineros en Brisas del Golf: 224 m² a US$2,500, 'best corner location' sobre la vía principal, 4 estacionamientos. El resumen vuelve a decir 'first floor' y lo interpreta como planta distinta de la baja: la planta sigue por confirmar.",
   "primera_vez": "2026-11-22T05:02-05:00",
-  "ultima_vez": "2026-11-22T05:02-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "Alcalde Díaz",
@@ -2515,9 +2515,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Resultado del buscador titulado 'Comercial in Milla 8 Se Alquila local comercial en Plaza Milla 8'; el resumen no dio área ni precio de esta ficha.",
-  "notas": "Anuncio individual distinto del 32394504 (130 m² a US$1,250) y de los 32713168 y 32621303 de la misma plaza. Solo se conoce el título: abrir la ficha antes de llamar. Los demás locales de Plaza Milla 8 en la base miden de 130 a 210 m², varios con mezzanine, así que probablemente este también quede por debajo de 220 m²: preguntar el área, si es planta baja y si hay locales contiguos para unir. El número de anuncio es anterior al de las otras fichas de la plaza: puede ser un aviso más viejo. Se agrupa en Alcalde Díaz, como las demás fichas de Milla 8. Sin fecha ni contacto en el resultado. Hallado el 23 nov.",
+  "notas": "Anuncio individual distinto del 32394504 (130 m² a US$1,250) y de los 32713168 y 32621303 de la misma plaza. Solo se conoce el título: abrir la ficha antes de llamar. Los demás locales de Plaza Milla 8 en la base miden de 130 a 210 m², varios con mezzanine, así que probablemente este también quede por debajo de 220 m²: preguntar el área, si es planta baja y si hay locales contiguos para unir. El número de anuncio es anterior al de las otras fichas de la plaza: puede ser un aviso más viejo. Se agrupa en Alcalde Díaz, como las demás fichas de Milla 8. Sin fecha ni contacto en el resultado. Hallado el 23 nov. [28 nov, corrida Norte y San Miguelito del sábado] Reapareció en una búsqueda de locales en Milla 8. Un resumen menciona 'un local de Plaza Milla 8 a US$1,275 con mezzanine', sin área y sin atribuirlo con certeza a esta URL: podría ser este aviso. No se cargó el precio por esa duda. Sigue sin área.",
   "primera_vez": "2026-11-23T05:04-05:00",
-  "ultima_vez": "2026-11-23T05:04-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "Ernesto Córdoba Campos",
@@ -2749,9 +2749,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "'Alquilo los 2 últimos locales disponibles en la nueva plaza Comercial, ubicados en la via Domingo Diaz, cerca de Villa Lucre, frente a la estacion del metro linea 2'; '2 locales de 170 mts2 cada uno, actualmente estan unidos en un solo local de 340 mts2, se pueden alquilar juntos o separados'; la ficha marca $4,760 al mes y el texto dice 'Precio de Oferta 2380$ para cada local' más cuota de mantenimiento de 1.5$ el mts2; fecha de la ficha 17/10/2026.",
-  "notas": "Zona oportunista. Anuncio individual y reciente (ficha del 17/10/2026). Área ideal (2 locales de 170 m² ya unidos) y unos US$14/m² (cálculo propio: 4,760/340), dentro del ideal; aparte va el mantenimiento de US$1.50/m² (unos US$510 al mes, cálculo propio) más ITBMS. Altura libre de 4 a 5 m, sistema contra incendio y 2 baños. Queda frente a una estación de la Línea 2 del Metro, cerca de Villa Lucre. OJO CON EL TIPO: en otra búsqueda el resumen dice que el anuncio ofrece el espacio para fábrica, comercio o logística; confirmar que sea local de venta con frente y acceso de público y no una galera. Confirmar la dirección (la ficha dice 'Horacio Clare Lewis 614', distinta de la vía Domingo Díaz), la planta, el estacionamiento de clientes, el acceso para camión y qué supermercados de cadena hay cerca. Villa Lucre también figura como zona oportunista del grupo Norte y San Miguelito. Podría ser la misma plaza que 'Alquiler locales en Plaza Conquistador, Avenida Domingo Diaz' (Encuentra24 32470235), que ya está en la base (inferencia, no confirmada). Sin anunciante ni teléfono en el resultado. [26 nov, contactos] fuente del contacto: https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/alquilo-local-frente-a-la-estacion-del-metro-340-m2/33141622; Frente al Metro, 80 estacionamientos, publicado el 17/10/2026; mantenimiento US$1.50/m². Confirmar que no sea galera. Contacto en el formulario de Encuentra24.",
+  "notas": "Zona oportunista. Anuncio individual y reciente (ficha del 17/10/2026). Área ideal (2 locales de 170 m² ya unidos) y unos US$14/m² (cálculo propio: 4,760/340), dentro del ideal; aparte va el mantenimiento de US$1.50/m² (unos US$510 al mes, cálculo propio) más ITBMS. Altura libre de 4 a 5 m, sistema contra incendio y 2 baños. Queda frente a una estación de la Línea 2 del Metro, cerca de Villa Lucre. OJO CON EL TIPO: en otra búsqueda el resumen dice que el anuncio ofrece el espacio para fábrica, comercio o logística; confirmar que sea local de venta con frente y acceso de público y no una galera. Confirmar la dirección (la ficha dice 'Horacio Clare Lewis 614', distinta de la vía Domingo Díaz), la planta, el estacionamiento de clientes, el acceso para camión y qué supermercados de cadena hay cerca. Villa Lucre también figura como zona oportunista del grupo Norte y San Miguelito. Podría ser la misma plaza que 'Alquiler locales en Plaza Conquistador, Avenida Domingo Diaz' (Encuentra24 32470235), que ya está en la base (inferencia, no confirmada). Sin anunciante ni teléfono en el resultado. [26 nov, contactos] fuente del contacto: https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/alquilo-local-frente-a-la-estacion-del-metro-340-m2/33141622; Frente al Metro, 80 estacionamientos, publicado el 17/10/2026; mantenimiento US$1.50/m². Confirmar que no sea galera. Contacto en el formulario de Encuentra24. [28 nov, corrida Norte y San Miguelito del sábado] Reapareció con la URL en inglés (https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/commercial-space-for-rent-across-from-the-340-metro-station/33141622, mismo número de anuncio) en una búsqueda de locales de 250-300 m² en Villa Lucre. El resumen repite que se ofrecen 'los 2 últimos locales disponibles' en una plaza comercial nueva sobre la vía Domingo Díaz, cerca de Villa Lucre; esta vez no dio área ni precio. Que salga en el buscador no prueba que siga disponible. En la misma búsqueda salió otro aviso 'frente a la estación del Metro' clasificado en Llano Bonito (https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/premises-for-rent-opposite-the-metro-station/32654005), sin datos; no se sabe si es la misma plaza.",
   "primera_vez": "2026-11-24T21:02-05:00",
-  "ultima_vez": "2026-11-24T21:02-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "Juan Díaz",
@@ -3271,9 +3271,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Resumen del buscador: 'Plaza Conquistador (local 124), 172 m², planta baja, $2,300/mes. El anuncio incluye mantenimiento y tiene 2 baños. Está publicado con fecha 15/06/2026 y figura como Santa Clara en la ubicación.'",
-  "notas": "Fuera de rango por área (172 m², menos de 180 m²); ~US$13.4/m² con mantenimiento incluido (cálculo propio). Publicado el 15/06/2026: verificar vigencia. Zona oportunista (Villa Lucre). En la base hay un local en Plaza Fortuna, Villa Lucre (219 m² a US$3,500, grupogestioninmobiliario 168060) y un aviso de 'Plaza Conquistador, Avenida Domingo Díaz' (Encuentra24 32470235, 920 m² en total). Preguntar si el local 124 tiene un vecino libre para unir y llegar a 220-400 m². Sin anunciante ni teléfono en el resultado. Hallado el 27 nov (corrida Norte y San Miguelito del viernes).",
+  "notas": "Fuera de rango por área (172 m², menos de 180 m²); ~US$13.4/m² con mantenimiento incluido (cálculo propio). Publicado el 15/06/2026: verificar vigencia. Zona oportunista (Villa Lucre). En la base hay un local en Plaza Fortuna, Villa Lucre (219 m² a US$3,500, grupogestioninmobiliario 168060) y un aviso de 'Plaza Conquistador, Avenida Domingo Díaz' (Encuentra24 32470235, 920 m² en total). Preguntar si el local 124 tiene un vecino libre para unir y llegar a 220-400 m². Sin anunciante ni teléfono en el resultado. Hallado el 27 nov (corrida Norte y San Miguelito del viernes). [28 nov, corrida Norte y San Miguelito del sábado] Reapareció en una búsqueda de locales de 250-300 m² en Villa Lucre con los mismos datos (172 m², planta baja, US$2,300 con mantenimiento incluido; el portal da US$13.37/m²). Sigue fuera de rango salvo que se una con un vecino.",
   "primera_vez": "2026-11-27T05:02-05:00",
-  "ultima_vez": "2026-11-27T05:02-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -3289,9 +3289,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Resumen del buscador: 'Avenida Domingo Díaz, 75 m², $1,075/mes. El anuncio figura en Villa Lucre, con 2 espacios, 1 baño y 1 estacionamiento. El anuncio no indica el piso'.",
-  "notas": "Muy chico (75 m²): descartado. Se guarda para no volver a investigarlo. Zona oportunista. Hallado el 27 nov (corrida Norte y San Miguelito del viernes).",
+  "notas": "Muy chico (75 m²): descartado. Se guarda para no volver a investigarlo. Zona oportunista. Hallado el 27 nov (corrida Norte y San Miguelito del viernes). [28 nov, corrida Norte y San Miguelito del sábado] Reapareció en una búsqueda de Villa Lucre con los mismos datos (75 m², US$1,075). Sigue descartado.",
   "primera_vez": "2026-11-27T05:02-05:00",
-  "ultima_vez": "2026-11-27T05:02-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -3307,9 +3307,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Resumen del buscador: 'Golf Park Plaza (HQ): un local de 125 m² en planta baja sobre la Avenida Mauricio F. Su precio aparece como $23 por m²'.",
-  "notas": "Chico (125 m²) y sobre el tope (US$23/m²): descartado. El total mensual no aparece. Se guarda para no volver a investigarlo. En la misma búsqueda salió otro aviso de Golf Park Plaza sin datos (https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-rental-in-brisas-del-golf-golf-park-plaza-kc/33092317). Zona oportunista. Hallado el 27 nov (corrida Norte y San Miguelito del viernes).",
+  "notas": "Chico (125 m²) y sobre el tope (US$23/m²): descartado. El total mensual no aparece. Se guarda para no volver a investigarlo. En la misma búsqueda salió otro aviso de Golf Park Plaza sin datos (https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-rental-in-brisas-del-golf-golf-park-plaza-kc/33092317). Zona oportunista. Hallado el 27 nov (corrida Norte y San Miguelito del viernes). [28 nov, corrida Norte y San Miguelito del sábado] Reapareció solo como enlace en una búsqueda de Brisas del Golf; sin datos nuevos.",
   "primera_vez": "2026-11-27T05:02-05:00",
-  "ultima_vez": "2026-11-27T05:02-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -3325,9 +3325,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Resumen del buscador: 'Village Gallery (planta alta): un local de 120 m² por $1,200 al mes, publicado el 5 de agosto de 2026'.",
-  "notas": "Planta alta y 120 m²: descartado. Se guarda para no volver a investigarlo. El mismo agente publica el local en venta (Encuentra24 32800666). Zona oportunista. Hallado el 27 nov (corrida Norte y San Miguelito del viernes).",
+  "notas": "Planta alta y 120 m²: descartado. Se guarda para no volver a investigarlo. El mismo agente publica el local en venta (Encuentra24 32800666). Zona oportunista. Hallado el 27 nov (corrida Norte y San Miguelito del viernes). [28 nov, corrida Norte y San Miguelito del sábado] Reapareció en dos búsquedas con los mismos datos (120 m², planta alta, US$1,200); un resumen menciona 40 estacionamientos. Sigue descartado.",
   "primera_vez": "2026-11-27T05:02-05:00",
-  "ultima_vez": "2026-11-27T05:02-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -3343,9 +3343,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Resumen del buscador: 'Plaza comercial con locales de 54 m²: $1,200 al mes con 1 baño, publicado el 29 de septiembre de 2026'.",
-  "notas": "Muy chico (54 m²): descartado. Se guarda para no volver a investigarlo. Zona oportunista. Hallado el 27 nov (corrida Norte y San Miguelito del viernes).",
+  "notas": "Muy chico (54 m²): descartado. Se guarda para no volver a investigarlo. Zona oportunista. Hallado el 27 nov (corrida Norte y San Miguelito del viernes). [28 nov, corrida Norte y San Miguelito del sábado] Reapareció solo como enlace en una búsqueda de Brisas del Golf; sin datos nuevos.",
   "primera_vez": "2026-11-27T05:02-05:00",
-  "ultima_vez": "2026-11-27T05:02-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "San Miguelito",
@@ -3361,9 +3361,9 @@
   "url_es_listado": false,
   "portal": "encuentra24",
   "evidencia": "Resumen del buscador: 'Brisas Mall (planta baja): 167 m² por $5,300 al mes, con seguridad 24/7 según el anuncio'.",
-  "notas": "Chico (167 m²) y caro (~US$31.7/m², cálculo propio): descartado. Puede ser del mismo anunciante que 'Alquiler Local en Brisas Mall Planta Baja - Brisas del Golf (20)', que ya está en la base (253 m², Compreoalquile); no confirmado. Zona oportunista. Hallado el 27 nov (corrida Norte y San Miguelito del viernes).",
+  "notas": "Chico (167 m²) y caro (~US$31.7/m², cálculo propio): descartado. Puede ser del mismo anunciante que 'Alquiler Local en Brisas Mall Planta Baja - Brisas del Golf (20)', que ya está en la base (253 m², Compreoalquile); no confirmado. Zona oportunista. Hallado el 27 nov (corrida Norte y San Miguelito del viernes). [28 nov, corrida Norte y San Miguelito del sábado] Reapareció en una búsqueda de Brisas del Golf; el resumen da US$31.73/m² y no muestra el total. Sigue descartado.",
   "primera_vez": "2026-11-27T05:02-05:00",
-  "ultima_vez": "2026-11-27T05:02-05:00"
+  "ultima_vez": "2026-11-28T05:01-05:00"
  },
  {
   "zona": "La Chorrera",
@@ -3454,5 +3454,59 @@
   "notas": "Anuncio individual (la URL que devolvió el buscador termina en '?page=2'; se deja tal cual). PROBABLEMENTE VIEJO: el ID (19.2 millones) es muy bajo frente a los avisos recientes (~33.2 millones) y puede estar vencido. Sin área, alquiler, planta, anunciante ni teléfono. Ola 1 (Pacora): abrir el anuncio para ver si sigue vigente y si hay una unidad de 220-400 m² en planta baja; preguntar qué supermercado queda cerca. Hallado el 27 nov, corrida Este del viernes, en una búsqueda de plazas en construcción en Pacora.",
   "primera_vez": "2026-11-27T21:02-05:00",
   "ultima_vez": "2026-11-27T21:02-05:00"
+ },
+ {
+  "zona": "San Miguelito",
+  "titulo": "ALQUILER DE LOCAL COMERCIAL EN VILLA LUCRE KS",
+  "tipo": "local",
+  "area_m2": null,
+  "precio_mensual_usd": null,
+  "ubicacion": "Villa Lucre, San Miguelito",
+  "planta": "n/d",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/alquiler-de-local-comercial-en-villa-lucre-ks/33233816",
+  "url_es_listado": false,
+  "portal": "encuentra24",
+  "evidencia": "Resultado titulado 'Comercial in Villa Lucre ALQUILER DE LOCAL COMERCIAL EN VILLA LUCRE KS'; el resumen no dio área, precio ni planta.",
+  "notas": "Anuncio individual sin datos en el resultado: abrir la ficha antes de llamar, puede ser chico. Salió en una búsqueda de 'antiguo supermercado' en Villa Lucre, pero nada indica que haya sido supermercado. Por el número de anuncio probablemente se publicó entre octubre y noviembre de 2026 (inferencia: el 33141622 es del 17/10/2026). Zona oportunista. Sin anunciante ni teléfono. Hallado el 28 nov (corrida Norte y San Miguelito del sábado).",
+  "primera_vez": "2026-11-28T05:01-05:00",
+  "ultima_vez": "2026-11-28T05:01-05:00"
+ },
+ {
+  "zona": "San Miguelito",
+  "titulo": "Brisas del Golf local comercial 125 m planta alta (título tomado del slug de la URL)",
+  "tipo": "local",
+  "area_m2": 125,
+  "precio_mensual_usd": null,
+  "ubicacion": "Brisas del Golf, San Miguelito",
+  "planta": "alta",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/brisas-del-golf-local-comercial-125m-planta-alta/32690984",
+  "url_es_listado": false,
+  "portal": "encuentra24",
+  "evidencia": "Solo la URL: '.../brisas-del-golf-local-comercial-125m-planta-alta/32690984'; el resumen dijo que los demás avisos de la búsqueda eran muy chicos o en planta alta y no dio precio.",
+  "notas": "Planta alta y 125 m² según la URL: descartado. Se guarda para no volver a investigarlo. Zona oportunista. Hallado el 28 nov (corrida Norte y San Miguelito del sábado).",
+  "primera_vez": "2026-11-28T05:01-05:00",
+  "ultima_vez": "2026-11-28T05:01-05:00"
+ },
+ {
+  "zona": "San Miguelito",
+  "titulo": "Local comercial en planta baja, Paseo Drive, Paseo del Norte (título tomado del slug de la URL)",
+  "tipo": "local",
+  "area_m2": 124,
+  "precio_mensual_usd": 3500,
+  "ubicacion": "Plaza Paseo Drive, Paseo del Norte (entrada del Corredor Norte por Brisas del Golf; icasas etiqueta esta plaza en Gonzalillo)",
+  "planta": "baja",
+  "anunciante": null,
+  "telefono": null,
+  "url": "https://www.encuentra24.com/panama-en/real-estate-for-rent-comercial/local-comercial-en-planta-baja-paseo-drive-paseo-del-norte/30763709",
+  "url_es_listado": false,
+  "portal": "encuentra24",
+  "evidencia": "Resumen del buscador: 'Paseo Drive, in Paseo del Norte, lists about 124 m² on the ground floor at $3,500/month, with the only ground-floor unit available in that plaza'.",
+  "notas": "Chico (unos 124 m², el resumen dice 'about') y caro (~US$28/m², cálculo propio): descartado. El número de anuncio (30763709) es bajo: el aviso puede ser viejo. En la base ya está otro local de Paseo Drive (casanova.realty, 461.51 m² a US$8,300). Se guarda para no volver a investigarlo. Hallado el 28 nov (corrida Norte y San Miguelito del sábado).",
+  "primera_vez": "2026-11-28T05:01-05:00",
+  "ultima_vez": "2026-11-28T05:01-05:00"
  }
 ]
